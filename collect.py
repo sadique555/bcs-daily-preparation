@@ -75,13 +75,59 @@ def strip_tags(html):
     return re.sub(r"\s+", " ", unescape(text)).strip()
 
 
+# Paragraphs matching these are page junk, not article text:
+# navigation menus, photo/visual credits, author blocks, comment and
+# related-news footers. TRUNC markers end the article: everything from
+# the first such paragraph onward is dropped.
+JUNK_PATTERNS = (
+    "main navigation", "file visual", "visual:", "photo:", "photo :",
+    "ছবি:", "ছবি :", "can be reached at", "views expressed in this article",
+    "follow the daily star opinion on facebook",
+)
+TRUNC_PATTERNS = ("click to comment", "comments policy", "related news")
+
+
+def clean_full_text(text):
+    if not text:
+        return None
+    paras = text.split("\n\n")
+    if len(paras) == 1 and len(paras[0]) > 2000:
+        # Single-block body (e.g. JSON-LD): only reject if it STARTS
+        # with junk; mid-text pattern hits must not kill the article.
+        head = paras[0][:200].lower()
+        if any(j in head for j in JUNK_PATTERNS):
+            return None
+        return text if len(text) > 600 else None
+    out, seen = [], set()
+    for p in paras:
+        p = re.sub(r"\s+", " ", p).strip()
+        if len(p) < 40:
+            continue
+        low = p.lower()
+        if any(t in low for t in TRUNC_PATTERNS):
+            break
+        if any(j in low for j in JUNK_PATTERNS):
+            continue
+        if p in seen:
+            continue
+        seen.add(p)
+        out.append(p)
+    body = "\n\n".join(out)
+    return body if len(body) > 600 else None
+
+
 def extract_full_text(page_html):
+    # Remove non-article regions first (nav/header/footer/aside/figure
+    # hold menus, photo captions and other junk, not article text).
+    page_html = re.sub(
+        r"(?is)<(nav|header|footer|aside|figure|figcaption)[^>]*>.*?</\1>",
+        " ", page_html)
     m = re.search(r'"articleBody"\s*:\s*"((?:[^"\\]|\\.)*)"', page_html)
     if m:
         try:
             body = json.loads('"' + m.group(1) + '"')
-            body = re.sub(r"\s+", " ", body).strip()
-            if len(body) > 600:
+            body = clean_full_text(re.sub(r"\s+", " ", body).strip())
+            if body:
                 return body
         except Exception:
             pass
@@ -91,8 +137,7 @@ def extract_full_text(page_html):
         t = strip_tags(p)
         if len(t) >= 40:
             cleaned.append(t)
-    body = "\n\n".join(cleaned)
-    return body if len(body) > 900 else None
+    return clean_full_text("\n\n".join(cleaned))
 
 
 def extract_words(text, limit=12):
@@ -260,6 +305,15 @@ def main():
     existing = [a for a in existing
                 if not (a["paper"] in direct_names
                         and "news.google.com" in a["url"])]
+    # Maintenance: re-clean stored full texts (older extractions carry
+    # navigation/photo/author junk) and rebuild their word lists.
+    for a in existing:
+        if a.get("fullText"):
+            cleaned = clean_full_text(a["fullText"])
+            a["fullText"] = cleaned
+            a["hasFullText"] = bool(cleaned)
+            if cleaned and a["lang"] == "en":
+                a["words"] = extract_words(cleaned)
     seen = {a["url"] for a in existing}
     seen_titles = {re.sub(r"\W+", " ", a["title"].lower()).strip()
                    for a in existing}

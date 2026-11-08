@@ -79,6 +79,7 @@
     <div class="body-text" id="rBody"></div>
     <p style="margin-top:16px"><a class="btn ghost" id="rLink" target="_blank" rel="noopener">Original লেখাটি পত্রিকার site-এ খোলো ↗</a></p>
     <div id="rWords"></div>
+    <div id="rSummary"></div>
   </section>
 
   <!-- VOCABULARY BANK -->
@@ -135,6 +136,8 @@
   <p class="meta" id="sEx"></p>
   <p class="meta" id="sSyn"></p>
   <p class="meta" id="sSent"></p>
+  <p id="sTrans" style="line-height:1.6"></p>
+  <button class="btn ghost hidden" id="sTransBtn">🌐 এই বাক্যের বাংলা অর্থ দেখো</button>
   <button class="btn" id="sAdd">＋ Vocabulary-তে যোগ করো</button>
 </div>
 
@@ -148,7 +151,7 @@
 
 <script>
 var DATA={articles:[]};
-var DEF={marks:[],mine:[],srs:{},read:{},practice:[],dict:{},activity:{}};
+var DEF={marks:[],mine:[],srs:{},read:{},practice:[],dict:{},activity:{},trans:{}};
 var store; try{store=Object.assign({},DEF,JSON.parse(localStorage.getItem('bcsFreeV2')||'{}'));}catch(e){store=Object.assign({},DEF);}
 function save(){localStorage.setItem('bcsFreeV2',JSON.stringify(store));}
 function $(id){return document.getElementById(id);}
@@ -272,7 +275,8 @@ function openArticle(url){
   $('rTitle').textContent=current.title;
   $('rLink').href=current.url;
   var text=current.hasFullText?current.fullText:(current.excerpt||'');
-  $('rNote').innerHTML=current.hasFullText?'':'<p class="note">এই লেখাটির শুধু সারাংশ পাওয়া গেছে — পুরোটা পড়তে নিচের original link-এ যাও।</p>';
+  $('rNote').innerHTML=(current.hasFullText?'':'<p class="note">এই লেখাটির শুধু সারাংশ পাওয়া গেছে — পুরোটা পড়তে নিচের original link-এ যাও।</p>')
+    +(current.lang==='en'?'<p class="meta">💡 যেকোনো English শব্দে tap করলে তার অর্থ, বাংলা অর্থ আর ওই বাক্যের বাংলা অনুবাদ পাবে।</p>':'');
   if(current.lang==='en'&&text){
     $('rBody').innerHTML=text.split(/(\s+)/).map(function(tok){
       return /^[A-Za-z][A-Za-z'-]{2,}$/.test(tok)?'<span class="w">'+esc(tok)+'</span>':esc(tok);
@@ -281,13 +285,58 @@ function openArticle(url){
   }else{$('rBody').textContent=text;}
   var ws=current.words||[];
   $('rWords').innerHTML=ws.length?'<h3 style="margin-top:22px">এই লেখার গুরুত্বপূর্ণ শব্দ</h3>'+ws.map(function(w){
-    return '<div class="word-row"><b>'+esc(w.w)+'</b><small>'+esc(w.sentence)+'</small><button class="btn ghost" data-add="'+esc(w.w)+'">＋ Vocabulary-তে যোগ করো</button></div>';
+    return '<div class="word-row"><b data-lookw="'+esc(w.w)+'" style="cursor:pointer;border-bottom:1px dotted var(--acc)">'+esc(w.w)+'</b><small>'+esc(w.sentence)+'</small><button class="btn ghost" data-add="'+esc(w.w)+'">＋ Vocabulary-তে যোগ করো</button></div>';
   }).join(''):'';
   $('rWords').querySelectorAll('[data-add]').forEach(function(b){b.addEventListener('click',function(){
     var wobj=(current.words||[]).filter(function(x){return x.w===b.dataset.add;})[0]||{};
     addVocab(b.dataset.add,{sentence:wobj.sentence||'',from:current.paper+' · '+current.date});
   });});
+  $('rWords').querySelectorAll('[data-lookw]').forEach(function(b){b.addEventListener('click',function(){lookup(b.dataset.lookw,current);});});
+  renderSummary(current);
   show('view-read');
+}
+
+/* ---------- extractive summary + sentence translation ---------- */
+function summarize(a){
+  var text=a.hasFullText?a.fullText:(a.excerpt||'');
+  if(!text)return [];
+  var sents=text.split(/(?<=[.!?।])\s+/).map(function(s){return s.trim();}).filter(function(s){return s.length>40&&s.length<420;});
+  if(sents.length<=3)return sents;
+  var keys={};(a.words||[]).forEach(function(w){keys[w.w]=1;});
+  var scored=sents.map(function(s,i){
+    var sc=Math.max(0,6-i)*0.6;
+    (s.toLowerCase().match(/[a-z][a-z'-]+/g)||[]).forEach(function(w){if(keys[w])sc+=2;});
+    if(/\d/.test(s))sc+=1;
+    return {s:s,sc:sc,i:i};
+  });
+  return scored.sort(function(x,y){return y.sc-x.sc;}).slice(0,5).sort(function(x,y){return x.i-y.i;}).map(function(x){return x.s;});
+}
+function renderSummary(a){
+  var ss=summarize(a);
+  if(!ss.length){$('rSummary').innerHTML='';return;}
+  $('rSummary').innerHTML='<h3 style="margin-top:24px">📋 সারাংশ (Summary)</h3>'
+    +'<p class="meta">লেখা থেকেই নেওয়া মূল বাক্যগুলো — auto-generated, বাইরে থেকে কোনো তথ্য যোগ করা হয়নি।</p>'
+    +ss.map(function(s,i){
+      return '<div class="word-row">'+esc(s)+(a.lang==='en'?'<br><button class="btn ghost" data-sent="'+i+'">🌐 বাংলায় অর্থ</button><span class="meta" data-sent-out="'+i+'"></span>':'')+'</div>';
+    }).join('');
+  $('rSummary').querySelectorAll('[data-sent]').forEach(function(b){b.addEventListener('click',function(){
+    var out=$('rSummary').querySelector('[data-sent-out="'+b.dataset.sent+'"]');
+    translateSentence(ss[+b.dataset.sent],out);
+  });});
+}
+function translateSentence(sent,targetEl){
+  if(!sent||!targetEl)return;
+  var key=sent.slice(0,150);
+  if(store.trans[key]){targetEl.textContent=' → '+store.trans[key];return;}
+  targetEl.textContent=' → অনুবাদ হচ্ছে...';
+  fetch('https://api.mymemory.translated.net/get?q='+encodeURIComponent(sent.slice(0,450))+'&langpair=en|bn')
+    .then(function(r){return r.json();})
+    .then(function(t){
+      var bn2=t&&t.responseData&&t.responseData.translatedText;
+      if(bn2){store.trans[key]=bn2;save();targetEl.textContent=' → '+bn2;}
+      else targetEl.textContent=' → এখন অনুবাদ আনা যাচ্ছে না।';
+    })
+    .catch(function(){targetEl.textContent=' → এখন অনুবাদ আনা যাচ্ছে না — internet দেখে আবার চেষ্টা করো।';});
 }
 $('readBack').addEventListener('click',function(){show('view-home');});
 
@@ -308,12 +357,16 @@ function fetchDict(word){
     })
     .catch(function(){return null;});
 }
+var sheetSent='';
 function lookup(word,article){
   sheetWord=word.toLowerCase();sheetData=null;
   var sent='';
   if(article&&article.words){article.words.forEach(function(w){if(w.w.toLowerCase()===sheetWord)sent=w.sentence;});}
+  sheetSent=sent;
   $('sWord').textContent=word;$('sPos').textContent='খোঁজা হচ্ছে...';$('sBn').textContent='';$('sDef').textContent='';$('sEx').textContent='';$('sSyn').textContent='';
   $('sSent').textContent=sent?('লেখার বাক্য: '+sent):'';
+  $('sTrans').textContent='';
+  $('sTransBtn').classList.toggle('hidden',!sent);
   $('sheet').classList.remove('hidden');
   fetchDict(sheetWord).then(function(d){
     sheetData=d;
@@ -330,6 +383,9 @@ $('sAdd').addEventListener('click',function(){
   if(!sheetWord)return;
   addVocab(sheetWord,{sentence:($('sSent').textContent||'').replace('লেখার বাক্য: ',''),from:current?(current.paper+' · '+current.date):''});
   $('sheet').classList.add('hidden');
+});
+$('sTransBtn').addEventListener('click',function(){
+  if(sheetSent)translateSentence(sheetSent,$('sTrans'));
 });
 function addVocab(word,extra){
   word=(word||'').toLowerCase();
