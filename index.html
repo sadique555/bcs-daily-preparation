@@ -5,53 +5,76 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>BCS Daily Preparation — Free Edition</title>
 <style>
-  :root{--bg:#f6f8f7;--card:#fff;--ink:#0f172a;--mut:#64748b;--line:#dbe3ea;--acc:#0f766e;--accbg:#e6f4f1;--warn:#fef3c7;--warnink:#92400e}
-  @media (prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#111c30;--ink:#e2e8f0;--mut:#94a3b8;--line:#24334d;--acc:#2dd4bf;--accbg:#0d2b28;--warn:#2a2103;--warnink:#fcd34d}}
+  :root{--bg:#eef5f0;--card:#fff;--ink:#10231a;--mut:#5f7268;--line:#dce8df;--acc:#0a7a43;--acc2:#0d9e57;--accbg:#e2f4e9;--warn:#fef3c7;--warnink:#92400e;--shadow:0 2px 10px rgba(10,60,35,.07)}
+  @media (prefers-color-scheme:dark){:root{--bg:#0a1410;--card:#12211a;--ink:#e3efe7;--mut:#93a89b;--line:#22392d;--acc:#2fbf71;--acc2:#2fbf71;--accbg:#10301f;--warn:#2a2103;--warnink:#fcd34d;--shadow:0 2px 10px rgba(0,0,0,.35)}}
   *{box-sizing:border-box}body{margin:0;font-family:system-ui,'Hind Siliguri',sans-serif;background:var(--bg);color:var(--ink)}
-  .wrap{max-width:760px;margin:0 auto;padding:14px 14px 92px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 14px 96px}
+  header.top{padding:14px 2px 2px}
   header.top h1{font-size:21px;margin:6px 0 2px}header.top p{color:var(--mut);margin:0;font-size:13px}
-  .tabs{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);display:flex;z-index:20}
-  .tabs button{flex:1;background:none;border:0;padding:10px 2px;font-size:12px;color:var(--mut);cursor:pointer}
-  .tabs button.on{color:var(--acc);font-weight:700}
-  .grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:12px 0}
-  .mod{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;cursor:pointer}
-  .mod b{font-size:15.5px;display:block;margin-bottom:3px}.mod span{color:var(--mut);font-size:12.5px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 14px;margin:9px 0;cursor:pointer}
+  .greet{display:flex;align-items:center;gap:12px;background:linear-gradient(120deg,#0a7a43,#0d9e57);border-radius:0 0 22px 22px;margin:0 -14px;padding:20px 18px 18px;color:#fff;box-shadow:var(--shadow)}
+  .greet .avatar{width:50px;height:50px;border-radius:50%;background:#fff;color:#0a7a43;font-weight:800;font-size:22px;display:flex;align-items:center;justify-content:center;flex:none;border:2.5px solid rgba(255,255,255,.65)}
+  .greet small{opacity:.85;font-size:13px}
+  .greet .name{font-size:20px;font-weight:800;line-height:1.25}
+  .greet .sub{font-size:12.5px;opacity:.85;margin-top:2px}
+  .statstrip{display:flex;background:var(--card);border-radius:16px;box-shadow:var(--shadow);margin:14px 0 4px;padding:13px 4px}
+  .statstrip .st{flex:1;text-align:center;border-right:1px solid var(--line)}
+  .statstrip .st:last-child{border-right:0}
+  .statstrip .ic{font-size:19px}
+  .statstrip b{display:block;font-size:17px;margin:2px 0 0}
+  .statstrip span{font-size:11.5px;color:var(--mut)}
+  .tabs{position:fixed;left:0;right:0;bottom:0;background:#0a7a43;display:flex;z-index:20;padding:6px 4px calc(6px + env(safe-area-inset-bottom));box-shadow:0 -3px 14px rgba(0,0,0,.18)}
+  .tabs button{flex:1;background:none;border:0;padding:7px 2px;font-size:11.5px;color:rgba(255,255,255,.75);cursor:pointer;border-radius:12px;line-height:1.3}
+  .tabs button .ti{display:block;font-size:19px}
+  .tabs button.on{color:#fff;font-weight:800;background:rgba(255,255,255,.16)}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin:12px 0}
+  .mod{background:var(--card);border-radius:18px;padding:15px;cursor:pointer;box-shadow:var(--shadow);position:relative}
+  .mod .mi{width:46px;height:46px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:9px}
+  .mod .arr{position:absolute;top:14px;right:14px;width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800}
+  .c1{background:#dcf5e5;color:#0a7a43}.c2{background:#ede9fe;color:#6d28d9}.c3{background:#dbeafe;color:#1d4ed8}.c4{background:#ffedd5;color:#c2410c}.c5{background:#fce7f3;color:#be185d}.c6{background:#cffafe;color:#0e7490}.c7{background:#fef9c3;color:#a16207}.c8{background:#e0e7ff;color:#4338ca}
+  .mod b{font-size:16px;display:block;margin-bottom:3px}.mod span{color:var(--mut);font-size:12.5px}
+  .card{background:var(--card);border-radius:16px;box-shadow:var(--shadow);padding:14px 15px;margin:10px 0;cursor:pointer}
   .card h3{margin:0 0 4px;font-size:16px;line-height:1.45}
   .meta{color:var(--mut);font-size:12.5px}
   .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:99px;background:var(--accbg);color:var(--acc);font-weight:700;margin-left:6px}
   .tag.no{background:var(--warn);color:var(--warnink)}
-  select,input[type=search]{width:100%;padding:11px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font-size:15px;margin:8px 0}
+  select,input[type=search]{width:100%;padding:12px;border:1.5px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font-size:15px;margin:8px 0}
   .hidden{display:none}
-  .back{background:none;border:0;color:var(--acc);font-size:15px;font-weight:700;cursor:pointer;padding:6px 0}
-  .body-text{font-size:16.5px;line-height:1.75;white-space:pre-wrap}
-  .body-text .w{cursor:pointer;border-bottom:1px dotted var(--acc)}
-  .btn{display:inline-block;background:var(--acc);color:#fff;border:0;border-radius:10px;padding:10px 15px;font-size:14.5px;font-weight:700;cursor:pointer;text-decoration:none;margin:3px 2px}
-  .btn.ghost{background:var(--card);color:var(--acc);border:1.5px solid var(--acc)}
+  .back{background:none;border:0;color:var(--acc);font-size:15px;font-weight:700;cursor:pointer;padding:14px 0 4px}
+  .body-text{font-size:16.5px;line-height:1.8;white-space:pre-wrap;background:var(--card);border-radius:16px;box-shadow:var(--shadow);padding:16px}
+  .body-text .w{cursor:pointer;border-bottom:1.5px dotted var(--acc)}
+  .btn{display:inline-block;background:var(--acc);color:#fff;border:0;border-radius:12px;padding:11px 16px;font-size:14.5px;font-weight:700;cursor:pointer;text-decoration:none;margin:3px 2px;box-shadow:var(--shadow)}
+  .btn.ghost{background:var(--card);color:var(--acc);border:1.5px solid var(--acc);box-shadow:none}
   .btn.bad{background:#b91c1c}
-  .sheet{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:2px solid var(--line);border-radius:16px 16px 0 0;padding:16px;z-index:30;max-height:60vh;overflow:auto}
+  .sheet{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:2px solid var(--line);border-radius:20px 20px 0 0;padding:18px;z-index:30;max-height:62vh;overflow:auto;box-shadow:0 -6px 24px rgba(0,0,0,.2)}
   .sheet h3{margin:0 0 4px}.sheet .pos{color:var(--acc);font-weight:700;font-size:13px}
-  .word-row{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 13px;margin:7px 0}
+  .word-row{background:var(--card);border-radius:14px;box-shadow:var(--shadow);padding:12px 14px;margin:8px 0}
   .word-row b{font-size:16px}.word-row small{display:block;color:var(--mut);margin-top:2px;line-height:1.45}
-  .note{background:var(--warn);border:1px solid #fde68a;color:var(--warnink);border-radius:10px;padding:10px 12px;font-size:13.5px}
+  .note{background:var(--warn);border:1px solid #fde68a;color:var(--warnink);border-radius:12px;padding:11px 13px;font-size:13.5px}
   .star{float:right;background:none;border:0;font-size:19px;cursor:pointer;color:#f59e0b}
-  .opts button{display:block;width:100%;text-align:left;background:var(--card);border:1.5px solid var(--line);border-radius:10px;padding:12px;margin:7px 0;font-size:15px;color:var(--ink);cursor:pointer}
+  .opts button{display:block;width:100%;text-align:left;background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:12px;margin:7px 0;font-size:15px;color:var(--ink);cursor:pointer}
   .opts button.right{border-color:#16a34a;background:#dcfce7;color:#14532d}
   .opts button.wrong{border-color:#dc2626;background:#fee2e2;color:#7f1d1d}
-  .stat{display:inline-block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 13px;margin:4px 4px 4px 0;font-size:13.5px}
+  .stat{display:inline-block;background:var(--card);border-radius:14px;box-shadow:var(--shadow);padding:11px 14px;margin:4px 4px 4px 0;font-size:13.5px}
   .stat b{font-size:18px;display:block}
   .chip{display:inline-block;border:1.5px solid var(--acc);color:var(--acc);border-radius:99px;padding:5px 12px;margin:3px;font-size:14px;cursor:pointer;background:var(--card)}
+  h3.sect{font-size:17px;margin:18px 0 4px}
 </style>
 </head>
 <body>
 <div class="wrap">
   <!-- HOME / DASHBOARD -->
   <section id="view-home">
-    <header class="top"><h1>📰 BCS Daily Preparation</h1>
-    <p>Free Edition · <span id="updated"></span></p></header>
+    <div class="greet">
+      <div class="avatar">S</div>
+      <div>
+        <small>হ্যালো,</small>
+        <div class="name">Sadique Shahriar</div>
+        <div class="sub">BCS Daily Preparation · Free Edition · <span id="updated"></span></div>
+      </div>
+    </div>
     <div id="homeStats"></div>
     <div class="grid" id="modGrid"></div>
-    <h3>আজকের editorial</h3>
+    <h3 class="sect">আজকের editorial</h3>
     <div id="homeToday"></div>
   </section>
 
@@ -84,7 +107,7 @@
 
   <!-- VOCABULARY BANK -->
   <section id="view-vocab" class="hidden">
-    <header class="top"><h1>📚 Vocabulary Bank</h1><p>সব editorial-এর শব্দ এক জায়গায় + তোমার যোগ করা শব্দ (এই phone-এ save থাকে)</p></header>
+    <header class="top"><h1>📚 Vocabulary</h1><p>শুধু তোমার নিজের যোগ করা শব্দ — editorial পড়তে পড়তে শব্দে tap করে যোগ করো (এই phone-এ save থাকে)</p></header>
     <div id="vocabBanner"></div>
     <input type="search" id="vq" placeholder="🔍 শব্দ খুঁজো...">
     <div id="vocabList"></div>
@@ -142,11 +165,11 @@
 </div>
 
 <nav class="tabs">
-  <button data-v="view-home" class="on">🏠 Home</button>
-  <button data-v="view-editorial">📰 Editorial</button>
-  <button data-v="view-news">🗞️ News</button>
-  <button data-v="view-vocab">📚 Vocab</button>
-  <button data-v="view-practice">✍️ Practice</button>
+  <button data-v="view-home" class="on"><span class="ti">🏠</span>হোম</button>
+  <button data-v="view-editorial"><span class="ti">📰</span>Editorial</button>
+  <button data-v="view-news"><span class="ti">🗞️</span>News</button>
+  <button data-v="view-vocab"><span class="ti">📚</span>Vocab</button>
+  <button data-v="view-practice"><span class="ti">✍️</span>Practice</button>
 </nav>
 
 <script>
@@ -196,23 +219,29 @@ function dueWords(){
 
 /* ---------- home ---------- */
 var MODS=[
- ['view-editorial','📰 Daily Editorial','আজকের সম্পাদকীয়'],
- ['view-news','🗞️ Current Affairs','গুরুত্বপূর্ণ খবর'],
- ['view-vocab','📚 Vocabulary Bank','সব শব্দ এক জায়গায়'],
- ['view-revision','🔁 Daily Revision','আজকের due শব্দ'],
- ['view-practice','✍️ Practice MCQ','MCQ · Cloze · Flashcard'],
- ['view-archive','📅 Date-wise Archive','এক date-এ সবকিছু'],
- ['view-marks','🔖 Bookmarks','রেখে দেওয়া লেখা'],
- ['view-progress','📈 Learning Progress','তোমার অগ্রগতি']];
+ ['view-editorial','📰','c1','প্রিপারেশন','Daily Editorial · সম্পাদকীয়'],
+ ['view-news','🗞️','c3','Current Affairs','গুরুত্বপূর্ণ খবর'],
+ ['view-vocab','📚','c2','Vocabulary','শুধু তোমার যোগ করা শব্দ'],
+ ['view-revision','🔁','c4','রিভিশন','আজকের due শব্দ'],
+ ['view-practice','✍️','c5','প্র্যাকটিস','MCQ · Cloze · Flashcard'],
+ ['view-archive','📅','c6','Archive','এক date-এ সবকিছু'],
+ ['view-marks','🔖','c7','Bookmarks','রেখে দেওয়া লেখা'],
+ ['view-progress','📈','c8','Progress','তোমার অগ্রগতি']];
+function streakDays(){
+  var days=store.activity,cur=today();
+  if(!days[cur])cur=addDays(cur,-1);
+  var n=0;while(days[cur]){n++;cur=addDays(cur,-1);}return n;
+}
 function renderHome(){
   var t=today(),eds=editorials().filter(function(a){return a.date===t;}),nw=newsItems().filter(function(a){return a.date===t;});
-  var bank=bankWords();
-  $('homeStats').innerHTML=
-    '<span class="stat"><b>'+bn(eds.length)+'</b>আজকের editorial</span>'
-   +'<span class="stat"><b>'+bn(nw.length)+'</b>আজকের খবর</span>'
-   +'<span class="stat"><b>'+bn(Object.keys(bank).length+store.mine.length)+'</b>Vocabulary bank</span>'
-   +'<span class="stat"><b>'+bn(dueWords().length)+'</b>আজ revision due</span>';
-  $('modGrid').innerHTML=MODS.map(function(m){return '<div class="mod" data-go="'+m[0]+'"><b>'+m[1]+'</b><span>'+m[2]+'</span></div>';}).join('');
+  $('homeStats').innerHTML='<div class="statstrip">'
+   +'<div class="st"><span class="ic">📰</span><b>'+bn(eds.length+nw.length)+'</b><span>আজকের লেখা</span></div>'
+   +'<div class="st"><span class="ic">📚</span><b>'+bn(store.mine.length)+'</b><span>আমার শব্দ</span></div>'
+   +'<div class="st"><span class="ic">🔁</span><b>'+bn(dueWords().length)+'</b><span>Revision due</span></div>'
+   +'<div class="st"><span class="ic">🔥</span><b>'+bn(streakDays())+'</b><span>দিন streak</span></div></div>';
+  $('modGrid').innerHTML=MODS.map(function(m){
+    return '<div class="mod" data-go="'+m[0]+'"><div class="mi '+m[2]+'">'+m[1]+'</div><span class="arr '+m[2]+'">→</span><b>'+m[3]+'</b><span>'+m[4]+'</span></div>';
+  }).join('');
   $('modGrid').querySelectorAll('[data-go]').forEach(function(c){c.addEventListener('click',function(){show(c.dataset.go);});});
   var list=eds.length?eds:editorials().slice(0,3);
   $('homeToday').innerHTML=list.slice(0,3).map(cardHTML).join('')||'<p class="meta">কোনো editorial নেই।</p>';
@@ -278,12 +307,17 @@ function openArticle(url){
   $('rNote').innerHTML=(current.hasFullText?'':(!text
     ?'<p class="note">এই লেখার মূল text পাওয়া যায়নি — শুধু শিরোনাম আছে। পুরোটা পড়তে নিচের original link-এ যাও।</p>'
     :'<p class="note">এই লেখার পুরো text পাওয়া যায়নি — নিচে শুধু সংক্ষিপ্ত বিবরণ আছে। পুরোটা পড়তে নিচের original link-এ যাও।</p>'))
-    +(current.lang==='en'?'<p class="meta">💡 যেকোনো English শব্দে tap করলে তার অর্থ, বাংলা অর্থ আর ওই বাক্যের বাংলা অনুবাদ পাবে।</p>':'');
-  if(current.lang==='en'&&text){
+    +(current.lang==='en'
+      ?'<p class="meta">💡 যেকোনো English শব্দে tap করলে তার অর্থ, বাংলা অর্থ আর ওই বাক্যের বাংলা অনুবাদ পাবে।</p>'
+      :'<p class="meta">💡 যেকোনো বাংলা শব্দে tap করলে তার English অর্থ আর ওই বাক্যের English অনুবাদ পাবে।</p>');
+  if(text&&(current.lang==='en'||current.lang==='bn')){
+    var isBn=current.lang==='bn';
     $('rBody').innerHTML=text.split(/(\s+)/).map(function(tok){
-      return /^[A-Za-z][A-Za-z'-]{2,}$/.test(tok)?'<span class="w">'+esc(tok)+'</span>':esc(tok);
+      var core=isBn?tok.replace(/[।.,;:!?()"'’‘“”–—-]/g,''):tok.replace(/[^A-Za-z'-]/g,'');
+      var ok=isBn?(BNRE.test(core)&&core.length>1&&!/^[০-৯0-9]+$/.test(core)):/^[A-Za-z][A-Za-z'-]{2,}$/.test(tok);
+      return ok?'<span class="w" data-w="'+esc(core)+'">'+esc(tok)+'</span>':esc(tok);
     }).join('');
-    $('rBody').querySelectorAll('.w').forEach(function(sp){sp.addEventListener('click',function(){lookup(sp.textContent.replace(/[^A-Za-z'-]/g,''),current);});});
+    $('rBody').querySelectorAll('.w').forEach(function(sp){sp.addEventListener('click',function(){lookup(sp.dataset.w,current);});});
   }else{$('rBody').textContent=text;}
   var ws=current.words||[];
   $('rWords').innerHTML=ws.length?'<h3 style="margin-top:22px">এই লেখার গুরুত্বপূর্ণ শব্দ</h3>'+ws.map(function(w){
@@ -319,19 +353,21 @@ function renderSummary(a){
   $('rSummary').innerHTML='<h3 style="margin-top:24px">📋 সারাংশ (Summary)</h3>'
     +'<p class="meta">লেখা থেকেই নেওয়া মূল বাক্যগুলো — auto-generated, বাইরে থেকে কোনো তথ্য যোগ করা হয়নি।</p>'
     +ss.map(function(s,i){
-      return '<div class="word-row">'+esc(s)+(a.lang==='en'?'<br><button class="btn ghost" data-sent="'+i+'">🌐 বাংলায় অর্থ</button><span class="meta" data-sent-out="'+i+'"></span>':'')+'</div>';
+      var btn=a.lang==='en'?'🌐 বাংলায় অর্থ':'🌐 English-এ অর্থ';
+      return '<div class="word-row">'+esc(s)+'<br><button class="btn ghost" data-sent="'+i+'">'+btn+'</button><span class="meta" data-sent-out="'+i+'"></span></div>';
     }).join('');
   $('rSummary').querySelectorAll('[data-sent]').forEach(function(b){b.addEventListener('click',function(){
     var out=$('rSummary').querySelector('[data-sent-out="'+b.dataset.sent+'"]');
-    translateSentence(ss[+b.dataset.sent],out);
+    translateSentence(ss[+b.dataset.sent],out,a.lang==='bn'?'bn|en':'en|bn');
   });});
 }
-function translateSentence(sent,targetEl){
+function translateSentence(sent,targetEl,pair){
   if(!sent||!targetEl)return;
-  var key=sent.slice(0,150);
+  pair=pair||'en|bn';
+  var key=pair+'|'+sent.slice(0,150);
   if(store.trans[key]){targetEl.textContent=' → '+store.trans[key];return;}
   targetEl.textContent=' → অনুবাদ হচ্ছে...';
-  fetch('https://api.mymemory.translated.net/get?q='+encodeURIComponent(sent.slice(0,450))+'&langpair=en|bn')
+  fetch('https://api.mymemory.translated.net/get?q='+encodeURIComponent(sent.slice(0,450))+'&langpair='+encodeURIComponent(pair))
     .then(function(r){return r.json();})
     .then(function(t){
       var bn2=t&&t.responseData&&t.responseData.translatedText;
@@ -344,9 +380,20 @@ $('readBack').addEventListener('click',function(){show('view-home');});
 
 /* ---------- dictionary + word popup ---------- */
 var sheetWord=null,sheetData=null;
+var BNRE=/[\u0980-\u09FF]/;
 function fetchDict(word){
   word=word.toLowerCase();
   if(store.dict[word])return Promise.resolve(store.dict[word]);
+  if(BNRE.test(word)){
+    return fetch('https://api.mymemory.translated.net/get?q='+encodeURIComponent(word)+'&langpair=bn|en')
+      .then(function(r){return r.json();})
+      .then(function(t){
+        var en=(t&&t.responseData&&t.responseData.translatedText)||'';
+        var out={def:en,bn:'',pos:'',phon:'',ex:'',syn:[],isBn:1};
+        store.dict[word]=out;save();return out;
+      })
+      .catch(function(){return null;});
+  }
   return fetch('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(word))
     .then(function(r){return r.json();})
     .then(function(j){
@@ -364,15 +411,26 @@ function lookup(word,article){
   sheetWord=word.toLowerCase();sheetData=null;
   var sent='';
   if(article&&article.words){article.words.forEach(function(w){if(w.w.toLowerCase()===sheetWord)sent=w.sentence;});}
+  if(!sent&&article){
+    var tx=article.hasFullText?article.fullText:(article.excerpt||'');
+    if(tx)tx.split(/(?<=[।.!?])\s*/).forEach(function(s){if(!sent&&s.indexOf(word)>=0)sent=s.trim();});
+  }
   sheetSent=sent;
   $('sWord').textContent=word;$('sPos').textContent='খোঁজা হচ্ছে...';$('sBn').textContent='';$('sDef').textContent='';$('sEx').textContent='';$('sSyn').textContent='';
   $('sSent').textContent=sent?('লেখার বাক্য: '+sent):'';
   $('sTrans').textContent='';
+  $('sTransBtn').textContent=BNRE.test(sent)?'🌐 এই বাক্যের English অর্থ দেখো':'🌐 এই বাক্যের বাংলা অর্থ দেখো';
   $('sTransBtn').classList.toggle('hidden',!sent);
   $('sheet').classList.remove('hidden');
   fetchDict(sheetWord).then(function(d){
     sheetData=d;
     if(!d){$('sPos').textContent='';$('sDef').textContent='Internet ছাড়া অর্থ আনা যাচ্ছে না।';return;}
+    if(d.isBn){
+      $('sPos').textContent='বাংলা শব্দ';
+      $('sBn').textContent=d.def?('English অর্থ: '+d.def+' (machine translation)'):'English অর্থ পাওয়া যায়নি।';
+      $('sDef').textContent='';$('sEx').textContent='';$('sSyn').textContent='';
+      return;
+    }
     $('sPos').textContent=(d.phon||'')+(d.pos?' · '+d.pos:'');
     $('sBn').textContent=d.bn?('বাংলা অর্থ: '+d.bn+' (machine translation)'):'';
     $('sDef').textContent=d.def||'Definition পাওয়া যায়নি।';
@@ -387,7 +445,7 @@ $('sAdd').addEventListener('click',function(){
   $('sheet').classList.add('hidden');
 });
 $('sTransBtn').addEventListener('click',function(){
-  if(sheetSent)translateSentence(sheetSent,$('sTrans'));
+  if(sheetSent)translateSentence(sheetSent,$('sTrans'),BNRE.test(sheetSent)?'bn|en':'en|bn');
 });
 function addVocab(word,extra){
   word=(word||'').toLowerCase();
@@ -416,18 +474,8 @@ function renderVocab(){
       +(v.sentence?'<small>বাক্য: '+esc(v.sentence)+'</small>':'')+(v.from?'<small>'+esc(v.from)+'</small>':'')
       +'<button class="btn ghost" data-look="'+esc(v.w)+'">বিস্তারিত</button></div>';
   }).join('');
-  var autoRows=Object.keys(bank).filter(function(w){return match(w)&&!store.mine.some(function(v){return v.w===w;});}).sort().map(function(w){
-    var b=bank[w];
-    return '<div class="word-row"><b>'+esc(w)+'</b> <span class="tag">'+bn(b.apps)+' বার এসেছে</span><small>'+esc(b.sentence)+'</small><small>'+esc(b.from)+'</small>'
-      +'<button class="btn ghost" data-look="'+esc(w)+'">অর্থ</button> <button class="btn ghost" data-addw="'+esc(w)+'">＋ যোগ করো</button></div>';
-  }).join('');
-  $('vocabList').innerHTML='<h3>তোমার শব্দ ('+bn(store.mine.length)+')</h3>'+(mineRows||'<p class="meta">এখনো নিজে কোনো শব্দ যোগ করোনি — editorial পড়ার সময় শব্দে tap করে যোগ করো।</p>')
-    +'<h3 style="margin-top:20px">Editorial থেকে সংগৃহীত ('+bn(Object.keys(bank).length)+')</h3>'+autoRows;
+  $('vocabList').innerHTML='<h3>তোমার শব্দ ('+bn(store.mine.length)+')</h3>'+(mineRows||'<p class="meta">এখনো নিজে কোনো শব্দ যোগ করোনি — editorial পড়ার সময় যেকোনো শব্দে tap করে ＋ Vocabulary-তে যোগ করো। শুধু তোমার যোগ করা শব্দই এখানে থাকবে।</p>');
   $('vocabList').querySelectorAll('[data-look]').forEach(function(b){b.addEventListener('click',function(){lookup(b.dataset.look,null);});});
-  $('vocabList').querySelectorAll('[data-addw]').forEach(function(b){b.addEventListener('click',function(){
-    var bank2=bankWords()[b.dataset.addw]||{};
-    fetchDict(b.dataset.addw).then(function(){addVocab(b.dataset.addw,{sentence:bank2.sentence||'',from:bank2.from||''});renderVocab();});
-  });});
 }
 $('vq').addEventListener('input',renderVocab);
 
@@ -466,14 +514,11 @@ function renderPracticeHome(){
 var prac=null;
 function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
 function practicePool(){
-  var bank=bankWords(),words={};
-  Object.keys(bank).forEach(function(w){words[w]={w:w,sentence:bank[w].sentence};});
-  store.mine.forEach(function(v){words[v.w]={w:v.w,sentence:v.sentence,def:v.def};});
-  return Object.keys(words).map(function(k){return words[k];});
+  return store.mine.map(function(v){return {w:v.w,sentence:v.sentence,def:v.def};});
 }
 function startPractice(type){
   var pool=practicePool();
-  if(pool.length<4){alert('Practice-এর জন্য অন্তত 4টি শব্দ দরকার — আরো editorial আসলে bank বড় হবে।');return;}
+  if(pool.length<4){alert('Practice-এর জন্য অন্তত 4টি শব্দ দরকার — আগে editorial পড়ে নিজে 4টি শব্দ Vocabulary-তে যোগ করো।');return;}
   if(type==='flash'){show('view-revision');return;}
   prac={type:type,qs:[],i:0,score:0};
   var picks=shuffle(pool.slice()).slice(0,10);
@@ -583,7 +628,7 @@ function renderProgress(){
   if(!store.activity[cur])cur=addDays(cur,-1);
   while(store.activity[cur]){streak++;cur=addDays(cur,-1);}
   $('progBody').innerHTML=
-    '<span class="stat"><b>'+bn(Object.keys(bank).length+store.mine.length)+'</b>Bank-এ মোট শব্দ</span>'
+    '<span class="stat"><b>'+bn(store.mine.length)+'</b>আমার যোগ করা শব্দ</span>'
    +'<span class="stat"><b>'+bn(store.mine.length)+'</b>তোমার যোগ করা</span>'
    +'<span class="stat"><b>'+bn(dueWords().length)+'</b>আজ due</span>'
    +'<span class="stat"><b>'+bn(stages[4])+'</b>Mastered (Day 30 পার)</span>'
