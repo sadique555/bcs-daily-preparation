@@ -70,9 +70,88 @@ def fetch(url, timeout=15):
 
 
 def strip_tags(html):
-    html = re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", html)
-    text = re.sub(r"(?s)<[^>]+>", " ", html)
-    return re.sub(r"\s+", " ", unescape(text)).strip()
+    # Unescape FIRST: some feeds entity-escape their HTML
+    # (&lt;a href=...&gt;), so stripping tags before unescaping would
+    # leave the raw tags in the text after the final unescape.
+    text = unescape(html or "")
+    text = re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", text)
+    text = re.sub(r"(?s)<[^>]+>", " ", text)
+    text = unescape(text)
+    text = re.sub(r"(?s)<[^>]+>", " ", text)
+    # A tag cut off mid-way (old runs truncated excerpts at 700 chars)
+    # leaves a fragment like '<a href=" target=' with no closing '>'.
+    text = re.sub(r"<[^>]*$", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def clean_excerpt(text, title="", source=""):
+    """Return only real article text, or "" when the feed gave no text.
+
+    Google News RSS descriptions are often NOT article text at all:
+    they are the headline + source name, a numbered list of related
+    headlines, or a photo caption fragment such as "(File Photo:
+    Reuters)". Showing those as the article body is what the user
+    complained about ("sudhu text gulai ase, photo-r description bad").
+    """
+    t = strip_tags(text or "")
+    # A <ol>/<ul> list of related headlines is not article text, even
+    # though stripping its tags leaves headline words behind.
+    if len(re.findall(r"(?i)<li[\s>]", unescape(text or ""))) >= 2:
+        return ""
+    # Drop any leftover link / image URL (its slug fragments otherwise
+    # end up as fake "words", e.g. "qkxhekpk").
+    t = re.sub(r"https?://\S+|www\.\S+", " ", t)
+    # Drop photo-caption fragments wherever they appear.
+    t = re.sub(r"(?i)\([^)]*(file photo|photo credit|photo:)[^)]*\)", " ", t)
+    t = re.sub(r"(?i)\b(file photo|photo|ছবি)\s*[:：]\s*[^.;।]{0,120}", " ", t)
+    # Google News joins related coverage with " | " — keep only the
+    # article's own part before the first separator.
+    t = t.split(" | ")[0].strip()
+    t = re.sub(r"\s+", " ", t).strip()
+    if not t:
+        return ""
+    norm = lambda s: re.sub(r"\W+", " ", (s or "").lower()).strip()
+    # Title (+ source) only, no article text. The source name in the
+    # feed often differs from the paper label ("The Daily Ittefaq"
+    # vs "দৈনিক ইত্তেফাক"), so also drop a title followed by a short
+    # sourcelike tail with no sentence punctuation.
+    body = norm(t)
+    if body == norm(title) or body == norm(title + " " + source) \
+            or body == norm(source + " " + title):
+        return ""
+    tn = norm(title)
+    # Headline-first check: Google News descriptions open with the
+    # article's own headline and then append related headlines
+    # ("<title> <source> <other headline> <source> ..."). If the
+    # excerpt's first words are the title's first words, nothing after
+    # them is this article's text either, so drop the whole thing.
+    # Real standfirsts (Daily Star / Prothom Alo direct feeds) do not
+    # repeat the headline, so they are unaffected.
+    bw_list = body.split()
+    tw_list = tn.split()
+    n = min(8, len(bw_list), len(tw_list))
+    if n >= 4 and len(set(bw_list[:n]) & set(tw_list[:n])) >= max(4, int(n * 0.75)):
+        return ""
+    if tn and body.startswith(tn):
+        tail = body[len(tn):].strip()
+        if len(tail) <= 40 and not any(p in tail for p in ".!?,;:।"):
+            return ""
+    # Fuzzy title match: Google News often rewords/truncates the
+    # headline in the description ("...meet Trump Monday" vs the title
+    # "...meet with Trump Monday over offer"). If ≥80% of the excerpt's
+    # words are title words and it is barely longer than the title,
+    # it is the headline again, not article text.
+    tw = set(tn.split())
+    bw = set(body.split())
+    if tw and bw and len(bw & tw) / len(bw) >= 0.8 \
+            and len(body) <= len(tn) + 50:
+        return ""
+    if len(t) < len(title) + 10 and norm(title) and norm(title) in body:
+        return ""
+    # Numbered list of related headlines ("1. ... 2. ... 3. ...").
+    if len(re.findall(r"(?:^|\s)\d{1,2}\.\s", t)) >= 2:
+        return ""
+    return t
 
 
 # Paragraphs matching these are page junk, not article text:
@@ -143,6 +222,7 @@ def extract_full_text(page_html):
 def extract_words(text, limit=12):
     if not text:
         return []
+    text = re.sub(r"https?://\S+|www\.\S+", " ", text)
     sentences = re.split(r"(?<=[.!?])\s+", text)
     freq, first_sent = {}, {}
     for s in sentences:
@@ -184,13 +264,17 @@ def parse_rss(xml_bytes):
         title = strip_tags(_field(block, "title"))
         title = re.sub(r"\s+-\s+[^-]+$", "", title).strip()  # GN suffix
         link = _field(block, "link")
-        desc = strip_tags(_field(block, "description"))
+        # Pass the RAW description to clean_excerpt: it needs the markup
+        # to recognise a related-headlines <ol>/<li> list, and it strips
+        # tags itself (entity-escaped HTML included).
+        desc = _field(block, "description")
         content = strip_tags(_field(block, "content:encoded"))
         source = strip_tags(_field(block, "source"))
         if title and link:
             yield {"title": title, "url": link,
                    "date": item_date(_field(block, "pubDate")),
-                   "excerpt": desc[:700], "content": content,
+                   "excerpt": clean_excerpt(desc, title, source),
+                   "content": content,
                    "source": source}
 
 
@@ -307,13 +391,23 @@ def main():
                         and "news.google.com" in a["url"])]
     # Maintenance: re-clean stored full texts (older extractions carry
     # navigation/photo/author junk) and rebuild their word lists.
+    # Also re-clean stored excerpts: older runs kept Google News
+    # title-only / related-headlines / photo-caption text as "excerpt".
     for a in existing:
+        if a.get("excerpt") is not None:
+            a["excerpt"] = clean_excerpt(a.get("excerpt") or "",
+                                         a.get("title") or "",
+                                         a.get("paper") or "")
         if a.get("fullText"):
             cleaned = clean_full_text(a["fullText"])
             a["fullText"] = cleaned
             a["hasFullText"] = bool(cleaned)
             if cleaned and a["lang"] == "en":
                 a["words"] = extract_words(cleaned)
+        elif a.get("lang") == "en":
+            # Excerpt-only item: rebuild words from the cleaned excerpt
+            # (junk excerpts now clean to "", so their fake words go too).
+            a["words"] = extract_words(a.get("excerpt") or "")
     seen = {a["url"] for a in existing}
     seen_titles = {re.sub(r"\W+", " ", a["title"].lower()).strip()
                    for a in existing}

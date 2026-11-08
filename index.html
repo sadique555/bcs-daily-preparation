@@ -275,7 +275,9 @@ function openArticle(url){
   $('rTitle').textContent=current.title;
   $('rLink').href=current.url;
   var text=current.hasFullText?current.fullText:(current.excerpt||'');
-  $('rNote').innerHTML=(current.hasFullText?'':'<p class="note">এই লেখাটির শুধু সারাংশ পাওয়া গেছে — পুরোটা পড়তে নিচের original link-এ যাও।</p>')
+  $('rNote').innerHTML=(current.hasFullText?'':(!text
+    ?'<p class="note">এই লেখার মূল text পাওয়া যায়নি — শুধু শিরোনাম আছে। পুরোটা পড়তে নিচের original link-এ যাও।</p>'
+    :'<p class="note">এই লেখার পুরো text পাওয়া যায়নি — নিচে শুধু সংক্ষিপ্ত বিবরণ আছে। পুরোটা পড়তে নিচের original link-এ যাও।</p>'))
     +(current.lang==='en'?'<p class="meta">💡 যেকোনো English শব্দে tap করলে তার অর্থ, বাংলা অর্থ আর ওই বাক্যের বাংলা অনুবাদ পাবে।</p>':'');
   if(current.lang==='en'&&text){
     $('rBody').innerHTML=text.split(/(\s+)/).map(function(tok){
