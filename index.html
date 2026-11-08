@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BCS Daily Preparation — Free Edition</title>
+<style>
+  :root{--bg:#f6f8f7;--card:#fff;--ink:#0f172a;--mut:#64748b;--line:#dbe3ea;--acc:#0f766e;--accbg:#e6f4f1}
+  @media (prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#111c30;--ink:#e2e8f0;--mut:#94a3b8;--line:#24334d;--acc:#2dd4bf;--accbg:#0d2b28}}
+  *{box-sizing:border-box}body{margin:0;font-family:system-ui,'Hind Siliguri',sans-serif;background:var(--bg);color:var(--ink)}
+  .wrap{max-width:760px;margin:0 auto;padding:14px 14px 90px}
+  header.top h1{font-size:21px;margin:6px 0 2px}header.top p{color:var(--mut);margin:0;font-size:13px}
+  .tabs{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);display:flex;z-index:20}
+  .tabs button{flex:1;background:none;border:0;padding:11px 4px;font-size:13.5px;color:var(--mut);cursor:pointer}
+  .tabs button.on{color:var(--acc);font-weight:700}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 14px;margin:9px 0;cursor:pointer}
+  .card h3{margin:0 0 4px;font-size:16px;line-height:1.45}
+  .meta{color:var(--mut);font-size:12.5px}
+  .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:99px;background:var(--accbg);color:var(--acc);font-weight:700;margin-left:6px}
+  .tag.no{background:#fef3c7;color:#92400e}
+  select,input[type=search]{width:100%;padding:11px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font-size:15px;margin:8px 0}
+  .hidden{display:none}
+  .back{background:none;border:0;color:var(--acc);font-size:15px;font-weight:700;cursor:pointer;padding:6px 0}
+  .body-text{font-size:16.5px;line-height:1.75;white-space:pre-wrap}
+  .body-text .w{cursor:pointer;border-bottom:1px dotted var(--acc)}
+  .btn{display:inline-block;background:var(--acc);color:#fff;border:0;border-radius:10px;padding:11px 16px;font-size:15px;font-weight:700;cursor:pointer;text-decoration:none}
+  .btn.ghost{background:var(--card);color:var(--acc);border:1.5px solid var(--acc)}
+  .sheet{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:2px solid var(--line);border-radius:16px 16px 0 0;padding:16px;z-index:30;max-height:55vh;overflow:auto}
+  .sheet h3{margin:0 0 4px}.sheet .pos{color:var(--acc);font-weight:700;font-size:13px}
+  .word-row{display:flex;justify-content:space-between;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 13px;margin:7px 0}
+  .word-row b{font-size:16px}.word-row small{display:block;color:var(--mut)}
+  .note{background:#fffbeb;border:1px solid #fde68a;color:#92400e;border-radius:10px;padding:10px 12px;font-size:13.5px}
+  @media (prefers-color-scheme:dark){.note{background:#2a2103;border-color:#6b5510;color:#fcd34d}}
+  .star{float:right;background:none;border:0;font-size:19px;cursor:pointer;color:#f59e0b}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <!-- HOME / DATE-WISE -->
+  <section id="view-home">
+    <header class="top"><h1>📰 BCS Daily Preparation</h1>
+    <p>Free Edition · প্রতিদিনের editorial, date-wise সাজানো · <span id="updated"></span></p></header>
+    <input type="search" id="q" placeholder="🔍 Headline বা পত্রিকা খুঁজো...">
+    <select id="dateSel"></select>
+    <div id="list"></div>
+  </section>
+
+  <!-- READ -->
+  <section id="view-read" class="hidden">
+    <button class="back" id="readBack">← ফিরে যাও</button>
+    <p class="meta" id="rMeta"></p>
+    <h2 id="rTitle" style="line-height:1.4;margin:4px 0 10px"></h2>
+    <div id="rNote"></div>
+    <div class="body-text" id="rBody"></div>
+    <p style="margin-top:16px"><a class="btn ghost" id="rLink" target="_blank" rel="noopener">Original লেখাটি পত্রিকার site-এ খোলো ↗</a></p>
+    <div id="rWords"></div>
+  </section>
+
+  <!-- VOCABULARY -->
+  <section id="view-vocab" class="hidden">
+    <header class="top"><h1>📚 Vocabulary</h1><p>Editorial থেকে নেওয়া শব্দ + তোমার যোগ করা শব্দ (এই phone-এ save থাকে)</p></header>
+    <div id="vocabList"></div>
+  </section>
+
+  <!-- BOOKMARKS -->
+  <section id="view-marks" class="hidden">
+    <header class="top"><h1>🔖 Bookmarks</h1><p>পরে পড়ার জন্য রাখা editorial</p></header>
+    <div id="markList"></div>
+  </section>
+</div>
+
+<div class="sheet hidden" id="sheet">
+  <button class="back" id="sheetClose" style="float:right">✕ বন্ধ করো</button>
+  <h3 id="sWord"></h3><div class="pos" id="sPos"></div>
+  <p id="sDef" style="line-height:1.6"></p>
+  <p class="meta" id="sSent"></p>
+  <button class="btn" id="sAdd">＋ Vocabulary-তে যোগ করো</button>
+</div>
+
+<nav class="tabs">
+  <button data-v="view-home" class="on">📰 Editorial</button>
+  <button data-v="view-vocab">📚 Vocabulary</button>
+  <button data-v="view-marks">🔖 Bookmarks</button>
+</nav>
+
+<script>
+var DATA={articles:[]};
+var store=JSON.parse(localStorage.getItem('bcsFreeV1')||'{"marks":[],"vocab":[],"learned":[]}');
+function save(){localStorage.setItem('bcsFreeV1',JSON.stringify(store));}
+function $(id){return document.getElementById(id);}
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');}
+function bn(n){return String(n).replace(/[0-9]/g,function(d){return '০১২৩৪৫৬৭৮৯'[+d];});}
+
+function show(id){
+  ['view-home','view-read','view-vocab','view-marks'].forEach(function(v){$(v).classList.toggle('hidden',v!==id);});
+  document.querySelectorAll('.tabs button').forEach(function(b){b.classList.toggle('on',b.dataset.v===id);});
+  window.scrollTo(0,0);
+  if(id==='view-vocab')renderVocab();
+  if(id==='view-marks')renderMarks();
+}
+document.querySelectorAll('.tabs button').forEach(function(b){b.addEventListener('click',function(){show(b.dataset.v);});});
+
+function dates(){var s={};DATA.articles.forEach(function(a){s[a.date]=1;});return Object.keys(s).sort().reverse();}
+function renderDates(sel){
+  var ds=dates();
+  $('dateSel').innerHTML=ds.map(function(d){return '<option value="'+d+'"'+(d===sel?' selected':'')+'>'+d+' ('+bn(DATA.articles.filter(function(a){return a.date===d;}).length)+'টি)</option>';}).join('');
+}
+function cardHTML(a){
+  var marked=store.marks.indexOf(a.url)>=0;
+  return '<div class="card" data-url="'+encodeURIComponent(a.url)+'">'
+    +'<button class="star" data-mark="'+encodeURIComponent(a.url)+'">'+(marked?'★':'☆')+'</button>'
+    +'<h3>'+esc(a.title)+'</h3><div class="meta">'+esc(a.paper)+' · '+a.date
+    +(a.hasFullText?'<span class="tag">সম্পূর্ণ লেখা app-এ আছে</span>':'<span class="tag no">সারাংশ</span>')
+    +'</div></div>';
+}
+function renderList(){
+  var q=($('q').value||'').toLowerCase(),d=$('dateSel').value;
+  var items=DATA.articles.filter(function(a){return a.date===d&&(!q||a.title.toLowerCase().indexOf(q)>=0||a.paper.toLowerCase().indexOf(q)>=0);});
+  $('list').innerHTML=items.length?items.map(cardHTML).join(''):'<p class="meta">এই তারিখে কোনো item পাওয়া যায়নি।</p>';
+  bindCards($('list'));
+}
+function bindCards(root){
+  root.querySelectorAll('.card').forEach(function(c){c.addEventListener('click',function(e){
+    if(e.target.dataset.mark)return;
+    openArticle(decodeURIComponent(c.dataset.url));
+  });});
+  root.querySelectorAll('[data-mark]').forEach(function(b){b.addEventListener('click',function(e){
+    e.stopPropagation();toggleMark(decodeURIComponent(b.dataset.mark));
+  });});
+}
+function toggleMark(url){
+  var i=store.marks.indexOf(url);
+  if(i>=0)store.marks.splice(i,1);else store.marks.push(url);
+  save();renderList();renderMarks();
+}
+var current=null;
+function openArticle(url){
+  current=DATA.articles.filter(function(a){return a.url===url;})[0];
+  if(!current)return;
+  $('rMeta').textContent=current.paper+' · '+current.date;
+  $('rTitle').textContent=current.title;
+  $('rLink').href=current.url;
+  var text=current.hasFullText?current.fullText:current.excerpt;
+  $('rNote').innerHTML=current.hasFullText?'':'<p class="note">এই লেখাটির শুধু সারাংশ পাওয়া গেছে — পুরোটা পড়তে নিচের original link-এ যাও।</p>';
+  if(current.lang==='en'){
+    $('rBody').innerHTML=text.split(/(\s+)/).map(function(tok){
+      return /^[A-Za-z][A-Za-z'-]{2,}$/.test(tok)?'<span class="w">'+esc(tok)+'</span>':esc(tok);
+    }).join('');
+    $('rBody').querySelectorAll('.w').forEach(function(sp){sp.addEventListener('click',function(){lookup(sp.textContent.replace(/[^A-Za-z'-]/g,''),current);});});
+  }else{$('rBody').textContent=text;}
+  var ws=current.words||[];
+  $('rWords').innerHTML=ws.length?'<h3 style="margin-top:22px">এই লেখার গুরুত্বপূর্ণ শব্দ</h3>'+ws.map(function(w){
+    return '<div class="word-row"><span><b>'+esc(w.w)+'</b><small>'+esc(w.sentence)+'</small></span><button class="btn ghost" data-add="'+esc(w.w)+'">＋ যোগ করো</button></div>';
+  }).join(''):'';
+  $('rWords').querySelectorAll('[data-add]').forEach(function(b){b.addEventListener('click',function(){addVocab(b.dataset.add,'',current);});});
+  show('view-read');
+}
+$('readBack').addEventListener('click',function(){show('view-home');});
+
+var sheetWord=null,sheetSentence='';
+function lookup(word,article){
+  sheetWord=word;
+  sheetSentence='';
+  if(article&&article.words){article.words.forEach(function(w){if(w.w.toLowerCase()===word.toLowerCase())sheetSentence=w.sentence;});}
+  $('sWord').textContent=word;$('sPos').textContent='খোঁজা হচ্ছে...';$('sDef').textContent='';$('sSent').textContent=sheetSentence?('বাক্য: '+sheetSentence):'';
+  $('sheet').classList.remove('hidden');
+  fetch('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(word.toLowerCase()))
+    .then(function(r){return r.json();})
+    .then(function(j){
+      var e=j&&j[0],m=e&&e.meanings&&e.meanings[0];
+      $('sPos').textContent=((e&&e.phonetic)||'')+' · '+((m&&m.partOfSpeech)||'');
+      $('sDef').textContent=(m&&m.definitions&&m.definitions[0]&&m.definitions[0].definition)||'Definition পাওয়া যায়নি।';
+    })
+    .catch(function(){$('sPos').textContent='';$('sDef').textContent='Internet ছাড়া definition আনা যাচ্ছে না।';});
+}
+$('sheetClose').addEventListener('click',function(){$('sheet').classList.add('hidden');});
+$('sAdd').addEventListener('click',function(){if(sheetWord){addVocab(sheetWord,sheetSentence,current);$('sheet').classList.add('hidden');}});
+function addVocab(word,sentence,article){
+  word=word.toLowerCase();
+  if(store.vocab.some(function(v){return v.w===word;})){alert('“'+word+'” আগেই Vocabulary-তে আছে।');return;}
+  store.vocab.push({w:word,sentence:sentence||'',from:article?(article.title+' · '+article.paper+' · '+article.date):''});
+  save();alert('“'+word+'” Vocabulary-তে যোগ হয়েছে ✓');
+}
+function renderVocab(){
+  var auto={};
+  DATA.articles.forEach(function(a){(a.words||[]).forEach(function(w){if(!auto[w.w])auto[w.w]={w:w.w,sentence:w.sentence,from:a.paper+' · '+a.date};});});
+  var mine=store.vocab,autoList=Object.keys(auto).filter(function(w){return !mine.some(function(v){return v.w===w;});}).map(function(w){return auto[w];});
+  function row(v,mineFlag){
+    var learned=store.learned.indexOf(v.w)>=0;
+    return '<div class="word-row"><span><b>'+esc(v.w)+'</b>'+(learned?' <span class="tag">শেখা হয়েছে</span>':'')+'<small>'+esc(v.sentence||'')+'</small><small>'+esc(v.from||'')+'</small></span>'
+    +'<span><button class="btn ghost" data-look="'+esc(v.w)+'">অর্থ</button> '
+    +'<button class="btn ghost" data-learn="'+esc(v.w)+'">'+(learned?'↩ ফেরত':'✓ শিখেছি')+'</button></span></div>';
+  }
+  $('vocabList').innerHTML='<h3>তোমার যোগ করা ('+bn(mine.length)+')</h3>'+(mine.map(function(v){return row(v,1);}).join('')||'<p class="meta">এখনো নিজে কোনো শব্দ যোগ করোনি — editorial পড়ার সময় শব্দে tap করে যোগ করো।</p>')
+    +'<h3 style="margin-top:20px">Editorial থেকে সংগৃহীত ('+bn(autoList.length)+')</h3>'+autoList.map(function(v){return row(v,0);}).join('');
+  $('vocabList').querySelectorAll('[data-look]').forEach(function(b){b.addEventListener('click',function(){lookup(b.dataset.look,null);});});
+  $('vocabList').querySelectorAll('[data-learn]').forEach(function(b){b.addEventListener('click',function(){
+    var i=store.learned.indexOf(b.dataset.learn);if(i>=0)store.learned.splice(i,1);else store.learned.push(b.dataset.learn);save();renderVocab();
+  });});
+}
+function renderMarks(){
+  var items=DATA.articles.filter(function(a){return store.marks.indexOf(a.url)>=0;});
+  $('markList').innerHTML=items.length?items.map(cardHTML).join(''):'<p class="meta">এখনো কোনো bookmark নেই — editorial-এর পাশে ☆ চাপ দাও।</p>';
+  bindCards($('markList'));
+}
+$('q').addEventListener('input',renderList);
+$('dateSel').addEventListener('change',renderList);
+fetch('data/articles.json').then(function(r){return r.json();}).then(function(j){
+  DATA=j;$('updated').textContent='সর্বশেষ update: '+(j.updated||'').slice(0,10);
+  renderDates(dates()[0]);renderList();
+}).catch(function(){$('list').innerHTML='<p class="note">Data load হয়নি — internet connection দেখে আবার খোলো।</p>';});
+</script>
+</body>
+</html>
