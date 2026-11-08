@@ -1,11 +1,18 @@
 #!/usr/bin/env python3
-"""BCS Daily Preparation (Free Edition) - daily collector.
+"""BCS Daily Preparation (Free Edition) - daily collector v2.
 
 Runs in GitHub Actions (stdlib only, no pip installs).
-Fetches editorials/opinion items for 11 Bangladeshi newspapers via
-Google News RSS site feeds, tries to extract the full article text
-where the publisher page is freely accessible, dedupes, and writes
-data/articles.json. No paywall/login bypass of any kind.
+
+Sources:
+- Direct publisher RSS for The Daily Star and Prothom Alo (verified
+  feeds). Their links are direct publisher URLs, so the full article
+  text is extracted where the page is freely accessible. No
+  paywall/login bypass of any kind.
+- Google News RSS site feeds for the other 9 papers (excerpt + link;
+  Google News links cannot be resolved programmatically).
+- Google News top stories for Bangladesh (en + bn) as Current Affairs.
+
+Writes data/articles.json (editorials + news, deduped).
 """
 import json
 import os
@@ -20,15 +27,23 @@ from html import unescape
 
 UA = {"User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/120.0 Mobile Safari/537.36"}
+NS = {"content": "http://purl.org/rss/1.0/modules/content/"}
 
-PAPERS = [
-    # name, lang, google-news query
-    ("The Daily Star", "en", "site:thedailystar.net editorial OR opinion"),
+# name, lang, direct feed url, url fragments that mark opinion/editorial
+# (TBS's rss.xml turned out to be a sports-heavy partial feed with no
+# opinion items, so TBS stays on Google News like the other papers.)
+DIRECT = [
+    ("The Daily Star", "en", "https://www.thedailystar.net/opinion/rss.xml",
+     ("/opinion/",)),
+    ("প্রথম আলো", "bn", "https://www.prothomalo.com/feed",
+     ("/opinion/",)),
+]
+
+GN_PAPERS = [
+    ("The Business Standard", "en", "site:tbsnews.net thoughts OR opinion"),
     ("Dhaka Tribune", "en", "site:dhakatribune.com editorial OR opinion"),
     ("New Age", "en", "site:newagebd.net editorial OR opinion"),
     ("The Financial Express", "en", "site:thefinancialexpress.com.bd editorial OR opinion"),
-    ("The Business Standard", "en", "site:tbsnews.net thoughts OR opinion"),
-    ("প্রথম আলো", "bn", "site:prothomalo.com মতামত OR সম্পাদকীয়"),
     ("দৈনিক ইত্তেফাক", "bn", "site:ittefaq.com.bd মতামত OR সম্পাদকীয়"),
     ("সমকাল", "bn", "site:samakal.com মতামত OR সম্পাদকীয়"),
     ("কালের কণ্ঠ", "bn", "site:kalerkantho.com মতামত OR সম্পাদকীয়"),
@@ -61,7 +76,6 @@ def strip_tags(html):
 
 
 def extract_full_text(page_html):
-    # 1) JSON-LD articleBody (e.g. Prothom Alo embeds the full body)
     m = re.search(r'"articleBody"\s*:\s*"((?:[^"\\]|\\.)*)"', page_html)
     if m:
         try:
@@ -71,7 +85,6 @@ def extract_full_text(page_html):
                 return body
         except Exception:
             pass
-    # 2) paragraph extraction
     paras = re.findall(r"(?is)<p[^>]*>(.*?)</p>", page_html)
     cleaned = []
     for p in paras:
@@ -79,17 +92,14 @@ def extract_full_text(page_html):
         if len(t) >= 40:
             cleaned.append(t)
     body = "\n\n".join(cleaned)
-    if len(body) > 900:
-        return body
-    return None
+    return body if len(body) > 900 else None
 
 
 def extract_words(text, limit=12):
     if not text:
         return []
     sentences = re.split(r"(?<=[.!?])\s+", text)
-    freq = {}
-    first_sent = {}
+    freq, first_sent = {}, {}
     for s in sentences:
         for w in re.findall(r"[A-Za-z][a-z]{6,}", s):
             lw = w.lower()
@@ -101,7 +111,45 @@ def extract_words(text, limit=12):
     return [{"w": w, "sentence": first_sent[w][:300]} for w, _ in ranked[:limit]]
 
 
-def feed_url(query, lang):
+def item_date(pub):
+    try:
+        return parsedate_to_datetime(pub).astimezone(timezone.utc).date().isoformat()
+    except Exception:
+        return datetime.now(timezone.utc).date().isoformat()
+
+
+def _field(block, tag):
+    m = re.search(r"<%s[^>]*>(.*?)</%s>" % (tag, tag), block, re.S)
+    if not m:
+        return ""
+    v = m.group(1).strip()
+    v = re.sub(r"<!\[CDATA\[(.*?)\]\]>", r"\1", v, flags=re.S)
+    return v.strip()
+
+
+def parse_rss(xml_bytes):
+    """Yield dicts with title/link/date/desc/content/source.
+
+    Regex-based on purpose: some publisher feeds (e.g. The Daily Star)
+    are malformed XML (raw entities, unescaped HTML) that a strict
+    XML parser rejects.
+    """
+    text = xml_bytes.decode("utf-8", "ignore")
+    for block in re.findall(r"<item[^>]*>(.*?)</item>", text, re.S):
+        title = strip_tags(_field(block, "title"))
+        title = re.sub(r"\s+-\s+[^-]+$", "", title).strip()  # GN suffix
+        link = _field(block, "link")
+        desc = strip_tags(_field(block, "description"))
+        content = strip_tags(_field(block, "content:encoded"))
+        source = strip_tags(_field(block, "source"))
+        if title and link:
+            yield {"title": title, "url": link,
+                   "date": item_date(_field(block, "pubDate")),
+                   "excerpt": desc[:700], "content": content,
+                   "source": source}
+
+
+def gn_feed_url(query, lang):
     q = urllib.parse.quote(query)
     if lang == "bn":
         return (f"https://news.google.com/rss/search?q={q}"
@@ -110,25 +158,91 @@ def feed_url(query, lang):
             "&hl=en-US&gl=BD&ceid=BD:en")
 
 
-def parse_feed(xml_bytes):
-    items = []
-    root = ET.fromstring(xml_bytes)
-    for item in root.iter("item"):
-        title = (item.findtext("title") or "").strip()
-        # Google News titles end with " - <Source>"; strip that suffix
-        title = re.sub(r"\s+-\s+[^-]+$", "", title).strip()
-        link = (item.findtext("link") or "").strip()
-        pub = (item.findtext("pubDate") or "").strip()
-        desc = strip_tags(item.findtext("description") or "")
-        try:
-            dt = parsedate_to_datetime(pub)
-            date = dt.astimezone(timezone.utc).date().isoformat()
-        except Exception:
-            date = datetime.now(timezone.utc).date().isoformat()
-        if title and link:
-            items.append({"title": title, "url": link,
-                          "date": date, "excerpt": desc[:700]})
-    return items
+def collect_direct(name, lang, feed, fragments, seen, seen_titles):
+    out = []
+    try:
+        xml_bytes, _ = fetch(feed)
+        items = list(parse_rss(xml_bytes))
+    except Exception as e:
+        print(f"FEED FAIL {name}: {e}", file=sys.stderr, flush=True)
+        return out
+    picked = [it for it in items
+              if any(f in it["url"] for f in fragments)]
+    if len(picked) < 3:  # fall back to keyword match in title
+        kw = ("editorial", "opinion", "thoughts", "সম্পাদকীয়", "মতামত")
+        picked = [it for it in items
+                  if any(f in it["url"] for f in fragments)
+                  or any(k in it["title"].lower() for k in kw)]
+    for it in picked[:8]:
+        key = re.sub(r"\W+", " ", it["title"].lower()).strip()
+        if it["url"] in seen or key in seen_titles:
+            continue
+        seen.add(it["url"])
+        seen_titles.add(key)
+        full = it["content"] if len(it["content"]) > 900 else None
+        if not full:
+            try:
+                raw, final_url = fetch(it["url"], timeout=10)
+                if "news.google.com" not in final_url:
+                    full = extract_full_text(raw.decode("utf-8", "ignore"))
+            except Exception:
+                full = None
+        text_for_words = full or (it["excerpt"] if lang == "en" else None)
+        out.append({"paper": name, "lang": lang, "kind": "editorial",
+                    "title": it["title"], "date": it["date"], "url": it["url"],
+                    "excerpt": it["excerpt"], "fullText": full,
+                    "hasFullText": bool(full),
+                    "words": extract_words(text_for_words) if lang == "en" else []})
+    print(f"{name} (direct): {len(out)} new", flush=True)
+    return out
+
+
+def collect_gn(name, lang, query, seen, seen_titles):
+    out = []
+    try:
+        xml_bytes, _ = fetch(gn_feed_url(query, lang))
+        items = list(parse_rss(xml_bytes))
+    except Exception as e:
+        print(f"FEED FAIL {name}: {e}", file=sys.stderr, flush=True)
+        return out
+    for it in items[:8]:
+        key = re.sub(r"\W+", " ", it["title"].lower()).strip()
+        if it["url"] in seen or key in seen_titles:
+            continue
+        seen.add(it["url"])
+        seen_titles.add(key)
+        out.append({"paper": name, "lang": lang, "kind": "editorial",
+                    "title": it["title"], "date": it["date"], "url": it["url"],
+                    "excerpt": it["excerpt"], "fullText": None,
+                    "hasFullText": False,
+                    "words": extract_words(it["excerpt"]) if lang == "en" else []})
+    print(f"{name}: {len(out)} new", flush=True)
+    return out
+
+
+def collect_news(lang, seen, seen_titles):
+    out = []
+    url = ("https://news.google.com/rss?hl=bn&gl=BD&ceid=BD:bn" if lang == "bn"
+           else "https://news.google.com/rss?hl=en-US&gl=BD&ceid=BD:en")
+    try:
+        xml_bytes, _ = fetch(url)
+        items = list(parse_rss(xml_bytes))
+    except Exception as e:
+        print(f"NEWS FAIL {lang}: {e}", file=sys.stderr, flush=True)
+        return out
+    for it in items[:14]:
+        key = re.sub(r"\W+", " ", it["title"].lower()).strip()
+        if it["url"] in seen or key in seen_titles:
+            continue
+        seen.add(it["url"])
+        seen_titles.add(key)
+        excerpt = it["excerpt"] if len(it["excerpt"]) >= 40 else ""
+        out.append({"paper": it["source"] or "Google News", "lang": lang,
+                    "kind": "news", "title": it["title"], "date": it["date"],
+                    "url": it["url"], "excerpt": excerpt, "fullText": None,
+                    "hasFullText": False, "words": []})
+    print(f"News ({lang}): {len(out)} new", flush=True)
+    return out
 
 
 def main():
@@ -140,49 +254,39 @@ def main():
             existing = json.load(open(out_path, encoding="utf-8")).get("articles", [])
         except Exception:
             existing = []
+    # Transition cleanup: drop old Google-News versions of the 3 direct
+    # papers so they are re-collected with direct links + full text.
+    direct_names = {d[0] for d in DIRECT}
+    existing = [a for a in existing
+                if not (a["paper"] in direct_names
+                        and "news.google.com" in a["url"])]
     seen = {a["url"] for a in existing}
-    seen_titles = {re.sub(r"\W+", " ", a["title"].lower()).strip() for a in existing}
+    seen_titles = {re.sub(r"\W+", " ", a["title"].lower()).strip()
+                   for a in existing}
     new_items = []
-    for name, lang, query in PAPERS:
-        try:
-            xml_bytes, _ = fetch(feed_url(query, lang))
-            items = parse_feed(xml_bytes)
-        except Exception as e:
-            print(f"FEED FAIL {name}: {e}", file=sys.stderr, flush=True)
-            continue
-        added = 0
-        for it in items[:8]:
-            key = re.sub(r"\W+", " ", it["title"].lower()).strip()
-            if it["url"] in seen or key in seen_titles:
-                continue
-            seen.add(it["url"])
-            seen_titles.add(key)
-            # NOTE: Google News article links cannot be resolved to the
-            # publisher page programmatically (Google serves an
-            # interstitial; its decode RPC rejects outside calls), so
-            # items stay excerpt + original link. The link itself opens
-            # the publisher page normally in a browser.
-            full = None
-            text_for_words = full or (it["excerpt"] if lang == "en" else None)
-            new_items.append({
-                "paper": name, "lang": lang, "kind": "editorial",
-                "title": it["title"], "date": it["date"], "url": it["url"],
-                "excerpt": it["excerpt"],
-                "fullText": full, "hasFullText": bool(full),
-                "words": extract_words(text_for_words) if lang == "en" else [],
-            })
-            added += 1
-        print(f"{name}: {added} new", flush=True)
+    for name, lang, feed, frags in DIRECT:
+        new_items += collect_direct(name, lang, feed, frags, seen, seen_titles)
+    for name, lang, query in GN_PAPERS:
+        new_items += collect_gn(name, lang, query, seen, seen_titles)
+    for lang in ("en", "bn"):
+        new_items += collect_news(lang, seen, seen_titles)
     all_articles = new_items + existing
+    # Keep the archive focused: drop anything older than 45 days
+    # (search feeds sometimes resurface years-old items).
+    from datetime import date as _date, timedelta as _td
+    cutoff = (_date.today() - _td(days=45)).isoformat()
+    all_articles = [a for a in all_articles if a["date"] >= cutoff]
     all_articles.sort(key=lambda a: a["date"], reverse=True)
-    all_articles = all_articles[:500]
+    all_articles = all_articles[:600]
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     payload = {"updated": datetime.now(timezone.utc).isoformat(),
                "articles": all_articles}
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
-    print(f"TOTAL {len(all_articles)} articles "
-          f"({sum(1 for a in all_articles if a['hasFullText'])} with full text), "
+    eds = [a for a in all_articles if a["kind"] == "editorial"]
+    news = [a for a in all_articles if a["kind"] == "news"]
+    print(f"TOTAL {len(all_articles)} ({len(eds)} editorials, {len(news)} news), "
+          f"{sum(1 for a in all_articles if a['hasFullText'])} with full text, "
           f"{len(new_items)} new this run", flush=True)
 
 

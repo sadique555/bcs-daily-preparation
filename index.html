@@ -5,44 +5,69 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>BCS Daily Preparation — Free Edition</title>
 <style>
-  :root{--bg:#f6f8f7;--card:#fff;--ink:#0f172a;--mut:#64748b;--line:#dbe3ea;--acc:#0f766e;--accbg:#e6f4f1}
-  @media (prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#111c30;--ink:#e2e8f0;--mut:#94a3b8;--line:#24334d;--acc:#2dd4bf;--accbg:#0d2b28}}
+  :root{--bg:#f6f8f7;--card:#fff;--ink:#0f172a;--mut:#64748b;--line:#dbe3ea;--acc:#0f766e;--accbg:#e6f4f1;--warn:#fef3c7;--warnink:#92400e}
+  @media (prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#111c30;--ink:#e2e8f0;--mut:#94a3b8;--line:#24334d;--acc:#2dd4bf;--accbg:#0d2b28;--warn:#2a2103;--warnink:#fcd34d}}
   *{box-sizing:border-box}body{margin:0;font-family:system-ui,'Hind Siliguri',sans-serif;background:var(--bg);color:var(--ink)}
-  .wrap{max-width:760px;margin:0 auto;padding:14px 14px 90px}
+  .wrap{max-width:760px;margin:0 auto;padding:14px 14px 92px}
   header.top h1{font-size:21px;margin:6px 0 2px}header.top p{color:var(--mut);margin:0;font-size:13px}
   .tabs{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);display:flex;z-index:20}
-  .tabs button{flex:1;background:none;border:0;padding:11px 4px;font-size:13.5px;color:var(--mut);cursor:pointer}
+  .tabs button{flex:1;background:none;border:0;padding:10px 2px;font-size:12px;color:var(--mut);cursor:pointer}
   .tabs button.on{color:var(--acc);font-weight:700}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:12px 0}
+  .mod{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;cursor:pointer}
+  .mod b{font-size:15.5px;display:block;margin-bottom:3px}.mod span{color:var(--mut);font-size:12.5px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 14px;margin:9px 0;cursor:pointer}
   .card h3{margin:0 0 4px;font-size:16px;line-height:1.45}
   .meta{color:var(--mut);font-size:12.5px}
   .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:99px;background:var(--accbg);color:var(--acc);font-weight:700;margin-left:6px}
-  .tag.no{background:#fef3c7;color:#92400e}
+  .tag.no{background:var(--warn);color:var(--warnink)}
   select,input[type=search]{width:100%;padding:11px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font-size:15px;margin:8px 0}
   .hidden{display:none}
   .back{background:none;border:0;color:var(--acc);font-size:15px;font-weight:700;cursor:pointer;padding:6px 0}
   .body-text{font-size:16.5px;line-height:1.75;white-space:pre-wrap}
   .body-text .w{cursor:pointer;border-bottom:1px dotted var(--acc)}
-  .btn{display:inline-block;background:var(--acc);color:#fff;border:0;border-radius:10px;padding:11px 16px;font-size:15px;font-weight:700;cursor:pointer;text-decoration:none}
+  .btn{display:inline-block;background:var(--acc);color:#fff;border:0;border-radius:10px;padding:10px 15px;font-size:14.5px;font-weight:700;cursor:pointer;text-decoration:none;margin:3px 2px}
   .btn.ghost{background:var(--card);color:var(--acc);border:1.5px solid var(--acc)}
-  .sheet{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:2px solid var(--line);border-radius:16px 16px 0 0;padding:16px;z-index:30;max-height:55vh;overflow:auto}
+  .btn.bad{background:#b91c1c}
+  .sheet{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:2px solid var(--line);border-radius:16px 16px 0 0;padding:16px;z-index:30;max-height:60vh;overflow:auto}
   .sheet h3{margin:0 0 4px}.sheet .pos{color:var(--acc);font-weight:700;font-size:13px}
-  .word-row{display:flex;justify-content:space-between;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 13px;margin:7px 0}
-  .word-row b{font-size:16px}.word-row small{display:block;color:var(--mut)}
-  .note{background:#fffbeb;border:1px solid #fde68a;color:#92400e;border-radius:10px;padding:10px 12px;font-size:13.5px}
-  @media (prefers-color-scheme:dark){.note{background:#2a2103;border-color:#6b5510;color:#fcd34d}}
+  .word-row{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 13px;margin:7px 0}
+  .word-row b{font-size:16px}.word-row small{display:block;color:var(--mut);margin-top:2px;line-height:1.45}
+  .note{background:var(--warn);border:1px solid #fde68a;color:var(--warnink);border-radius:10px;padding:10px 12px;font-size:13.5px}
   .star{float:right;background:none;border:0;font-size:19px;cursor:pointer;color:#f59e0b}
+  .opts button{display:block;width:100%;text-align:left;background:var(--card);border:1.5px solid var(--line);border-radius:10px;padding:12px;margin:7px 0;font-size:15px;color:var(--ink);cursor:pointer}
+  .opts button.right{border-color:#16a34a;background:#dcfce7;color:#14532d}
+  .opts button.wrong{border-color:#dc2626;background:#fee2e2;color:#7f1d1d}
+  .stat{display:inline-block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 13px;margin:4px 4px 4px 0;font-size:13.5px}
+  .stat b{font-size:18px;display:block}
+  .chip{display:inline-block;border:1.5px solid var(--acc);color:var(--acc);border-radius:99px;padding:5px 12px;margin:3px;font-size:14px;cursor:pointer;background:var(--card)}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <!-- HOME / DATE-WISE -->
+  <!-- HOME / DASHBOARD -->
   <section id="view-home">
     <header class="top"><h1>📰 BCS Daily Preparation</h1>
-    <p>Free Edition · প্রতিদিনের editorial, date-wise সাজানো · <span id="updated"></span></p></header>
+    <p>Free Edition · <span id="updated"></span></p></header>
+    <div id="homeStats"></div>
+    <div class="grid" id="modGrid"></div>
+    <h3>আজকের editorial</h3>
+    <div id="homeToday"></div>
+  </section>
+
+  <!-- EDITORIAL -->
+  <section id="view-editorial" class="hidden">
+    <header class="top"><h1>📰 Daily Editorial</h1><p>11টি পত্রিকার সম্পাদকীয় ও মতামত, date-wise</p></header>
     <input type="search" id="q" placeholder="🔍 Headline বা পত্রিকা খুঁজো...">
     <select id="dateSel"></select>
     <div id="list"></div>
+  </section>
+
+  <!-- NEWS -->
+  <section id="view-news" class="hidden">
+    <header class="top"><h1>🗞️ Important Current Affairs</h1><p>বাংলাদেশের গুরুত্বপূর্ণ খবর</p></header>
+    <select id="newsDateSel"></select>
+    <div id="newsList"></div>
   </section>
 
   <!-- READ -->
@@ -56,68 +81,149 @@
     <div id="rWords"></div>
   </section>
 
-  <!-- VOCABULARY -->
+  <!-- VOCABULARY BANK -->
   <section id="view-vocab" class="hidden">
-    <header class="top"><h1>📚 Vocabulary</h1><p>Editorial থেকে নেওয়া শব্দ + তোমার যোগ করা শব্দ (এই phone-এ save থাকে)</p></header>
+    <header class="top"><h1>📚 Vocabulary Bank</h1><p>সব editorial-এর শব্দ এক জায়গায় + তোমার যোগ করা শব্দ (এই phone-এ save থাকে)</p></header>
+    <div id="vocabBanner"></div>
+    <input type="search" id="vq" placeholder="🔍 শব্দ খুঁজো...">
     <div id="vocabList"></div>
+  </section>
+
+  <!-- REVISION -->
+  <section id="view-revision" class="hidden">
+    <header class="top"><h1>🔁 Daily BCS Revision</h1><p>Spaced repetition — Day 1 · 3 · 7 · 14 · 30</p></header>
+    <div id="revList"></div>
+  </section>
+
+  <!-- PRACTICE -->
+  <section id="view-practice" class="hidden">
+    <header class="top"><h1>✍️ Practice</h1><p>Vocabulary MCQ · Cloze (শূন্যস্থান) · Flashcard</p></header>
+    <div id="pracHome">
+      <button class="btn" data-prac="mcq">📝 অর্থ MCQ শুরু করো (10টি)</button>
+      <button class="btn" data-prac="cloze">🧩 Cloze শুরু করো (10টি)</button>
+      <button class="btn" data-prac="flash">🃏 Flashcard Revision</button>
+      <div id="pracHist" style="margin-top:14px"></div>
+    </div>
+    <div id="pracRun" class="hidden"></div>
+  </section>
+
+  <!-- ARCHIVE -->
+  <section id="view-archive" class="hidden">
+    <header class="top"><h1>📅 Date-wise Archive</h1><p>এক date-এর সবকিছু একসাথে</p></header>
+    <div id="archList"></div>
+    <div id="archDay" class="hidden"></div>
   </section>
 
   <!-- BOOKMARKS -->
   <section id="view-marks" class="hidden">
-    <header class="top"><h1>🔖 Bookmarks</h1><p>পরে পড়ার জন্য রাখা editorial</p></header>
+    <header class="top"><h1>🔖 Bookmarks</h1><p>পরে পড়ার জন্য রাখা লেখা</p></header>
     <div id="markList"></div>
+  </section>
+
+  <!-- PROGRESS -->
+  <section id="view-progress" class="hidden">
+    <header class="top"><h1>📈 Learning Progress</h1><p>এই phone-এ save করা তোমার অগ্রগতি</p></header>
+    <div id="progBody"></div>
   </section>
 </div>
 
 <div class="sheet hidden" id="sheet">
   <button class="back" id="sheetClose" style="float:right">✕ বন্ধ করো</button>
   <h3 id="sWord"></h3><div class="pos" id="sPos"></div>
-  <p id="sDef" style="line-height:1.6"></p>
+  <p id="sBn" style="font-size:16px;margin:8px 0"></p>
+  <p id="sDef" style="line-height:1.6;margin:4px 0"></p>
+  <p class="meta" id="sEx"></p>
+  <p class="meta" id="sSyn"></p>
   <p class="meta" id="sSent"></p>
   <button class="btn" id="sAdd">＋ Vocabulary-তে যোগ করো</button>
 </div>
 
 <nav class="tabs">
-  <button data-v="view-home" class="on">📰 Editorial</button>
-  <button data-v="view-vocab">📚 Vocabulary</button>
-  <button data-v="view-marks">🔖 Bookmarks</button>
+  <button data-v="view-home" class="on">🏠 Home</button>
+  <button data-v="view-editorial">📰 Editorial</button>
+  <button data-v="view-news">🗞️ News</button>
+  <button data-v="view-vocab">📚 Vocab</button>
+  <button data-v="view-practice">✍️ Practice</button>
 </nav>
 
 <script>
 var DATA={articles:[]};
-var store=JSON.parse(localStorage.getItem('bcsFreeV1')||'{"marks":[],"vocab":[],"learned":[]}');
-function save(){localStorage.setItem('bcsFreeV1',JSON.stringify(store));}
+var DEF={marks:[],mine:[],srs:{},read:{},practice:[],dict:{},activity:{}};
+var store; try{store=Object.assign({},DEF,JSON.parse(localStorage.getItem('bcsFreeV2')||'{}'));}catch(e){store=Object.assign({},DEF);}
+function save(){localStorage.setItem('bcsFreeV2',JSON.stringify(store));}
 function $(id){return document.getElementById(id);}
 function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');}
 function bn(n){return String(n).replace(/[0-9]/g,function(d){return '০১২৩৪৫৬৭৮৯'[+d];});}
-
+function today(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+function addDays(iso,n){var d=new Date(iso+'T00:00:00');d.setDate(d.getDate()+n);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+function touch(){store.activity[today()]=true;save();}
+var INTERVALS=[1,3,7,14,30];
+var VIEWS=['view-home','view-editorial','view-news','view-read','view-vocab','view-revision','view-practice','view-archive','view-marks','view-progress'];
 function show(id){
-  ['view-home','view-read','view-vocab','view-marks'].forEach(function(v){$(v).classList.toggle('hidden',v!==id);});
+  VIEWS.forEach(function(v){$(v).classList.toggle('hidden',v!==id);});
   document.querySelectorAll('.tabs button').forEach(function(b){b.classList.toggle('on',b.dataset.v===id);});
   window.scrollTo(0,0);
+  if(id==='view-home')renderHome();
   if(id==='view-vocab')renderVocab();
+  if(id==='view-revision')renderRevision();
   if(id==='view-marks')renderMarks();
+  if(id==='view-progress')renderProgress();
+  if(id==='view-archive')renderArchive();
+  if(id==='view-practice')renderPracticeHome();
 }
 document.querySelectorAll('.tabs button').forEach(function(b){b.addEventListener('click',function(){show(b.dataset.v);});});
 
-function dates(){var s={};DATA.articles.forEach(function(a){s[a.date]=1;});return Object.keys(s).sort().reverse();}
-function renderDates(sel){
-  var ds=dates();
-  $('dateSel').innerHTML=ds.map(function(d){return '<option value="'+d+'"'+(d===sel?' selected':'')+'>'+d+' ('+bn(DATA.articles.filter(function(a){return a.date===d;}).length)+'টি)</option>';}).join('');
+/* ---------- data helpers ---------- */
+function editorials(){return DATA.articles.filter(function(a){return a.kind==='editorial';});}
+function newsItems(){return DATA.articles.filter(function(a){return a.kind==='news';});}
+function datesOf(list){var s={};list.forEach(function(a){s[a.date]=1;});return Object.keys(s).sort().reverse();}
+function bankWords(){
+  var m={};
+  DATA.articles.forEach(function(a){(a.words||[]).forEach(function(w){
+    if(!m[w.w])m[w.w]={w:w.w,sentence:w.sentence,from:a.paper+' · '+a.date,apps:0};
+    m[w.w].apps++;
+  });});
+  return m;
 }
+function dueWords(){
+  var t=today(),out=[];
+  Object.keys(store.srs).forEach(function(w){if(store.srs[w].due<=t)out.push(w);});
+  return out;
+}
+
+/* ---------- home ---------- */
+var MODS=[
+ ['view-editorial','📰 Daily Editorial','আজকের সম্পাদকীয়'],
+ ['view-news','🗞️ Current Affairs','গুরুত্বপূর্ণ খবর'],
+ ['view-vocab','📚 Vocabulary Bank','সব শব্দ এক জায়গায়'],
+ ['view-revision','🔁 Daily Revision','আজকের due শব্দ'],
+ ['view-practice','✍️ Practice MCQ','MCQ · Cloze · Flashcard'],
+ ['view-archive','📅 Date-wise Archive','এক date-এ সবকিছু'],
+ ['view-marks','🔖 Bookmarks','রেখে দেওয়া লেখা'],
+ ['view-progress','📈 Learning Progress','তোমার অগ্রগতি']];
+function renderHome(){
+  var t=today(),eds=editorials().filter(function(a){return a.date===t;}),nw=newsItems().filter(function(a){return a.date===t;});
+  var bank=bankWords();
+  $('homeStats').innerHTML=
+    '<span class="stat"><b>'+bn(eds.length)+'</b>আজকের editorial</span>'
+   +'<span class="stat"><b>'+bn(nw.length)+'</b>আজকের খবর</span>'
+   +'<span class="stat"><b>'+bn(Object.keys(bank).length+store.mine.length)+'</b>Vocabulary bank</span>'
+   +'<span class="stat"><b>'+bn(dueWords().length)+'</b>আজ revision due</span>';
+  $('modGrid').innerHTML=MODS.map(function(m){return '<div class="mod" data-go="'+m[0]+'"><b>'+m[1]+'</b><span>'+m[2]+'</span></div>';}).join('');
+  $('modGrid').querySelectorAll('[data-go]').forEach(function(c){c.addEventListener('click',function(){show(c.dataset.go);});});
+  var list=eds.length?eds:editorials().slice(0,3);
+  $('homeToday').innerHTML=list.slice(0,3).map(cardHTML).join('')||'<p class="meta">কোনো editorial নেই।</p>';
+  bindCards($('homeToday'));
+}
+
+/* ---------- lists ---------- */
 function cardHTML(a){
-  var marked=store.marks.indexOf(a.url)>=0;
+  var marked=store.marks.indexOf(a.url)>=0,read=!!store.read[a.url];
   return '<div class="card" data-url="'+encodeURIComponent(a.url)+'">'
     +'<button class="star" data-mark="'+encodeURIComponent(a.url)+'">'+(marked?'★':'☆')+'</button>'
-    +'<h3>'+esc(a.title)+'</h3><div class="meta">'+esc(a.paper)+' · '+a.date
-    +(a.hasFullText?'<span class="tag">সম্পূর্ণ লেখা app-এ আছে</span>':'<span class="tag no">সারাংশ</span>')
+    +'<h3>'+esc(a.title)+(read?' <span class="tag">পড়া হয়েছে</span>':'')+'</h3><div class="meta">'+esc(a.paper)+' · '+a.date
+    +(a.kind==='editorial'?(a.hasFullText?'<span class="tag">সম্পূর্ণ লেখা app-এ আছে</span>':'<span class="tag no">সারাংশ</span>'):'')
     +'</div></div>';
-}
-function renderList(){
-  var q=($('q').value||'').toLowerCase(),d=$('dateSel').value;
-  var items=DATA.articles.filter(function(a){return a.date===d&&(!q||a.title.toLowerCase().indexOf(q)>=0||a.paper.toLowerCase().indexOf(q)>=0);});
-  $('list').innerHTML=items.length?items.map(cardHTML).join(''):'<p class="meta">এই তারিখে কোনো item পাওয়া যায়নি।</p>';
-  bindCards($('list'));
 }
 function bindCards(root){
   root.querySelectorAll('.card').forEach(function(c){c.addEventListener('click',function(e){
@@ -131,18 +237,43 @@ function bindCards(root){
 function toggleMark(url){
   var i=store.marks.indexOf(url);
   if(i>=0)store.marks.splice(i,1);else store.marks.push(url);
-  save();renderList();renderMarks();
+  save();renderMarks();
+  if(!$('view-editorial').classList.contains('hidden'))renderList();
+  if(!$('view-news').classList.contains('hidden'))renderNews();
+  if(!$('view-home').classList.contains('hidden'))renderHome();
 }
+function fillDates(selEl,list,sel){
+  var ds=datesOf(list);
+  selEl.innerHTML=ds.map(function(d){return '<option value="'+d+'"'+(d===sel?' selected':'')+'>'+d+' ('+bn(list.filter(function(a){return a.date===d;}).length)+'টি)</option>';}).join('');
+}
+function renderList(){
+  var q=($('q').value||'').toLowerCase(),d=$('dateSel').value;
+  var items=editorials().filter(function(a){return a.date===d&&(!q||a.title.toLowerCase().indexOf(q)>=0||a.paper.toLowerCase().indexOf(q)>=0);});
+  $('list').innerHTML=items.length?items.map(cardHTML).join(''):'<p class="meta">এই তারিখে কোনো item পাওয়া যায়নি।</p>';
+  bindCards($('list'));
+}
+function renderNews(){
+  var d=$('newsDateSel').value;
+  var items=newsItems().filter(function(a){return a.date===d;});
+  $('newsList').innerHTML=items.length?items.map(cardHTML).join(''):'<p class="meta">এই তারিখে কোনো খবর নেই।</p>';
+  bindCards($('newsList'));
+}
+$('q').addEventListener('input',renderList);
+$('dateSel').addEventListener('change',renderList);
+$('newsDateSel').addEventListener('change',renderNews);
+
+/* ---------- reading ---------- */
 var current=null;
 function openArticle(url){
   current=DATA.articles.filter(function(a){return a.url===url;})[0];
   if(!current)return;
+  store.read[url]=today();touch();
   $('rMeta').textContent=current.paper+' · '+current.date;
   $('rTitle').textContent=current.title;
   $('rLink').href=current.url;
-  var text=current.hasFullText?current.fullText:current.excerpt;
+  var text=current.hasFullText?current.fullText:(current.excerpt||'');
   $('rNote').innerHTML=current.hasFullText?'':'<p class="note">এই লেখাটির শুধু সারাংশ পাওয়া গেছে — পুরোটা পড়তে নিচের original link-এ যাও।</p>';
-  if(current.lang==='en'){
+  if(current.lang==='en'&&text){
     $('rBody').innerHTML=text.split(/(\s+)/).map(function(tok){
       return /^[A-Za-z][A-Za-z'-]{2,}$/.test(tok)?'<span class="w">'+esc(tok)+'</span>':esc(tok);
     }).join('');
@@ -150,65 +281,269 @@ function openArticle(url){
   }else{$('rBody').textContent=text;}
   var ws=current.words||[];
   $('rWords').innerHTML=ws.length?'<h3 style="margin-top:22px">এই লেখার গুরুত্বপূর্ণ শব্দ</h3>'+ws.map(function(w){
-    return '<div class="word-row"><span><b>'+esc(w.w)+'</b><small>'+esc(w.sentence)+'</small></span><button class="btn ghost" data-add="'+esc(w.w)+'">＋ যোগ করো</button></div>';
+    return '<div class="word-row"><b>'+esc(w.w)+'</b><small>'+esc(w.sentence)+'</small><button class="btn ghost" data-add="'+esc(w.w)+'">＋ Vocabulary-তে যোগ করো</button></div>';
   }).join(''):'';
-  $('rWords').querySelectorAll('[data-add]').forEach(function(b){b.addEventListener('click',function(){addVocab(b.dataset.add,'',current);});});
+  $('rWords').querySelectorAll('[data-add]').forEach(function(b){b.addEventListener('click',function(){
+    var wobj=(current.words||[]).filter(function(x){return x.w===b.dataset.add;})[0]||{};
+    addVocab(b.dataset.add,{sentence:wobj.sentence||'',from:current.paper+' · '+current.date});
+  });});
   show('view-read');
 }
 $('readBack').addEventListener('click',function(){show('view-home');});
 
-var sheetWord=null,sheetSentence='';
-function lookup(word,article){
-  sheetWord=word;
-  sheetSentence='';
-  if(article&&article.words){article.words.forEach(function(w){if(w.w.toLowerCase()===word.toLowerCase())sheetSentence=w.sentence;});}
-  $('sWord').textContent=word;$('sPos').textContent='খোঁজা হচ্ছে...';$('sDef').textContent='';$('sSent').textContent=sheetSentence?('বাক্য: '+sheetSentence):'';
-  $('sheet').classList.remove('hidden');
-  fetch('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(word.toLowerCase()))
+/* ---------- dictionary + word popup ---------- */
+var sheetWord=null,sheetData=null;
+function fetchDict(word){
+  word=word.toLowerCase();
+  if(store.dict[word])return Promise.resolve(store.dict[word]);
+  return fetch('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(word))
     .then(function(r){return r.json();})
     .then(function(j){
-      var e=j&&j[0],m=e&&e.meanings&&e.meanings[0];
-      $('sPos').textContent=((e&&e.phonetic)||'')+' · '+((m&&m.partOfSpeech)||'');
-      $('sDef').textContent=(m&&m.definitions&&m.definitions[0]&&m.definitions[0].definition)||'Definition পাওয়া যায়নি।';
+      var e=j&&j[0],m=e&&e.meanings&&e.meanings[0],d0=m&&m.definitions&&m.definitions[0];
+      var out={def:(d0&&d0.definition)||'',ex:(d0&&d0.example)||'',pos:(m&&m.partOfSpeech)||'',phon:(e&&e.phonetic)||'',syn:(m&&m.synonyms)||[],bn:''};
+      return fetch('https://api.mymemory.translated.net/get?q='+encodeURIComponent(word)+'&langpair=en|bn')
+        .then(function(r){return r.json();})
+        .then(function(t){out.bn=(t&&t.responseData&&t.responseData.translatedText)||'';store.dict[word]=out;save();return out;})
+        .catch(function(){store.dict[word]=out;save();return out;});
     })
-    .catch(function(){$('sPos').textContent='';$('sDef').textContent='Internet ছাড়া definition আনা যাচ্ছে না।';});
+    .catch(function(){return null;});
+}
+function lookup(word,article){
+  sheetWord=word.toLowerCase();sheetData=null;
+  var sent='';
+  if(article&&article.words){article.words.forEach(function(w){if(w.w.toLowerCase()===sheetWord)sent=w.sentence;});}
+  $('sWord').textContent=word;$('sPos').textContent='খোঁজা হচ্ছে...';$('sBn').textContent='';$('sDef').textContent='';$('sEx').textContent='';$('sSyn').textContent='';
+  $('sSent').textContent=sent?('লেখার বাক্য: '+sent):'';
+  $('sheet').classList.remove('hidden');
+  fetchDict(sheetWord).then(function(d){
+    sheetData=d;
+    if(!d){$('sPos').textContent='';$('sDef').textContent='Internet ছাড়া অর্থ আনা যাচ্ছে না।';return;}
+    $('sPos').textContent=(d.phon||'')+(d.pos?' · '+d.pos:'');
+    $('sBn').textContent=d.bn?('বাংলা অর্থ: '+d.bn+' (machine translation)'):'';
+    $('sDef').textContent=d.def||'Definition পাওয়া যায়নি।';
+    $('sEx').textContent=d.ex?('Example: '+d.ex):'';
+    $('sSyn').textContent=(d.syn&&d.syn.length)?('Synonyms: '+d.syn.slice(0,5).join(', ')):'';
+  });
 }
 $('sheetClose').addEventListener('click',function(){$('sheet').classList.add('hidden');});
-$('sAdd').addEventListener('click',function(){if(sheetWord){addVocab(sheetWord,sheetSentence,current);$('sheet').classList.add('hidden');}});
-function addVocab(word,sentence,article){
-  word=word.toLowerCase();
-  if(store.vocab.some(function(v){return v.w===word;})){alert('“'+word+'” আগেই Vocabulary-তে আছে।');return;}
-  store.vocab.push({w:word,sentence:sentence||'',from:article?(article.title+' · '+article.paper+' · '+article.date):''});
-  save();alert('“'+word+'” Vocabulary-তে যোগ হয়েছে ✓');
+$('sAdd').addEventListener('click',function(){
+  if(!sheetWord)return;
+  addVocab(sheetWord,{sentence:($('sSent').textContent||'').replace('লেখার বাক্য: ',''),from:current?(current.paper+' · '+current.date):''});
+  $('sheet').classList.add('hidden');
+});
+function addVocab(word,extra){
+  word=(word||'').toLowerCase();
+  if(!word)return;
+  if(store.mine.some(function(v){return v.w===word;})){alert('“'+word+'” আগেই Vocabulary-তে আছে।');return;}
+  var d=store.dict[word]||{};
+  var bank=bankWords()[word]||{};
+  store.mine.push({w:word,bn:d.bn||'',def:d.def||'',pos:d.pos||'',phon:d.phon||'',ex:d.ex||'',
+    sentence:(extra&&extra.sentence)||bank.sentence||'',from:(extra&&extra.from)||bank.from||'',added:today()});
+  store.srs[word]={stage:0,due:addDays(today(),INTERVALS[0])};
+  touch();alert('“'+word+'” যোগ হয়েছে ✓ আগামীকাল revision-এ আসবে।');
 }
+
+/* ---------- vocabulary bank ---------- */
 function renderVocab(){
-  var auto={};
-  DATA.articles.forEach(function(a){(a.words||[]).forEach(function(w){if(!auto[w.w])auto[w.w]={w:w.w,sentence:w.sentence,from:a.paper+' · '+a.date};});});
-  var mine=store.vocab,autoList=Object.keys(auto).filter(function(w){return !mine.some(function(v){return v.w===w;});}).map(function(w){return auto[w];});
-  function row(v,mineFlag){
-    var learned=store.learned.indexOf(v.w)>=0;
-    return '<div class="word-row"><span><b>'+esc(v.w)+'</b>'+(learned?' <span class="tag">শেখা হয়েছে</span>':'')+'<small>'+esc(v.sentence||'')+'</small><small>'+esc(v.from||'')+'</small></span>'
-    +'<span><button class="btn ghost" data-look="'+esc(v.w)+'">অর্থ</button> '
-    +'<button class="btn ghost" data-learn="'+esc(v.w)+'">'+(learned?'↩ ফেরত':'✓ শিখেছি')+'</button></span></div>';
-  }
-  $('vocabList').innerHTML='<h3>তোমার যোগ করা ('+bn(mine.length)+')</h3>'+(mine.map(function(v){return row(v,1);}).join('')||'<p class="meta">এখনো নিজে কোনো শব্দ যোগ করোনি — editorial পড়ার সময় শব্দে tap করে যোগ করো।</p>')
-    +'<h3 style="margin-top:20px">Editorial থেকে সংগৃহীত ('+bn(autoList.length)+')</h3>'+autoList.map(function(v){return row(v,0);}).join('');
+  var bank=bankWords(),q=($('vq').value||'').toLowerCase();
+  var due=dueWords().length;
+  $('vocabBanner').innerHTML=due?'<p class="note">আজ '+bn(due)+'টি শব্দ revision due আছে — <b data-go-rev style="cursor:pointer;text-decoration:underline">Revision-এ যাও</b></p>':'';
+  var go=$('vocabBanner').querySelector('[data-go-rev]');
+  if(go)go.addEventListener('click',function(){show('view-revision');});
+  function match(w){return !q||w.indexOf(q)>=0;}
+  var mineRows=store.mine.filter(function(v){return match(v.w);}).map(function(v){
+    var s=store.srs[v.w]||{stage:0,due:''};
+    return '<div class="word-row"><b>'+esc(v.w)+'</b> <span class="tag">Stage '+bn(s.stage)+' · due '+esc(s.due)+'</span>'
+      +(v.bn?'<small>বাংলা: '+esc(v.bn)+'</small>':'')+(v.def?'<small>'+esc(v.def)+'</small>':'')
+      +(v.sentence?'<small>বাক্য: '+esc(v.sentence)+'</small>':'')+(v.from?'<small>'+esc(v.from)+'</small>':'')
+      +'<button class="btn ghost" data-look="'+esc(v.w)+'">বিস্তারিত</button></div>';
+  }).join('');
+  var autoRows=Object.keys(bank).filter(function(w){return match(w)&&!store.mine.some(function(v){return v.w===w;});}).sort().map(function(w){
+    var b=bank[w];
+    return '<div class="word-row"><b>'+esc(w)+'</b> <span class="tag">'+bn(b.apps)+' বার এসেছে</span><small>'+esc(b.sentence)+'</small><small>'+esc(b.from)+'</small>'
+      +'<button class="btn ghost" data-look="'+esc(w)+'">অর্থ</button> <button class="btn ghost" data-addw="'+esc(w)+'">＋ যোগ করো</button></div>';
+  }).join('');
+  $('vocabList').innerHTML='<h3>তোমার শব্দ ('+bn(store.mine.length)+')</h3>'+(mineRows||'<p class="meta">এখনো নিজে কোনো শব্দ যোগ করোনি — editorial পড়ার সময় শব্দে tap করে যোগ করো।</p>')
+    +'<h3 style="margin-top:20px">Editorial থেকে সংগৃহীত ('+bn(Object.keys(bank).length)+')</h3>'+autoRows;
   $('vocabList').querySelectorAll('[data-look]').forEach(function(b){b.addEventListener('click',function(){lookup(b.dataset.look,null);});});
-  $('vocabList').querySelectorAll('[data-learn]').forEach(function(b){b.addEventListener('click',function(){
-    var i=store.learned.indexOf(b.dataset.learn);if(i>=0)store.learned.splice(i,1);else store.learned.push(b.dataset.learn);save();renderVocab();
+  $('vocabList').querySelectorAll('[data-addw]').forEach(function(b){b.addEventListener('click',function(){
+    var bank2=bankWords()[b.dataset.addw]||{};
+    fetchDict(b.dataset.addw).then(function(){addVocab(b.dataset.addw,{sentence:bank2.sentence||'',from:bank2.from||''});renderVocab();});
   });});
 }
+$('vq').addEventListener('input',renderVocab);
+
+/* ---------- revision (spaced repetition) ---------- */
+function renderRevision(){
+  var due=dueWords();
+  if(!due.length){$('revList').innerHTML='<p class="note">আজ কোনো শব্দ due নেই ✓ Vocabulary-তে নতুন শব্দ যোগ করলে সেগুলো Day 1 → 3 → 7 → 14 → 30 ধাপে এখানে আসবে।</p>';return;}
+  $('revList').innerHTML='<p class="meta">আজ due: '+bn(due.length)+'টি শব্দ — শব্দে tap করে অর্থ দেখো, তারপর জানি / জানি না দাও।</p>'+due.map(function(w){
+    var v=store.mine.filter(function(x){return x.w===w;})[0]||{w:w};
+    return '<div class="word-row"><b>'+esc(w)+'</b><span class="hidden" data-rev="'+esc(w)+'">'
+      +(v.bn?'<small>বাংলা: '+esc(v.bn)+'</small>':'')+(v.def?'<small>'+esc(v.def)+'</small>':'')+(v.sentence?'<small>বাক্য: '+esc(v.sentence)+'</small>':'')+'</span>'
+      +'<div><button class="btn ghost" data-show="'+esc(w)+'">অর্থ দেখো</button> '
+      +'<button class="btn" data-know="'+esc(w)+'">✓ জানি</button> '
+      +'<button class="btn bad" data-dunno="'+esc(w)+'">✗ জানি না</button></div></div>';
+  }).join('');
+  $('revList').querySelectorAll('[data-show]').forEach(function(b){b.addEventListener('click',function(){
+    var el=$('revList').querySelector('[data-rev="'+b.dataset.show+'"]');if(el)el.classList.remove('hidden');
+  });});
+  function grade(w,know){
+    var s=store.srs[w];if(!s)return;
+    if(know){s.stage=Math.min(s.stage+1,INTERVALS.length-1);s.due=addDays(today(),INTERVALS[s.stage]);}
+    else{s.stage=0;s.due=addDays(today(),INTERVALS[0]);}
+    touch();renderRevision();
+  }
+  $('revList').querySelectorAll('[data-know]').forEach(function(b){b.addEventListener('click',function(){grade(b.dataset.know,true);});});
+  $('revList').querySelectorAll('[data-dunno]').forEach(function(b){b.addEventListener('click',function(){grade(b.dataset.dunno,false);});});
+}
+
+/* ---------- practice ---------- */
+function renderPracticeHome(){
+  var h=store.practice.slice().reverse().slice(0,8);
+  $('pracHist').innerHTML='<h3>আগের practice</h3>'+(h.length?h.map(function(p){
+    return '<div class="word-row"><b>'+esc(p.type)+'</b> — '+bn(p.score)+'/'+bn(p.total)+' সঠিক<small>'+esc(p.date)+'</small></div>';
+  }).join(''):'<p class="meta">এখনো কোনো practice করোনি।</p>');
+}
+var prac=null;
+function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
+function practicePool(){
+  var bank=bankWords(),words={};
+  Object.keys(bank).forEach(function(w){words[w]={w:w,sentence:bank[w].sentence};});
+  store.mine.forEach(function(v){words[v.w]={w:v.w,sentence:v.sentence,def:v.def};});
+  return Object.keys(words).map(function(k){return words[k];});
+}
+function startPractice(type){
+  var pool=practicePool();
+  if(pool.length<4){alert('Practice-এর জন্য অন্তত 4টি শব্দ দরকার — আরো editorial আসলে bank বড় হবে।');return;}
+  if(type==='flash'){show('view-revision');return;}
+  prac={type:type,qs:[],i:0,score:0};
+  var picks=shuffle(pool.slice()).slice(0,10);
+  var jobs=picks.map(function(p){
+    if(type==='cloze'){
+      return Promise.resolve({w:p.w,q:(p.sentence||'').replace(new RegExp(p.w,'i'),'_____')||('_____ — এই শব্দটি কোন বাক্যে এসেছিল?'),opts:null});
+    }
+    return fetchDict(p.w).then(function(d){
+      if(!d||!d.def)return null;
+      return {w:p.w,q:'“'+p.w+'” শব্দের সঠিক অর্থ কোনটি?',def:d.def};
+    });
+  });
+  Promise.all(jobs).then(function(res){
+    res=res.filter(Boolean);
+    if(type==='mcq'){
+      var defs=res.map(function(r){return r.def;});
+      res.forEach(function(r){
+        var others=shuffle(defs.filter(function(d){return d!==r.def;})).slice(0,3);
+        r.opts=shuffle([r.def].concat(others));r.answer=r.def;
+      });
+    }else{
+      var ws=pool.map(function(p){return p.w;});
+      res.forEach(function(r){
+        var others=shuffle(ws.filter(function(w){return w!==r.w;})).slice(0,3);
+        r.opts=shuffle([r.w].concat(others));r.answer=r.w;
+      });
+    }
+    prac.qs=res;
+    if(res.length<3){alert('এই মুহূর্তে যথেষ্ট প্রশ্ন বানানো যাচ্ছে না — internet connection দেখে আবার চেষ্টা করো।');prac=null;return;}
+    $('pracHome').classList.add('hidden');$('pracRun').classList.remove('hidden');
+    renderQ();
+  });
+}
+function renderQ(){
+  var q=prac.qs[prac.i];
+  $('pracRun').innerHTML='<p class="meta">প্রশ্ন '+bn(prac.i+1)+'/'+bn(prac.qs.length)+' · স্কোর '+bn(prac.score)+'</p>'
+    +'<h3 style="line-height:1.55">'+esc(q.q)+'</h3><div class="opts">'
+    +q.opts.map(function(o){return '<button data-opt="'+esc(o)+'">'+esc(o)+'</button>';}).join('')+'</div>';
+  $('pracRun').querySelectorAll('[data-opt]').forEach(function(b){b.addEventListener('click',function(){
+    var right=b.dataset.opt===q.answer;
+    b.classList.add(right?'right':'wrong');
+    if(right)prac.score++;
+    $('pracRun').querySelectorAll('[data-opt]').forEach(function(x){
+      x.disabled=true;if(x.dataset.opt===q.answer)x.classList.add('right');
+    });
+    setTimeout(function(){
+      prac.i++;
+      if(prac.i<prac.qs.length)renderQ();else finishPractice();
+    },900);
+  });});
+}
+function finishPractice(){
+  store.practice.push({date:today(),type:prac.type==='mcq'?'অর্থ MCQ':'Cloze',score:prac.score,total:prac.qs.length});
+  touch();
+  $('pracRun').innerHTML='<h3>শেষ! স্কোর: '+bn(prac.score)+'/'+bn(prac.qs.length)+'</h3>'
+    +'<button class="btn" id="pracAgain">আবার practice করো</button>';
+  $('pracAgain').addEventListener('click',function(){
+    $('pracRun').classList.add('hidden');$('pracHome').classList.remove('hidden');renderPracticeHome();
+  });
+  prac=null;
+}
+document.querySelectorAll('[data-prac]').forEach(function(b){b.addEventListener('click',function(){startPractice(b.dataset.prac);});});
+
+/* ---------- archive ---------- */
+function renderArchive(){
+  $('archDay').classList.add('hidden');$('archList').classList.remove('hidden');
+  var ds=datesOf(DATA.articles);
+  $('archList').innerHTML=ds.map(function(d){
+    var day=DATA.articles.filter(function(a){return a.date===d;});
+    var words=0;day.forEach(function(a){words+=(a.words||[]).length;});
+    return '<div class="card" data-date="'+d+'"><h3>'+d+'</h3><div class="meta">'
+      +bn(day.filter(function(a){return a.kind==='editorial';}).length)+' editorial · '
+      +bn(day.filter(function(a){return a.kind==='news';}).length)+' news · '+bn(words)+' শব্দ</div></div>';
+  }).join('');
+  $('archList').querySelectorAll('[data-date]').forEach(function(c){c.addEventListener('click',function(){openDay(c.dataset.date);});});
+}
+function openDay(d){
+  var day=DATA.articles.filter(function(a){return a.date===d;});
+  var wset={};day.forEach(function(a){(a.words||[]).forEach(function(w){wset[w.w]=w;});});
+  $('archList').classList.add('hidden');$('archDay').classList.remove('hidden');
+  $('archDay').innerHTML='<button class="back" id="archBack">← সব date</button><h3>'+d+'</h3>'
+    +'<h4>Editorial ('+bn(day.filter(function(a){return a.kind==='editorial';}).length)+')</h4>'
+    +day.filter(function(a){return a.kind==='editorial';}).map(cardHTML).join('')
+    +'<h4>News ('+bn(day.filter(function(a){return a.kind==='news';}).length)+')</h4>'
+    +day.filter(function(a){return a.kind==='news';}).map(cardHTML).join('')
+    +'<h4>শব্দ ('+bn(Object.keys(wset).length)+')</h4>'
+    +Object.keys(wset).map(function(w){return '<span class="chip" data-chip="'+esc(w)+'">'+esc(w)+'</span>';}).join('');
+  $('archBack').addEventListener('click',renderArchive);
+  bindCards($('archDay'));
+  $('archDay').querySelectorAll('[data-chip]').forEach(function(c){c.addEventListener('click',function(){lookup(c.dataset.chip,null);});});
+}
+
+/* ---------- bookmarks + progress ---------- */
 function renderMarks(){
   var items=DATA.articles.filter(function(a){return store.marks.indexOf(a.url)>=0;});
-  $('markList').innerHTML=items.length?items.map(cardHTML).join(''):'<p class="meta">এখনো কোনো bookmark নেই — editorial-এর পাশে ☆ চাপ দাও।</p>';
+  $('markList').innerHTML=items.length?items.map(cardHTML).join(''):'<p class="meta">এখনো কোনো bookmark নেই — লেখার পাশে ☆ চাপ দাও।</p>';
   bindCards($('markList'));
 }
-$('q').addEventListener('input',renderList);
-$('dateSel').addEventListener('change',renderList);
+function renderProgress(){
+  var bank=bankWords();
+  var stages=[0,0,0,0,0];
+  Object.keys(store.srs).forEach(function(w){stages[store.srs[w].stage]++;});
+  var pracTot=store.practice.reduce(function(s,p){return s+p.total;},0);
+  var pracOk=store.practice.reduce(function(s,p){return s+p.score;},0);
+  var days=Object.keys(store.activity).sort();
+  var streak=0,cur=today();
+  if(!store.activity[cur])cur=addDays(cur,-1);
+  while(store.activity[cur]){streak++;cur=addDays(cur,-1);}
+  $('progBody').innerHTML=
+    '<span class="stat"><b>'+bn(Object.keys(bank).length+store.mine.length)+'</b>Bank-এ মোট শব্দ</span>'
+   +'<span class="stat"><b>'+bn(store.mine.length)+'</b>তোমার যোগ করা</span>'
+   +'<span class="stat"><b>'+bn(dueWords().length)+'</b>আজ due</span>'
+   +'<span class="stat"><b>'+bn(stages[4])+'</b>Mastered (Day 30 পার)</span>'
+   +'<span class="stat"><b>'+bn(Object.keys(store.read).length)+'</b>লেখা পড়া হয়েছে</span>'
+   +'<span class="stat"><b>'+bn(store.marks.length)+'</b>Bookmark</span>'
+   +'<span class="stat"><b>'+(pracTot?bn(Math.round(pracOk*100/pracTot))+'%':'—')+'</b>Practice accuracy ('+bn(store.practice.length)+' session)</span>'
+   +'<span class="stat"><b>'+bn(streak)+' দিন</b>Streak</span>'
+   +'<h3 style="margin-top:16px">Revision stage</h3>'
+   +INTERVALS.map(function(iv,i){return '<div class="word-row"><b>Day '+bn(iv)+'</b><small>'+bn(stages[i])+'টি শব্দ এই stage-এ</small></div>';}).join('');
+}
+
+/* ---------- boot ---------- */
 fetch('data/articles.json').then(function(r){return r.json();}).then(function(j){
   DATA=j;$('updated').textContent='সর্বশেষ update: '+(j.updated||'').slice(0,10);
-  renderDates(dates()[0]);renderList();
-}).catch(function(){$('list').innerHTML='<p class="note">Data load হয়নি — internet connection দেখে আবার খোলো।</p>';});
+  fillDates($('dateSel'),editorials(),datesOf(editorials())[0]);
+  fillDates($('newsDateSel'),newsItems(),datesOf(newsItems())[0]);
+  renderList();renderNews();renderHome();
+}).catch(function(){$('homeToday').innerHTML='<p class="note">Data load হয়নি — internet connection দেখে আবার খোলো।</p>';});
 </script>
 </body>
 </html>
