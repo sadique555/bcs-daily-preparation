@@ -1,0 +1,44 @@
+name: Daily Editorial Collection
+
+on:
+  schedule:
+    # 06:30 Asia/Dhaka = 00:30 UTC
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect editorials
+        run: python collect.py
+      - name: Commit updated data
+        run: |
+          git config user.name "bcs-daily-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/articles.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Daily collection $(date -u +%F)"
+            git push
+          fi
+      # Deploy in the same run: pushes made with GITHUB_TOKEN do not
+      # trigger other workflows, so the site update must happen here.
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
