@@ -219,6 +219,7 @@
     <div id="hubStat"></div>
     <button class="hubbtn" data-go2="view-rules"><span class="mi c1">📚</span><span><b>অনুবাদের নিয়ম</b><span class="d">Basic থেকে Advanced — formula, example, সাধারণ ভুল</span></span><span class="arr c1">→</span></button>
     <button class="hubbtn" data-go2="view-translate"><span class="mi c5">✍️</span><span><b>অনুবাদ প্র্যাকটিস</b><span class="d">নিজে অনুবাদ করো — বাক্য ধরে ধরে তাৎক্ষণিক যাচাই</span></span><span class="arr c5">→</span></button>
+    <button class="hubbtn" data-go2="view-verify"><span class="mi c2">✓</span><span><b>অনুবাদ যাচাই</b><span class="d">নিজের বাক্য + নিজের অনুবাদ — ভুল জায়গায় লাল দাগ, ভুলের তালিকা</span></span><span class="arr c2">→</span></button>
     <button class="hubbtn" data-go2="view-mistakes"><span class="mi c4">📕</span><span><b>ভুলের খাতা</b><span class="d">ভুল হওয়া বাক্য নিজে নিজে জমা হয় — আবার চেষ্টা, আয়ত্ত ✓</span></span><span class="arr c4">→</span></button>
     <button class="hubbtn" data-go2="view-checker"><span class="mi c3">🔍</span><span><b>চেকার</b><span class="d">যেকোনো বাক্যের তাৎক্ষণিক অনুবাদ + Learning Mode</span></span><span class="arr c3">→</span></button>
     <p class="note" style="margin-top:14px">শিক্ষকের সাথে আলোচনা (chat) আর গভীর AI মতামত শুধু server app "Bangla to English Translation"-এ আছে — এই free version-এ যাচাই হয় তাৎক্ষণিক, phone-এই। তোমার ভুলের খাতা ও level এই phone-এই save থাকে।</p>
@@ -230,6 +231,18 @@
     <header class="top"><h1>📚 অনুবাদের নিয়ম</h1><p>Basic → Intermediate → Advanced · প্রতিটিতে formula, উদাহরণ, সাধারণ ভুল</p></header>
     <input type="search" id="rq" placeholder="🔍 নিয়ম খুঁজো... (যেমন: tense, article, passive)">
     <div id="rulesList"></div>
+  </section>
+
+  <!-- VERIFY -->
+  <section id="view-verify" class="hidden">
+    <button class="back" data-go2="view-thub">← Translation Master</button>
+    <header class="top"><h1>✓ অনুবাদ যাচাই</h1><p>ধাপ ১-এ বাংলা বাক্য, ধাপ ২-তে তোমার English অনুবাদ — ভুল জায়গায় লাল দাগসহ ফল</p></header>
+    <p class="meta" style="margin-top:10px">ধাপ ১: বাংলা বাক্য</p>
+    <textarea id="vfBn" placeholder="যেমন: আমি প্রতিদিন বিশ্ববিদ্যালয়ে যাই।"></textarea>
+    <p class="meta">ধাপ ২: তোমার English অনুবাদ</p>
+    <textarea id="vfEn" placeholder="Write your English translation here..."></textarea>
+    <button class="btn" id="vfGo" style="width:100%;padding:14px;font-size:16px">✓ যাচাই করো</button>
+    <div id="vfOut"></div>
   </section>
 
   <!-- MISTAKE BOOK -->
@@ -301,7 +314,7 @@
 
 <script>
 var DATA={articles:[]};
-var BUILD='2.7';
+var BUILD='2.8';
 fetch('build.txt',{cache:'no-store'}).then(function(r){return r.text();}).then(function(v){
   v=(v||'').trim();
   if(v&&v!==BUILD&&location.search.indexOf('v=')<0)location.replace(location.pathname+'?v='+v);
@@ -316,7 +329,7 @@ function today(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()
 function addDays(iso,n){var d=new Date(iso+'T00:00:00');d.setDate(d.getDate()+n);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
 function touch(){store.activity[today()]=true;save();}
 var INTERVALS=[1,3,7,14,30];
-var VIEWS=['view-home','view-editorial','view-news','view-read','view-vocab','view-revision','view-practice','view-archive','view-marks','view-progress','view-translate','view-thub','view-rules','view-mistakes','view-checker'];
+var VIEWS=['view-home','view-editorial','view-news','view-read','view-vocab','view-revision','view-practice','view-archive','view-marks','view-progress','view-translate','view-thub','view-rules','view-mistakes','view-checker','view-verify'];
 function show(id){
   VIEWS.forEach(function(v){$(v).classList.toggle('hidden',v!==id);});
   document.querySelectorAll('.tabs button').forEach(function(b){b.classList.toggle('on',b.dataset.v===id);});
@@ -824,6 +837,43 @@ $('ckGo').addEventListener('click',function(){
     }
     $('ckOut').innerHTML=out;
     $('ckOut').querySelectorAll('[data-ckw]').forEach(function(c){c.addEventListener('click',function(){lookup(c.dataset.ckw,null);});});
+  });
+});
+
+/* ---------- verify (অনুবাদ যাচাই) ---------- */
+$('vfGo').addEventListener('click',function(){
+  var b=$('vfBn').value.trim(),e=$('vfEn').value.trim();
+  if(!b||!e){alert('দুটো ঘরই পূরণ করো — আগে বাংলা বাক্য, তারপর তোমার English অনুবাদ।');return;}
+  $('vfOut').innerHTML='<p class="meta" style="margin-top:12px">যাচাই হচ্ছে...</p>';
+  translateRaw(b,'bn|en').then(function(model){
+    if(!model){$('vfOut').innerHTML='<p class="note" style="margin-top:12px">এখন যাচাই করা যাচ্ছে না — internet দেখে আবার চেষ্টা করো।</p>';return;}
+    var rules=ruleChecks(e,'bn2en');
+    var rem={};toks(model).forEach(function(w){rem[w]=(rem[w]||0)+1;});
+    var matchN=0;
+    var marked=e.split(/\s+/).map(function(raw){
+      var n=normTok(raw);
+      if(n&&rem[n]>0){rem[n]--;matchN++;return esc(raw);}
+      return n?'<span class="wrong">'+esc(raw)+'</span>':esc(raw);
+    }).join(' ');
+    var missed=[],seenM={};
+    model.split(/\s+/).forEach(function(w){var n=normTok(w);if(n&&rem[n]>0&&!seenM[n]){seenM[n]=1;missed.push(w);}});
+    var sim=Math.round(100*matchN/Math.max(toks(e).length,toks(model).length,1));
+    var verdict=(sim>=90&&!rules.length)?'Correct':(sim>=60?'Partially Correct':'Incorrect');
+    var vColor=verdict==='Correct'?'#15803d':(verdict==='Incorrect'?'#b91c1c':'#b45309');
+    var errs=rules.map(function(r){return {type:topicOf([r]),why:r};});
+    missed.slice(0,5).forEach(function(w){errs.push({type:'Missing word',why:'“'+w+'” শব্দটি model অনুবাদে আছে, তোমারটায় বাদ পড়েছে।'});});
+    $('vfOut').innerHTML='<div class="sentcard"><h4>ফলাফল: <span style="color:'+vColor+'">'+verdict+'</span> · Model-এর সাথে মিল: '+bn(sim)+'%</h4>'
+      +'<p><b>তোমার অনুবাদ (ভুল জায়গায় লাল দাগ):</b></p><p style="font-size:16.5px;line-height:1.7">'+marked+'</p>'
+      +'<p><b>সংশোধিত / Model অনুবাদ:</b> '+esc(model)+'</p>'
+      +(errs.length?'<h4 style="margin-top:12px">ভুলের তালিকা</h4>'+errs.map(function(x){
+        return '<div class="rulebox" style="margin-top:6px"><b>'+esc(x.type)+':</b> '+esc(x.why)+'</div>';
+      }).join(''):'<p class="okmark">কোনো নিয়ম-ভুল ধরা পড়েনি ✓</p>')
+      +'<p class="meta">একটা বাক্যের একাধিক সঠিক অনুবাদ হতে পারে — লাল মানে এই model-এর সাথে মেলেনি, সবসময় ভুল নয়। ভুল থাকলে তা ভুলের খাতায় জমা হয়েছে।</p></div>';
+    recordMistakes([{src:b,user:e,model:model,sim:sim,rules:rules}],'bn2en');
+    store.trScores.push(sim);store.trScores=store.trScores.slice(-6);save();
+    var lvMsg=adjustLevel();
+    if(lvMsg)$('vfOut').insertAdjacentHTML('beforeend','<p class="note" style="margin-top:10px">'+esc(lvMsg)+'</p>');
+    syncLevelUI();
   });
 });
 
