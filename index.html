@@ -100,6 +100,16 @@
   .sentcard p{margin:6px 0;line-height:1.65}
   .rulebox{background:#fff7ed;border:1px solid #fed7aa;color:#7c2d12;border-radius:12px;padding:9px 12px;font-size:13.5px;margin-top:8px;line-height:1.55}
   @media (prefers-color-scheme:dark){.rulebox{background:#2a1503;border-color:#7c2d12;color:#fdba74}.wrong{background:#450a0a;color:#fca5a5}.miss{color:#fca5a5}}
+  .hubbtn{display:flex;align-items:center;gap:13px;width:100%;text-align:left;background:var(--card);border:0;border-radius:18px;box-shadow:var(--shsm);padding:16px;margin:10px 0;cursor:pointer;font-family:inherit;color:var(--ink)}
+  .hubbtn .mi{width:50px;height:50px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:23px;flex:none}
+  .hubbtn b{font-size:16.5px;display:block}
+  .hubbtn span.d{color:var(--mut);font-size:12.5px}
+  .hubbtn .arr{margin-left:auto;width:27px;height:27px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;flex:none}
+  details.rule{background:var(--card);border-radius:16px;box-shadow:var(--shsm);padding:13px 15px;margin:9px 0}
+  details.rule summary{cursor:pointer;font-size:15.5px}
+  details.rule h5{margin:10px 0 3px;color:var(--acc);font-size:13px}
+  details.rule p{margin:3px 0;line-height:1.6}
+  .lvlchip{display:inline-block;background:var(--accbg);color:var(--acc);border-radius:99px;padding:4px 12px;font-weight:700;font-size:13px}
 </style>
 
 </head>
@@ -186,6 +196,13 @@
       <button class="dirbtn on" id="dirBnEn">বাংলা → English</button>
       <button class="dirbtn" id="dirEnBn">English → বাংলা</button>
     </div>
+    <div class="row" style="display:flex;gap:8px;align-items:center;margin-top:12px;flex-wrap:wrap">
+      <span class="lvlchip" id="lvChip">Level: Beginner</span>
+      <select id="lvSel" style="width:auto;margin:0;padding:9px">
+        <option>Beginner</option><option>Intermediate</option><option>Advanced</option>
+      </select>
+      <button class="btn ghost" id="bankBtn" style="margin:0">🎲 Level অনুযায়ী নতুন বাক্য</button>
+    </div>
     <p class="meta" style="margin-top:14px">মূল লেখা (যেটা অনুবাদ করবে):</p>
     <textarea id="trSrc" placeholder="এখানে মূল বাংলা বা English লেখা দাও..."></textarea>
     <select id="trPick"></select>
@@ -194,6 +211,51 @@
     <textarea id="trMine" placeholder="নিজে অনুবাদ করে এখানে লেখো..."></textarea>
     <button class="btn" id="trCheck" style="width:100%;padding:14px;font-size:16px">✓ Submit — যাচাই করো</button>
     <div id="trOut"></div>
+  </section>
+
+  <!-- TRANSLATION HUB -->
+  <section id="view-thub" class="hidden">
+    <header class="top"><h1>🌐 Translation Master</h1><p>বাংলা ↔ English অনুবাদ শেখা ও অনুশীলন — নিয়ম, প্র্যাকটিস, ভুলের খাতা, চেকার</p></header>
+    <div id="hubStat"></div>
+    <button class="hubbtn" data-go2="view-rules"><span class="mi c1">📚</span><span><b>অনুবাদের নিয়ম</b><span class="d">Basic থেকে Advanced — formula, example, সাধারণ ভুল</span></span><span class="arr c1">→</span></button>
+    <button class="hubbtn" data-go2="view-translate"><span class="mi c5">✍️</span><span><b>অনুবাদ প্র্যাকটিস</b><span class="d">নিজে অনুবাদ করো — বাক্য ধরে ধরে তাৎক্ষণিক যাচাই</span></span><span class="arr c5">→</span></button>
+    <button class="hubbtn" data-go2="view-mistakes"><span class="mi c4">📕</span><span><b>ভুলের খাতা</b><span class="d">ভুল হওয়া বাক্য নিজে নিজে জমা হয় — আবার চেষ্টা, আয়ত্ত ✓</span></span><span class="arr c4">→</span></button>
+    <button class="hubbtn" data-go2="view-checker"><span class="mi c3">🔍</span><span><b>চেকার</b><span class="d">যেকোনো বাক্যের তাৎক্ষণিক অনুবাদ + Learning Mode</span></span><span class="arr c3">→</span></button>
+    <p class="note" style="margin-top:14px">শিক্ষকের সাথে আলোচনা (chat) আর গভীর AI মতামত শুধু server app "Bangla to English Translation"-এ আছে — এই free version-এ যাচাই হয় তাৎক্ষণিক, phone-এই। তোমার ভুলের খাতা ও level এই phone-এই save থাকে।</p>
+  </section>
+
+  <!-- TRANSLATION RULES -->
+  <section id="view-rules" class="hidden">
+    <button class="back" data-go2="view-thub">← Translation Master</button>
+    <header class="top"><h1>📚 অনুবাদের নিয়ম</h1><p>Basic → Intermediate → Advanced · প্রতিটিতে formula, উদাহরণ, সাধারণ ভুল</p></header>
+    <input type="search" id="rq" placeholder="🔍 নিয়ম খুঁজো... (যেমন: tense, article, passive)">
+    <div id="rulesList"></div>
+  </section>
+
+  <!-- MISTAKE BOOK -->
+  <section id="view-mistakes" class="hidden">
+    <button class="back" data-go2="view-thub">← Translation Master</button>
+    <header class="top"><h1>📕 ভুলের খাতা</h1><p>প্র্যাকটিসে ভুল হওয়া বাক্য — আবার চেষ্টা করো, আয়ত্ত হলে ✓ দাও</p></header>
+    <div id="mistList"></div>
+  </section>
+
+  <!-- CHECKER -->
+  <section id="view-checker" class="hidden">
+    <button class="back" data-go2="view-thub">← Translation Master</button>
+    <header class="top"><h1>🔍 অনুবাদ চেকার</h1><p>যেকোনো বাক্য দাও — তাৎক্ষণিক অনুবাদ, বিকল্পসহ</p></header>
+    <div style="display:flex;gap:8px">
+      <button class="dirbtn on" id="ckBnEn">বাংলা → English</button>
+      <button class="dirbtn" id="ckEnBn">English → বাংলা</button>
+    </div>
+    <textarea id="ckSrc" placeholder="এখানে বাক্য লেখো..."></textarea>
+    <div style="display:flex;gap:8px;align-items:center">
+      <select id="ckMode" style="width:auto;margin:0;padding:10px">
+        <option value="learn">Learning Mode (ব্যাখ্যাসহ)</option>
+        <option value="simple">Simple (শুধু অনুবাদ)</option>
+      </select>
+      <button class="btn" id="ckGo" style="margin:0">অনুবাদ করো</button>
+    </div>
+    <div id="ckOut"></div>
   </section>
 
   <!-- ARCHIVE -->
@@ -239,12 +301,12 @@
 
 <script>
 var DATA={articles:[]};
-var BUILD='2.6';
+var BUILD='2.7';
 fetch('build.txt',{cache:'no-store'}).then(function(r){return r.text();}).then(function(v){
   v=(v||'').trim();
   if(v&&v!==BUILD&&location.search.indexOf('v=')<0)location.replace(location.pathname+'?v='+v);
 }).catch(function(){});
-var DEF={marks:[],mine:[],srs:{},read:{},practice:[],dict:{},activity:{},trans:{}};
+var DEF={marks:[],mine:[],srs:{},read:{},practice:[],dict:{},activity:{},trans:{},mist:[],level:'Beginner',trScores:[]};
 var store; try{store=Object.assign({},DEF,JSON.parse(localStorage.getItem('bcsFreeV2')||'{}'));}catch(e){store=Object.assign({},DEF);}
 function save(){localStorage.setItem('bcsFreeV2',JSON.stringify(store));}
 function $(id){return document.getElementById(id);}
@@ -254,7 +316,7 @@ function today(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()
 function addDays(iso,n){var d=new Date(iso+'T00:00:00');d.setDate(d.getDate()+n);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
 function touch(){store.activity[today()]=true;save();}
 var INTERVALS=[1,3,7,14,30];
-var VIEWS=['view-home','view-editorial','view-news','view-read','view-vocab','view-revision','view-practice','view-archive','view-marks','view-progress','view-translate'];
+var VIEWS=['view-home','view-editorial','view-news','view-read','view-vocab','view-revision','view-practice','view-archive','view-marks','view-progress','view-translate','view-thub','view-rules','view-mistakes','view-checker'];
 function show(id){
   VIEWS.forEach(function(v){$(v).classList.toggle('hidden',v!==id);});
   document.querySelectorAll('.tabs button').forEach(function(b){b.classList.toggle('on',b.dataset.v===id);});
@@ -266,8 +328,12 @@ function show(id){
   if(id==='view-progress')renderProgress();
   if(id==='view-archive')renderArchive();
   if(id==='view-practice')renderPracticeHome();
-  if(id==='view-translate')fillTrPick();
+  if(id==='view-translate'){fillTrPick();syncLevelUI();}
+  if(id==='view-thub')renderHub();
+  if(id==='view-rules')renderRules();
+  if(id==='view-mistakes')renderMistakes();
 }
+document.querySelectorAll('[data-go2]').forEach(function(b){b.addEventListener('click',function(){show(b.dataset.go2);});});
 document.querySelectorAll('.tabs button').forEach(function(b){b.addEventListener('click',function(){show(b.dataset.v);});});
 
 /* ---------- data helpers ---------- */
@@ -298,7 +364,7 @@ var MODS=[
  ['view-archive','📅','c6','Archive','এক date-এ সবকিছু'],
  ['view-marks','🔖','c7','Bookmarks','রেখে দেওয়া লেখা'],
  ['view-progress','📈','c8','Progress','তোমার অগ্রগতি'],
- ['view-translate','🌐','c6','অনুবাদ প্র্যাকটিস','Translation check · বাক্য ধরে ধরে','wide']];
+ ['view-thub','🌐','c6','Translation Master','নিয়ম · প্র্যাকটিস · ভুলের খাতা · চেকার','wide']];
 function streakDays(){
   var days=store.activity,cur=today();
   if(!days[cur])cur=addDays(cur,-1);
@@ -562,8 +628,202 @@ $('trCheck').addEventListener('click',function(){
       +'<p class="meta">একটা লেখার অনেক রকম সঠিক অনুবাদ হতে পারে — লাল মানে শুধু এই Model অনুবাদের সাথে মেলেনি, সবসময় ভুল নয়। নিয়ম-ভুলগুলোই আসল সংশোধন। আর Model অনুবাদটা academic ধাঁচে সাজানো — নিজেরটার সাথে মিলিয়ে শেখো।</p>'
       +(ms.length>ss.length?'<p class="miss">তুমি মূল লেখার চেয়ে '+bn(ms.length-ss.length)+'টি বেশি বাক্য লিখেছ — অতিরিক্তগুলো যাচাই হয়নি।</p>':'')
       +'</div>';
+    var details=ss.map(function(s,i){
+      var u=ms[i]||'',ref=refs[i]||'';
+      var rem={};toks(ref).forEach(function(w){rem[w]=(rem[w]||0)+1;});
+      var mn=0;toks(u).forEach(function(w){if(rem[w]>0){rem[w]--;mn++;}});
+      var sim=Math.round(100*mn/Math.max(toks(u).length,toks(ref).length,1));
+      return {src:s,user:u,model:ref,sim:sim,rules:ruleChecks(u,dir)};
+    });
+    recordMistakes(details,dir);
+    store.trScores.push(overall);store.trScores=store.trScores.slice(-6);save();
+    var lvMsg=adjustLevel();
     $('trOut').innerHTML=head+cards;
+    if(lvMsg)$('trOut').insertAdjacentHTML('beforeend','<p class="note" style="margin-top:10px">'+esc(lvMsg)+' (শেষ ৬টি প্র্যাকটিসের গড়ের ভিত্তিতে)</p>');
+    syncLevelUI();
     window.scrollTo(0,$('trOut').offsetTop-10);
+  });
+});
+
+/* ---------- translation master: rules, bank, mistakes, checker ---------- */
+var LEVELS=['Beginner','Intermediate','Advanced'];
+var RULES=[
+{lv:0,t:'বাক্যের গঠন (S + V + O)',f:'Subject + Verb + Object + Place + Time',bn:'বাংলায় ক্রিয়া বসে শেষে, ইংরেজিতে বসে কর্তার ঠিক পরেই — এটাই সবচেয়ে বড় পার্থক্য। বাংলার ক্রম ধরে অনুবাদ করলেই ভুল হয়।',ex:[['আমি ভাত খাই।','I eat rice.'],['রহিম বই পড়ে।','Rahim reads books.']],mi:'✗ I rice eat. → ✓ I eat rice.'},
+{lv:0,t:'Be Verb (am, is, are)',f:'Subject + am/is/are + Complement',bn:'বাংলায় "আমি ছাত্র" বলতে ক্রিয়া লাগে না, ইংরেজিতে লাগে। I → am, He/She/It → is, You/We/They → are; অতীতে was/were।',ex:[['আমি একজন ছাত্র।','I am a student.'],['আকাশ নীল।','The sky is blue.']],mi:'✗ I student. → ✓ I am a student.'},
+{lv:0,t:'Present Indefinite Tense',f:'Sub + V1 (he/she/it হলে +s/es)',bn:'অভ্যাস, চিরসত্য ও দৈনন্দিন কাজে। বাংলায় চেনার উপায়: ক্রিয়ার শেষে -ই, -ও, -এ, -য়।',ex:[['সে সকালে হাঁটে।','He walks in the morning.'],['সূর্য পূর্ব দিকে ওঠে।','The sun rises in the east.']],mi:'✗ I goes to school. → ✓ I go to school.'},
+{lv:0,t:'Present Continuous Tense',f:'Sub + am/is/are + V-ing',bn:'এখন চলমান কাজে। বাংলায় -ছে, -ছি, -ছেন থাকলে সাধারণত এই tense।',ex:[['তারা এখন খেলছে।','They are playing now.'],['সে বই পড়ছে।','She is reading a book.']],mi:'✗ He is play. → ✓ He is playing.'},
+{lv:0,t:'Past Indefinite Tense',f:'Sub + V2 (verb-এর past form)',bn:'শেষ হয়ে যাওয়া কাজে; yesterday, গতকাল, ago থাকলে প্রায় নিশ্চিত।',ex:[['আমরা গতকাল ঢাকায় গিয়েছিলাম।','We went to Dhaka yesterday.'],['সে চিঠিটি লিখেছিল।','He wrote the letter.']],mi:'✗ I have went. → ✓ I went.'},
+{lv:0,t:'Future Indefinite Tense',f:'Sub + will + V1',bn:'ভবিষ্যতের কাজে will + মূল verb — will-এর পরে কখনো s/es বা to নয়।',ex:[['আমি আগামীকাল আসব।','I will come tomorrow.'],['তারা সাহায্য করবে।','They will help.']],mi:'✗ I will comes. → ✓ I will come.'},
+{lv:0,t:'Articles (a, an, the)',f:'a + consonant sound · an + vowel sound · the + নির্দিষ্ট',bn:'বাংলায় "একটি/একজন" = a/an, "সেই/ওই/টি" = the। উচ্চারণের ধ্বনি দেখে a/an বাছতে হয়, বানান দেখে নয় (an honest man)।',ex:[['সে একজন সৎ মানুষ।','He is an honest man.'],['বইটি টেবিলে আছে।','The book is on the table.']],mi:'✗ He is honest man. → ✓ He is an honest man.'},
+{lv:0,t:'Subject-Verb Agreement',f:'He/She/It + V+s/es · I/You/We/They + V',bn:'কর্তা third person একবচন হলেই present tense-এ verb-এ s/es। শিক্ষার্থীরা সবচেয়ে বেশি ভুল করে এখানেই।',ex:[['পাখিটি গান গায়।','The bird sings.'],['পাখিগুলো গান গায়।','The birds sing.']],mi:'✗ They learns. → ✓ They learn.'},
+{lv:0,t:'Pronoun-এর রূপ',f:'কর্তা: I/he/she/they · কর্ম: me/him/her/them',bn:'বাক্যে কর্তা হলে subject রূপ, কর্ম হলে object রূপ বসে।',ex:[['সে আমাকে ডেকেছে।','He has called me.'],['আমি তাকে চিনি।','I know him.']],mi:'✗ Me went there. → ✓ I went there.'},
+{lv:0,t:'Have / Has',f:'I/You/We/They + have · He/She/It + has',bn:'"আছে/রয়েছে" অর্থে অধিকার বোঝাতে have/has।',ex:[['আমার একটি বই আছে।','I have a book.'],['তার অনেক টাকা আছে।','He has a lot of money.']],mi:'✗ She have a car. → ✓ She has a car.'},
+{lv:1,t:'Present Perfect Tense',f:'Sub + have/has + V3',bn:'কাজ শেষ, কিন্তু ফল/সংযোগ এখনো আছে। just, already, ever, never, yet থাকলে এই tense ভাবো।',ex:[['আমি কাজটি শেষ করেছি।','I have finished the work.'],['সে কখনো বিমানে চড়েনি।','He has never flown in a plane.']],mi:'✗ I have went. → ✓ I have gone.'},
+{lv:1,t:'Past Continuous Tense',f:'Sub + was/were + V-ing',bn:'অতীতে চলছিল এমন কাজে; প্রায়ই আরেকটা ছোট ঘটনার পেছনের ছবি হিসেবে আসে।',ex:[['আমি যখন এলাম, সে ঘুমাচ্ছিল।','When I came, he was sleeping.'],['তারা তখন খেলছিল।','They were playing then.']],mi:'✗ He was sleep. → ✓ He was sleeping.'},
+{lv:1,t:'Modal Verbs (can, must, should...)',f:'Sub + modal + V1 (bare infinitive)',bn:'Modal-এর পরে সবসময় মূল verb — s/es নয়, to-ও নয়। উচিত = should, পারা = can, অবশ্যই = must।',ex:[['তোমার আরও পরিশ্রম করা উচিত।','You should work harder.'],['সে সাঁতার কাটতে পারে।','He can swim.']],mi:'✗ He can swims. / You should to go. → ✓ He can swim. / You should go.'},
+{lv:1,t:'Passive Voice',f:'Sub + be + V3 (+ by + doer)',bn:'কর্ম প্রধান হলে passive। বাংলায় "করা হয়েছে/হয়েছিল" ধরনের গঠন দেখলেই passive ভাবো।',ex:[['বইটি রহিম পড়েছে।','The book has been read by Rahim.'],['চিঠিটি লেখা হয়েছিল।','The letter was written.']],mi:'✗ The work was did. → ✓ The work was done.'},
+{lv:1,t:'Conditional Sentences (If...)',f:'If + present → will + V1 · If + past → would + V1',bn:'বাস্তব শর্তে প্রথম ধরন, কাল্পনিক/অবাস্তব শর্তে দ্বিতীয় ধরন। If-অংশে will বসে না।',ex:[['যদি বৃষ্টি হয়, আমরা বাড়িতে থাকব।','If it rains, we will stay at home.'],['টাকা থাকলে আমি বইটি কিনতাম।','If I had money, I would buy the book.']],mi:'✗ If it will rain... → ✓ If it rains...'},
+{lv:1,t:'WH Questions',f:'WH word + do/does/did + Sub + V1 + ?',bn:'প্রশ্নে auxiliary verb কর্তার আগে আসে, মূল verb থাকে base form-এ।',ex:[['তুমি কোথায় থাকো?','Where do you live?'],['সে কেন এসেছিল?','Why did he come?']],mi:'✗ Where you live? → ✓ Where do you live?'},
+{lv:1,t:'Preposition (in, on, at)',f:'at + নির্দিষ্ট সময় · on + দিন/তারিখ · in + মাস/বছর/বড় জায়গা',bn:'সময় ও জায়গা — দুই ক্ষেত্রেই ছোট থেকে বড়: at < on < in।',ex:[['সে সকাল ৭টায় ওঠে।','He gets up at 7 am.'],['আমরা শুক্রবারে যাব।','We will go on Friday.']],mi:'✗ in Monday / at Dhaka → ✓ on Monday / in Dhaka.'},
+{lv:1,t:'Comparative ও Superlative',f:'adj+er + than · the + adj+est · দীর্ঘ adjective-এ more/most',bn:'দুয়ের তুলনায় comparative, সবার মধ্যে superlative। er আর more একসাথে নয়।',ex:[['ঢাকা খুলনার চেয়ে বড়।','Dhaka is bigger than Khulna.'],['সে ক্লাসের সবচেয়ে লম্বা ছেলে।','He is the tallest boy in the class.']],mi:'✗ more bigger → ✓ bigger.'},
+{lv:1,t:'Infinitive ও Gerund',f:'to + V1 (উদ্দেশ্য) · V-ing (কাজটি নিজেই নাম)',bn:'"করতে/শিখতে" ধরনের উদ্দেশ্যে to + V1; কাজটাকে subject করলে V-ing।',ex:[['আমি ইংরেজি শিখতে এসেছি।','I have come to learn English.'],['সাঁতার কাটা ভালো ব্যায়াম।','Swimming is a good exercise.']],mi:'✗ I want learn. → ✓ I want to learn.'},
+{lv:1,t:'Reported Speech (Narration)',f:'reporting verb past হলে tense এক ধাপ পেছায়',bn:'সে বলল... — said থাকলে ভেতরের বাক্যের present → past, will → would হয়।',ex:[['সে বলল, "আমি ভালো আছি।"','He said that he was well.'],['সে জিজ্ঞেস করল আমি যাব কিনা।','He asked if I would go.']],mi:'✗ He said that he is well. → ✓ He said that he was well.'},
+{lv:2,t:'Present Perfect Continuous',f:'Sub + have/has been + V-ing + since/for',bn:'কিছু সময় ধরে চলছে বোঝালে — "ধরে/থেকে" থাকলেই এই tense। since + নির্দিষ্ট সময়, for + ব্যাপ্তি।',ex:[['সে দুই বছর ধরে ঢাকায় থাকে।','She has been living in Dhaka for two years.'],['সকাল থেকে বৃষ্টি হচ্ছে।','It has been raining since morning.']],mi:'✗ She is living in Dhaka for two years. → ✓ She has been living...'},
+{lv:2,t:'Inversion',f:'Negative adverb + auxiliary + Sub + V',bn:'Never, rarely, not only — এগুলো বাক্যের শুরুতে এলে জোর দিতে inversion হয়।',ex:[['আমি কখনো এমন দেখিনি।','Never have I seen such a thing.'],['সে শুধু এলোই না, সাহায্যও করল।','Not only did he come, but he also helped.']],mi:'✗ Never I have seen. → ✓ Never have I seen.'},
+{lv:2,t:'Subjunctive',f:'If + were (সবার জন্য) · suggest/demand + that + Sub + bare V1',bn:'কাল্পনিক ইচ্ছায় was নয়, were। প্রস্তাব/দাবির পরের that-বাক্যে verb-এর base form।',ex:[['আমি যদি পাখি হতাম!','If I were a bird!'],['আমি প্রস্তাব করি সে বিশ্রাম নিক।','I suggest that he take rest.']],mi:'✗ If I was a bird (কাল্পনিক অর্থে) → ✓ If I were a bird.'},
+{lv:2,t:'Relative Clause (who/which/that)',f:'who = ব্যক্তি · which = বস্তু · that = দুটোতেই',bn:'"যে/যেটি" দিয়ে জোড়া বাক্যে relative pronoun ঠিকমতো বাছাই করাই মূল কাজ।',ex:[['যে ছেলেটি প্রথম হয়েছে, সে আমার ভাই।','The boy who stood first is my brother.'],['যে বইটি কিনেছিলাম তা হারিয়ে গেছে।','The book that I bought is lost.']],mi:'✗ The boy which stood first → ✓ The boy who stood first.'},
+{lv:2,t:'Participle Phrase',f:'V-ing / Having + V3 phrase + main clause',bn:'দুটি বাক্য এক করতে participle phrase — তবে phrase-এর কর্তা আর main clause-এর কর্তা একই হতে হবে (dangling modifier ভুল)।',ex:[['চিঠিটি লিখে সে ঘুমিয়ে পড়ল।','Having written the letter, he went to sleep.'],['সূর্য উঠলে তারা রওনা হলো।','The sun having risen, they set out.']],mi:'✗ Walking down the road, the tree was seen. (কর্তা মেলে না)'},
+{lv:2,t:'Causative (have / get)',f:'Sub + have/get + Object + V3',bn:'নিজে না করে করিয়ে নিলে causative। "কাটিয়েছি/করিয়েছি" দেখলেই এই গঠন।',ex:[['আমি চুল কাটিয়েছি।','I have got my hair cut.'],['সে ঘরটি পরিষ্কার করিয়েছিল।','He got the room cleaned.']],mi:'✗ I have cut my hair. (অন্যে কেটে দিলে) → ✓ I have got my hair cut.'},
+{lv:2,t:'জটিল বাক্য (Though / Although)',f:'Although + clause, main clause (but নয়)',bn:'বাংলায় "-লেও/যদিও" থাকলে although/though — কিন্তু একই বাক্যে although আর but দুটো নয়।',ex:[['সরকার নতুন নীতি ঘোষণা করলেও জনগণের আস্থা ফেরেনি।','Although the government announced a new policy, people\'s confidence did not return.'],['যদিও সে অসুস্থ, সে পরীক্ষা দিয়েছে।','Though he is ill, he has sat for the exam.']],mi:'✗ Although he is ill, but he came. → ✓ Although he is ill, he came.'},
+{lv:2,t:'Academic / আনুষ্ঠানিক রীতি',f:'Passive ও formal শব্দ বেশি · আক্ষরিক নয়, প্রচলিত রূপ',bn:'BCS ও editorial অনুবাদে সহজ শব্দের বদলে প্রচলিত formal রূপ নিতে হয় — backbone, at risk, pose a threat জাতীয়।',ex:[['দ্রুত নগরায়ণের ফলে পরিবেশ হুমকির মুখে পড়েছে।','Rapid urbanization has put the environment at serious risk.'],['শিক্ষাই জাতির মেরুদণ্ড।','Education is the backbone of a nation.']],mi:'✗ Education is the spine of the nation. (আক্ষরিক) → ✓ ...backbone...'},
+{lv:2,t:'প্রবাদ ও ইডিয়মের অনুবাদ',f:'আক্ষরিক নয় — সমতুল্য ইংরেজি প্রবচন',bn:'প্রবাদের শব্দ ধরে অনুবাদ করলে অর্থ নষ্ট হয়; ভাবের মিল আছে এমন ইংরেজি প্রবচন বসাতে হয়।',ex:[['সময় থাকতে ব্যবস্থা নেওয়া ভালো।','Prevention is better than cure.'],['অতি লোভে তাঁতি নষ্ট।','Grasp all, lose all.']],mi:'✗ শব্দে শব্দে অনুবাদে প্রবাদের অর্থ হারায়।'},
+{lv:2,t:'Emphasis (It is ... that/who)',f:'It is + জোরের অংশ + that/who + বাকি',bn:'বাংলায় "-ই" দিয়ে যেখানে জোর (আমিই, তাকেই), ইংরেজিতে এই cleft গঠন ব্যবহার হয়।',ex:[['আমিই কাজটি করেছি।','It is I who have done the work.'],['তাকেই আমার সবচেয়ে বেশি প্রয়োজন।','It is he whom I need most.']],mi:'জোরের অংশ ভুল জায়গায় বসলে অর্থ বদলে যায়।'}
+];
+var BANK={
+Beginner:[['আমি প্রতিদিন বিশ্ববিদ্যালয়ে যাই।','Present Indefinite'],['সে একজন শিক্ষক।','Be Verb / Article'],['আমার একটি বই আছে।','Have/Has'],['তারা এখন খেলছে।','Present Continuous'],['আমরা গতকাল ঢাকায় গিয়েছিলাম।','Past Indefinite'],['সে প্রতিদিন সকালে হাঁটে।','Present Indefinite'],['পাখিটি গান গায়।','Subject-Verb Agreement'],['আমি আগামীকাল আসব।','Future']],
+Intermediate:[['যদি বৃষ্টি হয়, আমরা বাড়িতে থাকব।','Conditional'],['বইটি রহিম পড়েছে।','Passive Voice'],['তুমি কোথায় থাকো?','WH Questions'],['তোমার আরও পরিশ্রম করা উচিত।','Modal Verbs'],['আমি কাজটি শেষ করেছি।','Present Perfect'],['আমি যখন এলাম, সে ঘুমাচ্ছিল।','Past Continuous'],['ঢাকা খুলনার চেয়ে বড়।','Comparative'],['সে বলল সে ভালো আছে।','Narration']],
+Advanced:[['দ্রুত নগরায়ণের ফলে পরিবেশ মারাত্মক হুমকির মুখে পড়েছে।','Academic / Complex'],['সরকার নতুন নীতি ঘোষণা করলেও জনগণের আস্থা ফেরেনি।','Complex / Although'],['সময় থাকতে ব্যবস্থা নেওয়া ভালো।','Idiomatic'],['আমি যদি ধনী হতাম, গরিবদের সাহায্য করতাম।','Subjunctive'],['সে দুই বছর ধরে ঢাকায় থাকে।','Perfect Continuous'],['শিক্ষাই জাতির মেরুদণ্ড।','Academic']]};
+function renderHub(){
+  var un=store.mist.filter(function(x){return !x.mastered;}).length;
+  $('hubStat').innerHTML='<div class="statstrip">'
+   +'<div class="st"><span class="ic">🎚️</span><b>'+esc(store.level)+'</b><span class="lbl">তোমার Level</span></div>'
+   +'<div class="st"><span class="ic">📚</span><b>'+bn(RULES.length)+'</b><span class="lbl">মোট নিয়ম</span></div>'
+   +'<div class="st"><span class="ic">📕</span><b>'+bn(un)+'</b><span class="lbl">ভুলের খাতায়</span></div>'
+   +'<div class="st"><span class="ic">✍️</span><b>'+bn(store.trScores.length?store.trScores[store.trScores.length-1]:0)+'%</b><span class="lbl">শেষ স্কোর</span></div></div>';
+}
+function renderRules(){
+  var q=($('rq').value||'').toLowerCase();
+  var names=['Basic','Intermediate','Advanced'];
+  $('rulesList').innerHTML=LEVELS.map(function(lv,li){
+    var rs=RULES.filter(function(r){return r.lv===li&&(!q||(r.t+' '+r.bn).toLowerCase().indexOf(q)>=0);});
+    if(!rs.length)return '';
+    return '<h3 class="sect">'+names[li]+' ('+bn(rs.length)+'টি নিয়ম)</h3>'+rs.map(function(r){
+      return '<details class="rule"><summary><b>'+esc(r.t)+'</b></summary>'
+       +'<h5>ব্যাখ্যা</h5><p>'+esc(r.bn)+'</p>'
+       +'<h5>Formula</h5><p><b>'+esc(r.f)+'</b></p>'
+       +'<h5>উদাহরণ</h5>'+r.ex.map(function(e){return '<p>'+esc(e[0])+' → <b>'+esc(e[1])+'</b></p>';}).join('')
+       +'<h5>সাধারণ ভুল</h5><p class="miss">'+esc(r.mi)+'</p></details>';
+    }).join('');
+  }).join('')||'<p class="meta">কোনো নিয়ম মেলেনি।</p>';
+}
+$('rq').addEventListener('input',renderRules);
+function topicOf(rules){
+  var j=(rules||[]).join(' ');
+  if(/s\/es/.test(j))return 'Verb-এর s/es';
+  if(/\ban\b|article/i.test(j))return 'Article';
+  if(/did/.test(j))return 'Did + base form';
+  if(/Capital/.test(j))return 'Capital letter';
+  if(/দাড়ি/.test(j))return 'দাড়ি/যতিচিহ্ন';
+  if(/full stop|বিরামচিহ্ন/.test(j))return 'যতিচিহ্ন';
+  if(/English শব্দ/.test(j))return 'অনুবাদ অসম্পূর্ণ';
+  return 'ব্যাকরণ';
+}
+function recordMistakes(details,dir){
+  details.forEach(function(d){
+    if(!d.user)return;
+    if(!(d.rules.length||d.sim<80))return;
+    var dup=store.mist.some(function(x){return !x.mastered&&x.src===d.src&&x.user===d.user;});
+    if(dup)return;
+    store.mist.push({src:d.src,user:d.user,model:d.model,rules:d.rules,topic:topicOf(d.rules),sim:d.sim,dir:dir,date:today(),mastered:false});
+  });
+  store.mist=store.mist.slice(-100);save();
+}
+function renderMistakes(){
+  var un=store.mist.filter(function(x){return !x.mastered;});
+  var cnt={};un.forEach(function(x){cnt[x.topic]=(cnt[x.topic]||0)+1;});
+  var top=Object.keys(cnt).sort(function(a,b){return cnt[b]-cnt[a];})[0];
+  var warn=(top&&cnt[top]>=2)?'<p class="note">⚠️ তুমি “'+esc(top)+'” বিষয়ে বারবার ভুল করছ ('+bn(cnt[top])+'বার) — Rules section-এ এই বিষয়টা আবার পড়ে নাও।</p>':'';
+  $('mistList').innerHTML=warn+(un.length?un.map(function(x){
+    var i=store.mist.indexOf(x);
+    return '<div class="word-row"><span class="tag">'+esc(x.topic)+'</span> <span class="tag grey">'+esc(x.date)+'</span>'
+     +'<p style="margin:8px 0 2px"><b>মূল:</b> '+esc(x.src)+'</p>'
+     +'<p style="margin:2px 0"><b>তোমার:</b> '+esc(x.user)+'</p>'
+     +'<p style="margin:2px 0"><b>Model:</b> '+esc(x.model)+'</p>'
+     +(x.rules.length?'<div class="rulebox">📌 '+x.rules.map(esc).join('<br>')+'</div>':'')
+     +'<div style="margin-top:8px"><button class="btn" data-retry="'+i+'">↻ আবার চেষ্টা করো</button> <button class="btn ghost" data-master="'+i+'">✓ আয়ত্ত হয়েছে</button></div></div>';
+  }).join(''):'<p class="note">ভুলের খাতা খালি ✓ — প্র্যাকটিসে ভুল হলে এখানে নিজে নিজে জমা হবে।</p>');
+  $('mistList').querySelectorAll('[data-retry]').forEach(function(b){b.addEventListener('click',function(){
+    var x=store.mist[+b.dataset.retry];if(!x)return;
+    show('view-translate');
+    $('trSrc').value=x.src;setDir(x.dir||'bn2en');$('trMine').value='';$('trOut').innerHTML='';
+  });});
+  $('mistList').querySelectorAll('[data-master]').forEach(function(b){b.addEventListener('click',function(){
+    store.mist[+b.dataset.master].mastered=true;save();renderMistakes();
+  });});
+}
+function syncLevelUI(){
+  if($('lvChip'))$('lvChip').textContent='Level: '+store.level;
+  if($('lvSel'))$('lvSel').value=store.level;
+}
+$('lvSel').addEventListener('change',function(){store.level=this.value;save();syncLevelUI();});
+$('bankBtn').addEventListener('click',function(){
+  var b=BANK[store.level]||[];if(!b.length)return;
+  var p=b[Math.floor(Math.random()*b.length)];
+  $('trSrc').value=p[0];setDir('bn2en');$('trMine').value='';$('trOut').innerHTML='';
+  alert('Level: '+store.level+' · বিষয়: '+p[1]+'\nএখন নিজে অনুবাদ করে Submit দাও।');
+});
+function adjustLevel(){
+  var sc=store.trScores;if(sc.length<6)return null;
+  var avg=sc.reduce(function(a,b){return a+b;},0)/sc.length;
+  var i=LEVELS.indexOf(store.level);
+  if(avg>85&&i<2){store.level=LEVELS[i+1];save();return '🎉 Level বেড়ে '+store.level+' হয়েছে!';}
+  if(avg<35&&i>0){store.level=LEVELS[i-1];save();return 'Level কমে '+store.level+' হয়েছে — Rules পড়ে আবার চেষ্টা করো।';}
+  return null;
+}
+/* ---------- checker ---------- */
+var ckDir='bn2en';
+function setCkDir(d){
+  ckDir=d;
+  $('ckBnEn').classList.toggle('on',d==='bn2en');
+  $('ckEnBn').classList.toggle('on',d==='enbn');
+}
+$('ckBnEn').addEventListener('click',function(){setCkDir('bn2en');});
+$('ckEnBn').addEventListener('click',function(){setCkDir('enbn');});
+function guessTense(s){
+  if(/\b(has|have) been\b[^.]*ing\b/i.test(s))return 'Present Perfect Continuous (সম্ভাব্য)';
+  if(/\b(has|have)\b[^.]*\b(been|gone|done|seen|written|taken|given)\b/i.test(s)||/\b(has|have)\s+\w+ed\b/i.test(s))return 'Present Perfect (সম্ভাব্য)';
+  if(/\b(was|were)\b[^.]*ing\b/i.test(s))return 'Past Continuous (সম্ভাব্য)';
+  if(/\b(am|is|are)\b[^.]*ing\b/i.test(s))return 'Present Continuous (সম্ভাব্য)';
+  if(/\bwill\b/i.test(s))return 'Future (সম্ভাব্য)';
+  return '';
+}
+function translateFull(text,pair){
+  return fetch('https://api.mymemory.translated.net/get?q='+encodeURIComponent(text.slice(0,450))+'&langpair='+encodeURIComponent(pair))
+    .then(function(r){return r.json();})
+    .then(function(t){
+      var main=(t&&t.responseData&&t.responseData.translatedText)||'';
+      var alts=[],seen={};
+      (t.matches||[]).forEach(function(m){
+        var x=(m.translation||'').trim();
+        if(x&&x.toLowerCase()!==main.toLowerCase()&&!seen[x.toLowerCase()]){seen[x.toLowerCase()]=1;alts.push(x);}
+      });
+      return {main:main,alts:alts.slice(0,3)};
+    })
+    .catch(function(){return {main:'',alts:[]};});
+}
+$('ckGo').addEventListener('click',function(){
+  var text=$('ckSrc').value.trim();
+  if(!text){alert('আগে একটা বাক্য লেখো।');return;}
+  var pair=ckDir==='bn2en'?'bn|en':'en|bn',mode=$('ckMode').value;
+  $('ckOut').innerHTML='<p class="meta" style="margin-top:12px">অনুবাদ হচ্ছে...</p>';
+  translateFull(text,pair).then(function(r){
+    if(!r.main){$('ckOut').innerHTML='<p class="note" style="margin-top:12px">এখন অনুবাদ আনা যাচ্ছে না — internet দেখে আবার চেষ্টা করো।</p>';return;}
+    var out='<div class="sentcard"><h4>অনুবাদ</h4><p style="font-size:17px">'+esc(r.main)+'</p>'
+      +(r.alts.length?'<p class="meta">বিকল্প রূপ: '+r.alts.map(esc).join(' · ')+'</p>':'')+'</div>';
+    if(mode==='learn'){
+      var tense=ckDir==='bn2en'?guessTense(r.main):'';
+      var vocabSrc=ckDir==='bn2en'?r.main:text;
+      var words=[],seenW={};
+      (vocabSrc.match(/[A-Za-z][A-Za-z'-]{2,}/g)||[]).forEach(function(w){
+        var lw=w.toLowerCase();if(!seenW[lw]){seenW[lw]=1;words.push(w);}
+      });
+      out+='<div class="sentcard"><h4>Learning</h4>'
+        +(tense?'<p><b>Tense:</b> '+esc(tense)+'</p>':'')
+        +'<p class="meta">নিচের যেকোনো English শব্দে tap করলে তার অর্থ ও বাংলা অর্থ দেখতে পাবে:</p>'
+        +'<p>'+words.slice(0,14).map(function(w){return '<span class="chip" data-ckw="'+esc(w)+'">'+esc(w)+'</span>';}).join(' ')+'</p></div>';
+    }
+    $('ckOut').innerHTML=out;
+    $('ckOut').querySelectorAll('[data-ckw]').forEach(function(c){c.addEventListener('click',function(){lookup(c.dataset.ckw,null);});});
   });
 });
 
