@@ -239,7 +239,7 @@
 
 <script>
 var DATA={articles:[]};
-var BUILD='2.5';
+var BUILD='2.6';
 fetch('build.txt',{cache:'no-store'}).then(function(r){return r.text();}).then(function(v){
   v=(v||'').trim();
   if(v&&v!==BUILD&&location.search.indexOf('v=')<0)location.replace(location.pathname+'?v='+v);
@@ -515,8 +515,8 @@ function ruleChecks(sent,dir){
     if(m)out.push('"a '+m[1]+'" ভুল — vowel sound দিয়ে শুরু হওয়া শব্দের আগে "a" নয়, "an" বসে: "an '+m[1]+'"।');
     m=sent.match(/\b(he|she|it)\s+(go|come|do|play|read|write|eat|drink|sing|work|live|like|want|need|run|walk|speak|study)\b/i);
     if(m)out.push('"'+m[1]+' '+m[2]+'" — Present Indefinite tense-এ third person singular (he/she/it) হলে মূল verb-এর সাথে s/es যোগ হয়: "'+m[1]+' '+m[2]+'s"।');
-    m=sent.match(/\bdid\s+(went|came|saw|took|gave|wrote|ate|spoke|ran)\b/i);
-    if(m)out.push('"did '+m[1]+'" ভুল — did-এর পরে সবসময় verb-এর base form বসে ("did go" — "did went" নয়)।');
+    m=sent.match(/\bdid\s+(?:you\s+|he\s+|she\s+|we\s+|they\s+|it\s+)?(went|came|saw|took|gave|wrote|ate|spoke|ran)\b/i);
+    if(m)out.push('"did ... '+m[1]+'" ভুল — did-এর পরে সবসময় verb-এর base form বসে ("did go" — "did went" নয়)।');
     if(/\s[.,!?]/.test(sent))out.push('বিরামচিহ্নের আগে space দেওয়া হয়েছে — punctuation সবসময় আগের শব্দের গায়ে লেগে থাকে।');
     if(/(^|\s)i(\s|$)/.test(sent))out.push('"i" ছোট হাতের লেখা হয়েছে — English-এ "I" (আমি) সবসময় বড় হাতের হয়।');
   }else{
