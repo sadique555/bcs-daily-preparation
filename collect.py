@@ -349,17 +349,97 @@ def collect_gn(name, lang, query, seen, seen_titles):
     return out
 
 
-def collect_news(lang, seen, seen_titles):
-    out = []
-    url = ("https://news.google.com/rss?hl=bn&gl=BD&ceid=BD:bn" if lang == "bn"
-           else "https://news.google.com/rss?hl=en-US&gl=BD&ceid=BD:en")
-    try:
-        xml_bytes, _ = fetch(url)
-        items = list(parse_rss(xml_bytes))
-    except Exception as e:
-        print(f"NEWS FAIL {lang}: {e}", file=sys.stderr, flush=True)
-        return out
-    for it in items[:14]:
+# ---- BCS relevance gate -------------------------------------------------
+# The user wants ONLY BCS-useful news: Bangladesh affairs for the BCS
+# written exam + international-relations material. Sports, entertainment
+# and police-blotter items are hard-dropped; news must match a relevance
+# keyword, editorials pass unless hard-dropped.
+REL_EN = ["economy", "economic", "budget", "inflation", "gdp",
+          "remittance", "export", "trade", "investment", "energy",
+          "climate", "environment", "river", "agriculture",
+          "education", "health", "poverty", "urban", "governance",
+          "constitution", "reform", "parliament", "election",
+          "judiciary", "corruption", "diplomacy", "diplomat",
+          "treaty", "border", "refugee", "bilateral", "population",
+          "development", "government", "political", "politics",
+          "democracy", "ministry", "prime minister", "premier",
+          "crisis", "security", "heat", "garment", "textile",
+          "industry", "labour", "labor", "workers", "wages",
+          "foreign policy", "foreign affairs", "foreign minister",
+          "foreign secretary", "foreign aid", "water sharing",
+          "global economy", "summit", "united nations",
+          "security council", "geopolit"]
+EN_BD_ANCHOR = ["bangladesh", "dhaka", "rohingya", "bay of bengal"]
+EN_IR_ANCHOR = ["united nations", "security council", "geopolit",
+                "world bank", "imf", "wto", "nato", "g7 ", "g20",
+                "brics", "asean", "saarc", "bimstec", "middle east",
+                "ukraine", "gaza", "ceasefire", "sanctions",
+                "indo-pacific", "climate summit", "cop29", "cop30",
+                "cop31", "trade war", "south asia"]
+REL_BN_STRONG = ["অর্থনীতি", "বাজেট", "মুদ্রাস্ফীতি", "মূল্যস্ফীতি",
+                 "রেমিট্যান্স", "রপ্তানি", "আমদানি", "বাণিজ্য",
+                 "বিনিয়োগ", "জ্বালানি", "বিদ্যুৎ", "জলবায়ু", "পরিবেশ",
+                 "নদী", "কৃষি", "শিক্ষা", "স্বাস্থ্য", "দারিদ্র্য",
+                 "উন্নয়ন", "সুশাসন", "সংবিধান", "সংস্কার", "সংসদ",
+                 "নির্বাচন", "বিচার বিভাগ", "দুর্নীতি", "কূটনীতি",
+                 "কূটনৈতিক", "পররাষ্ট্র", "চুক্তি", "সীমান্ত",
+                 "জাতিসংঘ", "আন্তর্জাতিক", "ভূরাজনীতি", "জনসংখ্যা",
+                 "পানিবণ্টন", "বৈদেশিক", "প্রবাসী", "ব্যাংক", "রিজার্ভ",
+                 "রাজস্ব", "মুনাফা", "শেয়ারবাজার", "পুঁজিবাজার",
+                 "মুক্তিযুদ্ধ", "শ্রম", "শিল্প", "নগর", "গণতন্ত্র"]
+BN_ANCHOR = ["বাংলাদেশ", "ঢাকা", "রোহিঙ্গা", "পদ্মা"]
+HARD_EN = ["cricket", "football", "premier league", "ipl", "t20 ",
+           "world cup", "fifa", "uefa", "tennis", "test match",
+           "semifinal", "semi-final", "innings", "wicket", "batting",
+           "bowling", "striker", "goalkeeper",
+           "cinema", "movie star", "film festival", "actor ",
+           "actress", "celebrity", "singer ", "concert", "reality show",
+           "miss universe", "accident", "road crash", "bus crash",
+           "fire breaks out", "fire incident", "robbery",
+           "murder case", "rape case", "horoscope", "lottery result"]
+HARD_BN = ["ক্রিকেট", "ফুটবল", "খেলোয়াড়", "টুর্নামেন্ট", "বিশ্বকাপ",
+           "সেমিফাইনাল", "ইনিংস", "উইকেট", "ব্যাটিং", "বোলিং",
+           "টেস্টে", "ওয়ানডে", "টি-টোয়েন্টি", "গোল করে", "হকি",
+           "সিনেমা", "চলচ্চিত্র", "অভিনেতা", "অভিনেত্রী", "গায়ক",
+           "গায়িকা", "ধারাবাহিক নাটক", "বিনোদন", "দুর্ঘটনা",
+           "অগ্নিকাণ্ড", "ডাকাতি", "রাশিফল", "লটারি", "জুয়া"]
+
+
+def _hit(t, words):
+    return any(w in t for w in words)
+
+
+def is_relevant(title, kind):
+    t = title.lower()
+    if _hit(t, HARD_EN) or _hit(title, HARD_BN):
+        return False
+    if kind != "news":
+        return True
+    if any("\u0980" <= ch <= "\u09ff" for ch in title):
+        hits = sum(1 for w in REL_BN_STRONG if w in title)
+        return hits >= 2 or (_hit(title, BN_ANCHOR) and hits >= 1)
+    topical = _hit(t, REL_EN)
+    anchor = _hit(t, EN_BD_ANCHOR) or _hit(t, EN_IR_ANCHOR)
+    return topical and anchor
+
+
+NEWS_QUERIES = {
+    "en": ["Bangladesh economy policy", "Bangladesh foreign policy diplomacy",
+           "Bangladesh climate change environment",
+           "Bangladesh constitution reform governance",
+           "geopolitics international relations United Nations"],
+    "bn": ["বাংলাদেশ অর্থনীতি নীতি", "বাংলাদেশ পররাষ্ট্রনীতি কূটনীতি",
+           "জলবায়ু পরিবর্তন পরিবেশ বাংলাদেশ", "সংবিধান সংস্কার সুশাসন",
+           "আন্তর্জাতিক সম্পর্ক ভূরাজনীতি"],
+}
+
+
+def _take_news(items, lang, seen, seen_titles, out, limit):
+    for it in items:
+        if len(out) >= limit:
+            break
+        if not is_relevant(it["title"], "news"):
+            continue
         key = re.sub(r"\W+", " ", it["title"].lower()).strip()
         if it["url"] in seen or key in seen_titles:
             continue
@@ -370,6 +450,26 @@ def collect_news(lang, seen, seen_titles):
                     "kind": "news", "title": it["title"], "date": it["date"],
                     "url": it["url"], "excerpt": excerpt, "fullText": None,
                     "hasFullText": False, "words": []})
+    return out
+
+
+def collect_news(lang, seen, seen_titles):
+    out = []
+    url = ("https://news.google.com/rss?hl=bn&gl=BD&ceid=BD:bn" if lang == "bn"
+           else "https://news.google.com/rss?hl=en-US&gl=BD&ceid=BD:en")
+    try:
+        xml_bytes, _ = fetch(url)
+        _take_news(list(parse_rss(xml_bytes))[:40], lang, seen,
+                   seen_titles, out, 10)
+    except Exception as e:
+        print(f"NEWS FAIL {lang}: {e}", file=sys.stderr, flush=True)
+    for q in NEWS_QUERIES[lang]:
+        try:
+            xml_bytes, _ = fetch(gn_feed_url(q + " when:7d", lang))
+            _take_news(list(parse_rss(xml_bytes))[:12], lang, seen,
+                       seen_titles, out, len(out) + 6)
+        except Exception as e:
+            print(f"NEWS QUERY FAIL {q}: {e}", file=sys.stderr, flush=True)
     print(f"News ({lang}): {len(out)} new", flush=True)
     return out
 
@@ -419,6 +519,13 @@ def main():
     for lang in ("en", "bn"):
         new_items += collect_news(lang, seen, seen_titles)
     all_articles = new_items + existing
+    # BCS relevance gate: drop non-BCS news (and hard-dropped editorials),
+    # including items stored before this filter existed.
+    before = len(all_articles)
+    all_articles = [a for a in all_articles
+                    if is_relevant(a["title"], a["kind"])]
+    print(f"Relevance gate: dropped {before - len(all_articles)} items",
+          flush=True)
     # Keep the archive focused: drop anything older than 45 days
     # (search feeds sometimes resurface years-old items).
     from datetime import date as _date, timedelta as _td

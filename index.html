@@ -145,7 +145,7 @@
 
   <!-- NEWS -->
   <section id="view-news" class="hidden">
-    <header class="top"><h1>🗞️ Important Current Affairs</h1><p>বাংলাদেশের গুরুত্বপূর্ণ খবর</p></header>
+    <header class="top"><h1>🗞️ Important Current Affairs</h1><p>শুধু BCS-প্রাসঙ্গিক খবর — Written ও International Relations-এ লাগে এমন</p></header>
     <select id="newsDateSel"></select>
     <div id="newsList"></div>
   </section>
@@ -314,7 +314,7 @@
 
 <script>
 var DATA={articles:[]};
-var BUILD='2.8';
+var BUILD='2.9';
 fetch('build.txt',{cache:'no-store'}).then(function(r){return r.text();}).then(function(v){
   v=(v||'').trim();
   if(v&&v!==BUILD&&location.search.indexOf('v=')<0)location.replace(location.pathname+'?v='+v);
