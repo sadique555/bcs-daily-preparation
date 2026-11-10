@@ -175,6 +175,7 @@
   <section id="view-thinktank" class="hidden">
     <header class="top"><h1>🏛️ Think Tank</h1><p>বিশ্বের সেরা think tank-দের analysis — Editorial থেকে আলাদা section</p></header>
     <select id="ttDateSel"></select>
+    <div id="ttChips" style="margin:8px 0"></div>
     <div id="ttList"></div>
   </section>
 
@@ -369,6 +370,18 @@ function editorials(){return DATA.articles.filter(function(a){return a.kind==='e
 var TT_NAMES={'Chatham House':1,'Brookings':1,'Carnegie Endowment':1,'International Crisis Group':1,'CSIS':1,'Council on Foreign Relations':1,'Atlantic Council':1,'Stimson Center':1,'Lowy Institute':1,'ORF — Observer Research Foundation':1};
 function isTT(a){return !!TT_NAMES[a.paper];}
 function thinkTanks(){return DATA.articles.filter(function(a){return a.kind==='editorial'&&isTT(a);});}
+var TT_GROUPS=[
+ ['me','🌍 মধ্যপ্রাচ্য · Middle East',['iran','middle east','gaza','israel','lebanon','syria','yemen','houthi','hezbollah','hamas','gulf','saudi','tehran','palestin','west bank','red sea','qatar','jordan','iraq','kurd']],
+ ['climate','🌱 জলবায়ু ও জ্বালানি · Climate',['climate','cop31','cop ','emission','carbon','renewable','warming','fossil','energy transition']],
+ ['europe','🇪🇺 ইউরোপ ও ইউক্রেন-রাশিয়া',['ukraine','russia','putin','nato','europe','balkan','serbia','albania','zelensky','moscow','kremlin','britain','france','germany']],
+ ['asia','🌏 এশিয়া-প্রশান্ত · Asia-Pacific',['china','beijing','xi jinping','taiwan','india','korea','japan','asia','pacific','asean','pakistan','myanmar','hong kong']],
+ ['usa','🇺🇸 যুক্তরাষ্ট্র · USA',['trump','midterm','congress','democrat','republican','america','washington','pentagon','white house','lincoln','u.s.']],
+ ['security','🛡️ প্রতিরক্ষা ও নিরাপত্তা',['military','nuclear','missile','weapon','drone','defence','defense','security','basing','bases','intelligence','space']],
+ ['economy','💹 অর্থনীতি ও বাণিজ্য',['trade','tariff','econom','market','stocks','export','dollar','inflation','sanction']],
+ ['tech','🤖 প্রযুক্তি ও AI',['artificial intelligence',' ai ','technology','semiconductor','digital','cyber','data ']],
+ ['others','📁 অন্যান্য',[]]];
+function ttGroupOf(a){var t=' '+a.title.toLowerCase()+' ';for(var i=0;i<TT_GROUPS.length-1;i++){var kws=TT_GROUPS[i][2];for(var j=0;j<kws.length;j++){if(t.indexOf(kws[j])>=0)return TT_GROUPS[i][0];}}return 'others';}
+var ttGroup='all';
 function newsItems(){return DATA.articles.filter(function(a){return a.kind==='news';});}
 function datesOf(list){var s={};list.forEach(function(a){s[a.date]=1;});return Object.keys(s).sort().reverse();}
 function bankWords(){
@@ -479,8 +492,14 @@ $('dateSel').addEventListener('change',renderList);
 $('newsDateSel').addEventListener('change',renderNews);
 function renderTT(){
   var d=$('ttDateSel').value;
-  var items=thinkTanks().filter(function(a){return !d||a.date===d;});
-  $('ttList').innerHTML=items.length?items.map(cardHTML).join(''):'<p class="meta">এই তারিখে কোনো think tank item পাওয়া যায়নি।</p>';
+  var dayItems=thinkTanks().filter(function(a){return !d||a.date===d;});
+  var counts={};dayItems.forEach(function(a){var g=ttGroupOf(a);counts[g]=(counts[g]||0)+1;});
+  var chips='<button class="chip'+(ttGroup==='all'?' on':'')+'" data-tg="all">সব · '+bn(dayItems.length)+'</button>';
+  TT_GROUPS.forEach(function(g){if(counts[g[0]])chips+='<button class="chip'+(ttGroup===g[0]?' on':'')+'" data-tg="'+g[0]+'">'+g[1]+' · '+bn(counts[g[0]])+'</button>';});
+  $('ttChips').innerHTML=chips;
+  $('ttChips').querySelectorAll('[data-tg]').forEach(function(b){b.addEventListener('click',function(){ttGroup=b.dataset.tg;renderTT();});});
+  var items=ttGroup==='all'?dayItems:dayItems.filter(function(a){return ttGroupOf(a)===ttGroup;});
+  $('ttList').innerHTML=items.length?items.map(cardHTML).join(''):'<p class="meta">এই group-এ কোনো item পাওয়া যায়নি।</p>';
   bindCards($('ttList'));
 }
 $('ttDateSel').addEventListener('change',renderTT);
