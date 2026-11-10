@@ -112,6 +112,10 @@
   .lvlchip{display:inline-block;background:var(--accbg);color:var(--acc);border-radius:99px;padding:4px 12px;font-weight:700;font-size:13px}
 .upd-btn{display:block;width:100%;margin:10px 0;padding:13px;border:none;border-radius:12px;background:#059669;color:#fff;font-size:1rem;font-weight:700;cursor:pointer}
 .upd-btn:disabled{opacity:.65}
+
+  #rBody p{margin:0 0 14px}
+  #rBody .sent{border-radius:4px}
+  #rBody .sent.hl{background:#fde68a;color:#111}
 </style>
 
 </head>
@@ -465,6 +469,34 @@ $('newsDateSel').addEventListener('change',renderNews);
 
 /* ---------- reading ---------- */
 var current=null;
+function wordCore(tok){
+  if(/[\u0980-\u09FF]/.test(tok)) return tok.replace(/[।.,;:!?()"'\u2018\u2019\u201C\u201D\u2013\u2014-]/g,'');
+  return tok.replace(/[^A-Za-z'-]/g,'');
+}
+function isWordTok(tok){
+  if(/[\u0980-\u09FF]/.test(tok)) return wordCore(tok).length>0;
+  return /[A-Za-z]/.test(tok);
+}
+function renderRichText(text){
+  var paras=text.split(/\n\s*\n+/).map(function(p){return p.trim();}).filter(Boolean);
+  if(paras.length<=1) paras=text.split(/\n+/).map(function(p){return p.trim();}).filter(Boolean);
+  if(!paras.length) paras=[text];
+  return paras.map(function(p){
+    var sents=p.match(/[^.!?।\u2026]+(?:[.!?।\u2026]+["'\u201D\u2019)]*)?/g)||[p];
+    return '<p>'+sents.map(function(sn){
+      var inner=sn.split(/(\s+)/).map(function(tok){
+        if(!tok||/^\s+$/.test(tok)) return tok||'';
+        return isWordTok(tok)?'<span class="w" data-w="'+esc(wordCore(tok))+'">'+esc(tok)+'</span>':esc(tok);
+      }).join('');
+      return '<span class="sent">'+inner+'</span>';
+    }).join(' ')+'</p>';
+  }).join('');
+}
+function highlightSentence(el){
+  var sn=(el.classList&&el.classList.contains('sent'))?el:el.closest('.sent');
+  $('rBody').querySelectorAll('.sent.hl').forEach(function(x){x.classList.remove('hl');});
+  if(sn)sn.classList.add('hl');
+}
 function openArticle(url){
   current=DATA.articles.filter(function(a){return a.url===url;})[0];
   if(!current)return;
@@ -479,14 +511,12 @@ function openArticle(url){
     +(current.lang==='en'
       ?'<p class="meta">💡 যেকোনো English শব্দে tap করলে তার অর্থ, বাংলা অর্থ আর ওই বাক্যের বাংলা অনুবাদ পাবে।</p>'
       :'<p class="meta">💡 যেকোনো বাংলা শব্দে tap করলে তার English অর্থ আর ওই বাক্যের English অনুবাদ পাবে।</p>');
-  if(text&&(current.lang==='en'||current.lang==='bn')){
-    var isBn=current.lang==='bn';
-    $('rBody').innerHTML=text.split(/(\s+)/).map(function(tok){
-      var core=isBn?tok.replace(/[।.,;:!?()"'’‘“”–—-]/g,''):tok.replace(/[^A-Za-z'-]/g,'');
-      var ok=isBn?(BNRE.test(core)&&core.length>1&&!/^[০-৯0-9]+$/.test(core)):/^[A-Za-z][A-Za-z'-]{2,}$/.test(tok);
-      return ok?'<span class="w" data-w="'+esc(core)+'">'+esc(tok)+'</span>':esc(tok);
-    }).join('');
-    $('rBody').querySelectorAll('.w').forEach(function(sp){sp.addEventListener('click',function(){lookup(sp.dataset.w,current);});});
+  if(text){
+    $('rBody').innerHTML=renderRichText(text);
+    $('rBody').querySelectorAll('.w').forEach(function(sp){sp.addEventListener('click',function(ev){
+      ev.stopPropagation();highlightSentence(sp);lookup(sp.dataset.w,current);
+    });});
+    $('rBody').querySelectorAll('.sent').forEach(function(sn){sn.addEventListener('click',function(){highlightSentence(sn);});});
   }else{$('rBody').textContent=text;}
   var ws=current.words||[];
   $('rWords').innerHTML=ws.length?'<h3 style="margin-top:22px">এই লেখার গুরুত্বপূর্ণ শব্দ</h3>'+ws.map(function(w){
