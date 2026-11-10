@@ -171,6 +171,13 @@
   </section>
 
   <!-- VOCABULARY BANK -->
+  <!-- THINK TANK -->
+  <section id="view-thinktank" class="hidden">
+    <header class="top"><h1>🏛️ Think Tank</h1><p>বিশ্বের সেরা think tank-দের analysis — Editorial থেকে আলাদা section</p></header>
+    <select id="ttDateSel"></select>
+    <div id="ttList"></div>
+  </section>
+
   <section id="view-vocab" class="hidden">
     <header class="top"><h1>📚 Vocabulary</h1><p>শুধু তোমার নিজের যোগ করা শব্দ — editorial পড়তে পড়তে শব্দে tap করে যোগ করো (এই phone-এ save থাকে)</p></header>
     <div id="vocabBanner"></div>
@@ -358,7 +365,10 @@ document.querySelectorAll('[data-go2]').forEach(function(b){b.addEventListener('
 document.querySelectorAll('.tabs button').forEach(function(b){b.addEventListener('click',function(){show(b.dataset.v);});});
 
 /* ---------- data helpers ---------- */
-function editorials(){return DATA.articles.filter(function(a){return a.kind==='editorial';});}
+function editorials(){return DATA.articles.filter(function(a){return a.kind==='editorial'&&!isTT(a);});}
+var TT_NAMES={'Chatham House':1,'Brookings':1,'Carnegie Endowment':1,'International Crisis Group':1,'CSIS':1,'Council on Foreign Relations':1,'Atlantic Council':1,'Stimson Center':1,'Lowy Institute':1,'ORF — Observer Research Foundation':1};
+function isTT(a){return !!TT_NAMES[a.paper];}
+function thinkTanks(){return DATA.articles.filter(function(a){return a.kind==='editorial'&&isTT(a);});}
 function newsItems(){return DATA.articles.filter(function(a){return a.kind==='news';});}
 function datesOf(list){var s={};list.forEach(function(a){s[a.date]=1;});return Object.keys(s).sort().reverse();}
 function bankWords(){
@@ -379,6 +389,7 @@ function dueWords(){
 var MODS=[
  ['view-editorial','📰','c1','প্রিপারেশন','Daily Editorial · সম্পাদকীয়'],
  ['view-news','🗞️','c3','Current Affairs','গুরুত্বপূর্ণ খবর'],
+ ['view-thinktank','🏛️','c3','Think Tank','Chatham House · Brookings · ICG analysis'],
  ['view-vocab','📚','c2','Vocabulary','শুধু তোমার যোগ করা শব্দ'],
  ['view-revision','🔁','c4','রিভিশন','আজকের due শব্দ'],
  ['view-practice','✍️','c5','প্র্যাকটিস','MCQ · Cloze · Flashcard'],
@@ -466,6 +477,13 @@ function renderNews(){
 $('q').addEventListener('input',renderList);
 $('dateSel').addEventListener('change',renderList);
 $('newsDateSel').addEventListener('change',renderNews);
+function renderTT(){
+  var d=$('ttDateSel').value;
+  var items=thinkTanks().filter(function(a){return !d||a.date===d;});
+  $('ttList').innerHTML=items.length?items.map(cardHTML).join(''):'<p class="meta">এই তারিখে কোনো think tank item পাওয়া যায়নি।</p>';
+  bindCards($('ttList'));
+}
+$('ttDateSel').addEventListener('change',renderTT);
 
 /* ---------- reading ---------- */
 var current=null;
@@ -1184,7 +1202,8 @@ function refreshData(btn){
     DATA=j;$('updated').textContent='সর্বশেষ update: '+(j.updated||'').slice(0,10);
     fillDates($('dateSel'),editorials(),datesOf(editorials())[0]);
     fillDates($('newsDateSel'),newsItems(),datesOf(newsItems())[0]);
-    renderList();renderNews();renderHome();
+    fillDates($('ttDateSel'),thinkTanks(),datesOf(thinkTanks())[0]);
+    renderList();renderNews();renderHome();renderTT();
     btn.textContent=changed?'✓ নতুন data এসেছে!':'✓ Server-এ এর চেয়ে নতুন data নেই';
   }).catch(function(){ btn.textContent='✗ Internet পাওয়া যায়নি — পরে আবার চেষ্টা করো'; })
   .then(function(){ setTimeout(function(){ btn.disabled=false; btn.textContent=oldLabel; _refreshing=false; },2600); });
@@ -1195,7 +1214,8 @@ fetch('data/articles.json').then(function(r){return r.json();}).then(function(j)
   DATA=j;$('updated').textContent='সর্বশেষ update: '+(j.updated||'').slice(0,10);
   fillDates($('dateSel'),editorials(),datesOf(editorials())[0]);
   fillDates($('newsDateSel'),newsItems(),datesOf(newsItems())[0]);
-  renderList();renderNews();renderHome();
+  fillDates($('ttDateSel'),thinkTanks(),datesOf(thinkTanks())[0]);
+  renderList();renderNews();renderHome();renderTT();
 }).catch(function(){$('homeToday').innerHTML='<p class="note">Data load হয়নি — internet connection দেখে আবার খোলো।</p>';});
 </script>
 </body>

@@ -550,6 +550,31 @@ def collect_news(lang, seen, seen_titles):
     return out
 
 
+def collect_world_news(seen, seen_titles):
+    """Recent international news (crises, politics, diplomacy) for the
+    Current Affairs section — added 2026-11-10 at the user's request.
+    US-edition top stories + forced-fresh GN searches, passed through
+    the same BCS relevance gate as all other news."""
+    out = []
+    try:
+        xml_bytes, _ = fetch(
+            "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en")
+        _take_news(list(parse_rss(xml_bytes))[:40], "en", seen,
+                   seen_titles, out, 8)
+    except Exception as e:
+        print(f"WORLD FAIL: {e}", file=sys.stderr, flush=True)
+    for q in ("world crisis politics war diplomacy when:2d",
+              "ceasefire summit nuclear talks conflict when:2d"):
+        try:
+            xml_bytes, _ = fetch(gn_feed_url(q, "en"))
+            _take_news(list(parse_rss(xml_bytes))[:12], "en", seen,
+                       seen_titles, out, len(out) + 5)
+        except Exception as e:
+            print(f"WORLD QUERY FAIL {q}: {e}", file=sys.stderr, flush=True)
+    print(f"World news: {len(out)} new", flush=True)
+    return out
+
+
 def main():
     out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                             "data", "articles.json")
@@ -596,6 +621,7 @@ def main():
         new_items += collect_gn(name, lang, query, seen, seen_titles, limit=4)
     for lang in ("en", "bn"):
         new_items += collect_news(lang, seen, seen_titles)
+    new_items += collect_world_news(seen, seen_titles)
     all_articles = new_items + existing
     # BCS relevance gate: drop non-BCS news (and hard-dropped editorials),
     # including items stored before this filter existed.
