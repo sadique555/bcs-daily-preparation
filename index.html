@@ -110,6 +110,8 @@
   details.rule h5{margin:10px 0 3px;color:var(--acc);font-size:13px}
   details.rule p{margin:3px 0;line-height:1.6}
   .lvlchip{display:inline-block;background:var(--accbg);color:var(--acc);border-radius:99px;padding:4px 12px;font-weight:700;font-size:13px}
+.upd-btn{display:block;width:100%;margin:10px 0;padding:13px;border:none;border-radius:12px;background:#059669;color:#fff;font-size:1rem;font-weight:700;cursor:pointer}
+.upd-btn:disabled{opacity:.65}
 </style>
 
 </head>
@@ -128,6 +130,7 @@
         </div>
       </div>
     </div>
+    <button class="upd-btn" onclick="refreshData(this)">🔄 Update — নতুন খবর আছে কিনা দেখো</button>
     <div id="homeStats"></div>
     <div id="homeCta"></div>
     <div class="grid" id="modGrid"></div>
@@ -138,6 +141,7 @@
   <!-- EDITORIAL -->
   <section id="view-editorial" class="hidden">
     <header class="top"><h1>📰 Daily Editorial</h1><p>11টি পত্রিকার সম্পাদকীয় ও মতামত, date-wise</p></header>
+    <button class="upd-btn" onclick="refreshData(this)">🔄 Update — নতুন খবর আছে কিনা দেখো</button>
     <input type="search" id="q" placeholder="🔍 Headline বা পত্রিকা খুঁজো...">
     <select id="dateSel"></select>
     <div id="list"></div>
@@ -1137,6 +1141,23 @@ function renderProgress(){
    +'<span class="stat"><b>'+bn(streak)+' দিন</b>Streak</span>'
    +'<h3 style="margin-top:16px">Revision stage</h3>'
    +INTERVALS.map(function(iv,i){return '<div class="word-row"><b>Day '+bn(iv)+'</b><small>'+bn(stages[i])+'টি শব্দ এই stage-এ</small></div>';}).join('');
+}
+
+/* ---------- manual refresh ---------- */
+var _refreshing=false;
+function refreshData(btn){
+  if(_refreshing) return; _refreshing=true;
+  var oldLabel=btn.textContent; btn.disabled=true; btn.textContent='⏳ Update হচ্ছে…';
+  var oldUpd=(window.DATA&&DATA.updated)||'', oldCount=(window.DATA&&DATA.articles)?DATA.articles.length:0;
+  fetch('data/articles.json?ts='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(j){
+    var changed=(j.updated!==oldUpd)||((j.articles?j.articles.length:0)!==oldCount);
+    DATA=j;$('updated').textContent='সর্বশেষ update: '+(j.updated||'').slice(0,10);
+    fillDates($('dateSel'),editorials(),datesOf(editorials())[0]);
+    fillDates($('newsDateSel'),newsItems(),datesOf(newsItems())[0]);
+    renderList();renderNews();renderHome();
+    btn.textContent=changed?'✓ নতুন data এসেছে!':'✓ Server-এ এর চেয়ে নতুন data নেই';
+  }).catch(function(){ btn.textContent='✗ Internet পাওয়া যায়নি — পরে আবার চেষ্টা করো'; })
+  .then(function(){ setTimeout(function(){ btn.disabled=false; btn.textContent=oldLabel; _refreshing=false; },2600); });
 }
 
 /* ---------- boot ---------- */
