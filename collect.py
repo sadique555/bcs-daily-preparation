@@ -72,6 +72,17 @@ INTL_GN = [
     ("Stimson Center", "en", "site:stimson.org when:30d"),
     ("Lowy Institute", "en", "site:lowyinstitute.org when:30d"),
     ("ORF — Observer Research Foundation", "en", "site:orfonline.org when:30d"),
+    # Topic-targeted think-tank searches (2026-11-10): the generic
+    # per-institute queries surface only each institute's newest few
+    # pieces, which buried Iran / Middle East analysis entirely.
+    ("International Crisis Group", "en", "site:crisisgroup.org Iran OR Middle East OR Gaza when:30d"),
+    ("Chatham House", "en", "site:chathamhouse.org Iran OR Middle East when:30d"),
+    ("CSIS", "en", "site:csis.org Iran OR Middle East when:30d"),
+    ("Atlantic Council", "en", "site:atlanticcouncil.org Iran war OR Middle East when:30d"),
+    ("Brookings", "en", "site:brookings.edu Iran OR Gaza OR Israel when:30d"),
+    ("Carnegie Endowment", "en", "site:carnegieendowment.org Iran OR Middle East when:30d"),
+    ("Council on Foreign Relations", "en", "site:cfr.org Iran OR Middle East when:30d"),
+    ("Stimson Center", "en", "site:stimson.org Iran OR Middle East when:30d"),
 ]
 
 STOP = set("""the and for are but not you all any can her was one our out day get has him
