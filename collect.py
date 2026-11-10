@@ -159,16 +159,53 @@ def clean_excerpt(text, title="", source=""):
 # related-news footers. TRUNC markers end the article: everything from
 # the first such paragraph onward is dropped.
 JUNK_PATTERNS = (
+    "powered by: rsi lab", "thedailystar.net",
+    "unauthorized use or reproduction",
     "main navigation", "file visual", "visual:", "photo:", "photo :",
     "ছবি:", "ছবি :", "can be reached at", "views expressed in this article",
     "follow the daily star opinion on facebook",
 )
-TRUNC_PATTERNS = ("click to comment", "comments policy", "related news")
+TRUNC_PATTERNS = ("click to comment", "comments policy", "related news",
+                "powered by: rsi lab", "unauthorized use or reproduction")
+
+
+MENU_LABELS = ("e-paper", "today's news", "today\u2019s news", "politics",
+               "governance", "crime and justice", "business", "economy",
+               "sports", "cricket", "football", "lifestyle", "entertainment",
+               "opinion", "editorial", "slow reads", "my dhaka",
+               "geopolitical insights", "big picture", "campus life",
+               "pop culture", "world", "technology", "education")
+
+
+def _is_menu_paragraph(p):
+    low = p.lower()
+    return sum(1 for m in MENU_LABELS if m in low) >= 5
+
+
+def _strip_site_chrome(text):
+    # The Daily Star full-page scrape glues the header menu and the
+    # copyright footer BEFORE the article body in one block. The footer
+    # signature ends with "liable to legal action." — everything up to
+    # there is chrome, not article.
+    sig = text.find("unauthorized use or reproduction")
+    if sig != -1:
+        end = text.find("liable to legal action.", sig)
+        if end != -1:
+            rest = text[end + len("liable to legal action."):].strip()
+            if len(rest) > 600:
+                return rest
+            return text[:sig].rstrip()
+    # Footer at the end (body first): cut from the © line.
+    c = text.find("\u00a9")
+    if c != -1 and "thedailystar" in text[c:c + 200].lower():
+        return text[:c].rstrip()
+    return text
 
 
 def clean_full_text(text):
     if not text:
         return None
+    text = _strip_site_chrome(text)
     paras = text.split("\n\n")
     if len(paras) == 1 and len(paras[0]) > 2000:
         # Single-block body (e.g. JSON-LD): only reject if it STARTS
@@ -186,6 +223,8 @@ def clean_full_text(text):
         if any(t in low for t in TRUNC_PATTERNS):
             break
         if any(j in low for j in JUNK_PATTERNS):
+            continue
+        if _is_menu_paragraph(p):
             continue
         if p in seen:
             continue
