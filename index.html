@@ -1210,7 +1210,7 @@ function refreshData(btn){
 }
 
 /* ---------- boot ---------- */
-fetch('data/articles.json').then(function(r){return r.json();}).then(function(j){
+fetch('data/articles.json?ts='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(j){
   DATA=j;$('updated').textContent='সর্বশেষ update: '+(j.updated||'').slice(0,10);
   fillDates($('dateSel'),editorials(),datesOf(editorials())[0]);
   fillDates($('newsDateSel'),newsItems(),datesOf(newsItems())[0]);
