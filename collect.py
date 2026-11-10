@@ -51,6 +51,29 @@ GN_PAPERS = [
     ("বাংলাদেশ প্রতিদিন", "bn", "site:bd-pratidin.com সম্পাদকীয় OR মতামত"),
 ]
 
+
+# International editorials and think-tank analysis (added 2026-11-10 at
+# the user's request): world opinion pages + leading think tanks, kept
+# BCS-IR relevant by the same gate as everything else.
+INTL_GN = [
+    ("The Guardian — Opinion", "en", "site:theguardian.com/commentisfree when:30d"),
+    ("Project Syndicate", "en", "site:project-syndicate.org/commentary when:30d"),
+    ("Al Jazeera — Opinion", "en", "site:aljazeera.com/opinions when:30d"),
+    ("Foreign Policy", "en", "site:foreignpolicy.com analysis when:30d"),
+    ("The Hindu — Opinion", "en", "site:thehindu.com/opinion when:30d"),
+    ("Dawn — Opinion", "en", "site:dawn.com opinion when:30d"),
+    ("Chatham House", "en", "site:chathamhouse.org when:30d"),
+    ("Brookings", "en", "site:brookings.edu when:30d"),
+    ("Carnegie Endowment", "en", "site:carnegieendowment.org when:30d"),
+    ("International Crisis Group", "en", "site:crisisgroup.org when:30d"),
+    ("CSIS", "en", "site:csis.org when:30d"),
+    ("Council on Foreign Relations", "en", "site:cfr.org when:30d"),
+    ("Atlantic Council", "en", "site:atlanticcouncil.org when:30d"),
+    ("Stimson Center", "en", "site:stimson.org when:30d"),
+    ("Lowy Institute", "en", "site:lowyinstitute.org when:30d"),
+    ("ORF — Observer Research Foundation", "en", "site:orfonline.org when:30d"),
+]
+
 STOP = set("""the and for are but not you all any can her was one our out day get has him
 his how man new now old see two way who boy did its let put say she too use that with have
 this will your from they know want been good much some time very when come here just like
@@ -365,7 +388,7 @@ def collect_direct(name, lang, feed, fragments, seen, seen_titles):
     return out
 
 
-def collect_gn(name, lang, query, seen, seen_titles):
+def collect_gn(name, lang, query, seen, seen_titles, limit=8):
     out = []
     try:
         xml_bytes, _ = fetch(gn_feed_url(query, lang))
@@ -373,7 +396,7 @@ def collect_gn(name, lang, query, seen, seen_titles):
     except Exception as e:
         print(f"FEED FAIL {name}: {e}", file=sys.stderr, flush=True)
         return out
-    for it in items[:8]:
+    for it in items[:limit]:
         key = re.sub(r"\W+", " ", it["title"].lower()).strip()
         if it["url"] in seen or key in seen_titles:
             continue
@@ -406,6 +429,8 @@ REL_EN = ["economy", "economic", "budget", "inflation", "gdp",
           "industry", "labour", "labor", "workers", "wages",
           "foreign policy", "foreign affairs", "foreign minister",
           "foreign secretary", "foreign aid", "water sharing",
+          "tariff", "military", "humanitarian", "conflict",
+          "ceasefire", "sanction",
           "global economy", "summit", "united nations",
           "security council", "geopolit"]
 EN_BD_ANCHOR = ["bangladesh", "dhaka", "rohingya", "bay of bengal"]
@@ -414,7 +439,10 @@ EN_IR_ANCHOR = ["united nations", "security council", "geopolit",
                 "brics", "asean", "saarc", "bimstec", "middle east",
                 "ukraine", "gaza", "ceasefire", "sanctions",
                 "indo-pacific", "climate summit", "cop29", "cop30",
-                "cop31", "trade war", "south asia"]
+                "cop31", "trade war", "south asia", "iran", "israel",
+                "russia", "taiwan", "north korea", "south china sea",
+                "red sea", "european union", "opec", "coup", "pentagon",
+                "kremlin", "nuclear", "missile"]
 REL_BN_STRONG = ["অর্থনীতি", "বাজেট", "মুদ্রাস্ফীতি", "মূল্যস্ফীতি",
                  "রেমিট্যান্স", "রপ্তানি", "আমদানি", "বাণিজ্য",
                  "বিনিয়োগ", "জ্বালানি", "বিদ্যুৎ", "জলবায়ু", "পরিবেশ",
@@ -425,7 +453,9 @@ REL_BN_STRONG = ["অর্থনীতি", "বাজেট", "মুদ্র
                  "জাতিসংঘ", "আন্তর্জাতিক", "ভূরাজনীতি", "জনসংখ্যা",
                  "পানিবণ্টন", "বৈদেশিক", "প্রবাসী", "ব্যাংক", "রিজার্ভ",
                  "রাজস্ব", "মুনাফা", "শেয়ারবাজার", "পুঁজিবাজার",
-                 "মুক্তিযুদ্ধ", "শ্রম", "শিল্প", "নগর", "গণতন্ত্র"]
+                 "মুক্তিযুদ্ধ", "শ্রম", "শিল্প", "নগর", "গণতন্ত্র",
+                 "যুদ্ধ", "সংকট", "সামরিক", "রাজনীতি", "ইউক্রেন",
+                 "গাজা", "ইরান", "রাশিয়া", "ন্যাটো", "শান্তি"]
 BN_ANCHOR = ["বাংলাদেশ", "ঢাকা", "রোহিঙ্গা", "পদ্মা"]
 HARD_EN = ["cricket", "football", "premier league", "ipl", "t20 ",
            "world cup", "fifa", "uefa", "tennis", "test match",
@@ -466,10 +496,17 @@ NEWS_QUERIES = {
     "en": ["Bangladesh economy policy", "Bangladesh foreign policy diplomacy",
            "Bangladesh climate change environment",
            "Bangladesh constitution reform governance",
-           "geopolitics international relations United Nations"],
+           "geopolitics international relations United Nations",
+           "world politics crisis war diplomacy summit",
+           "Middle East conflict ceasefire humanitarian",
+           "US China Russia geopolitics trade war tariffs",
+           "global economy IMF World Bank outlook"],
     "bn": ["বাংলাদেশ অর্থনীতি নীতি", "বাংলাদেশ পররাষ্ট্রনীতি কূটনীতি",
            "জলবায়ু পরিবর্তন পরিবেশ বাংলাদেশ", "সংবিধান সংস্কার সুশাসন",
-           "আন্তর্জাতিক সম্পর্ক ভূরাজনীতি"],
+           "আন্তর্জাতিক সম্পর্ক ভূরাজনীতি",
+           "আন্তর্জাতিক রাজনীতি সংকট যুদ্ধ কূটনীতি",
+           "মধ্যপ্রাচ্য যুদ্ধবিরতি সংকট",
+           "বিশ্ব অর্থনীতি বাণিজ্য যুদ্ধ"],
 }
 
 
@@ -555,6 +592,8 @@ def main():
         new_items += collect_direct(name, lang, feed, frags, seen, seen_titles)
     for name, lang, query in GN_PAPERS:
         new_items += collect_gn(name, lang, query, seen, seen_titles)
+    for name, lang, query in INTL_GN:
+        new_items += collect_gn(name, lang, query, seen, seen_titles, limit=4)
     for lang in ("en", "bn"):
         new_items += collect_news(lang, seen, seen_titles)
     all_articles = new_items + existing
