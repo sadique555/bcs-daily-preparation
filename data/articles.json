@@ -1,370 +1,6 @@
 {
- "updated": "2026-11-11T06:55:49.468111+00:00",
+ "updated": "2026-11-11T01:28:52.289415+00:00",
  "articles": [
-  {
-   "paper": "The Daily Star",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Child marriage must see preventive actions",
-   "date": "2026-11-11",
-   "url": "https://www.thedailystar.net/opinion/editorial/news/child-marriage-must-see-preventive-actions-4320601",
-   "excerpt": "Close legal loopholes and punish offenders",
-   "fullText": "According to the 2025 Multiple Indicator Cluster Survey by the Bangladesh Bureau of Statistics and Unicef, 47.2 percent of women aged 20-24 were married before 18, while 13.4 percent were married before 15. More worryingly, the proportion of girls aged 15-19 who were married off rose from 32.9 percent in 2019 to 38.9 percent in 2025. A crisis of this scale cannot be tackled through occasional interventions.\n\nParticularly disturbing are tactics used to circumvent the law. Reportedly, some families secretly arrange marriages through religious clerics, while others falsify girls’ ages. Unauthorised individuals allegedly pose as marriage registrars, using counterfeit registers and promising marriage certificates once the child bride turns 18. A registered kazi alleged that seven such individuals operate in Satkhira Sadar. Stopping ceremonies and obtaining parental undertakings is not enough, as some secretly complete the marriage afterwards. Existing laws must be rigorously enforced, with meaningful penalties for offenders. Section 19 of the Child Marriage Restraint Act, 2017, which permits underage marriage in “special circumstances,” must also be scrapped.\n\nIt is also crucial for families who view early marriage as protection for their daughters to change their attitude. In the aforementioned report, one parent said harassment by local young men had driven him to marry off his daughter. What does it say about our society when a girl is forced to surrender her education and childhood to “secure” her life? Police, schools, and local authorities must respond promptly to allegations of harassment, provide safe reporting channels, and hold perpetrators accountable for the long term. Girls should not have to pay for boys’ and men’s misconduct.\n\nCampaigns on television, in schools, mosques, and community gatherings must establish child marriage as a punishable offence, not an acceptable family decision. Religious leaders, influential in society, can urge parents to reject early marriage and explain its risks to girls’ health, education, and future. Finally, keeping girls in school will require better government financial support, skills training for young women, and future pathways to decent work. Protecting girls’ rights is a responsibility of the state and society alike.",
-   "hasFullText": true,
-   "words": [
-    {
-     "w": "marriage",
-     "sentence": "Unauthorised individuals allegedly pose as marriage registrars, using counterfeit registers and promising marriage certificates once the child bride turns 18."
-    },
-    {
-     "w": "percent",
-     "sentence": "According to the 2025 Multiple Indicator Cluster Survey by the Bangladesh Bureau of Statistics and Unicef, 47.2 percent of women aged 20-24 were married before 18, while 13.4 percent were married before 15."
-    },
-    {
-     "w": "married",
-     "sentence": "According to the 2025 Multiple Indicator Cluster Survey by the Bangladesh Bureau of Statistics and Unicef, 47.2 percent of women aged 20-24 were married before 18, while 13.4 percent were married before 15."
-    },
-    {
-     "w": "society",
-     "sentence": "What does it say about our society when a girl is forced to surrender her education and childhood to “secure” her life?"
-    },
-    {
-     "w": "education",
-     "sentence": "What does it say about our society when a girl is forced to surrender her education and childhood to “secure” her life?"
-    },
-    {
-     "w": "families",
-     "sentence": "Reportedly, some families secretly arrange marriages through religious clerics, while others falsify girls’ ages."
-    },
-    {
-     "w": "harassment",
-     "sentence": "In the aforementioned report, one parent said harassment by local young men had driven him to marry off his daughter."
-    },
-    {
-     "w": "individuals",
-     "sentence": "Unauthorised individuals allegedly pose as marriage registrars, using counterfeit registers and promising marriage certificates once the child bride turns 18."
-    },
-    {
-     "w": "religious",
-     "sentence": "Reportedly, some families secretly arrange marriages through religious clerics, while others falsify girls’ ages."
-    },
-    {
-     "w": "schools",
-     "sentence": "Police, schools, and local authorities must respond promptly to allegations of harassment, provide safe reporting channels, and hold perpetrators accountable for the long term."
-    },
-    {
-     "w": "secretly",
-     "sentence": "Reportedly, some families secretly arrange marriages through religious clerics, while others falsify girls’ ages."
-    },
-    {
-     "w": "acceptable",
-     "sentence": "Campaigns on television, in schools, mosques, and community gatherings must establish child marriage as a punishable offence, not an acceptable family decision."
-    }
-   ]
-  },
-  {
-   "paper": "The Daily Star",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Our banking future cannot come at the cost of data privacy",
-   "date": "2026-11-11",
-   "url": "https://www.thedailystar.net/opinion/views/news/our-banking-future-cannot-come-the-cost-data-privacy-4320621",
-   "excerpt": "In August 2025, at least 54 customers of a multinational bank in Bangladesh reported that a total of Tk 27 lakh had been fraudulently transferred from their credit cards to unknown bKash and Nagad accounts without any OTP being shared.",
-   "fullText": "This question becomes more urgent as the country’s banking sector embraces artificial intelligence. From detecting suspicious transactions to assessing loan eligibility, AI is transforming financial services. However, this smartness comes with the invisible risk to the security of personal and financial data. Bank balances, transaction histories, and shopping patterns all become part of the database that AI learns from. As mobile financial services expand, data accumulates on bank and fintech servers. The more centralised the data, the more catastrophic a single leak becomes.\n\nBanks rely on National ID information for customer verification. The 2023 leak of NID and birth registration data of millions of citizens from a government service exposed its vulnerability. When names, addresses, and dates of birth fall into criminal hands, fake bank accounts and fraudulent loans become easy. A 2025 Financial Consumer Protection Survey found that nearly 30 percent of digital financial service users in Bangladesh did not have a PIN or password on their phone to protect their accounts. Among those who did, 45 percent shared it with others, typically family members.\n\nArticle 43 (b) of the constitution recognises citizens’ right to the privacy of correspondence and communication. But informational privacy has yet to become a standalone right. The Personal Data Protection Act , 2026 covers identifiable financial information but lacks AI-specific provisions, such as the right to explanation for automated decisions or mandatory algorithmic audits. Section 7 of the Bankers Books Evidence Act, 2021 imposes strict restrictions on disclosing customer information without prescribed conditions, but enforcement remains weak. Chapter 14 of the Bangladesh Banks Guideline on ICT Security (4.0) warns about AI risks, including flawed algorithms, biased outcomes, and cyber attacks, However, it is a guideline, not a binding law. The Bangladesh Bank began drafting an integrated AI policy for the banking sector in late 2025, forming a seven-member team to prepare guidelines and announcing plans to develop its own large language model (LLM) to reduce dependence on foreign AI tools. However, the broader policy had yet to be officially published as of November 2026. On November 1, the central bank reiterated that it was working on a separate AI-focused cybersecurity policy for banks and financial institutions.\n\nIn June 2026 , the central bank instructed its officials not to input confidential or sensitive banking information into AI tools like ChatGPT, Gemini or Claude, citing cross-border data transfer risks. Meanwhile, a study by the Bangladesh Institute of Bank Management found that nearly 60 percent of local banks lack any policy for using AI in cybersecurity.\n\nInternationally, three cases offer lessons. In Germany in 2023, the Court of Justice of the European Union (CJEU) ruled in OQ v Land Hessen (SCHUFA) that an automated credit score constitutes an automated individual decision when a lender relies heavily on it to determine whether to grant credit. For Bangladesh, this means automated credit scores used in loan approvals should be subject to legal safeguards for automated decision-making, including customers’ right to understand how these scores influence lending decisions. In 2025, in Austria, the CJEU clarified in CK v Magistrat der Stadt Wien (Dun and Bradstreet) that trade secrecy cannot be used as a blanket excuse to deny a customer meaningful information about the logic of an AI decision. The data protection law must close the path for banks to refuse a customer’s right to explanation by citing trade secrets. In Poland, Toyota Bank Polska was fined approximately Tk 1.6 crore in 2025 for failing to properly document customer profiling and for not ensuring the independence of its data protection officer. This means mandatory data protection impact assessments must be conducted before AI-driven profiling, and the DPO must report directly to the board.\n\nThree things become clear. First, despite laws and guidelines, practical enforcement and accountability are lacking. Second, citizens often don’t know who is taking their data, how long it is kept, or whether it is being used to train AI models. Third, without an independent and empowered supervisory body, laws remain on paper.\n\nThere is a path forward. First, banks must stop collecting excessive data, ensure strong encryption and limited access, and conduct regular security audits. Second, data usage terms with third-party technology providers must be clarified. Third, in automated decisions, customers must have the right to an explanation and access to human review. Fourth, Bangladesh Bank must finalise and publish its long-delayed AI policy for the banking sector. And last, digital literacy must be expanded. Mass awareness must be built about keeping OTPs secret, not clicking unknown links, and checking app permissions. A protection framework combining law, technology, and awareness is essential, one where the banking sector becomes modern but citizens’ personal data remains intact.\n\nMd Nazmul Hossen is LLM student at Bangladesh University of Professionals and an apprentice lawyer.",
-   "hasFullText": true,
-   "words": [
-    {
-     "w": "financial",
-     "sentence": "From detecting suspicious transactions to assessing loan eligibility, AI is transforming financial services."
-    },
-    {
-     "w": "automated",
-     "sentence": "The Personal Data Protection Act , 2026 covers identifiable financial information but lacks AI-specific provisions, such as the right to explanation for automated decisions or mandatory algorithmic audits."
-    },
-    {
-     "w": "protection",
-     "sentence": "A 2025 Financial Consumer Protection Survey found that nearly 30 percent of digital financial service users in Bangladesh did not have a PIN or password on their phone to protect their accounts."
-    },
-    {
-     "w": "banking",
-     "sentence": "This question becomes more urgent as the country’s banking sector embraces artificial intelligence."
-    },
-    {
-     "w": "customer",
-     "sentence": "Banks rely on National ID information for customer verification."
-    },
-    {
-     "w": "information",
-     "sentence": "Banks rely on National ID information for customer verification."
-    },
-    {
-     "w": "citizens",
-     "sentence": "The 2023 leak of NID and birth registration data of millions of citizens from a government service exposed its vulnerability."
-    },
-    {
-     "w": "becomes",
-     "sentence": "This question becomes more urgent as the country’s banking sector embraces artificial intelligence."
-    },
-    {
-     "w": "decision",
-     "sentence": "In Germany in 2023, the Court of Justice of the European Union (CJEU) ruled in OQ v Land Hessen (SCHUFA) that an automated credit score constitutes an automated individual decision when a lender relies heavily on it to determine whether to grant credit."
-    },
-    {
-     "w": "decisions",
-     "sentence": "The Personal Data Protection Act , 2026 covers identifiable financial information but lacks AI-specific provisions, such as the right to explanation for automated decisions or mandatory algorithmic audits."
-    },
-    {
-     "w": "explanation",
-     "sentence": "The Personal Data Protection Act , 2026 covers identifiable financial information but lacks AI-specific provisions, such as the right to explanation for automated decisions or mandatory algorithmic audits."
-    },
-    {
-     "w": "however",
-     "sentence": "However, this smartness comes with the invisible risk to the security of personal and financial data."
-    }
-   ]
-  },
-  {
-   "paper": "The Daily Star",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Bangladesh must seek the truth behind women migrant workers’ deaths",
-   "date": "2026-11-11",
-   "url": "https://www.thedailystar.net/opinion/views/news/bangladesh-must-seek-the-truth-behind-women-migrant-workers-deaths-4320631",
-   "excerpt": "When 24-year-old Tanzina Akter died in Saudi Arabia in July 2026, her family was reportedly informed she had suffered a stroke.",
-   "fullText": "Data from the Wage Earners’ Welfare Board (WEWB) and the Refugee and Migratory Movements Research Unit (RMMRU) show that the bodies of 1,552 female migrant workers were repatriated between 2017 and October 25, 2026. Suicide was recorded as the cause of death in 282 of these cases, with 112 cases involving women who were working in Saudi Arabia. These figures represent repatriated deaths, not the overall suicide rate among all Bangladeshi women employed overseas. Without reliable data on the number of workers exposed to risk, their time abroad, and independently verified causes of death, comparing mortality risks would be misleading. Nevertheless, these numbers reveal a significant accountability issue.\n\nIn a prior study, RMMRU interviewed relatives of 100 deceased female migrant workers. In 11 cases, family members disputed suicide as the cause listed on death certificates, and 48 percent of families did not accept explanations of natural death. In one reported case of a female worker’s death abroad, relatives claimed to observe bloodstains on her body when it was repatriated, while the death certificate listed suicide as the cause of death. Such accounts are allegations, not forensic conclusions. But these inconsistencies underscore the need for proper investigation into women migrants’ deaths.\n\nFor women employed in private households abroad, risks are particularly difficult to detect due to seclusion, unequal bargaining power, and limited access to independent assistance. Therefore, a robust migration policy must protect workers throughout the employment cycle, encompassing recruitment, placement, emergency assistance, return and, if necessary, post-death investigations.\n\nThe Overseas Employment and Migration Act, 2013, with subsequent amendments in 2026, recognises the protection of migrant workers as a public responsibility. But legal reform should ultimately be judged based on its outcomes, not just the number of provisions added to update a law. Can a worker report abuse without retaliation? Will a distressed worker receive timely shelter and legal support? If a migrant worker dies, can her family obtain medical records and challenge an implausible explanation?\n\nBangladesh should start by implementing a clear medico-legal protocol for repatriated migrant workers’ bodies. Trained personnel at the receiving airport should verify identity, document visible markers of injury, review accompanying death certificates, and preserve relevant records. If the cause of death is disputed, injuries are apparent, or documentation is inconsistent, an independent forensic assessment should determine whether further examination, including a second post-mortem where legally authorised, is required. This will necessitate trained specialists, secure evidence handling, adequate mortuary facilities, and a procedure for promptly informing families. The goal is not indiscriminate autopsies, which can incur unnecessary costs and conflict with family or religious concerns, but a credible and transparent process for suspicious deaths.\n\nBangladesh’s diplomatic missions in destination countries should be mandated to open a documented case whenever a migrant worker dies under unclear or contested circumstances. The case file should include hospital records, medical findings, police reports, employment contracts, and any history of complaints. A designated consular officer should maintain contact with the family, documenting what evidence has been obtained as well as what remains missing and why. Since host countries retain jurisdiction over incidents on their territory, formal evidence-sharing arrangements and diplomatic engagement are essential, not optional. Families should not have to finance an international investigation to understand the cause of death of their loved one.\n\nIn way of prevention, labour wings and embassies need effective, confidential complaint channels, swift referral processes, trauma-informed support for affected workers, and safe accommodation for those escaping abuse. For workers who have lost access to their phones or documents, a standard hotline is inadequate; recruitment agents, community organisations, and host-country authorities must have clearly outlined emergency escalation procedures. Bilateral labour agreements should include enforceable contracts, guaranteed wage payments, rest periods, the right of workers to retain their identity documents, and practical mechanisms for leaving abusive employment.\n\nAdditionally, recruiting agencies should be required to maintain verifiable employer and placement information, address complaints, and cooperate with investigations when a worker is injured, disappears, or dies. Proven misrepresentation, illegal fees, or obstruction should result in proportionate sanctions and accessible remedies, with due process for all parties. Publishing anonymised data on complaints, decisions, and restitution would allow for measurable regulatory performance while safeguarding the privacy of workers and their families.\n\nRelying on a limited range of destination countries and occupations also exposes women to concentrated risks. Expanding accredited training in nursing, caregiving, language, and technical skills, combined with verified employer partnerships and internationally recognised qualifications, would broaden women’s access to safer employment opportunities.\n\nBangladesh needs a unified, gender-disaggregated database for migrant protection that links Bureau of Manpower Employment and Training (BMET), WEWB, diplomatic missions, and relevant complaint authorities. This database should meticulously record deployments, complaints, rescues, deaths and their stated and verified causes, investigations, and compensation outcomes, all while adhering to strict privacy safeguards. Annual public reports should differentiate between recorded and medically reviewed causes of death and discuss risk using appropriate worker population denominators. An independent review, including forensic experts and migration researchers, could then identify recurring issues and recommend corrective actions. Without such evidence, policy will continue to be reactive to individual scandals rather than proactive in addressing preventable patterns.\n\nBangladesh should evaluate its migration system not solely on the number of workers sent abroad and the remittances generated, but also on the protection provided and the remedies available when that protection fails. Every unexplained death demands a serious response. For a nation so reliant on migrant labour, establishing the truth is not a diplomatic inconvenience; it is a fundamental obligation of development policy.",
-   "hasFullText": true,
-   "words": [
-    {
-     "w": "workers",
-     "sentence": "Data from the Wage Earners’ Welfare Board (WEWB) and the Refugee and Migratory Movements Research Unit (RMMRU) show that the bodies of 1,552 female migrant workers were repatriated between 2017 and October 25, 2026."
-    },
-    {
-     "w": "migrant",
-     "sentence": "Data from the Wage Earners’ Welfare Board (WEWB) and the Refugee and Migratory Movements Research Unit (RMMRU) show that the bodies of 1,552 female migrant workers were repatriated between 2017 and October 25, 2026."
-    },
-    {
-     "w": "employment",
-     "sentence": "Therefore, a robust migration policy must protect workers throughout the employment cycle, encompassing recruitment, placement, emergency assistance, return and, if necessary, post-death investigations."
-    },
-    {
-     "w": "complaints",
-     "sentence": "The case file should include hospital records, medical findings, police reports, employment contracts, and any history of complaints."
-    },
-    {
-     "w": "diplomatic",
-     "sentence": "Bangladesh’s diplomatic missions in destination countries should be mandated to open a documented case whenever a migrant worker dies under unclear or contested circumstances."
-    },
-    {
-     "w": "evidence",
-     "sentence": "This will necessitate trained specialists, secure evidence handling, adequate mortuary facilities, and a procedure for promptly informing families."
-    },
-    {
-     "w": "families",
-     "sentence": "In 11 cases, family members disputed suicide as the cause listed on death certificates, and 48 percent of families did not accept explanations of natural death."
-    },
-    {
-     "w": "migration",
-     "sentence": "Therefore, a robust migration policy must protect workers throughout the employment cycle, encompassing recruitment, placement, emergency assistance, return and, if necessary, post-death investigations."
-    },
-    {
-     "w": "protection",
-     "sentence": "The Overseas Employment and Migration Act, 2013, with subsequent amendments in 2026, recognises the protection of migrant workers as a public responsibility."
-    },
-    {
-     "w": "repatriated",
-     "sentence": "Data from the Wage Earners’ Welfare Board (WEWB) and the Refugee and Migratory Movements Research Unit (RMMRU) show that the bodies of 1,552 female migrant workers were repatriated between 2017 and October 25, 2026."
-    },
-    {
-     "w": "suicide",
-     "sentence": "Suicide was recorded as the cause of death in 282 of these cases, with 112 cases involving women who were working in Saudi Arabia."
-    },
-    {
-     "w": "countries",
-     "sentence": "Bangladesh’s diplomatic missions in destination countries should be mandated to open a documented case whenever a migrant worker dies under unclear or contested circumstances."
-    }
-   ]
-  },
-  {
-   "paper": "The Daily Star",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "The growing threat of unregulated tourism",
-   "date": "2026-11-11",
-   "url": "https://www.thedailystar.net/opinion/views/news/the-growing-threat-unregulated-tourism-4320626",
-   "excerpt": "In Bangladesh, people generally begin travelling in late autumn, continuing throughout the winter. In recent times, however, the monsoon has also emerged as a season for tourism in the haor and hill areas.",
-   "fullText": "Today’s profit-driven tourism has grown largely out of a colonial legacy. In a manner reminiscent of Christopher Columbus’s so-called “discovery” of Indigenous territories as “America”, different parts of the country are now being “explored” anew. This obsession with exploration is creating new risks for ecosystems and local cultures across Bangladesh. Until the 1990s, the country’s most frequented tourist destinations were Cox’s Bazar, Jaflong in Sylhet, Madhabkunda and the tea gardens in Moulvibazar, Madhupur Sal forest and Bhawal Garh, Mainamati in Cumilla, the Sundarbans, Mahasthangarh in Bogura, Paharpur in Naogaon, and Kaptai Lake in Rangamati. Then, all of a sudden, brazen sprees of investment, encroachment, pollution, and unruly crowds began to take over everywhere—from Nafakhum to Hum, from St Martin’s Island to Tanguar Haor. This unregulated rush in the name of tourism has spared neither biodiversity and ecosystems nor local cultures. It has piled toxic plastic waste from the mountaintops to haor beds, destroying hills, forests and beaches.\n\nThe authorities concerned have never facilitated the civic education required for people to learn how to visit or connect with a river, forest, hill, wetland, landscape, local community or historical site. Conventional schooling doesn’t teach us how to be responsible towards our landscapes and habitats. As a result, grotesque infrastructure has been constructed even in Ecologically Critical Areas (ECAs) such as the Sundarbans and sea beaches. In Sajek Valley, hazardous, unregulated infrastructure was built at the expense of the hill ecosystem and local cultural diversity. Social media platforms have fuelled this perilous trend further. Some tourists have separated mother birds from their chicks just to photograph a nest, while some have barged into homes and jhum fields in Indigenous villages to snap pictures without the local residents’ consent.\n\nIn a country with 30 agroecological zones, eight hydrological regions, more than 1,400 rivers, 37 living languages, the world’s largest mangrove forest, and the world’s longest natural sea beach, it is imperative to develop a creative and responsible tourism sector that places local nature and cultures at its centre. Although construction is prohibited in protected areas and ECAs, laws and regulations are routinely violated on the ground. Hazardous structures have mushroomed along the Cox’s Bazar beach. A Ramsar site like Tanguar Haor is being battered by motorised vessels. A bizarre variety of resorts have sprung up around Lawachara National Park, home to the hoolock gibbon. This has happened under every regime.\n\nRuilui Para in Sajek Valley, under Rangamati’s Baghaichhari upazila, was an ancestral settlement of the Lushai people. No major fires had ever occurred there before. The trouble began when Ruilui was encroached upon to launch a new tourism business, followed by unregulated construction. On February 24, 2025, a devastating fire reduced parts of Sajek Valley to ashes. Most structures there were built with bamboo, wood, cane and straw—all inflammable. But there was no firefighting facility in the area. But these establishments branded themselves as “eco-resorts”.\n\nOn October 17, 2026, a fire broke out at Tuptup Resort, a so-called “eco-resort”, along the Marine Drive in Ukhiya, Cox’s Bazar, killing 10 tourists. Part of the resort was built with wood, bamboo and tin. The kitchen was located on the ground floor, where the fire originated. An investigation revealed that the resort had been built illegally and did not have environmental clearance. From April 2026 onwards, the Department of Environment served notices to 26 resorts and restaurants, including Tuptup, along the Marine Drive; 14 resorts were fined for defying the notice. On May 13, 2026, Tuptup Resort was fined Tk 1 lakh. To obtain environmental clearance for a resort or restaurant in Cox’s Bazar, the design must be approved by the Cox’s Bazar Development Authority, and the facility must have an effluent and waste management system. The authorities found that 200 establishments along the 80km stretch of the Cox’s Bazar-Teknaf Marine Drive lacked legal clearance. Meanwhile, the brazen destruction of coastal dunes to build roads and structures continues unabated.\n\nUnder both national and global commitments, erecting structures and destroying ecosystems and species within protected areas and ECAs are prohibited in the country. Under Section 5 of the Bangladesh Environment Conservation Act, 1995, the government can declare any area an ECA if its biodiversity and ecological balance are critically threatened or facing destruction. ECAs in Bangladesh include the Sundarbans (including a 10km peripheral zone), St Martin’s Island, the Cox’s Bazar-Teknaf coastline, Sonadia Island, Tanguar Haor, Marjat Baor, Gulshan-Baridhara Lake, and the Turag, Buriganga, Balu and Shitalakkhya rivers.\n\nWithin an ECA, setting up factories, cutting hills, extracting soil or sand, harming biodiversity, hunting wildlife, and undertaking any commercial or development activities that damage the natural balance of soil, water and air are strictly prohibited. These restrictions were imposed under the Environment Conservation Rules, 1997. The Ecologically Critical Area Management Rules, 2016 set out frameworks for ECA governance, formation of national and district committees, and community participation.\n\nAlthough the government stepped back from destructive projects like a deep-sea port on Sonadia Island, it still remains in bad shape. Over the years, influential individuals have cleared thousands of acres of mangroves to establish commercial shrimp enclosures. The island, a vital habitat for the globally endangered spoon-billed sandpiper and rare sea turtles, is reeling under encroachment and pollution. St Martin’s Island has been choked with unplanned construction. Native fish and avian species and rare flora like the wild rose are vanishing from Tanguar Haor. The Buriganga and other rivers surrounding Dhaka are now overrun by the invasive suckerfish. Hazardous illegal structures like Tuptup continue to appear along the Cox’s Bazar-Teknaf Marine Drive. Why is there no monitoring, prosecution or punishment for these destructive activities and violations of ECA rules?\n\nLet structures rooted in nature and culture flourish\n\nOn November 8, 2020, the Mro community in Bandarban staged a cultural showdown along the Bandarban-Chimbuk-Thanchi road, demanding suspension of the construction of the Marriott Hotel and Resort and calling for the protection of their hills and livelihoods. In 2004, Piren Slan sacrificed his life to stop the construction of a concrete eco-park and protect the Madhupur Sal forest. Why do Indigenous and local communities risk their lives to challenge such aggressive development projects? Because externally imposed architectural designs and construction materials are often incompatible with local nature and culture. The resulting infrastructure creates new forms of disorder, inequality and conflict in local environments and communities.\n\nUsing wood and bamboo alongside plastic, boards, glass and lead-based paints does not automatically make a building an “eco-resort”. The concept of an eco-resort represents a comprehensive environmental and political commitment. Many of the country’s traditional structures and architectural traditions honoured ecological principles. The Arkul Math in Keraniganj was constructed in a manner that makes it the last refuge for green parakeets in Dhaka today. Ancient heritage sites such as Hazrat Shahjalal’s (RA) shrine in Sylhet, the Shat Gombuj Masjid in Bagerhat, and the Kantaji Temple in Dinajpur provide shelter not only to people but also to numerous local animal and bird species.\n\nArticle 18A of the constitution states that the state shall endeavour to protect and improve the environment for present and future citizens and preserve and safeguard natural resources, biodiversity, wetlands, forests and wildlife. Developing nature- and culture-sensitive architecture and responsible, inclusive tourism, with due regard for the ecosystems in all parts of the country including the ECAs and protected areas, is a constitutional commitment of the state.",
-   "hasFullText": true,
-   "words": [
-    {
-     "w": "structures",
-     "sentence": "Hazardous structures have mushroomed along the Cox’s Bazar beach."
-    },
-    {
-     "w": "construction",
-     "sentence": "Although construction is prohibited in protected areas and ECAs, laws and regulations are routinely violated on the ground."
-    },
-    {
-     "w": "tourism",
-     "sentence": "Today’s profit-driven tourism has grown largely out of a colonial legacy."
-    },
-    {
-     "w": "biodiversity",
-     "sentence": "This unregulated rush in the name of tourism has spared neither biodiversity and ecosystems nor local cultures."
-    },
-    {
-     "w": "ecosystems",
-     "sentence": "This obsession with exploration is creating new risks for ecosystems and local cultures across Bangladesh."
-    },
-    {
-     "w": "environment",
-     "sentence": "From April 2026 onwards, the Department of Environment served notices to 26 resorts and restaurants, including Tuptup, along the Marine Drive; 14 resorts were fined for defying the notice."
-    },
-    {
-     "w": "resorts",
-     "sentence": "A bizarre variety of resorts have sprung up around Lawachara National Park, home to the hoolock gibbon."
-    },
-    {
-     "w": "tanguar",
-     "sentence": "Then, all of a sudden, brazen sprees of investment, encroachment, pollution, and unruly crowds began to take over everywhere—from Nafakhum to Hum, from St Martin’s Island to Tanguar Haor."
-    },
-    {
-     "w": "clearance",
-     "sentence": "An investigation revealed that the resort had been built illegally and did not have environmental clearance."
-    },
-    {
-     "w": "community",
-     "sentence": "The authorities concerned have never facilitated the civic education required for people to learn how to visit or connect with a river, forest, hill, wetland, landscape, local community or historical site."
-    },
-    {
-     "w": "culture",
-     "sentence": "Let structures rooted in nature and culture flourish\n\nOn November 8, 2020, the Mro community in Bandarban staged a cultural showdown along the Bandarban-Chimbuk-Thanchi road, demanding suspension of the construction of the Marriott Hotel and Resort and calling for the protection of their hills and l"
-    },
-    {
-     "w": "cultures",
-     "sentence": "This obsession with exploration is creating new risks for ecosystems and local cultures across Bangladesh."
-    }
-   ]
-  },
-  {
-   "paper": "প্রথম আলো",
-   "lang": "bn",
-   "kind": "editorial",
-   "title": "আন্তালিয়ায় কপ৩১: বাংলাদেশ কী নিয়ে ফিরবে",
-   "date": "2026-11-11",
-   "url": "https://www.prothomalo.com/opinion/column/qnjsxv24pt",
-   "excerpt": "কপ হলো জাতিসংঘের জলবায়ু পরিবর্তনবিষয়ক কাঠামো সনদের পক্ষগুলোর সম্মেলন।",
-   "fullText": "তুরস্কের আন্তালিয়ায় যে জলবায়ু সম্মেলন শুরু হয়েছে, সেখানে বাংলাদেশের অভিজ্ঞতা বোঝাতে একটি প্রশ্নই যথেষ্ট। ঘূর্ণিঝড়ের সতর্কবার্তা পেয়ে একটি পরিবার আশ্রয়কেন্দ্রে গিয়ে প্রাণ বাঁচাল। ফিরে এসে দেখল, ঘর ভেসে গেছে, পুকুরে লবণপানি ঢুকেছে, চাষের জমি আগের মতো ফলন দেবে না। প্রথম সাফল্যটি আমাদের দুর্যোগ প্রস্তুতির অর্জন। পরের ক্ষতিগুলো সামলানোর ব্যয় কে বহন করবে, সেটি আন্তর্জাতিক জলবায়ু রাজনীতির প্রশ্ন। আন্তালিয়ায় প্রধানমন্ত্রী তারেক রহমানের উপস্থিতির তাৎপর্য এখানেই। বাংলাদেশের দুর্যোগ মোকাবিলার অভিজ্ঞতা তুলে ধরার পাশাপাশি তাঁকে এমন অর্থায়নের পক্ষে সমর্থন গড়তে হবে, যা ক্ষতির পর পরিবার ও স্থানীয় অর্থনীতিকে ঘুরে দাঁড়াতে সাহায্য করে। কপ হলো জাতিসংঘের জলবায়ু পরিবর্তনবিষয়ক কাঠামো সনদের পক্ষগুলোর সম্মেলন। ৯ নভেম্বর শুরু হওয়া এবারের ৩১তম আসর চলবে ২০ নভেম্বর পর্যন্ত। একই সময়ে প্যারিস চুক্তির পক্ষগুলোর বৈঠকও হয়। এসব আলোচনায় দেশগুলো নির্গমন কমানোর অগ্রগতি, অভিযোজন, অর্থায়ন ও প্রতিবেদন দেওয়ার নিয়ম নিয়ে সিদ্ধান্ত নেয়। প্যারিস চুক্তির অধীন দেশগুলো নিজেরাই নির্গমন হ্রাসের লক্ষ্য নির্ধারণ করে। ফলে একটি সম্মেলন কোনো বড় অর্থনীতিকে তার কয়লাভিত্তিক বিদ্যুৎকেন্দ্র বন্ধ করতে বাধ্য করতে পারে না। তবে দেশটি কী প্রতিশ্রুতি দিয়েছে, কতটা পালন করেছে এবং ব্যবধান কতখানি, তা আন্তর্জাতিক পর্যালোচনায় আনতে পারে। এলডিসি পেছানোর সুযোগে কপ৩১ থেকে বাংলাদেশ কী আশা করতে পারে? বিশ্ব কী অর্জন করতে পারে প্রথম পরীক্ষা অর্থায়নের। বাকুতে কপ২৯ উন্নয়নশীল দেশগুলোর জন্য ২০৩৫ সালের মধ্যে বছরে অন্তত ৩০ হাজার কোটি ডলার জলবায়ু অর্থায়নের লক্ষ্য স্থির করে, যাতে উন্নত দেশগুলো নেতৃত্ব দেবে। একই সঙ্গে সরকারি ও বেসরকারি সব উৎস মিলিয়ে বছরে ১ লাখ ৩০ হাজার কোটি ডলারে পৌঁছানোর বৃহত্তর আহ্বান জানানো হয়। ব্রাজিলের বেলেমে কপ৩০ সম্মেলনে ২০৩৫ সালের মধ্যে অভিযোজন অর্থায়ন অন্তত তিন গুণ করার প্রচেষ্টার আহ্বান জানায়। আন্তালিয়ার কাজ হবে এসব লক্ষ্য বাস্তবায়নের হিসাব স্পষ্ট করা। কোন বছর কত অর্থ আসবে, কতটা অনুদান, কতটা ঋণ, আর কতটা পুরোনো উন্নয়ন বরাদ্দকে নতুন নামে দেখানো হচ্ছে? এই প্রশ্নগুলোর উত্তর ছাড়া বড় অঙ্কের প্রতিশ্রুতির সঙ্গে স্থানীয় সরকারের ব্যয়ের পরিকল্পনা মেলানো কঠিন। দ্বিতীয় পরীক্ষা নির্গমন। ধনী দেশের ঐতিহাসিক দায় এবং বড় উদীয়মান অর্থনীতির বর্তমান নির্গমন—দুটিই আলোচনায় থাকতে হবে। একই হারে বা একই ব্যয়ে সবাইকে জ্বালানিব্যবস্থা বদলাতে বললে সমঝোতা কঠিন হবে। কিন্তু জ্বালানিনিরাপত্তার নামে নতুন জীবাশ্ম জ্বালানি অবকাঠামোয় দীর্ঘমেয়াদি বিনিয়োগ চলতে থাকলে ভবিষ্যতের নির্গমন কমানোর খরচ বাড়বে। আন্তালিয়ায় অগ্রগতি হতে পারে, যদি দেশগুলো তাদের ঘোষিত লক্ষ্যের সঙ্গে বিদ্যুৎ, শিল্প ও পরিবহন খাতের বাস্তব নীতির ব্যবধান প্রকাশ করে এবং সেই ব্যবধান কমাতে প্রয়োজনীয় অর্থ ও প্রযুক্তির হিসাব দেয়। ঐকমত্যের কূটনীতিতে শক্ত ভাষা পাওয়া কঠিন। তবু সময়সীমা ও অগ্রগতি যাচাইয়ের ব্যবস্থা থাকলে একটি সীমিত সিদ্ধান্তও কাজে লাগে। তৃতীয় পরীক্ষা ক্ষয়ক্ষতি মোকাবিলার তহবিল। অভিযোজনের অর্থ দিয়ে লবণপানি ঠেকাতে বাঁধ মেরামত করা যায়। বাঁধ ভাঙার পর জমি, ঘর ও জীবিকা হারানোর যে ক্ষতি থেকে যায়, তার জন্য ভিন্ন ধরনের সহায়তা দরকার। ক্ষয়ক্ষতি তহবিলের প্রাথমিক ব্যবস্থায় ২০২৫ ও ২০২৬ সালের জন্য ২৫ কোটি ডলার বরাদ্দ রাখা হয়েছিল। এই অঙ্ক দেখায় কেন প্রবেশাধিকার নিয়ে দর-কষাকষির পাশাপাশি তহবিলের আকার ও নিয়মিত অর্থ জোগানের প্রশ্নটিও জরুরি। আন্তালিয়া থেকে ফিরেই সরকার একটি সংক্ষিপ্ত হিসাব প্রকাশ করতে পারে। কোন দাবি সিদ্ধান্তে জায়গা পেল, কোন প্রকল্প নিয়ে কার সঙ্গে আলোচনা এগোল, কত অর্থের লিখিত প্রতিশ্রুতি এল এবং তার কতটা অনুদান। পরের বছর একই হিসাবে অর্থছাড় ও মাঠপর্যায়ের অগ্রগতি যোগ করা যাবে। বাংলাদেশের দর-কষাকষি কোথায় পররাষ্ট্র মন্ত্রণালয়ের ব্রিফিং অনুযায়ী, প্রধানমন্ত্রী তারেক রহমান ১১ ও ১২ নভেম্বরের বিশ্বনেতাদের শীর্ষ বৈঠকে যোগ দেবেন এবং ১২ নভেম্বর বাংলাদেশের বক্তব্য দেবেন। অনুদানভিত্তিক অর্থায়ন ও বড় নির্গমনকারীদের জবাবদিহি ঢাকার ঘোষিত অগ্রাধিকার। প্রধানমন্ত্রীর বৈঠকগুলো কাজে লাগতে পারে যদি সেগুলো থেকে মন্ত্রণালয়ের পরবর্তী আলোচনার জন্য নির্দিষ্ট যোগাযোগ, প্রকল্প প্রস্তুতিতে সহায়তা কিংবা অর্থায়ন যাচাইয়ের সময়সূচি পাওয়া যায়। আর স্বল্পোন্নত ও জলবায়ু-ঝুঁকিপূর্ণ দেশগুলোর সঙ্গে যৌথভাবে দাবি তুললে চূড়ান্ত সিদ্ধান্তের ভাষায় প্রভাব ফেলার সুযোগ বাড়ে। ঢাকার প্রথম দাবি হওয়া উচিত এমন অভিযোজন কাজে অনুদান, যেখান থেকে সরাসরি আয় আসে সামান্য অথচ সামাজিক সুফল বড়। উপকূলের নিরাপদ পানির ব্যবস্থা, আশ্রয়কেন্দ্রে যাওয়ার রাস্তা কিংবা জলাবদ্ধতা নিরসন তার উদাহরণ। এসব প্রকল্পে ঋণের কিস্তি শেষ পর্যন্ত জনগণকেই দিতে হয়। অন্যদিকে বিদ্যুৎ সাশ্রয় বা নবায়নযোগ্য বিদ্যুতের মতো আয় ও সাশ্রয় সৃষ্টিকারী প্রকল্পে শর্তসাপেক্ষে স্বল্প সুদের ঋণ কাজে লাগতে পারে। বাংলাদেশের হালনাগাদ জাতীয় জলবায়ু অঙ্গীকারে আন্তর্জাতিক সহায়তা পেলে ২০৩৫ সালে স্বাভাবিক গতিপথের তুলনায় নির্গমন ২০ দশমিক ৩১ শতাংশ কমানোর মোট লক্ষ্য রয়েছে। এই সহায়তার দাবি বিশ্বাসযোগ্য করতে দেশে বিদ্যুৎ ক্রয়, জ্বালানি বিনিয়োগ ও শিল্পের দক্ষতা বৃদ্ধির নীতিকেও ওই লক্ষ্যের সঙ্গে মেলাতে হবে। দ্বিতীয় দাবি হওয়া উচিত ক্ষয়ক্ষতির হিসাবে বাস্তুচ্যুতির ব্যয় অন্তর্ভুক্ত করা। নদীভাঙনে বসতভিটা হারালে ক্ষতির হিসাব ঘরের বাজারদরে শেষ হয় না। নতুন জায়গায় বাসাভাড়া, কাজ পেতে দেরি, সন্তানের স্কুল বদল এবং চিকিৎসাসেবা থেকে বিচ্ছিন্ন হওয়ার ব্যয়ও আছে। বাংলাদেশের প্রস্তাবে তাই ক্ষতিগ্রস্ত এলাকা এবং যে পৌরসভায় মানুষ এসে বসতি গড়ে, দুই জায়গার প্রয়োজনই ধরা উচিত। একই সঙ্গে স্থানীয় জনগোষ্ঠীর অংশগ্রহণে প্রকল্প বাছাই এবং অনুমোদন থেকে অর্থছাড় পর্যন্ত হিসাব প্রকাশের অঙ্গীকার থাকলে ঢাকার দাবির ভিত্তি শক্ত হবে। তৃতীয় কাজটি দেশে বসেই শুরু করা যায়। আলোচনায় সাধারণভাবে ‘আরও অর্থ চাই’ বলার পাশাপাশি কয়েকটি বাস্তবায়নযোগ্য প্রস্তাব প্রস্তুত রাখতে হবে। ধরা যাক, উপকূলীয় কয়েকটি উপজেলার জন্য নিরাপদ পানির প্রকল্প। কোন গ্রামে লবণাক্ততা কত মাস থাকে, কত পরিবার উপকৃত হবে, স্থানীয় প্রতিষ্ঠান কীভাবে অবকাঠামো রক্ষণাবেক্ষণ করবে এবং পাঁচ বছর পর সাফল্য কীভাবে মাপা হবে, প্রস্তাবে তার উত্তর থাকতে হবে। এতে অংশীদারের সঙ্গে আলোচনা নির্দিষ্ট হয়, দেশের ভেতরেও একই প্রকল্পের জন্য একাধিক উৎস থেকে অর্থ চাওয়ার ঝুঁকি কমে। প্রকল্প তৈরি ও তহবিলের আবেদনপ্রক্রিয়া সহজ করার দাবি পাশাপাশি তুলতে হবে। আবেদন তৈরির সক্ষমতাকেই অর্থ পাওয়ার প্রধান শর্ত বানালে সবচেয়ে ঝুঁকিপূর্ণ স্থানীয় প্রতিষ্ঠানগুলো শুরুতেই পিছিয়ে পড়ে। আন্তালিয়া থেকে ফিরেই সরকার একটি সংক্ষিপ্ত হিসাব প্রকাশ করতে পারে। কোন দাবি সিদ্ধান্তে জায়গা পেল, কোন প্রকল্প নিয়ে কার সঙ্গে আলোচনা এগোল, কত অর্থের লিখিত প্রতিশ্রুতি এল এবং তার কতটা অনুদান। পরের বছর একই হিসাবে অর্থছাড় ও মাঠপর্যায়ের অগ্রগতি যোগ করা যাবে। যে পরিবারটি আশ্রয়কেন্দ্র থেকে ফিরে লবণপানিতে ডোবা পুকুর দেখেছিল, তার কাছে সম্মেলনের মূল্য বোঝা যাবে নিরাপদ পানি ফিরে এলে, জীবিকা পুনর্গঠনের সহায়তা হাতে পৌঁছালে এবং পরের দুর্যোগের আগে সুরক্ষার কাজ শেষ হলে। এ কে এম আহসান উল্লাহ অধ্যাপক, আন্তর্জাতিক নিরাপত্তা ও অভিবাসন বিভাগ, ইউনিভার্সিটি অব ব্রুনেই দারুসসালাম, ব্রুনেই akmahsanullah@gmail.com মতামত লেখকের নিজস্ব",
-   "hasFullText": true,
-   "words": []
-  },
-  {
-   "paper": "প্রথম আলো",
-   "lang": "bn",
-   "kind": "editorial",
-   "title": "বিকল্প বিনিয়োগ গন্তব্য এবং আঞ্চলিক সংযোগ—জাপানের দিক থেকে প্রধানমন্ত্রীর সফর",
-   "date": "2026-11-11",
-   "url": "https://www.prothomalo.com/opinion/column/2r4tc8u0hj",
-   "excerpt": "",
-   "fullText": "জাপানের প্রধানমন্ত্রী সানায়ে তাকাইচির আমন্ত্রণে গত ২৬ থেকে ২৯ অক্টোবর পর্যন্ত বাংলাদেশের প্রধানমন্ত্রী তারেক রহমান জাপান সফর করে গেলেন। এটি কি গতানুগতিক কোনো সফর ছিল, নাকি অর্জিত হয়েছে বড় কিছু? সফরের পর এমন প্রশ্ন অবান্তর নয়। টোকিও এমন একটি শহর, যেখানে প্রতিদিন কোনো না কোনো গুরুত্বপূর্ণ বৈশ্বিক ব্যক্তিত্বের আগমন ঘটে। যেমন বাংলাদেশের প্রধানমন্ত্রীর অবস্থানকালীন যেসব বিশ্বনেতা এসেছেন, তাঁর মধ্যে ছিলেন স্বয়ং জার্মান চ্যান্সেলরও। কিন্তু এর মধ্যেও বাংলাদেশের প্রধানমন্ত্রী যে যথেষ্ট গুরুত্ব ও মর্যাদা পেয়েছেন, সেটি নিশ্চিতভাবে বলা যায়। গার্ড অব অনার থেকে শুরু করে উষ্ণ অভ্যর্থনা, দীর্ঘ দ্বিপক্ষীয় আলোচনা, যৌথ বিবৃতি, সরকারি-বেসরকারি খাতে বেশ কয়েকটি চুক্তি-স্মারক স্বাক্ষর, প্রধানমন্ত্রীর সঙ্গে জেট্রো, জাইকা, জেবিআইসি, জেরাসহ বিভিন্ন প্রতিষ্ঠানের উচ্চপর্যায়ের ব্যক্তিদের সাক্ষাৎ—সর্বোপরি পারস্পরিক সহযোগিতা-ঋণ-বিনিয়োগের আশ্বাস সেই গুরুত্বকেই প্রতিভাত করে। অন্যদিকে জাপানের শীর্ষ গণমাধ্যম নিক্কেই এবং ইউমোরি থেকে শুরু করে গণসম্প্রচার কেন্দ্র এনএইচকেও গুরুত্ব দিয়ে প্রকাশ করেছে এই সফরের সংবাদ। এনএইচকের প্রতিবেদনে দুই প্রধানমন্ত্রীর আলোচনাকে ‘বিস্তৃত’ বলে উল্লেখ করা হয়েছে। তাদের ভাষ্যে, দুই নেতা ‘অর্থনৈতিক ও নিরাপত্তাসহ অন্যান্য বিষয় নিয়ে দুই দেশের মধ্যে ঘনিষ্ঠ সহযোগিতায় সম্মত হয়েছেন’। শীর্ষ বৈঠকে বঙ্গোপসাগরকেন্দ্রিক ‘বিগ-বি’র ধারণাটিকে ‘অভিন্ন সমৃদ্ধির জন্য বিগ-বি’ নামক একটি নতুন কৌশলগত সহযোগিতামূলক উদ্যোগে উন্নীত করতে সম্মত হয়েছে দুপক্ষ। সংযোগ শক্তিশালীকরণ; প্রাকৃতিক দুর্যোগ ও ভূরাজনৈতিক ঝুঁকির জন্য প্রস্তুতি; অর্থনৈতিক প্রবৃদ্ধির সুযোগ সৃষ্টি ও বিধি প্রণয়নের জন্য সরকারি-বেসরকারি অংশীদারত্ব এবং শান্তি ও স্থিতিশীলতার জন্য সহযোগিতা এর মূল ভিত্তি। আগামী পাঁচ বছরে বাংলাদেশে জাপানি বেসরকারি বিনিয়োগ এক ট্রিলিয়ন ইয়েন পর্যন্ত পৌঁছানোর সম্ভাবনার কথা উচ্চারিত হয়েছে। জাপান-বাংলাদেশ অর্থনৈতিক অংশীদারত্ব চুক্তি (ইপিএ) দ্রুত কার্যকরের উদ্যোগও গৃহীত হবে। ইউমোরি শিম্বুনের প্রতিবেদন অনুযায়ী, জাপানের চলমান সংসদ অধিবেশনেই এর অনুস্বাক্ষর হওয়ার কথা। এ ছাড়া বাণিজ্য ও বিনিয়োগ, কৃষি, বন ও মৎস্য পণ্য, জ্বালানি, পরিবেশ ও জলবায়ু পরিবর্তন এবং বিমান চলাচলসহ বিভিন্ন ক্ষেত্রে সহযোগিতা বৃদ্ধির কথা বলা হয়েছে। প্রধানমন্ত্রীর জাপান সফর: কোথায় সম্ভাবনা, কোথায় পরীক্ষা অন্তর্বর্তীকালীন দ্বিধা কাটানো জাপান বরাবরই বাংলাদেশের বিশ্বস্ত বন্ধু ও অন্যতম প্রধান উন্নয়ন সহযোগী। বিশেষ করে বাংলাদেশে মেট্রোরেল, বিমানবন্দরের তৃতীয় টার্মিনাল ও মাতারবাড়ী গভীর সমুদ্রবন্দরসহ বেশ কয়েকটি মেগা প্রকল্প এবং অন্যান্য সহযোগিতা এর সাম্প্রতিক দৃশ্যমান উদাহরণ। তবে ২০২৪ সালের আগস্ট মাসে বাংলাদেশের রাজনৈতিক পটপরিবর্তনের পর সেই সহযোগিতার গতিতে একটু ঢিমেতাল চলে আসে। বাংলাদেশের দিক থেকে যেমন সেভাবে নতুন বড় প্রকল্পের কথা ওঠেনি, একইভাবে পুরো অন্তর্বর্তী সময়েই জাপানের পর্যবেক্ষণ ও সংযোগও ছিল অনেকটা সতর্ক ও ধীরগতির। বাংলাদেশের বৈশ্বিক মেরুকরণ এবং দেশের অভ্যন্তরীণ রাজনৈতিক ও আইনশৃঙ্খলার স্থিতিশীলতার বিষয়টি মনোযোগের কেন্দ্রে ছিল সংশ্লিষ্টদের। সেই দিক থেকে দেখলে এবারের সফরের মূল অর্জন হচ্ছে সেই ধোঁয়াশা কেটে যাওয়া। দুই নেতার যৌথ বিবৃতিতে, বাংলাদেশের গণতন্ত্র নিয়ে জাপানের প্রশংসা গত নির্বাচনে একটি রাজনৈতিক সরকার ক্ষমতায় আসায় দেশটির স্বস্তিকেই তুলে ধরে। বাংলাদেশের গুরুত্ব কোথায়, অর্থনীতি না নিরাপত্তায় জাপানের জন্য বাংলাদেশের গুরুত্ব ভৌগোলিক শুধু নয়, ভূরাজনৈতিকও বটে। বর্তমানে জাপানের চারদিকে জটিল হয়ে ওঠা ভূরাজনৈতিক সমীকরণ এর মূল কারণ। জাপানের অভ্যন্তরীণ সংকট: পূর্ব ও দক্ষিণ চীন সাগরে চীনের শক্তিশালী সামরিক উপস্থিতি, ইউক্রেনে রাশিয়ার আক্রমণ, জাপানের আশপাশে চীন-রাশিয়ার যৌথ সামরিক মহড়া, উত্তর কোরিয়ার ধারাবাহিক উন্নত প্রযুক্তির ক্ষেপণাস্ত্র পরীক্ষা জাপানকে সামরিক নিরাপত্তার দিক থেকে উদ্বিগ্ন করে তুলছে। অন্যদিকে ইউক্রেন যুদ্ধের কারণে রাশিয়ার সঙ্গে পারস্পরিক পাল্টাপাল্টি নিষেধাজ্ঞার প্রভাব পড়ছে আমদানি-রপ্তানির ওপর। সেই সঙ্গে তাইওয়ান নিয়ে প্রধানমন্ত্রী সানায়ে তাকাইচির বিতর্কিত মন্তব্যে চীন রুষ্ট হয়ে জাপানে বিরল খনিজ রপ্তানির ওপর বিধিনিষেধ আরোপ করলে দেশটির সামনে সংকট প্রকট হয়। কারণ, এই উপাদান শিল্প খাতে অতিগুরুত্বপূর্ণ চিপ বা সেমিকন্ডাক্টর নির্মাণে অপরিহার্য। মধ্যপ্রাচ্য যুদ্ধের কারণে সৃষ্ট জ্বালানিসংকট সৃষ্টি করেছে কৌশলগত ঝুঁকি। মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্পের শুল্কযুদ্ধ সামাল দেওয়াও উপেক্ষা করার বিষয় নয়। এদিকে বছরের পর বছর জ্বালানি ভর্তুকি যেমন সরকারের ওপর চাপ বাড়াচ্ছে, তেমনি মূল্যস্ফীতি কাঙ্ক্ষিত ২ শতাংশকে ছাড়িয়ে যাচ্ছে। ইয়েনের ধারাবাহিক অতি নিম্নমূল্যও আমদানি বাজারে প্রভাব ফেলছে। সব মিলিয়ে জাপানের সার্বিক আর্থিক চিত্র খুব একটা সুখকর নয়। সে কারণে বৈদেশিক বিনিয়োগের ক্ষেত্রে অপেক্ষাকৃত সুবিধাজনক স্থান খুঁজে নেওয়া জাপানের জন্য গুরুত্বপূর্ণ। উদাহরণস্বরূপ প্রতিবেশী দেশ মিয়ানমারের কথা বলা যেতে পারে। দেশটিতে গণতান্ত্রিক সরকার ক্ষমতায় আসার পর জাপান ব্যাপক বিনিয়োগের পরিকল্পনা করলেও সেখানে সৃষ্ট নতুন রাজনৈতিক সংকট তাতে বাদ সেধেছে। বাংলাদেশের সুযোগ এসব কারণে বাংলাদেশের ভৌগোলিক অবস্থানই জাপানের কাছে বাংলাদেশের গুরুত্ব স্বয়ংক্রিয়ভাবেই বাড়িয়ে দিয়েছে। বিশেষ করে নতুন ভূরাজনৈতিক বাস্তবতায় সরবরাহ শৃঙ্খল ও উৎপাদনের একক বৃহৎ ঘাঁটি চীনের কবল থেকে বেরিয়ে এসে এ খাতে বৈচিত্র্য আনতে চাইছে জাপান। দুই প্রধানমন্ত্রীর যৌথ বিবৃতিতে নির্মাণ, খাদ্য, কৃষি খাত, তথ্যপ্রযুক্তি ও ফার্মাসিউটিক্যালের মতো খাতে পরিপূরক এবং সহনশীল সরবরাহ শৃঙ্খল গড়ে তোলার বিষয়ে যে ঐকমত্যের কথা বলা হয়েছে, তার মূলেও অনেকটা এই বিকল্প খোঁজার তাগিদ। আবার বাংলাদেশে দীর্ঘদিন ধরে অব্যাহত থাকা উচ্চ অর্থনৈতিক প্রবৃদ্ধিকেও অত্যন্ত ইতিবাচক হিসেবে দেখছে জাপান। সুতরাং বাংলাদেশের উচিত হবে সুযোগটা পুরোপুরি কাজে লাগানো। জাপানের প্রধানমন্ত্রী বিনিয়োগ অনুকূল পরিবেশ সৃষ্টির জন্য যে আহ্বান জানিয়েছেন, সেটিকে আমলে নিয়ে অবকাঠামো উন্নয়ন, জ্বালানি নিশ্চয়তা ও করসহ দাপ্তরিক কর্মকাণ্ড সহজীকরণ এ ক্ষেত্রে অপরিহার্য। জাপানের আরেকটি লক্ষ্য হচ্ছে, জাতিসংঘ নিরাপত্তা পরিষদকে ঢেলে সাজানো। এর মাধ্যমে নিরাপত্তা পরিষদের এখনকার পাঁচ সদস্যের পরিধিকে বাড়ানোর কথাই মূলত বোঝানো হয়েছে। বলাই বাহুল্য, ভারত কিংবা ব্রাজিলের মতো জাপান নিজেও এর সদস্য হতে চায়। এ ক্ষেত্রে বাংলাদেশের সমর্থন জাপানের একান্তই কাম্য। বাংলাদেশের পররাষ্ট্রমন্ত্রীর সাধারণ পরিষদের মহাসচিব হওয়ার বিষয়টিও এ ক্ষেত্রে জাপানের জন্য ইতিবাচক। বহুমুখী কূটনীতির নতুন ছক: প্রধানমন্ত্রীর তিন সফরের তাৎপর্য অর্থনীতি থেকে সামরিক সংযোগ তবে জাপানের বিদেশনীতিতে ঘুরেফিরে চীন একটি বড় ইস্যু। বাংলাদেশে রাজনৈতিক পটপরিবর্তনের পর চীন একটি বড় ক্রীড়নক হিসেবে আবির্ভূত হওয়ায়, তা ভাবিয়ে তুলছে জাপানকে। জাপানের গণমাধ্যম ইউমোরি শিম্বুন যেমন বলছে, ভারত মহাসাগরের সমুদ্রপথ বরাবর অবস্থিত বাংলাদেশকে জাপান দীর্ঘদিন ধরেই একটি কৌশলগত অংশীদার হিসেবে বিবেচনা করে আসছে। চীনের সঙ্গে বাংলাদেশের ক্রমবর্ধমান ঘনিষ্ঠতার প্রেক্ষাপটে জাপান সম্ভবত বাংলাদেশের সঙ্গে নিজেদের সম্পর্ককে আরও গভীর করার লক্ষ্য নিয়ে কাজ করছে। দুই দেশের যৌথ বিবৃতিতে একাধিকবার নিয়মভিত্তিক অর্থনৈতিক ব্যবস্থার পাশাপাশি সমুদ্রে যাতায়াত ও উড্ডয়নের যে অবাধ স্বাধীনতার কথা বলা হচ্ছে, তা মূলত চীনকে মাথায় রেখেই। জাপানের মুক্ত ও অবাধ ভারত প্রশান্ত মহাসাগরীয় অঞ্চল ধারণার কেন্দ্রেও আছে এ অঞ্চলে চীনের প্রভাবে ঠেকানোর কৌশল। জাপান তাই সাম্প্রতিক বছরগুলোতে তাদের বৈদেশিক ঋণের ক্ষেত্রে বৈচিত্র্য এনেছে। সনাতন সরকারি উন্নয়ন সহায়তার (ওডিএ) পাশাপাশি সরকারি নিরাপত্তা সহায়তা (ওএসএ) প্রচলন করেছে। এবারের যৌথ বিবৃতিতেও বলা হয়েছে, ক্রমবর্ধমান অনিশ্চিত ভূরাজনৈতিক আবহের মধ্যে দুই প্রধানমন্ত্রী দ্বিপক্ষীয় নিরাপত্তা সহযোগিতা আরও জোরদার করার ব্যাপারে আবার অঙ্গীকারবদ্ধ হয়েছেন। এই প্রেক্ষাপটে তাঁরা প্রতিরক্ষা সরঞ্জাম ও প্রযুক্তি হস্তান্তরসংক্রান্ত চুক্তি স্বাক্ষর ও কার্যকর হওয়াকে স্বাগত জানিয়েছেন। প্রশ্ন হচ্ছে এ ক্ষেত্রে কী ধরনের সরঞ্জাম সরবরাহ করা হবে। সম্প্রতি প্রাণঘাতী সামরিক সরঞ্জাম হস্তান্তরের দিকে জাপানের নীতি পরিবর্তনের কারণে এ বিষয়টিও গুরুত্বপূর্ণ। বাংলাদেশকে অবশ্যই এ ক্ষেত্রে অন্যান্য ভূরাজনৈতিক ক্রীড়নকদের কথা মাথায় রেখেই ভারসাম্যমূলক সিদ্ধান্ত নিতে হবে। বিবৃতিতে আরও উল্লেখ আছে, জাপান নিরাপত্তা-সহায়ক ওডিএ হিসেবে বাংলাদেশের সামুদ্রিক নিরাপত্তা সক্ষমতা বৃদ্ধির জন্য একটি টহল জাহাজ প্রদানের সিদ্ধান্ত নিয়েছে। জাপানের সরকারি নিরাপত্তা সহায়তা (ওএসএ) কর্মসূচির মাধ্যমে পাঁচটি টহল জাহাজ প্রদানের পাশাপাশি ওএসএ কর্মসূচির অধীনে ভবিষ্যৎ সহযোগিতা অন্বেষণের কথাও বলা হয়েছে। এসব জাহাজ নতুন না পুরোনো—সেটি অবশ্য স্পষ্ট নয়। কারণ, কিছুদিন আগেও ফিলিপাইনকে পুরোনো সামরিক জাহাজ হস্তান্তরের ঘোষণা দিয়েছিল জাপান। আঞ্চলিক যোগাযোগ: অর্থনীতি বনাম ভূরাজনীতি অন্যদিকে আঞ্চলিক সংযোগ হচ্ছে ‘অভিন্ন সমৃদ্ধির জন্য বিগ-বি’ ধারণার প্রধান একটি ধারা। বিবৃতিতে এ ক্ষেত্রে ঢাকার এমআরটি প্রকল্প, শাহজালাল আন্তর্জাতিক বিমানবন্দরের তৃতীয় টার্মিনালসহ ভবিষ্যতে মাতারবাড়ি গভীর সমুদ্রবন্দরের পরিচালনা ও ব্যবস্থাপনার কথা বলা হয়েছে। সমুদ্রবন্দরের ব্যবহারের ধরন এখানে গুরুত্বপূর্ণ। এটি কি শুধু বাংলাদেশের অভ্যন্তরীণ পণ্য পরিবহনের বিষয়? নাকি বৃহত্তর আঞ্চলিক সংযোগ এর লক্ষ্য! এ বিষয়ে কথা হয়েছে জাপানের কেইসেন বিশ্ববিদ্যালয়ের ইমেরিটাস অধ্যাপক ওহাশি মাসাকির সঙ্গে। বেশ কয়েক দশক ধরেই তিনি জাপান-বাংলাদেশ সম্পর্ক ও দারিদ্র্য বিমোচনের মতো বিষয়গুলো নিয়ে কাজ করছেন। এবারের শীর্ষ বৈঠক নিয়ে তিনি বলেন, ‘বিবৃতির ভাষা ও নেতাদের বক্তব্য দেখে মনে হচ্ছে বাংলাদেশের সঙ্গে অর্থনৈতিক সম্পর্কের উন্নতি হচ্ছে। কিন্তু ভূরাজনৈতিক সম্পর্কের দিক থেকে এটি কতটা অগ্রসর হচ্ছে, তা বলা মুশকিল। আপনাকে মাথায় রাখতে হবে, আঞ্চলিক সংযোগ বলতে যা বোঝানো হচ্ছে, সেখানে মূলত ভারতের সঙ্গে আন্তসংযোগই জাপানের জন্য মুখ্য বিষয়। ভারত বৃহৎ দেশ। জাপান মুক্ত ও অবাধ ভারত-প্রশান্ত মহাসাগরীয় অঞ্চল (এফওআইপি)-এর যে ধারণা নিয়ে এগোচ্ছে, সেখানে ভারত অন্যতম গুরুত্বপূর্ণ অংশীদার। সেটি নিরাপত্তা ও অর্থনৈতিক—দুই ক্ষেত্রেই প্রযোজ্য। কিন্তু আমার মনে হচ্ছে, ভারতের সঙ্গে এই আন্তসংযোগের ক্ষেত্রে জাপান যতটা না আগ্রহ দেখাচ্ছে, বাংলাদেশের দিক থেকে সাড়াটা অতটা উষ্ণ নয়। বিবৃতিতেও সে বিষয়ে স্পষ্ট কিছু লেখা নেই। তাই ভবিষ্যতে এ ক্ষেত্রে সম্পর্ক ঠিক কোন দিকে এগোবে, সেটি নিশ্চিত করে বলা যায় না।’ এ ক্ষেত্রে তিনি বৃহৎ অর্থনৈতিক সুফলের কথা বলতে চাইছেন, যেখানে ভারতের অন্তর্ভুক্তি একটি প্রধান বিষয়। অধ্যাপক ওহাশি এ–ও বলছেন, এবার যেসব আলোচনা হয়েছে, তাতে নতুন তেমন কিছু চোখে পড়েনি। বিশেষ করে বিগ-বি ধারণাটি নতুন কোনো বিষয় নয়। পুরোনো ধারণারই সম্প্রসারণ মাত্র। কর্মসংস্থান: বাংলাদেশ ও জাপান শীর্ষ বৈঠকে আগামী পাঁচ বছরে বাংলাদেশে জাপানি ব্যবসাপ্রতিষ্ঠানগুলোর বেসরকারি বিনিয়োগ এক ট্রিলিয়ন ইয়েন পর্যন্ত পৌঁছানোর সম্ভাবনার কথা বলা হয়েছে এবং এর মাধ্যমে দুই লাখ কর্মসংস্থান সৃষ্টি হবে বলে আশা করা হচ্ছে। এ প্রসঙ্গে অধ্যাপক ওহাশি বিবৃতিতে জাপানে বাংলাদেশের শ্রমিক প্রেরণসংক্রান্ত বিষয়টি অনুল্লেখিত থাকার প্রসঙ্গ তোলেন। উল্লেখ্য, সম্প্রতি দুই দেশের মধ্যে ‘এমপ্লয়মেন্ট ফর স্কিল ডেভেলপমেন্ট প্রোগ্রাম’ বা কর্মসংস্থানের মাধ্যমে দক্ষতা উন্নয়ন কর্মসূচির (ইএসডিপি) বিষয়ে সহযোগিতা স্মারক স্বাক্ষরিত হয়েছে। এ ক্ষেত্রে জাপানে বাংলাদেশের কর্মী পাঠানো ও গ্রহণের ক্ষেত্রে উভয় দেশের অঙ্গীকার নির্ধারণ, সংশ্লিষ্ট কর্মীদের সুরক্ষা এবং কর্মসূচির যথাযথ বাস্তবায়নকে মূল উদ্দেশ্য হিসেবে তুলে ধরা হয়েছে। এর মাধ্যমে জাপানের সংশ্লিষ্ট শিল্প খাতে প্রয়োজনীয় মানবসম্পদ গড়ে তোলা ও নিশ্চিত করার পাশাপাশি বাংলাদেশের মানবসম্পদ উন্নয়নে অবদান রাখার লক্ষ্য রয়েছে। ১৭ অক্টোবর স্বাক্ষরিত এই স্মারকের আওতায় নিয়োগ শুরুর নির্ধারিত সময় ১ এপ্রিল ২০২৭। এর প্রাথমিক মেয়াদ পাঁচ বছর এবং পরে স্বয়ংক্রিয়ভাবে আরও পাঁচ বছর বাড়ানোর বিধানের কথাও বলা হয়েছে। কিন্তু বিবৃতিতে সরাসরিভাবে এ–সংক্রান্ত কিছুর উল্লেখ নেই। সার্বিকভাবে জাপানে শ্রমিক প্রেরণ বিষয়ে উল্লেখ না থাকার কারণ কী হতে পারে—এমন প্রশ্নের জবাবে তিনি বলেন, ‘এটি ঠিক কী কারণে আসেনি, সেটা বলা যাচ্ছে না। হতে পারে অভিবাসন বিষয়ে জাপানের সাম্প্রতিক অভ্যন্তরীণ সামাজিক-রাজনৈতিক পরিবেশ এর কারণ। তবে এটি আমার অনুমানমাত্র।’ পরিশেষে, অভিন্ন সমৃদ্ধি কার জাপান–বাংলাদেশ শীর্ষ বৈঠকে যে ‘অভিন্ন সমৃদ্ধির জন্য বিগ-বি’ ধারণাকে সামনে আনা হয়েছে, তাতে দুই দেশের সমৃদ্ধির কথা বলা হয়েছে। অর্থাৎ জাপান এবং বাংলাদেশ উভয়ের সমৃদ্ধি। তবে অধ্যাপক ওহাশি এখানে একটি গুরুত্বপূর্ণ বিষয়ের অবতারণা করেছেন। তাঁর মতে, ‘যে বিষয়টি আমাকে হতাশ করেছে, সেটি হচ্ছে শীর্ষ বৈঠক কিংবা যৌথ বিবৃতির কোথাও সামাজিক অর্থায়ন নিয়ে কোনো বাক্য না থাকা। তিনি বলেন, ‘অর্থনৈতিক উন্নতি অবশ্যই কাম্য; কিন্তু এর সুফল প্রান্তিক মানুষের কাছে যাচ্ছে কি না, সেটিও ধর্তব্যের বিষয়। উন্নয়ন তো হচ্ছে সবখানেই; কিন্তু দারিদ্র্য এখনো ভালোভাবেই জারি আছে। বাংলাদেশের ক্ষেত্রেও এটি প্রযোজ্য। জাতিসংঘের এসডিজি বা টেকসই উন্নয়ন পরিকল্পনার একটি বড় লক্ষ্যই হচ্ছে দারিদ্র্য বিমোচন। কিন্তু সেখানে জাপানের দিক থেকে কোনো সহায়তা বা প্রতিশ্রুতি দেখতে পেলাম না। এটিতে আমি হতাশ হয়েছি।’ অধ্যাপক ওহাশির এই পর্যবেক্ষণ নীতিনির্ধারকেরা ধর্তব্যের মধ্যে নেবেন কি না, সেটি ভবিষ্যৎ বলে দেবে। কিন্তু অর্থনীতি আর নিরাপত্তা সহযোগিতার লক্ষ্য ও চালিকা শক্তি সমৃদ্ধি হলেও তার কেন্দ্রে থাকতে হবে মানুষকে, বিশেষ করে প্রান্তিক মানুষ। কারণ, দারিদ্র্য বিমোচনে ভূমিকা না রাখলে ওডিএ বা ওএসএ, যে নামেই সহায়তা আসুক না কেন, তাতে অবকাঠামোর ভিত্তি জোরদার হলেও সমাজের ভিত্তি নড়বড়েই থেকে যাবে। নড়বড়ে ভিত্তিতে সমৃদ্ধি টেকসই হওয়া অবান্তর।",
-   "hasFullText": true,
-   "words": []
-  },
-  {
-   "paper": "প্রথম আলো",
-   "lang": "bn",
-   "kind": "editorial",
-   "title": "সরকারকে খাদ্যসহায়তা বাড়াতে হবে",
-   "date": "2026-11-11",
-   "url": "https://www.prothomalo.com/opinion/editorial/z3fuw9sioy",
-   "excerpt": "চাল ও গমের মজুত ২১ লাখ টনের বেশি থাকা যেকোনো বিচারেই সন্তোষজনক। কিন্তু খাদ্য মন্ত্রণালয়ের তথ্য বলছে, চলতি অর্থবছরের প্রথম চার মাসে খাদ্যশস্য বিতরণ হয়েছে ১১ লাখ ৪ হাজার টন।",
-   "fullText": "দেশে চার বছরের বেশি সময় ধরে উচ্চ মূল্যস্ফীতি বিরাজ করছে। মূল্যস্ফীতির তুলনায় আয় ও মজুরি না বাড়ায় বিপুলসংখ্যক মানুষের প্রকৃত আয় কমে গেছে। উপরন্তু ফেব্রুয়ারি মাসে শুরু হওয়া মধ্যপ্রাচ্য যুদ্ধের কারণে পরিস্থিতি আরও নাজুক হয়েছে। দারিদ্র্যের হার উদ্বেগজনকভাবে বেড়েছে এবং তীব্র খাদ্যনিরাপত্তাহীনতার ঝুঁকিতে থাকা মানুষের সংখ্যাও উল্লেখযোগ্যভাবে বেড়েছে। এ বাস্তবতায় চাল-গমের মতো খাদ্যশস্যের যথেষ্ট মজুত থাকার পরও বিতরণ কমার খবরটি শুধু উদ্বেগজনকও নয়, সরকারের নীতিগত অগ্রাধিকার আসলে কী, তা নিয়ে প্রশ্ন তোলে। খাদ্য মন্ত্রণালয়ের বরাতে প্রথম আলো র খবর জানাচ্ছে, সরকারের হাতে এখন চাল ও গম মজুত আছে ২১ লাখ টনের কিছু বেশি। এর মধ্যে প্রায় ১৮ লাখ টন চাল ও ৩ লাখ টন গম। জুলাই গণ-অভ্যুত্থানে ক্ষমতাচ্যুত আওয়ামী লীগ সরকারের শেষ দিকে ২০২৪ সালের জুনে খাদ্য মজুত ছিল ১৪ লাখ ৭০ হাজার টন। অন্তর্বর্তী সরকারের মেয়াদ শেষে খাদ্যশস্যের মজুতের পরিমাণ ছিল প্রায় ২০ লাখ টন। চাল ও গমের মজুত ২১ লাখ টনের বেশি থাকা যেকোনো বিচারেই সন্তোষজনক। কিন্তু খাদ্য মন্ত্রণালয়ের তথ্য বলছে, চলতি অর্থবছরের প্রথম চার মাসে খাদ্যশস্য বিতরণ হয়েছে ১১ লাখ ৪ হাজার টন। আগের বছরের একই সময়ের তুলনায় তা ৬৭ হাজার টন কম। এর মধ্যে ওএমএস কর্মসূচিতে চাল ও আটা বরাদ্দ কমেছে ২৬ শতাংশ। অথচ মূল্যস্ফীতির চাপে মানুষের ক্রয়ক্ষমতা কমেছে। বিনিয়োগে প্রবৃদ্ধি না আসায় কর্মসংস্থান বাড়েনি। বিশ্বব্যাংকের প্রতিবেদন বলছে, চার বছরে দেশে নতুন করে ৮০ লাখ মানুষ দরিদ্র হয়েছে। সবচেয়ে আশঙ্কাজনক বিষয় হচ্ছে, দেশে ৬ কোটি ২০ লাখ মানুষ এতটা নাজুক অবস্থায় পৌঁছে গেছে যে এক ধাক্কায় তারা দারিদ্র্যসীমার নিচে নেমে যেতে পারে। এমন বাস্তবতায় সরকারি খাদ্য বিতরণ কমে যাওয়ার কোনো যুক্তি থাকতে পারে না। সরকারের গুদামে খাদ্যশস্য মজুত রাখার উদ্দেশ্য শুধু জরুরি পরিস্থিতি মোকাবিলা নয়; সংকটের সময় মানুষের পাশে দাঁড়ানোও। খাদ্যের মজুত সন্তোষজনক হওয়া অবশ্যই স্বস্তির বিষয়। কিন্তু সেই খাদ্য মানুষের কাজে না লাগলে মজুতের অর্থ কী? ওএমএসের মাধ্যমে ৩০ টাকা কেজি চাল এবং ২৪ টাকা কেজি দরে আটা বিক্রি করা হয়। বাজারদরের তুলনায় এতে নিম্ন আয়ের মানুষের উল্লেখযোগ্য সাশ্রয় হয়। কিন্তু এ কর্মসূচির পরিসর বাড়ানোর বদলে বরাদ্দ কমেছে। অন্যদিকে টিসিবির ট্রাকে পণ্য বিক্রি বন্ধ রয়েছে প্রায় ছয় মাস। টিসিবির স্মার্ট কার্ডধারীরা কিছু পণ্য পেলেও চাল ও পেঁয়াজের মতো নিত্যপ্রয়োজনীয় পণ্যের চাহিদা পূরণ হচ্ছে না। খাদ্য অধিদপ্তর বলছে, অর্থবছরের প্রথম চার মাসে টিসিবির জন্য চাল বরাদ্দ না থাকায় বিতরণ কমেছে। অথচ দরিদ্র মানুষকে সহায়তা করা ও মানুষ যাতে নতুন করে দরিদ্র না হয়, তার জন্য আরও বেশি করে খাদ্যসহায়তা দেওয়া প্রয়োজন ছিল। সংকটকে স্বীকৃতি দেওয়ার ক্ষেত্রে এটি একটি নীতিগত ব্যর্থতা। সরকারের খাদ্যবান্ধব কর্মসূচির সুবিধা পান ৫৫ লাখ মানুষ। কিন্তু যাঁদের কার্ড নেই, তাঁদের জন্য ওএমএসই বড় ভরসা। তাই কার্ডের বাইরে থাকা দরিদ্র ও নতুন করে সংকটে পড়া পরিবারগুলোর কাছে খাদ্যসহায়তা পৌঁছানো জরুরি। অর্থনীতিবিদ সেলিম রায়হান যথার্থই বলেছেন, সংকটের সময় দরিদ্র মানুষ খাবারের ব্যয় কমাতে গিয়ে এক বেলা না খেয়ে থাকেন কিংবা আধপেটা খান। এ পরিস্থিতিতে খাদ্য বিতরণের বিকল্প নেই। খাদ্যনিরাপত্তা নিশ্চিতে ও দারিদ্র্য কমাতে প্রয়োজন সামাজিক সুরক্ষার কার্যকর ও বিস্তৃত কর্মসূচি।",
-   "hasFullText": true,
-   "words": []
-  },
-  {
-   "paper": "প্রথম আলো",
-   "lang": "bn",
-   "kind": "editorial",
-   "title": "এটা গণতন্ত্র ও সামাজিক সম্প্রীতির পরিপন্থী",
-   "date": "2026-11-11",
-   "url": "https://www.prothomalo.com/opinion/editorial/jsn5zh9w39",
-   "excerpt": "একজন জনপ্রতিনিধি অবশ্যই তাঁর নির্বাচিত এলাকার মানুষের ভালো-মন্দ দেখবেন। কিন্তু মানুষের রুচি ও সাংস্কৃতিক অভিব্যক্তি বিচিত্র।",
-   "fullText": "হবিগঞ্জ জেলা আইনশৃঙ্খলা কমিটির সভায় গত রোববার জাতীয় সংসদের হুইপ ও হবিগঞ্জ-৩ আসনের সংসদ সদস্য জি কে গউছ ‘গ্রাম্য গানবাজনা’ বন্ধের নির্দেশ দিয়েছেন। এর পাশাপাশি বিভিন্ন ধরনের মেলা আয়োজনের বিরোধিতা করে এগুলোকে ‘বাড়তি জঞ্জাল’ হিসেবে আখ্যায়িত করেছেন। একজন আইনপ্রণেতার মুখ থেকে এমন নির্দেশনা আমাদের উদ্বিগ্ন করেছে। ইতিমধ্যে আমরা দেখেছি, বিভিন্ন জায়গায় সাংস্কৃতিক অনুষ্ঠান ও বিশেষ করে নারীদের খেলাধুলায় বাধা দেওয়া হয়েছে, এমনকি হামলার ঘটনাও ঘটেছে। দেখা গেছে, কিছু ক্ষেত্রে সরকারের হস্তক্ষেপে বাধা দূর হয়েছে আবার অনেক ক্ষেত্রে সরকার নিষ্ক্রিয় ভূমিকা পালন করেছে। শিল্প-সংস্কৃতির চর্চার ব্যাপারে সরকারের যে আনুষ্ঠানিক অবস্থান, তার সঙ্গে এই ঘটনাগুলো সাংঘর্ষিক। এখন সরকারি দলের একজন হুইপ ও সংসদ সদস্যের মুখেই যদি এ ধরনের কথাবার্তা শোনা যায়, তখন তা চরম হতাশাজনক। একজন জনপ্রতিনিধি অবশ্যই তাঁর নির্বাচিত এলাকার মানুষের ভালো-মন্দ দেখবেন। কিন্তু মানুষের রুচি ও সাংস্কৃতিক অভিব্যক্তি বিচিত্র। বিভিন্ন ধরনের লোকজ গানবাজনা ও মেলা মানুষের সামাজিক ও সাংস্কৃতিক মেলবন্ধনের অন্যতম ক্ষেত্র। এলাকার মানুষ তাঁকে ভোট দিয়ে নির্বাচিত করেছেন বলেই তিনি তাঁর বা কোনো নির্দিষ্ট গোষ্ঠীর দৃষ্টিভঙ্গি পুরো এলাকার ওপর চাপিয়ে দিতে পারেন না। বরং তাঁর দায়িত্ব সমাজের বিবিধ সাংস্কৃতিক অভিব্যক্তির সহাবস্থান নিশ্চিত করা। অথচ এগুলোকে ‘বাড়তি জঞ্জাল’ বলে খারিজ করে দিলে সমাজের সাংস্কৃতিক সহনশীলতা ও ভারসাম্য মারাত্মকভাবে ব্যাহত হবে। যেকোনো আয়োজনের ক্ষেত্রে আইনশৃঙ্খলা পরিস্থিতি আমলে নেওয়ার গুরুত্ব আমরা স্বীকার করি। মেলায় জুয়া বা অবৈধ কোনো কর্মকাণ্ড ঘটলে পুলিশ প্রশাসন আইনি পদক্ষেপ নেবে—এটাই স্বাভাবিক। কিন্তু অপরাধ নিয়ন্ত্রণের দোহাই দিয়ে সব ধরনের সাংস্কৃতিক চর্চার পথ বন্ধ করে দেওয়া মানে ‘মাথাব্যথার দোহাই দিয়ে মাথা কেটে ফেলা’। কোনো আয়োজন ঘিরে বিশৃঙ্খলা হলে তা নিয়ন্ত্রণে আনা জনপ্রতিনিধি ও প্রশাসনের কাজ; গানবাজনা নিষিদ্ধ বা বন্ধ করা তাঁদের কাজ নয়। আসন্ন শীত মৌসুমে ওয়াজ মাহফিল আয়োজন নিয়ে যাতে উত্তেজনা সৃষ্টি না হয়—হুইপের এই উদ্বেগকে আমরা স্বাগত জানাই। ওয়াজ মাহফিল গ্রামীণ জনপরিসরের গুরুত্বপূর্ণ অংশ, তবে এর সঙ্গে লোকসংগীত ও মেলাকে মুখোমুখি দাঁড় করানো কিংবা সাংস্কৃতিক ভিন্নতাকে ‘জঞ্জাল’ হিসেবে চিহ্নিত করা গণতন্ত্র ও সামাজিক সম্প্রীতির পরিপন্থী। হবিগঞ্জে ‘গ্রাম্য গানবাজনা’ বন্ধের এ ধরনের নিষেধাজ্ঞা যাতে কার্যকর না হয়, তা নিশ্চিত করার দায়িত্ব সরকারের। আমরা আশা করব, সরকার এ ব্যাপারে প্রয়োজনীয় ব্যবস্থা নেবে। একই সঙ্গে আমাদের প্রত্যাশা জাতীয় সংসদের হুইপ গণতান্ত্রিক চেতনাবিরোধী তাঁর এ বক্তব্য প্রত্যাহার করে নেবেন। আইনশৃঙ্খলা পরিস্থিতি সমুন্নত রেখে কীভাবে এলাকার লোকসংস্কৃতি, গ্রাম্য গানবাজনা ও মেলা শৃঙ্খলার সঙ্গে আয়োজন করা যায়, তা নিশ্চিত করাই একজন জনপ্রতিনিধির অন্যতম দায়িত্ব।",
-   "hasFullText": true,
-   "words": []
-  },
-  {
-   "paper": "Dhaka Tribune",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Concrete cannot replace the green",
-   "date": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZW5KTXFrRXhQQm5nN3BzNFpMVkRKcUwzT1lNaHdHS295N0tzWmNBODZ6QWd3bzROV3BzamctRTFJX21sRjY4UHQ4VnpVSVVhZE1ueVhJQ2FNRDdkc0xfVVFNOTBXd24xQTFWRHVHcFF6djR0XzJGQXNQQVJOaVdPNUR3VnEwR25BelpEYjQ3M3jSAZYBQVVfeXFMTzBsaVdaZHhpZDEzWjNaYzE1eWFYQ0dDSlowbFM1bDRiM2R5SnhqeE9tUWZBaXRIbnVwS25fQ05GT05DOTZmZVZwRG9nQmRBLUlKNXM0YXZkYl92LTJqc1BmbENlSVBsd3JxaGpPQVlKaTY1T1lEMm84U29oNHZLNXNvdUIyd1VLTHNUWjZOTjMwZ2l2akZ3?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "সমকাল",
-   "lang": "bn",
-   "kind": "editorial",
-   "title": "রাসায়নিক সারে রাজনীতির ফলন?",
-   "date": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxOQlY5VmF3T2tSWEdBamNSZFY3cXpOSTlzMFJzR294ZjRncVQ2cFA0ZEtlWklhUTdHbG5BRUxSaEFsai13aUhOOU5sQ0pMRWJkV2loUmZjNWtTSV9Pb09oVURYazJaVHhSc2wzQzBZZEFRZW8yNEh3a1Q3RUxINWlRa1NINzFfZ3piRFJMN3B3RFhEZTU5b0s2LTF5Ti0zNzJ1NXoxZFJFMHRqRjNOd1pyNUE5MkV6dmJpTTliQWpBdUZmaFZYTHQ1U1l3MHRySVRxa2t2QXVzUVdtZEg5TkZwNFAxcVdLR2Rxb0tyX05pLTdCSjREaVVaaUJXaGhtUTZBNEFHakJtaVBHem9jdzh0T1BadFZZZkFnSzcxN2dtSEZBc2JTdGFpWnl3bkI4dmh0SE1nelU1bDRHdlItN3lYdlhMTGNCTVpxbC1Ud0gtTDhTQ3pqVXRnN0p6THRYZUFjUzFyTHBDLWR3YVNhcWJN?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "বাংলাদেশ প্রতিদিন",
-   "lang": "bn",
-   "kind": "editorial",
-   "title": "আজকের নামাজের সময়সূচি, ১১ নভেম্বর ২০২৬ - bd-pratidin.com",
-   "date": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvUi1JRmhnV3BmLTY1VnFldnZsM3NsTUFmODNkOTJWNjU3anRybkVhVXFDVFRWc3lmT2RNNHAwcmJnRDI1Q1lhSmw0UGxhd21vYTR3dzg3WFRpVjdLU2FBRkd3?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Dawn — Opinion",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "US House blocks bid to impeach Defence Secretary Hegseth",
-   "date": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9QRWJ4alNWcUdEdF9hUUZLaVhNSHExN1REMkNGc0lNZEhVRnVWOVQzTVhOSGhmUWFJZmVNWUFwQ1RmUDRPSzNPbA?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "The Washington Post",
-   "lang": "en",
-   "kind": "news",
-   "title": "Israel’s newly elected parliament is already moving against Netanyahu",
-   "date": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcFlseGxLdmpRQjNQS1g3U1h1Q3I2X0dsUElDbnM2cnZYeVVRd201YWU1Rk01eTlzUzR0ZHhOYmZzLXBKeU9YbUJlZm92b2x0c1VNalJqZTFfY05xYUszTFc1VEJZYlJzYlZZSDhFZEdSeEp3SndpSUNNcEloOC1qRlliVnAtQWdGOFpjY0s4NnFPbnI4ZHhMeS0xZkw1SnFjV25GQ2d6ckxFNE9idXA1S2FHcXJqTnhW?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "itvbd",
-   "lang": "bn",
-   "kind": "news",
-   "title": "জলবায়ু পরিবর্তনের ঝুঁকি মোকাবিলায় ক্ষতিপূরণ আদায়ে গুরুত্ব দিচ্ছে বাংলাদেশ",
-   "date": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMixARBVV95cUxPRGw3U1VLalBzVzdWNzMtcm1RbUtzV0N4VldDZzlmQWZLOTNGNlpjUk5ZVkhJT2hFU0g3cGN5WWkxQkdZVGtjV2Q5b0RHSWk1R3VrWFNzOFdGclJKcUJidGxOOURuT1o0bldEYV92akdxVkppREI1c0loUWo0aE1UZkJSVVJjT1B2SDJmemRnMTA0YkI0amt3Q21TRXJ4cWpiU3I3RHRINml5ZGo1REUtbk0xSUo0cnRkZWt0cDhZUUJId3FhSVBub0RLd1h4VmJfRC1oNDFSRHpZay0ySTFfVWJwVkNkYkh0VnJFTUJyczdaeXh3Z2Y5TDBLUVVoVzBwSmtxSmVFOENBMWsySUxINGZnUHVKaUpOSk00TDJjbGpwekIzMVNxWmNmVVNhejZoc1l5UnE3cVhZNjM2RzI4UkNMTktpYmRZQnkwSENRR2ZMdWpBMmExQnpVcUdDN2hvNzJ1WmVxZlpCVFpLanYtUGtRdFluLW9IbC1odEZRckd0Vng5QWtCY1VBY0xnVjQ3Q1ZyU3ViMTNwRWV4SEQzdmVMR1lJRmx1Rl8wY0FibWdpR3FRemE0RnVLMzBYY2VwbnFQcG5xRi1XX01nYTUzSGJ6RS1SRXdqRTVtZUtGbDh6VHRJXzB1Wm5CY29DNkVsWmVkQVhRMThMR0NZVXoyM2dlQnhWQ0hfeGVfQVVQLXNERzRoZ0lxQXJPMjUySkJUVFlfc1V0RTFJa3ROaTRfV2YwSEgtLURJR19CZ19vMEYwWGpF0gHKBEFVX3lxTFBscWJOQVRNSUxMd2c4MzlUUkVTZHljdDNlM1F2Z2Y5RVJWVXlBSjRGNE5aRnNKZXJhV2phdFhxcnZWVW9uOGhMbnNIbXVvRzFtQk4tbFlzazFfZXhSVUtzT2NnUzJQd0REV3Fwc1FRckhtWUprYWpXdW9EM181SGw1VjltYUkwWW5QQWdnRTFqTVZwMFNZODEzcVJJWjJ2Tmdwc3ZENWYwdzNZUU8wR3BGVDJwS1lxaTBnOXJYRDdiTE53UFM3UDFLeXVNYXdHV2ExTHRXV0JpQlJYekxub2J5OFp5a1huY2JmczFJRkZMYzg1WnUwS2N0RmxPSU84Zk8zYWx3aWh1d2xOdE96VGc3UEtFZW9zZV8tQXJwSm5temNoSjJmTmFpa3pJS2lzRVpRRkpMMzBNUkpDUXpURXBQTkh0VDh6N2h0elJ6cE5sQzFKYXJZU2E0WDRBejMyQzQ3djAtMnc1OVRlekVQdmVVcUdrOElJMHhXRnlRZG51STVPTnlzZFR1eDN5RGUydnJWTmZHLU1uR1pfUDgyRC16TVlzM0ZpS3c1d01UaEVCdHBRV0EtbUUydkdsRTFmVTM5OUItcVZrQ2NnSUNZdV9Wb09SS1RfM180ZUs1TmxDVnRQejd6OEpRbHZ2MDl6clFkempjVmprWXNhTmVEalFjdjV5ZExWTF9CZjJ0ZjIyczU3SHBaNGszLUJoRXpTTnpTQTVOUmpEbTlueW8xYVFhZDNKUDRmZFQ3WEczSEMtdFBCeVp1aHpPTVE?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
   {
    "paper": "সমকাল",
    "lang": "bn",
@@ -396,259 +32,6 @@
    "title": "হানিট্র্যাপ",
    "date": "2026-11-11",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd0dHeHhiSmJFdHZZeWhHd01PM0pJZGpmMzU2cjNSX1ZEdWhEcGpkV0ViendLM1JWMmJpM2lwVFZJbUZ6UFRzZUxRdE5iRm92YlRYeXlYNnliblUyNlBLdjY0R20ydXlISTNyMi1hWWhwMkl3OTBDNzJRMlNVajFKbGw5VnU4U3JDeTZ5ZExvVXpvNnNXMlFiWUZXRmFGbzFPSS1QVVR2SUtHQksySHdOU29UMjNWRmFHSWlJTjVOdExzczRIaS0yNENwRFJkOEtXRzNhTFZfRkozQQ?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "The Daily Star",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "What makes higher garment wages affordable?",
-   "date": "2026-11-10",
-   "url": "https://www.thedailystar.net/opinion/views/news/what-makes-higher-garment-wages-affordable-4320611",
-   "excerpt": "But another question has received less attention. How can it still be expensive to make and deliver a garment from Bangladesh when the people who make it are paid so little?",
-   "fullText": "But another question has received less attention. How can it still be expensive to make and deliver a garment from Bangladesh when the people who make it are paid so little? The answer matters because some of the costs that limit what factories can pay to workers are within the control of government agencies, global buyers, and factory owners.\n\nImagine two RMG factories, one in Bangladesh and one in Vietnam, making the same garment. The factory in Bangladesh pays lower wages. Does it deliver the order at lower cost? That depends on how many saleable pieces each line produces, how much the fabric costs, and what it takes to ship on time.\n\nOn November 9, garment workers proposed a monthly minimum wage of Tk 32,000, up from Tk 12,500 for the lowest regular grade. Our factory owners, on the other hand, warn that higher wages could cost Bangladesh export orders. Employer and worker representatives have already agreed to finalise a new pay scale by December, with workers expected to receive the higher pay in January 2027. The wage board must assess what workers need and what different factories—depending on their size—can afford.\n\nA recent column in The Daily Star argues for putting workers’ living costs at the centre of the wage review. Others are insisting on an evidence-based revision . One calculation suggests about Tk 16,200 monthly would restore the purchasing power of the minimum wage (Tk 12,500) set in December 2023, without justifying whether the 2023 wage itself was adequate. The 2025 living-wage estimates were higher, at Tk 25,166 in Dhaka’s surrounding industrial cities and Tk 30,459 in Dhaka city. There are also calls for considering evidence on labour costs, operating margins, and buyer prices across different types of factories.\n\nThe wage board has to assess what factories can afford today. Industrial policy must ask why higher wages are so hard to sustain and which costs that constrain them can be changed.\n\nFor many in Bangladesh, Vietnam has become a natural comparison case. A 2018 Asian Productivity Organization comparison put annual garment value added per worker at about $12,700 in Vietnam and $10,400 in Bangladesh. Some of that gap may reflect the kinds of garments each country makes. For factories making the same garment, the more revealing measure is how many pieces that pass quality checks workers produce per hour of paid work.\n\nFactories in the two countries also compete for different orders. Vietnam supplies a wider range of products, including technical outerwear and swimwear. Bangladesh has built strong local supply chains in cotton knitwear and has begun to diversify, including into performance outerwear. Moving into more demanding products takes reliable access to specialised inputs, technicians who can work with new fabrics, and supervisors who can maintain quality as production changes.\n\nA delay in clearing fabric can leave a line idle or force a factory to build up inventory. If the order deadline holds, the factory may end up paying for air freight. None of these costs shows up in a comparison of monthly wages.\n\nA World Bank study estimated that a package of improvements to port dwell times, highway speeds and logistics services could cut logistics costs for tradable goods in Bangladesh by 26 percent. That estimate covers tradable goods broadly, but the mechanism is easy to see in garments. A factory that can predict when its fabric will arrive can plan production more tightly and tie up less cash in stocks. An investor may get help from Invest Bangladesh Authority (IBA) in opening a factory, but once production starts, the reliability of customs, ports and other services becomes crucial for every factory, local or foreign.\n\nExtortion adds a further cost. In October 2025, The Daily Star reported that factory owners in Gazipur, Narayanganj and Savar faced demands for cash and pressure to sell “jhut”, or fabric scraps, below market prices. A Gazipur owner said he paid Tk 1 lakh after being threatened with closure. Such demands add to the cost of doing business, while the threat of shutdown makes production less predictable.\n\nThere is academic evidence that pay and profits can rise together. Better management can create room for higher pay. Whether workers share in those gains depends in part on their ability to bargain.\n\nThe commercial terms matter just as much. A study by economists Julia Cajal-Grossi, Rocco Macchiavello, and Guillermo Noguera found that garment exporters in Bangladesh earned higher markups on comparable orders from buyers that rely on ongoing supplier relationships than from buyers sourcing on the spot market. How much of that margin reaches workers is a separate question.\n\nBangladesh’s new wage board should publish the living cost benchmark it uses and show, in aggregate, what different wage proposals would mean for payrolls and operating margins across factory types. The government can act in parallel by making clearance times more predictable and improving access to the inputs that factories need to take on more complex orders. Factory owners also need a safe way to report extortion and a police response they can count on. Buyers should show how their prices and order commitments account for labour costs. Workers should have a voice in deciding how the gains from higher productivity are shared.\n\nA revised wage floor is due now. By the next review, the government, buyers, and factory owners should be able to show what they have done to make higher wages easier to sustain. The test is whether factories can deliver more valuable orders, spend less exporting them and pay the people who make them a wage they can live on.\n\nDr M Niaz Asadullah is professor of economics at Dhaka University and a visiting professor at the University of Reading in the UK.",
-   "hasFullText": true,
-   "words": [
-    {
-     "w": "factory",
-     "sentence": "The answer matters because some of the costs that limit what factories can pay to workers are within the control of government agencies, global buyers, and factory owners."
-    },
-    {
-     "w": "factories",
-     "sentence": "The answer matters because some of the costs that limit what factories can pay to workers are within the control of government agencies, global buyers, and factory owners."
-    },
-    {
-     "w": "workers",
-     "sentence": "The answer matters because some of the costs that limit what factories can pay to workers are within the control of government agencies, global buyers, and factory owners."
-    },
-    {
-     "w": "garment",
-     "sentence": "How can it still be expensive to make and deliver a garment from Bangladesh when the people who make it are paid so little?"
-    },
-    {
-     "w": "different",
-     "sentence": "The wage board must assess what workers need and what different factories—depending on their size—can afford."
-    },
-    {
-     "w": "production",
-     "sentence": "Moving into more demanding products takes reliable access to specialised inputs, technicians who can work with new fabrics, and supervisors who can maintain quality as production changes."
-    },
-    {
-     "w": "vietnam",
-     "sentence": "Imagine two RMG factories, one in Bangladesh and one in Vietnam, making the same garment."
-    },
-    {
-     "w": "comparison",
-     "sentence": "For many in Bangladesh, Vietnam has become a natural comparison case."
-    },
-    {
-     "w": "deliver",
-     "sentence": "How can it still be expensive to make and deliver a garment from Bangladesh when the people who make it are paid so little?"
-    },
-    {
-     "w": "evidence",
-     "sentence": "Others are insisting on an evidence-based revision ."
-    },
-    {
-     "w": "monthly",
-     "sentence": "On November 9, garment workers proposed a monthly minimum wage of Tk 32,000, up from Tk 12,500 for the lowest regular grade."
-    },
-    {
-     "w": "whether",
-     "sentence": "One calculation suggests about Tk 16,200 monthly would restore the purchasing power of the minimum wage (Tk 12,500) set in December 2023, without justifying whether the 2023 wage itself was adequate."
-    }
-   ]
-  },
-  {
-   "paper": "The Business Standard",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Dollar rate crosses Tk125 as fuel import payments rise",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcWxjdkNtbW5xYUJlS2oyaXNPSEN2R1dWU19jNlVucGhQN0doQWltSGNyb25DUWxoV2dXZk5hODNPWkFBdDZrSkVid3NrcjRkcDUyMXhxMU9IUTdwMWFKRHZVTjFEYzRvX0FabmtPeE1HRER4NWNaM3N1cWM4blY0R3hLdEFHY29WR0I3cWpUT2xvQS1pdVE?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "দৈনিক ইত্তেফাক",
-   "lang": "bn",
-   "kind": "editorial",
-   "title": "সড়কের মাঝখানে খুঁটি!",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOMUdKOEdXXzR3RkpjT2dJQ3hZejBNMWtETXlBeUxvUUZiZi1NY2Vjb3NoUnVIRkI1eDFjYmI3UEJDRFNDS3l0WGJxUHV2QS1PVTVkMFk4TUlKX0NzVlY1WTZSeXpnZFU2Rk5sTEk3VkRkVWJvb1JiU21kR2Zrc2pyM2MzbE5rQ0Z4bmRJaUNuOGFKRnU0VkROalpjd3lFNFp0TVgtUzJzZlRTRXpBbU1UV0ZGTUh2a3JDOGNnQ2QxakR2N0pfa0dydExLQTVRZ1pEUS05UF92M3E5Zzc1YWZlWGtTQXNMYnkzRDFyNWpVWDVtcFM4Zzh2RGc0aDRJczF3dTFiejdSalVTUFV6WEZ3bUJqMTlfekRocFBLcjF3SVZGV2JU0gGqAkFVX3lxTFAzNFdaMFYtSGFMZUxVbDhieThjTXNGbWlKN2V2S3VxbWpWRnZoLXV4QTJTOXF4TWRzR3JTeGtIUEN5M0F0Ulp2ckpnYmNPSk1EY0QxUm4wYWNFNTBPV2w2NG1GZXIyTmJOeUlUNVE1NDdtRWR5NHR6V1pFMzdIbV84eDAwS1J4MEdRN1pDbXcwUGRpRlBMdG1aOERUdHJTNHdvRVBUVk9zcTVfT0tiTVZhdUROeEp3R2ZjQUM0NmdFc1plakZlRmM2bVI3dVZScUpHRWRvV3dmZkFjcDgtRXpBRjUtZEZjSEZycDhETGtnZ09EV1ZEUTUyMXFkS3ByQ0Nvd2gydEZ5aVZkWU1jbC1fUHN3amVXN2xtYzM1cXBsZ3k4YXVDQkFTb3c?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "বাংলাদেশ প্রতিদিন",
-   "lang": "bn",
-   "kind": "editorial",
-   "title": "ইরানে ফের হামলা চালাতে ট্রাম্পকে ফুসলাচ্ছেন নেতানিয়াহু, উদ্বিগ্ন আরবরা|1324316 - bd-pratidin.com",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5BZkdOVWQ1eThRcm1lTlRUUDF2ZU1xTHhEc3l6N3NMZUtXTUpKUEJEaVFNT2FKeDhPcTgycnltQ3VPOHlFaGNvX0UxVVNQMU5jdGdBSF93dHA?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "The Hindu — Opinion",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Without any rationale: On the disbanding of the Justice Kurian Joseph Committee",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONmFuN2pWM1pLQVBXT2dUS0pXbEI1UGV2aHQ2T0FpLVZCNmZlc0RRaHAyd3VmbTdEdEN0dGRGd1V3UURBcEVJM1BJamt4b1FKdzJPV05PWExOSTJSVWRYUC1oeDdNQk1sTG5MNTNCQi1uRVVrb0xjeWRZUS1GWG9KNGZZeW45MmxKSlNQM3Bxdnpmb2J5R0lzVUd4dzhkc3NRSmZIZHFZVU85NzE3bDIweFNKTjltTWpTaUoxZTZwYzVNSTcwb1NRX0NiWFR2bFMwd3U5NjRqVDTSAd8BQVVfeXFMTWdJM2VCQXJmdmgxMmJwNm5lb2ZIaHg0OGNRa2UxSXA5TG1mSnNyZHcxdzBHemtaN0Q5aXpEQWU5akttQmlmNXFOQktMZjhIYjM1cFpoZDA3aC1VVEtmeTJlOWNCTlVZVkE4TmxTcm1fOVFWVWNUZXdYZHplaUVPYTRHRHZnRVhyV0cxX3Y2aDJWSjUxQThZWFpRRWt0OUpDcGFxeDZYMHUwaVViSVVTa1RPWDFJZDVpUzVxOVVUd0c0S1J3cW9JTGhyc1FaRDBiR1E1RXBfWHlLdmNFa0tmdw?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Dawn — Opinion",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Anthropic unveils new Fable, Mythos models as competition heats up ahead of IPO",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1YQlpZZTN2bWp6aTFEdG9rcEFPdmhjcFBSczVrekl4am4wT1Z5V0R0V0oyV3k0VFFzdVdJanZGNUZYdk8zLVhXRQ?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Dawn — Opinion",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Hegseth likely to face impeachment vote this week",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5wcXBCeU5NTDFvWnMxSkt1WDkxMTB6SDdHeUpfVmEwdm5yR3hHU3ZGU2I5T3ZkS2JGWUNBMXk3UU5YU2t4dENpdw?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "CSIS",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Strategic Shores: Strengthening Overseas Port Infrastructure to Safeguard U.S. Economic and Security Interests",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTDNRRUM0TWVCbnhNSk1ROEFld1U5RkJpTlBYbWxIM19hdjI4bDZueFhoMkd2cFduYXljZlpjRktfclk0b3ZZQjVDalBScnNta1pwaFNHUkZFUVFPa0UxNXlmVmIyeW9fQWJDdWdpckFFckYtd3NFaDdLYUwwX1hNejB2cEVVWnZYNGg3NkU4VHVNNkRIM2h4ZGI0MmU3ZnZv?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "CSIS",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Munition Inventories: An Update Amid Renewed War Risk",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS2YyQWxSUERFQXV6LWNlQk52N214cFVjVlZXS05qdE96ZmhLODlleC1uQ1ltSVdJNVYxM3BLaHY0WDJzMmo2TDlaZHlhVDZBdVpHZ3Z4ekJKSTJNQy1BUUNPcklnU0hrWGpRb0tJRVBtdVhtbGQ3SmNMdk9NQ0lIb2FaQWNQQQ?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Council on Foreign Relations",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Nvidia, Chinese Espionage, and the AI Race: Foreign Policy Issues to Watch",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdExUODdKM0NuNHYzUTlkZGVTTFBZMlBfVkRaTFFNRXlKRXFXN2hqYVdiVkVtX2dFcGVBYlJ6dkg2XzFfcFFVU3hPRkJnNjN1SEZ0WXFHblJ0aHdoOXp0Q2RtWTJrdnRSbFJoZUxjRmM2NTBGdzVoT3RiYlVwd2pKZ0hFY3FJb2dIaWp2UTJPWVhhbWFyRkRrMTAyTnN3VDZpcEpCbU5mTGE?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Lowy Institute",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "In Manila, the Quad must work for ASEAN, not around it",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd1RSRlpRQ29iMDlJWDdCOS1uY0pCS08zd1RNWUk4RkszLW9rcmRORlhKcHRHRTlKa2ZweFE3cVEtVGwyVVVqbHZqbm1Kay0wdTlWRE0xZ3FxckMxbU9ibW52WlJ4X1BMMzJPN1BhUF9YUkFzQTRoaGo3WmtiNlJtZ0RfLVY0M1RIQ19BME91bENvcFBVaVBzNThscENfYjg?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Council on Foreign Relations",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "How the Next Congress Can Repair the Military’s Personnel Crisis",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZWl5RmQ0NmNHUGtXaV9TTTlhX2NsRThsMDhyZ3JVMlhrOHlWRjE4TnRtMlp4Z1M3M2dtQVREWVMtLWw5Sk1rYTF2QWFnMFZZVXhTUTVodkZyQWFQOS1pcmZTZlNBaXpFN3lkU0cxdjFPVGcyMzhvcUVSX0NQRkx2VThMNWJFZ2N6SS1ZM21lbjVNYWxTcGpV?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "The Daily Star",
-   "lang": "en",
-   "kind": "news",
-   "title": "Reasons Behind Bangladesh’s Economic Slowdown | What happened to Bangladesh’s growth story?",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTGk5V3lmNVVBT0JSQm9FaXdHLWNiTFdDYm1leEJ1NXZNdW5HcXR5aHpEeEwyZ002MnpiMGExZVdQTmU0ZHZLUlN0ZnFzTS03aUZMNjNvdkticXdDRENKQmhWazNPVXo0SFNfb2IwSTVIeWxra0tuX2JZYlA0TnYzY3lSM213bUc2Y0p5M0xGSXZySjRVRWxicXdtUE4?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "The Daily Star",
-   "lang": "en",
-   "kind": "news",
-   "title": "Climate change cost Bangladesh $17.5 billion in lost earnings in 2025: Lancet report",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVjFkSGVORV9qU3lzYlRFaFIwdGw1R3ZIN25YZmUwdTVCZjZrTGdNekY4MmpoOS1ZdnV1am81SlBNYmhHaFNFN1IyNG5xWVhmVUVYY1BBaHVsWWlCVVVPUnN1YXE0SktMUTNSTjg5emY4M3Y5emxaZ3NpMjBiRlJfbDFPeFpqM1Y2WEk3cG83THVZUVJJS2gya0JlNmpKVHMtRnBYZTVHRGJkUnZYWUZHWnVJajBGcVc0VlZvSVBZdzdTWTE5T2h4UUE1VkRWRGJ0SVEyTmhld19YY09MWFQwQzRVSQ?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Nepali Patro",
-   "lang": "en",
-   "kind": "news",
-   "title": "Rivers Know No Borders: Bangladesh-Led Platform Calls for Water Rights and Community Stewardship",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95dEE0QTZvZl9kaDlHN3kyeTJXdWhNdEUwMnZIZ2IyYy1mZFd3NkJqdHFIWGJwNUdJTGY4MWtlc3N3RWhtQUV2QnRCYUc5VHdTdmJtZlp1LU8ydw?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "প্রথম আলো",
-   "lang": "bn",
-   "kind": "news",
-   "title": "ইরান যুদ্ধ খুব শিগগিরই শেষ হবে: ট্রাম্প",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qb2VyQUR6bHhYZW0xRXlTWUdtdHEtMmRsWEE3OFJ3WmkxeWhpRUJjbnF2eW1FbjV6SWRaNzdZcXRJRTV1eXFveVU2ZjhQUkk1TV9tWVJpdzZpbzDSAWhBVV95cUxNd2YtVjlUUGlnMTBNd0RMT1NCS0NFWDFsVzhLSDR6N1BBSkxseldoR2YwcmlWZWxDaktLUzQwUWpndHVUN2RXZ3R0UGZpYkp5TXpUbDNHTjFXdTdWQjhjbFFDUXdkRTNxaA?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "প্রথম আলো",
-   "lang": "bn",
-   "kind": "news",
-   "title": "ওয়াশিংটনের নতুন ভারসাম্য, ঢাকার কূটনীতির পরীক্ষা",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Cb3FmX0xpTWdhc2xjQ1dEWFdkQkpXUGl1QmhWa0QxX3Z2cTlSalI4U3pMc2xsR0tORF8tcFpfRXF5NDBObVI1a2g4VWVyZ2hvYVo1Y0NDYk40c3lqRUV1bVNR0gFvQVVfeXFMT0hlZm5sd0VwNDdNOHdMX2tzUDhZcEctUUlBLXFCYmRRajd3WEM3OXdjZU9PZTFUQ3VRSWFOcEVHNHhMcUwySC1mcUdZOWNIdF9CNFk3LVplSzVDbHRVMFBGZjdBcFpzNk13eWF3dTFj?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -1029,6 +412,18 @@
    "words": []
   },
   {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "news",
+   "title": "Climate change cost Bangladesh $17.5 billion in lost earnings in 2025: Lancet report",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVjFkSGVORV9qU3lzYlRFaFIwdGw1R3ZIN25YZmUwdTVCZjZrTGdNekY4MmpoOS1ZdnV1am81SlBNYmhHaFNFN1IyNG5xWVhmVUVYY1BBaHVsWWlCVVVPUnN1YXE0SktMUTNSTjg5emY4M3Y5emxaZ3NpMjBiRlJfbDFPeFpqM1Y2WEk3cG83THVZUVJJS2gya0JlNmpKVHMtRnBYZTVHRGJkUnZYWUZHWnVJajBGcVc0VlZvSVBZdzdTWTE5T2h4UUE1VkRWRGJ0SVEyTmhld19YY09MWFQwQzRVSQ?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
    "paper": "dailyasianage.com",
    "lang": "en",
    "kind": "news",
@@ -1077,6 +472,18 @@
    "words": []
   },
   {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "news",
+   "title": "ইরান যুদ্ধ খুব শিগগিরই শেষ হবে: ট্রাম্প",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qb2VyQUR6bHhYZW0xRXlTWUdtdHEtMmRsWEE3OFJ3WmkxeWhpRUJjbnF2eW1FbjV6SWRaNzdZcXRJRTV1eXFveVU2ZjhQUkk1TV9tWVJpdzZpbzDSAWhBVV95cUxNd2YtVjlUUGlnMTBNd0RMT1NCS0NFWDFsVzhLSDR6N1BBSkxseldoR2YwcmlWZWxDaktLUzQwUWpndHVUN2RXZ3R0UGZpYkp5TXpUbDNHTjFXdTdWQjhjbFFDUXdkRTNxaA?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
    "paper": "দ্য ডেইলি স্টার বাংলা",
    "lang": "bn",
    "kind": "news",
@@ -1107,6 +514,18 @@
    "title": "বাংলাদেশের অর্থনীতি পুনরুদ্ধারে চীনের সহযোগিতার বিকল্প নেই",
    "date": "2026-11-10",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mYkM2TXFzd2J0WTk3M1M1QlkydkVvbHA1OFNiSXFXNm0yLXNPYlNsSVh4YjNKejNOMUNwaHRnbWt2TTE5SklJQ2ZYd1BoVXVsdWE2Q1Nvd2RFZnJRY2c?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "news",
+   "title": "ওয়াশিংটনের নতুন ভারসাম্য, ঢাকার কূটনীতির পরীক্ষা",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Cb3FmX0xpTWdhc2xjQ1dEWFdkQkpXUGl1QmhWa0QxX3Z2cTlSalI4U3pMc2xsR0tORF8tcFpfRXF5NDBObVI1a2g4VWVyZ2hvYVo1Y0NDYk40c3lqRUV1bVNR0gFvQVVfeXFMT0hlZm5sd0VwNDdNOHdMX2tzUDhZcEctUUlBLXFCYmRRajd3WEM3OXdjZU9PZTFUQ3VRSWFOcEVHNHhMcUwySC1mcUdZOWNIdF9CNFk3LVplSzVDbHRVMFBGZjdBcFpzNk13eWF3dTFj?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -1712,30 +1131,6 @@
    "title": "কপ-৩১ সম্মেলনে জলবায়ু ক্ষতিপূরণে বাংলাদেশের ন্যায্য হিস্যা পাওয়ার আশা রিজভীর",
    "date": "2026-11-10",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VcEhza1VIeE9kWW5XaUgyZlZ4R0NFMmRxYUEtelc3dzBNU3ZFWmN0QUx5ZGFhdVNVWlM4LXgxcndEMlVodF9JQnFydjh1TWFXYnA3bXBn?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Foreign Policy",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "The Experts Are Taking Their Revenge Again",
-   "date": "2026-11-09",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pNEdfYXlTd1VEdEdnMnpjaWFtRVVtNDVoblExc2sxU3I5ZU5aTXFGRHJWWm9MOUQ4WHVYcjJzWTdvRm1BdU5UTHJCQUg1bFNCc2pqOVhNLVZCcnRESElJQU11TU1UWVU0MTQxZUlURE1vWkU?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Lowy Institute",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Yalta 2.0: A Trump-Xi-Putin summit has little upside for Beijing",
-   "date": "2026-11-09",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT3RZR2FqYUM4WW1pN25vdlJiakhkSlZkcFdKMkJSazMzLUFJSUlHU0pKYkVuUmlMRnJxT1hFbnFaU1plQzdVSHRXSi1wNkI2YjJadGtybGo0bWdDNDlnTXN1N0NFMmpndkwzamJDaGV3bDVBa0VsdDY2bDE2LVNIRHlGY3FJTmo4TlVSLVJ4OWthbmM1VWNWekRINnN1MmpFRWhZX2ppTDZlMmxSVHc?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -4190,18 +3585,6 @@
    "words": []
   },
   {
-   "paper": "ORF — Observer Research Foundation",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "The 2026 Midterms and the Changing Contours of American Power",
-   "date": "2026-11-06",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQmZFdzRfd2doaEFJbFR2N0RSa1NsS1FmOWhJbWJ5R1BVS3JSQzJNdTJ5MFkzSFd5cUpMWEJFRHdWcmdXT2lla1pveGNGclRpczI5RkFIQ1gybFFnSklYd3prTVMycEJPbFJoMVRRNkg1NjRjUTk4MnhIR2s1NFhZUEk3WlZNY2xWQUMzcDJrWW1taHN1cmRSYTN4SXM?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
    "paper": "Responsible Statecraft",
    "lang": "en",
    "kind": "news",
@@ -4562,18 +3945,6 @@
    "words": []
   },
   {
-   "paper": "প্রথম আলো",
-   "lang": "bn",
-   "kind": "news",
-   "title": "ইতিহাসের ট্রাম্প-অধ্যায় শেষ হতে চলেছে, ইরান যুদ্ধের কী হবে",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9udmFRRWRfaTJoTWxKRGdxWFJxclZDUDJVckxnS2FPVkJsTkF2dHRoUmJkbFdMNHE3ODhpeG9YWWF1d3MzQldXVGhxUmRnbThJMy1peGxQVE9HUXN1ZGUyemd30gFvQVVfeXFMUEZEcDlXVzhrZ25PMlV1dEZvaEw3RGJlUHNyWXIzX21sWTFCV3J5VkxzSDZtUGxhamNPdmlEdVlhRVJzR2NYSmpfa2J4bWh1bW0zSW1TQmsxb3h2TkRWelQ3SHJFLTJLcU1jWmM4bTFj?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
    "paper": "Foreign Policy",
    "lang": "en",
    "kind": "editorial",
@@ -4592,6 +3963,30 @@
    "title": "Putin suffers Balkan setbacks as Russia struggles to retain influence",
    "date": "2026-11-05",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR2g1QzhRek9rdXRLaDFrVElnTXhxOVEzREdEc1plZ2c3WGhtSkxHbkJJV0g2NC1ibTJxMUluSmhHRWd1QVN2MjVmX0tKajVtNmZEUnU2VHF1SFkxME43NTIxLTVZbEhqN2JzZnhVUC14b2xNeHFxYWdsbjNSTE9VLVAxWkltTXh2Z3IwQ1oyR054ZlE1VVZBQUJhc3AySW5mZm1PVGdxQ2hnNERncVVudk9RY2tuMFY1MDJjVXVn?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "news",
+   "title": "US midterm results: What it means for Bangladesh’s trade, economic challenges",
+   "date": "2026-11-05",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQM1NaR0JGcEpmVkIzZEdzbGdKY1czWUFFOE5iMXZIc1Z6SXpMYzZ1S21DV3FvZFVpYWpSQW5ZX25oZUZxVmR2bDR4LUViRjRsUC15RnBfUXB0TGtMdWNFY1kweWdFSlFMRTVIaXZVeDlrNFhaWkFHVEplVmw0eEZxUkZneFVzQzNQNncwWlRUcnhYSHYxQ1RaRFVmMzh6U1ZuNU1wV0E5ZGhMR1VYSUFTdExfUUhtMFkySi0yUHpOU2hycHF1NXFOVWMxSmNBVldrclE?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "news",
+   "title": "ইতিহাসের ট্রাম্প-অধ্যায় শেষ হতে চলেছে, ইরান যুদ্ধের কী হবে",
+   "date": "2026-11-05",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9udmFRRWRfaTJoTWxKRGdxWFJxclZDUDJVckxnS2FPVkJsTkF2dHRoUmJkbFdMNHE3ODhpeG9YWWF1d3MzQldXVGhxUmRnbThJMy1peGxQVE9HUXN1ZGUyemd30gFvQVVfeXFMUEZEcDlXVzhrZ25PMlV1dEZvaEw3RGJlUHNyWXIzX21sWTFCV3J5VkxzSDZtUGxhamNPdmlEdVlhRVJzR2NYSmpfa2J4bWh1bW0zSW1TQmsxb3h2TkRWelQ3SHJFLTJLcU1jWmM4bTFj?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -5024,18 +4419,6 @@
    "title": "দুদকের জালে সার্ভেয়ার, রুই-কাতলা ধরা পড়বে এরপর?",
    "date": "2026-11-05",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5aT0JHZXRCZU90WUxidmZhR1RPQWV5cDZRWkhVa0JOQWlwXzRCZzNoMjZ1US05MXVPSVFBaldTMU14aHNXUkpiQ1NOUmdLRUJXZzJtZDJuOGo?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Chatham House",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Research Fellow (East Africa) - Africa Programme",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPU21FdjdHMG8zWkVqYTYzRVE2VlFhTFRzX2s0OXpQS2liMm9YbWJQaG1ub0xLN040bzU3ak5faUNJNUFadmtIcHlVVVROMDBUXzJxWEVVTFRTdXlFQmJWSFNaWHFoUXI5cWI1cDAyaHBULVpIYmtrMVRvX195YlNYVWNEV3c0d2hzVXpZ?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -5936,18 +5319,6 @@
    "title": "Adapting EU Foreign Policy to a World of Recurring Crises",
    "date": "2026-10-15",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTEtTWDNJWENMLU02TERoZjlQN0tlVnBfNW5SUFhoQWV6U2VkS0FaZWhjdlZJbVotS25ibENlSVpldUJtQUp0b0ZjQ2ZUSmpQTllBYTZKOGRtVWoxOUlIZ2xQY21vQVZpVWx6dFBPVWtKY2I1bzE1bDZhYlhsUHB2Mmd5S3RnelVJMlFnQUUyUzBjd19aaHFaWEJ3aWU1N19RTXpJSk5vV0ZIOXlIQWlFaUJDa01lblB4N0YtZVFnUnM?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "International Crisis Group",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Intern, Sahel and West Africa Projects",
-   "date": "2026-10-13",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBkcWNMSzJKUWNKMVdOSGRCSTdUQ0RtcGZfZXhaSHZPaDhxU3J1VmdUZFJoTmhMT0RSa09UMy1OeFRjVUVzSkVHZTlEM3FxazNndDRuakFFa1dqZ0xmOVJCMGJrYm1iRXAwUUp2Y2FhN0l0WlVaSHN3clJ3?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,

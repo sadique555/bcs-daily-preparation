@@ -345,11 +345,18 @@ function today(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()
 function addDays(iso,n){var d=new Date(iso+'T00:00:00');d.setDate(d.getDate()+n);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
 function touch(){store.activity[today()]=true;save();}
 var INTERVALS=[1,3,7,14,30];
-var VIEWS=['view-home','view-editorial','view-news','view-read','view-vocab','view-revision','view-practice','view-archive','view-marks','view-progress','view-translate','view-thub','view-rules','view-mistakes','view-checker','view-verify'];
+var VIEWS=['view-home','view-editorial','view-news','view-read','view-vocab','view-revision','view-practice','view-archive','view-marks','view-progress','view-translate','view-thub','view-rules','view-mistakes','view-checker','view-verify','view-thinktank'];
+var _navInit=false,_navGuard=false;
 function show(id){
   VIEWS.forEach(function(v){$(v).classList.toggle('hidden',v!==id);});
   document.querySelectorAll('.tabs button').forEach(function(b){b.classList.toggle('on',b.dataset.v===id);});
   window.scrollTo(0,0);
+  try{
+    if(window.history&&history.pushState){
+      if(!_navInit){history.replaceState({view:id},'');_navInit=true;}
+      else if(!_navGuard&&(!history.state||history.state.view!==id))history.pushState({view:id},'');
+    }
+  }catch(e){}
   if(id==='view-home')renderHome();
   if(id==='view-vocab')renderVocab();
   if(id==='view-revision')renderRevision();
@@ -361,7 +368,17 @@ function show(id){
   if(id==='view-thub')renderHub();
   if(id==='view-rules')renderRules();
   if(id==='view-mistakes')renderMistakes();
+  if(id==='view-thinktank')renderTT();
 }
+function navBack(){
+  if(_navInit&&window.history&&history.length>1){history.back();}
+  else show('view-home');
+}
+window.addEventListener('popstate',function(ev){
+  var id=(ev.state&&ev.state.view)||'view-home';
+  if(VIEWS.indexOf(id)<0)id='view-home';
+  _navGuard=true;show(id);_navGuard=false;
+});
 document.querySelectorAll('[data-go2]').forEach(function(b){b.addEventListener('click',function(){show(b.dataset.go2);});});
 document.querySelectorAll('.tabs button').forEach(function(b){b.addEventListener('click',function(){show(b.dataset.v);});});
 
@@ -612,7 +629,7 @@ function translateSentence(sent,targetEl,pair){
     })
     .catch(function(){targetEl.textContent=' → এখন অনুবাদ আনা যাচ্ছে না — internet দেখে আবার চেষ্টা করো।';});
 }
-$('readBack').addEventListener('click',function(){show('view-home');});
+$('readBack').addEventListener('click',function(){navBack();});
 
 /* ---------- translation practice ---------- */
 var trDir='bn2en';
