@@ -113,6 +113,29 @@
 .upd-btn{display:block;width:100%;margin:10px 0;padding:13px;border:none;border-radius:12px;background:#059669;color:#fff;font-size:1rem;font-weight:700;cursor:pointer}
 .upd-btn:disabled{opacity:.65}
 
+
+  .chip.on{background:var(--acc);color:#fff;font-weight:700}
+  .capribbon{display:inline-block;background:var(--acc);color:#fff;font-size:11.5px;font-weight:800;padding:4px 11px;border-radius:99px;margin-bottom:8px}
+  .captitle{font-family:Georgia,'Noto Serif Bengali','Hind Siliguri',serif}
+  .card h3.captitle{font-size:17.5px}
+  #capTitle{font-family:Georgia,'Noto Serif Bengali','Hind Siliguri',serif;font-size:22px;line-height:1.45;font-weight:800;margin:6px 0 4px}
+  .caprev{margin:4px 0 10px;padding-left:19px;color:var(--mut);font-size:13.5px;line-height:1.6}
+  .caprev li{margin:3px 0}
+  .capbox{border-radius:16px;padding:14px 16px;margin:10px 0;box-shadow:var(--shsm)}
+  .capbox p{margin:5px 0;line-height:1.7}
+  .capbox ul{margin:4px 0;padding-left:19px;line-height:1.7}
+  .capbox li{margin:4px 0}
+  .capbox.snap{background:var(--accbg)}
+  .capbox.mint{background:#ecfdf5;border:1px solid #a7f3d0}
+  .capbox.purp{background:#f5f3ff;border:1px solid #ddd6fe}
+  .capbox.amb{background:#fffbeb;border:1px solid #fde68a}
+  @media (prefers-color-scheme:dark){.capbox.mint{background:#052e1f;border-color:#065f46}.capbox.purp{background:#1e1b38;border-color:#4c1d95}.capbox.amb{background:#2a2103;border-color:#92400e}}
+  .capbody{background:var(--card);border-radius:16px;box-shadow:var(--shsm);padding:14px 16px;margin:10px 0;line-height:1.75}
+  .capbody p{margin:6px 0}.capbody ul{margin:4px 0;padding-left:19px}.capbody li{margin:5px 0}
+  .capsub{color:var(--acc);margin:14px 0 4px;font-size:15.5px}
+  .capquote{border-left:4px solid var(--acc);margin:10px 0;padding:6px 12px;font-style:italic;color:var(--mut);background:var(--bg);border-radius:0 12px 12px 0}
+  .tlrow{border-left:3px solid var(--line);padding-left:10px}
+  .opts button.sel{border-color:var(--acc);background:var(--accbg);color:var(--acc);font-weight:700}
   #rBody p{margin:0 0 14px}
   #rBody .sent{border-radius:4px}
   #rBody .sent.hl{background:#fde68a;color:#111}
@@ -177,6 +200,23 @@
     <select id="ttDateSel"></select>
     <div id="ttChips" style="margin:8px 0"></div>
     <div id="ttList"></div>
+  </section>
+
+
+  <!-- NEWS CAPSULES -->
+  <section id="view-capsules" class="hidden">
+    <header class="top"><h1>💊 News Capsule</h1><p>Server app-এ তৈরি capsule — snapshot, concept box, important data, model answer ও MCQ। এই free version-এ capsule শুধু পড়া যায়।</p></header>
+    <input type="search" id="capQ" placeholder="🔍 Capsule খুঁজো...">
+    <div id="capDates" style="margin:8px 0"></div>
+    <div id="capCats" style="margin:8px 0"></div>
+    <p class="meta" id="capCount"></p>
+    <div id="capList"></div>
+  </section>
+
+  <!-- CAPSULE READER -->
+  <section id="view-capsule" class="hidden">
+    <button class="back" onclick="navBack()">← Capsule list-এ ফিরে যাও</button>
+    <div id="capRead"></div>
   </section>
 
   <section id="view-vocab" class="hidden">
@@ -330,12 +370,12 @@
 
 <script>
 var DATA={articles:[]};
-var BUILD='2.9';
+var BUILD='3.7';
 fetch('build.txt',{cache:'no-store'}).then(function(r){return r.text();}).then(function(v){
   v=(v||'').trim();
   if(v&&v!==BUILD&&location.search.indexOf('v=')<0)location.replace(location.pathname+'?v='+v);
 }).catch(function(){});
-var DEF={marks:[],mine:[],srs:{},read:{},practice:[],dict:{},activity:{},trans:{},mist:[],level:'Beginner',trScores:[]};
+var DEF={marks:[],mine:[],srs:{},read:{},practice:[],dict:{},activity:{},trans:{},mist:[],level:'Beginner',trScores:[],capRead:{},capSel:{}};
 var store; try{store=Object.assign({},DEF,JSON.parse(localStorage.getItem('bcsFreeV2')||'{}'));}catch(e){store=Object.assign({},DEF);}
 function save(){localStorage.setItem('bcsFreeV2',JSON.stringify(store));}
 function $(id){return document.getElementById(id);}
@@ -345,7 +385,7 @@ function today(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()
 function addDays(iso,n){var d=new Date(iso+'T00:00:00');d.setDate(d.getDate()+n);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
 function touch(){store.activity[today()]=true;save();}
 var INTERVALS=[1,3,7,14,30];
-var VIEWS=['view-home','view-editorial','view-news','view-read','view-vocab','view-revision','view-practice','view-archive','view-marks','view-progress','view-translate','view-thub','view-rules','view-mistakes','view-checker','view-verify','view-thinktank'];
+var VIEWS=['view-home','view-editorial','view-news','view-read','view-vocab','view-revision','view-practice','view-archive','view-marks','view-progress','view-translate','view-thub','view-rules','view-mistakes','view-checker','view-verify','view-thinktank','view-capsules','view-capsule'];
 var _navInit=false,_navGuard=false;
 function show(id){
   VIEWS.forEach(function(v){$(v).classList.toggle('hidden',v!==id);});
@@ -369,6 +409,7 @@ function show(id){
   if(id==='view-rules')renderRules();
   if(id==='view-mistakes')renderMistakes();
   if(id==='view-thinktank')renderTT();
+  if(id==='view-capsules')renderCapsules();
 }
 function navBack(){
   if(_navInit&&window.history&&history.length>1){history.back();}
@@ -420,6 +461,7 @@ var MODS=[
  ['view-editorial','📰','c1','প্রিপারেশন','Daily Editorial · সম্পাদকীয়'],
  ['view-news','🗞️','c3','Current Affairs','গুরুত্বপূর্ণ খবর'],
  ['view-thinktank','🏛️','c3','Think Tank','Chatham House · Brookings · ICG analysis'],
+ ['view-capsules','💊','c5','Capsule','News Capsule · Model Answer · MCQ'],
  ['view-vocab','📚','c2','Vocabulary','শুধু তোমার যোগ করা শব্দ'],
  ['view-revision','🔁','c4','রিভিশন','আজকের due শব্দ'],
  ['view-practice','✍️','c5','প্র্যাকটিস','MCQ · Cloze · Flashcard'],
@@ -520,6 +562,139 @@ function renderTT(){
   bindCards($('ttList'));
 }
 $('ttDateSel').addEventListener('change',renderTT);
+
+
+/* ---------- news capsules (read-only mirror of the server app) ---------- */
+var CAPS={capsules:[]};
+var capDate='',capCat='সব';
+function loadCapsules(){
+  fetch('data/capsules.json?ts='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(j){
+    CAPS=(j&&j.capsules)?j:{capsules:[]};
+    if(!$('view-capsules').classList.contains('hidden'))renderCapsules();
+  }).catch(function(){CAPS={capsules:[]};});
+}
+function capDates(){var s={};(CAPS.capsules||[]).forEach(function(c){s[c.dateKey]=1;});return Object.keys(s).sort().reverse();}
+function capCats(){var s={},out=[];(CAPS.capsules||[]).forEach(function(c){if(c.category&&!s[c.category]){s[c.category]=1;out.push(c.category);}});return out;}
+function capById(id){return (CAPS.capsules||[]).filter(function(c){return String(c.id)===String(id);})[0];}
+function capBadges(c){
+  var h='';
+  if(c.tier===1)h+='<span class="tag">★ Important</span>';
+  if(c.scenarioCandidate)h+='<span class="tag no">🎯 Scenario</span>';
+  return h;
+}
+function capCardHTML(c){
+  var read=!!store.capRead[c.id];
+  var prev=(c.summary||[]).slice(0,3).map(function(s){return '<li>'+esc(s)+'</li>';}).join('');
+  var tags=(c.subjectTags||[]).slice(0,3).map(function(t){return '<span class="tag grey">'+esc(t)+'</span>';}).join('');
+  return '<div class="card capcard" data-cid="'+c.id+'">'
+    +'<div class="capribbon">'+esc(c.category||'')+' | BCS</div>'
+    +'<h3 class="captitle">'+esc(c.title)+'</h3>'
+    +(prev?'<ul class="caprev">'+prev+'</ul>':'')
+    +'<div class="cardbot">'+capBadges(c)+tags+(read?'<span class="tag grey">✓ Read</span>':'')+'</div>'
+    +'<div class="cardbot" style="margin-top:6px"><span class="meta">'+esc(c.newspaper||'')+' · '+c.dateKey+'</span></div></div>';
+}
+function renderCapsules(){
+  var list=CAPS.capsules||[];
+  var box=$('capList');
+  if(!list.length){
+    $('capDates').innerHTML='';$('capCats').innerHTML='';$('capCount').textContent='';
+    box.innerHTML='<p class="note">এখনো কোনো capsule আসেনি। Server app "BCS Daily Preparation"-এ capsule তৈরি হলে এখানে পড়া যাবে।</p>';
+    return;
+  }
+  var ds=capDates();
+  if(!capDate||ds.indexOf(capDate)<0)capDate=ds[0];
+  $('capDates').innerHTML=ds.map(function(d){return '<button class="chip'+(d===capDate?' on':'')+'" data-cd="'+d+'">'+d+'</button>';}).join('');
+  $('capDates').querySelectorAll('[data-cd]').forEach(function(b){b.addEventListener('click',function(){capDate=b.dataset.cd;renderCapsules();});});
+  var cats=['সব'].concat(capCats());
+  if(cats.indexOf(capCat)<0)capCat='সব';
+  $('capCats').innerHTML=cats.map(function(ct){return '<button class="chip'+(ct===capCat?' on':'')+'" data-cc="'+esc(ct)+'">'+esc(ct)+'</button>';}).join('');
+  $('capCats').querySelectorAll('[data-cc]').forEach(function(b){b.addEventListener('click',function(){capCat=b.dataset.cc;renderCapsules();});});
+  var q=($('capQ').value||'').toLowerCase();
+  var items=list.filter(function(c){
+    return c.dateKey===capDate&&(capCat==='সব'||c.category===capCat)
+      &&(!q||(c.title||'').toLowerCase().indexOf(q)>=0||(c.newspaper||'').toLowerCase().indexOf(q)>=0||(c.subjectTags||[]).join(' ').toLowerCase().indexOf(q)>=0);
+  });
+  $('capCount').textContent='পাওয়া গেছে: '+bn(items.length)+'টি capsule · '+capDate;
+  box.innerHTML=items.length?items.map(capCardHTML).join(''):'<p class="meta">এই date/category-তে কোনো capsule নেই।</p>';
+  box.querySelectorAll('.capcard').forEach(function(el){el.addEventListener('click',function(){openCapsule(el.dataset.cid);});});
+}
+$('capQ').addEventListener('input',renderCapsules);
+var curCap=null;
+function openCapsule(id){
+  var c=capById(id);if(!c)return;
+  curCap=c;
+  store.capRead[c.id]=today();touch();
+  renderCapsule();
+  show('view-capsule');
+}
+function capSec(title,inner){return inner?'<h3 class="sect">'+title+'</h3>'+inner:'';}
+function renderCapsule(){
+  var c=curCap;if(!c)return;
+  var h='';
+  h+='<div class="cardbot" style="margin:6px 0"><span class="tag">'+esc(c.category||'')+' | BCS</span>'+capBadges(c)
+    +(c.subjectTags||[]).map(function(t){return '<span class="tag grey">'+esc(t)+'</span>';}).join('')+'</div>';
+  h+='<h2 id="capTitle">'+esc(c.title)+'</h2>';
+  h+='<p class="meta">'+esc(c.newspaper||'')+' · '+c.dateKey+'</p>';
+  if(c.snapshot)h+='<div class="capbox snap"><b>📌 Topic Snapshot</b><p>'+esc(c.snapshot)+'</p></div>';
+  if((c.summary||[]).length)h+='<h3 class="sect">একনজরে (Summary)</h3><div class="capbox mint"><ul>'
+    +c.summary.map(function(s){return '<li>'+esc(s)+'</li>';}).join('')+'</ul></div>';
+  if(c.background)h+=capSec('Background','<div class="capbody"><p>'+esc(c.background)+'</p></div>');
+  if((c.concepts||[]).length)h+='<h3 class="sect">Concept Box</h3><div class="capbox purp">'
+    +c.concepts.map(function(x){return '<p><b>'+esc(x.term)+'</b> — '+esc(x.definition)+'</p>';}).join('')+'</div>';
+  if((c.keyInsights||[]).length)h+=capSec('Key Insights','<div class="capbody"><ul>'
+    +c.keyInsights.map(function(s){return '<li>✓ '+esc(s)+'</li>';}).join('')+'</ul></div>');
+  if((c.importantData||[]).length)h+='<h3 class="sect">Important Data</h3><div class="capbox amb">'
+    +c.importantData.map(function(x){return '<p><b>'+esc(x.label)+':</b> '+esc(x.detail)+'</p>';}).join('')+'</div>';
+  if((c.timeline||[]).length)h+=capSec('Timeline','<div class="capbody">'
+    +c.timeline.map(function(x){return '<p class="tlrow"><b>'+esc(x.when)+'</b> — '+esc(x.event)+'</p>';}).join('')+'</div>');
+  if(c.whyItMatters)h+=capSec('Why It Matters','<div class="capbody"><p>'+esc(c.whyItMatters)+'</p></div>');
+  var pq=c.possibleQuestion||{};
+  var pat=pq.pattern||{};
+  var patLine='';
+  if(pat.bcs)patLine='<p class="meta">প্যাটার্ন: '+bn(pat.bcs)+'তম BCS'+(pat.qRef?' · '+esc(pat.qRef):'')
+    +(pat.subjectLabelBn?' · '+esc(pat.subjectLabelBn):'')+(pat.marks?' · '+bn(pat.marks)+' নম্বর':'')+'</p>';
+  var ma=c.modelAnswer||{};
+  var maH='';
+  if(ma.quote)maH+='<blockquote class="capquote">'+esc(ma.quote)+'</blockquote>';
+  maH+=(ma.sections||[]).map(function(s2){return '<h4 class="capsub">'+esc(s2.heading)+'</h4><p>'+esc(s2.body)+'</p>';}).join('');
+  if(pq.text||maH){
+    h+='<h3 class="sect">📝 Exam Prep</h3><div class="capbody">'
+      +(pq.text?'<h4 class="capsub">Possible Question</h4><p style="white-space:pre-wrap">'+esc(pq.text)+'</p>'+patLine:'')
+      +(maH?'<h4 class="capsub">Model Answer</h4>'+maH:'')+'</div>';
+  }
+  var mcqs=c.mcqs||[];
+  if(mcqs.length){
+    var sel=store.capSel[c.id]||{};
+    var att=Object.keys(sel).length;
+    var hasAns=mcqs.some(function(m){return typeof m.a==='number';});
+    var score=0;
+    if(hasAns)mcqs.forEach(function(m,i){if(sel[i]===m.a)score++;});
+    h+='<h3 class="sect">✍️ Practice MCQ</h3><p class="meta">'+bn(att)+'/'+bn(mcqs.length)+' attempted'
+      +(hasAns?' · Score: '+bn(score)+'/'+bn(mcqs.length):'')+'</p>';
+    if(!hasAns)h+='<p class="meta">Option tap করে নিজে চেষ্টা করো — সঠিক উত্তর ও ব্যাখ্যা server app-এর capsule MCQ practice-এ grade হয়।</p>';
+    h+=mcqs.map(function(m,i){
+      var opts=(m.options||[]).map(function(o,j){
+        var cls='';
+        if(sel[i]===j)cls=hasAns?(j===m.a?' right':' wrong'):' sel';
+        else if(hasAns&&sel[i]!=null&&j===m.a)cls=' right';
+        return '<button data-mcq="'+i+'" data-opt="'+j+'" class="'+cls+'">'+esc(o)+'</button>';
+      }).join('');
+      var ex=(hasAns&&sel[i]!=null&&m.explanation)?'<p class="meta" style="margin-top:6px">'+esc(m.explanation)+'</p>':'';
+      return '<div class="word-row"><b>'+bn(i+1)+'. '+esc(m.q)+'</b><div class="opts">'+opts+'</div>'+ex+'</div>';
+    }).join('');
+  }
+  var inFree=(DATA.articles||[]).some(function(a){return a.url===c.articleUrl;});
+  h+='<p style="margin-top:18px">'+(inFree
+    ?'<button class="btn" id="capOrig">📰 মূল লেখাটি পড়ুন</button>'
+    :'<a class="btn ghost" href="'+(c.articleUrl||'#')+'" target="_blank" rel="noopener">📰 মূল লেখাটি পত্রিকার site-এ পড়ুন ↗</a>')+'</p>';
+  $('capRead').innerHTML=h;
+  $('capRead').querySelectorAll('[data-mcq]').forEach(function(b){b.addEventListener('click',function(){
+    if(!store.capSel[c.id])store.capSel[c.id]={};
+    store.capSel[c.id][b.dataset.mcq]=+b.dataset.opt;save();renderCapsule();
+  });});
+  var ob=$('capOrig');
+  if(ob)ob.addEventListener('click',function(){openArticle(c.articleUrl);});
+}
 
 /* ---------- reading ---------- */
 var current=null;
@@ -1239,7 +1414,7 @@ function refreshData(btn){
     fillDates($('dateSel'),editorials(),datesOf(editorials())[0]);
     fillDates($('newsDateSel'),newsItems(),datesOf(newsItems())[0]);
     fillDates($('ttDateSel'),thinkTanks(),datesOf(thinkTanks())[0]);
-    renderList();renderNews();renderHome();renderTT();
+    renderList();renderNews();renderHome();renderTT();loadCapsules();
     btn.textContent=changed?'✓ নতুন data এসেছে!':'✓ Server-এ এর চেয়ে নতুন data নেই';
   }).catch(function(){ btn.textContent='✗ Internet পাওয়া যায়নি — পরে আবার চেষ্টা করো'; })
   .then(function(){ setTimeout(function(){ btn.disabled=false; btn.textContent=oldLabel; _refreshing=false; },2600); });
@@ -1253,6 +1428,7 @@ fetch('data/articles.json?ts='+Date.now(),{cache:'no-store'}).then(function(r){r
   fillDates($('ttDateSel'),thinkTanks(),datesOf(thinkTanks())[0]);
   renderList();renderNews();renderHome();renderTT();
 }).catch(function(){$('homeToday').innerHTML='<p class="note">Data load হয়নি — internet connection দেখে আবার খোলো।</p>';});
+loadCapsules();
 </script>
 </body>
 </html>
