@@ -1,6 +1,600 @@
 {
- "updated": "2026-11-13T01:27:15.963814+00:00",
+ "updated": "2026-11-13T07:02:40.927701+00:00",
  "articles": [
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "The energy crisis really hits home when it hits the kitchen",
+   "date": "2026-11-13",
+   "url": "https://www.thedailystar.net/opinion/views/news/the-energy-crisis-really-hits-home-when-it-hits-the-kitchen-4322141",
+   "excerpt": "A substantially comprehensive plan would begin with small, honest measures.",
+   "fullText": "Bangladesh's natural gas supply generally hovers around 2.6 billion cubic feet per day, forcing Petrobangla to maintain rationing across power plants, industries, and household consumers. The household burner is where that rationing becomes visible. Some residents say they still receive a monthly gas bill for a stove they cannot light.\n\nThen comes the cylinder. In October, the regulator set the price of a 12 kg LPG cylinder at Tk 1,837 , about 40 percent above January prices. On November 2, the Bangladesh Energy Regulatory Commission (BERC) raised the price by a further Tk 223 to Tk 2,060. Yet buyers across Dhaka and the districts report paying Tk 2,200 or more . When the official price and the price people actually pay diverge this sharply, the failure is one of enforcement.\n\nIn terms of electricity, the sale of electric and induction cookers has been soaring due to the gas crisis. But electric cooking is a bargain or a trap depending on the appliance, the slab, and the household. Industry officials say induction cookers use roughly 30 percent less power than conventional electric heating, while infrared units can cost nearly double to run, yet infrared sells because it works with any pot.\n\nUnder the June residential tariff schedule, units between 301 and 400 cost Tk 9.62, while units between 401 and 600 cost Tk 15.01, so a cooking load can change the price of a household's last unit, not just the number of units it burns. One expert put electric cooking for a family of four at about Tk 2,000 a month , comparable to cylinder costs; however, many families report much higher costs that can depend on usage. The switch has economics of its own, and it rewards the household with the right appliance in the right slab.\n\nThe June 3 order raised the weighted average retail tariff from Tk 9.11 to Tk 10.63 per unit , an increase of 16.68 percent. The following day, BERC restored the previous rates for the two lowest residential consumption tiers, bringing the weighted average down to Tk 10.40. BERC chairman acknowledged that no assessment of the increase's impact on inflation or household expenditure had been conducted. Despite the June adjustment , the government is still expected to provide around Tk 41,000 crore in annual subsidy to the Bangladesh Power Development Board (BPDB) in FY2026-27. In August, BERC reduced the average wholesale tariff from Tk 8.39 to Tk 8.20 per unit following public criticism of the tariff changes. The reduction, however, was an adjustment between BPDB and distribution companies and did not lower household electricity bills.\n\nA fair assessment must also acknowledge the pressures on the power sector and the adjustments made by the regulator. Excelerate Energy declared force majeure in March amid the Middle East conflict, suspending contracted LNG deliveries to Bangladesh. In October, The Financial Express reported that the company was expected to deliver one cargo the following week, after a seven-month interruption.\n\nTherefore, a substantially comprehensive plan would begin with small, honest measures. Households should not pay fixed charges for gas that does not flow, so rebates should follow automatically when pressure drops below a usable threshold. The gap between official and real LPG prices should be closed through transaction monitoring, storage, and import diversification rather than monthly announcements. Electricity's cooking penalty could be softened with a cooking-load rebate or slab adjustment, paired with efficiency standards and instalment support that steer families toward induction. Above all, the government should say plainly which future it is building—restored household gas or electrified kitchens and fund whichever it chooses.\n\nWe tend to measure an energy crisis where it is easy to count: idle factories, load-shedding hours, import bills. But a crisis becomes real somewhere quieter, when a family stops organising its evening around dinner and starts organising its night around a flame.\n\nNahian Rahman is research associate at Bangladesh Institute of Governance and Management (BIGM).",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "household",
+     "sentence": "Bangladesh's natural gas supply generally hovers around 2.6 billion cubic feet per day, forcing Petrobangla to maintain rationing across power plants, industries, and household consumers."
+    },
+    {
+     "w": "cooking",
+     "sentence": "But electric cooking is a bargain or a trap depending on the appliance, the slab, and the household."
+    },
+    {
+     "w": "electric",
+     "sentence": "In terms of electricity, the sale of electric and induction cookers has been soaring due to the gas crisis."
+    },
+    {
+     "w": "adjustment",
+     "sentence": "Despite the June adjustment , the government is still expected to provide around Tk 41,000 crore in annual subsidy to the Bangladesh Power Development Board (BPDB) in FY2026-27."
+    },
+    {
+     "w": "average",
+     "sentence": "The June 3 order raised the weighted average retail tariff from Tk 9.11 to Tk 10.63 per unit , an increase of 16.68 percent."
+    },
+    {
+     "w": "cylinder",
+     "sentence": "Then comes the cylinder."
+    },
+    {
+     "w": "electricity",
+     "sentence": "In terms of electricity, the sale of electric and induction cookers has been soaring due to the gas crisis."
+    },
+    {
+     "w": "following",
+     "sentence": "The following day, BERC restored the previous rates for the two lowest residential consumption tiers, bringing the weighted average down to Tk 10.40."
+    },
+    {
+     "w": "induction",
+     "sentence": "In terms of electricity, the sale of electric and induction cookers has been soaring due to the gas crisis."
+    },
+    {
+     "w": "percent",
+     "sentence": "In October, the regulator set the price of a 12 kg LPG cylinder at Tk 1,837 , about 40 percent above January prices."
+    },
+    {
+     "w": "appliance",
+     "sentence": "But electric cooking is a bargain or a trap depending on the appliance, the slab, and the household."
+    },
+    {
+     "w": "assessment",
+     "sentence": "BERC chairman acknowledged that no assessment of the increase's impact on inflation or household expenditure had been conducted."
+    }
+   ]
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Precision farming must go hand in hand with groundwater protection",
+   "date": "2026-11-13",
+   "url": "https://www.thedailystar.net/opinion/views/news/precision-farming-must-go-hand-hand-groundwater-protection-4322546",
+   "excerpt": "BNP had promised in its election manifesto to bring precision agriculture to Bangladesh.",
+   "fullText": "Shallow and deep tube-wells made widespread rice cultivation possible in the dry season. Today, roughly three-quarters of irrigated dry-season arable land, especially paddy fields, relies on groundwater. In parts of the northwest, however, decades of pumping have been accompanied by falling groundwater levels.\n\nPrecision farming can help an individual farmer decide when and how much to irrigate. But saving water on one farm does not necessarily reduce pumping across an area. If the savings allow more land to be irrigated or another crop to be grown, overall withdrawals could remain unchanged or increase. The larger question is about how much groundwater can be used, where, and when, without undermining future supplies.\n\nAnswering that question means understanding aquifers: the underground layers of sand or rock that store and transmit water. Their capacity to supply water depends on geology, how water is released from storage, and how it is replenished by rainfall, rivers, or neighbouring layers. Conditions can differ between villages and even between shallow and deep aquifers beneath the same area. In some shallow aquifers, dry season pumping lowers the water table, leaving more space for monsoon water to infiltrate. Where infiltration is favourable, this seasonal cycle can increase the volume stored underground. But space does not guarantee replenishment. Excessive pumping can reduce river flows, affect nearby wells or cause continuing depletion.\n\nThe Barind region provides a stern warning. In some places, pumping has lowered groundwater pressure until the water level fell below the clay layer that previously sealed the aquifer. Water then begins to drain from the aquifer itself, rather than being released mainly through changes in pressure. More water is released for each further metre of decline, so the water level may start falling more slowly even while abstraction continues. While that could seem reassuring, it is not evidence of recovery.\n\nReplenishment also varies across the Barind Tract. Some aquifers receive water through overlying layers or other connected pathways; thick clay restricts it elsewhere. Even a seasonal recovery in water levels must also be interpreted alongside geology and the effects of pumping on neighbouring users. Water-level trends alone cannot tell us how much water can be used sustainably.\n\nThis is why groundwater management cannot follow district or upazila boundaries alone. One aquifer may extend across several districts, while neighbouring farms may draw water from different aquifers or from different depths in the same area. Uniform limits on pumping or water-level decline could be too restrictive in one place and dangerously lenient in another.\n\nFor better decision-making, the foundation Bangladesh already has in place can be used. The Bangladesh Water Development Board (BWDB) has historically monitored groundwater levels weekly in more than 1,200 observation wells, alongside newer automated measurements. Weekly records reveal seasonal recovery and persistent decline; higher frequency readings can also help identify short-term pumping and recovery responses. To interpret them, monitoring wells must be linked to the depth and geological layer they actually measure. Combined with geological maps, aquifer properties, irrigation records and estimates of potential monsoon replenishment, they could provide a water account for each aquifer or management zone.\n\nThis account would track how much water enters, how much is withdrawn, how much flows away naturally and how storage changes. Crucially, it could also assess where seasonal pumping creates useful storage that the monsoon can refill, and where further abstraction risks lasting harm. In suitable locations, it could also guide efforts to direct surplus monsoon water underground to increase replenishment, a practice known as managed aquifer recharge (MAR), provided the geology and water quality are suitable.\n\nA Barind pilot bringing together BWDB, Barind Multipurpose Development Authority, agricultural extension services, and research institutions could map aquifer boundaries, define management zones, and compare crop-water demand with locally available supplies. Some zones might support carefully managed seasonal use; others may need stricter limits where replenishment is slow, or excessive pumping threatens long-term groundwater availability and local drinking water supplies. Farmers would use precision tools to cut waste, and their knowledge of crops and wells should shape the pilot. Precision irrigation could reduce waste, while evidence-based withdrawal limits, crop choices, and finding alternatives for surface water would respond to conditions in each zone.\n\nThe government should judge precision agriculture not simply by yields or sensors installed, but by whether farming remains productive without exhausting groundwater. Aquifer-level accounting would turn existing groundwater data into decisions about where to use more efficiently, where to replenish, and where to restrain pumping.",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "pumping",
+     "sentence": "In parts of the northwest, however, decades of pumping have been accompanied by falling groundwater levels."
+    },
+    {
+     "w": "groundwater",
+     "sentence": "Today, roughly three-quarters of irrigated dry-season arable land, especially paddy fields, relies on groundwater."
+    },
+    {
+     "w": "aquifer",
+     "sentence": "In some places, pumping has lowered groundwater pressure until the water level fell below the clay layer that previously sealed the aquifer."
+    },
+    {
+     "w": "aquifers",
+     "sentence": "Answering that question means understanding aquifers: the underground layers of sand or rock that store and transmit water."
+    },
+    {
+     "w": "replenishment",
+     "sentence": "But space does not guarantee replenishment."
+    },
+    {
+     "w": "seasonal",
+     "sentence": "Where infiltration is favourable, this seasonal cycle can increase the volume stored underground."
+    },
+    {
+     "w": "monsoon",
+     "sentence": "In some shallow aquifers, dry season pumping lowers the water table, leaving more space for monsoon water to infiltrate."
+    },
+    {
+     "w": "precision",
+     "sentence": "Precision farming can help an individual farmer decide when and how much to irrigate."
+    },
+    {
+     "w": "recovery",
+     "sentence": "While that could seem reassuring, it is not evidence of recovery."
+    },
+    {
+     "w": "decline",
+     "sentence": "More water is released for each further metre of decline, so the water level may start falling more slowly even while abstraction continues."
+    },
+    {
+     "w": "geology",
+     "sentence": "Their capacity to supply water depends on geology, how water is released from storage, and how it is replenished by rainfall, rivers, or neighbouring layers."
+    },
+    {
+     "w": "increase",
+     "sentence": "If the savings allow more land to be irrigated or another crop to be grown, overall withdrawals could remain unchanged or increase."
+    }
+   ]
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Assess local healthcare needs before expanding UHCs",
+   "date": "2026-11-13",
+   "url": "https://www.thedailystar.net/opinion/editorial/news/assess-local-healthcare-needs-expanding-uhcs-4322526",
+   "excerpt": "Govt must prioritise service delivery at existing facilities",
+   "fullText": "According to a report by this daily, the three-year project, scheduled to begin in December 2026, will involve constructing new hospital buildings, replacing dilapidated structures, and renovating existing facilities across 443 upazilas. It will also introduce specialised services, including intensive care, kidney dialysis, eye care, and cancer screening. However, upgrading all UHCs to 151 beds, regardless of their individual needs, overlooks significant differences in population, disease burden, location, and existing healthcare capacity.\n\nAccording to the Health Bulletin 2023, occupancy rates at the 20 least-used UHCs ranged from 11 to 65 percent, while those at the 20 most heavily burdened facilities stood between 160 and 221 percent. This means some facilities are struggling to accommodate patients, while others are not. Moreover, 24 of our upazilas remain without any UHCs. A uniform expansion plan therefore may not be the most effective way to address these disparities.\n\nOver the past decades, this daily has consistently reported on the poor condition of our UHCs, where patients are often deprived of essential primary healthcare. As these facilities remain ineffective, patients are forced to travel long distances to seek treatment at tertiary hospitals. The continued suffering of dengue and measles patients in remote areas should serve as an eye-opener for the government. Shouldn’t it first ensure that these facilities are adequately staffed, properly equipped, and effectively managed before undertaking such a massive project with public money?\n\nWe believe it would be prudent for the government to first conduct comprehensive upazila-specific assessments of existing facilities, patient demand, disease patterns, population projections, and future healthcare requirements. As health experts have pointed out, replacing dilapidated buildings is necessary, but new infrastructure must be designed according to local needs. More importantly, the existing shortage of doctors, nurses and support staff must be addressed urgently. Without adequate manpower, equipment, medicines and other essential logistics, additional beds and specialised units risk remaining underused.",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "facilities",
+     "sentence": "According to a report by this daily, the three-year project, scheduled to begin in December 2026, will involve constructing new hospital buildings, replacing dilapidated structures, and renovating existing facilities across 443 upazilas."
+    },
+    {
+     "w": "existing",
+     "sentence": "According to a report by this daily, the three-year project, scheduled to begin in December 2026, will involve constructing new hospital buildings, replacing dilapidated structures, and renovating existing facilities across 443 upazilas."
+    },
+    {
+     "w": "patients",
+     "sentence": "This means some facilities are struggling to accommodate patients, while others are not."
+    },
+    {
+     "w": "according",
+     "sentence": "According to a report by this daily, the three-year project, scheduled to begin in December 2026, will involve constructing new hospital buildings, replacing dilapidated structures, and renovating existing facilities across 443 upazilas."
+    },
+    {
+     "w": "healthcare",
+     "sentence": "However, upgrading all UHCs to 151 beds, regardless of their individual needs, overlooks significant differences in population, disease burden, location, and existing healthcare capacity."
+    },
+    {
+     "w": "buildings",
+     "sentence": "According to a report by this daily, the three-year project, scheduled to begin in December 2026, will involve constructing new hospital buildings, replacing dilapidated structures, and renovating existing facilities across 443 upazilas."
+    },
+    {
+     "w": "dilapidated",
+     "sentence": "According to a report by this daily, the three-year project, scheduled to begin in December 2026, will involve constructing new hospital buildings, replacing dilapidated structures, and renovating existing facilities across 443 upazilas."
+    },
+    {
+     "w": "disease",
+     "sentence": "However, upgrading all UHCs to 151 beds, regardless of their individual needs, overlooks significant differences in population, disease burden, location, and existing healthcare capacity."
+    },
+    {
+     "w": "essential",
+     "sentence": "Over the past decades, this daily has consistently reported on the poor condition of our UHCs, where patients are often deprived of essential primary healthcare."
+    },
+    {
+     "w": "percent",
+     "sentence": "According to the Health Bulletin 2023, occupancy rates at the 20 least-used UHCs ranged from 11 to 65 percent, while those at the 20 most heavily burdened facilities stood between 160 and 221 percent."
+    },
+    {
+     "w": "population",
+     "sentence": "However, upgrading all UHCs to 151 beds, regardless of their individual needs, overlooks significant differences in population, disease burden, location, and existing healthcare capacity."
+    },
+    {
+     "w": "project",
+     "sentence": "According to a report by this daily, the three-year project, scheduled to begin in December 2026, will involve constructing new hospital buildings, replacing dilapidated structures, and renovating existing facilities across 443 upazilas."
+    }
+   ]
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Beyond BNP-AL rivalries, the search for a new political path",
+   "date": "2026-11-13",
+   "url": "https://www.thedailystar.net/opinion/views/news/beyond-bnp-al-rivalries-the-search-new-political-path-4322581",
+   "excerpt": "Politics in Bangladesh is like a vast river at twilight. From afar, it may appear tranquil and unchanging.",
+   "fullText": "For decades, two political forces stood upon the opposing banks of this river. On one side stood Awami League, now barred from political activities; on the other, the Bangladesh Nationalist Party (BNP), now the ruling party. Much of Bangladesh’s political history since independence has been written around these two parties. Parliamentary debates, contested elections, street agitations, mass movements, and even the political arguments of ordinary households have often revolved around these rival poles.\n\nThey were adversaries, each other’s fiercest critics, and the principal actors in the recurring drama of power and opposition. Ironically, each party, in a sense, has depended upon the existence of the other. Like day and night, they were opposites that derived meaning and relevance from their contrast. The two parties also defined the boundaries within which Bangladesh’s political life took place.\n\nHistory, however, is never static. The mass uprising of 2024, the dramatic political transformations that followed, and the subsequent exclusion of Awami League from active politics have thrust Bangladesh into one of the most consequential turning points in its post-independence history. What becomes of a political order when one of its defining pillars is absent? What happens to a nation long accustomed to a political duopoly when the balance is broken?\n\nThe conflict between Awami League and BNP was never about elections alone, but also a contest over history. Who was the “legitimate heir” to the Liberation War? How should the nation define itself? What relationship should exist between religion and the state? What should be Bangladesh’s place in the region? Over time, political competition evolved into ideological confrontation. Ideological confrontation, in turn, hardened into mutual suspicion. Eventually, suspicion became a struggle for survival. The tragedy of Bangladesh’s democracy lies partly in this transformation of the two parties’ relationship.\n\nPolitical opponents in our part of the world often view each other as existential threats. As a consequence, elections cease to be routine democratic exercises and become high-stakes battles in which defeat appears catastrophic and victory absolute. Compromise can be seen as weakness, while restraint may prove to be politically costly.\n\nFollowing the restoration of parliamentary democracy in 1991, Bangladesh entered an era where power alternated between Awami League and BNP. Other parties existed, some of whom exercised influence and even played important roles in coalition-building. But the centre of gravity remained firmly fixed between BNP and Awami League.\n\nThis arrangement brought a certain predictability as citizens knew that governments could change. No party appeared invincible, no electoral victory seemed permanent. But rivalry between the two parties gradually expanded beyond politics into institutions, bureaucracy, academia, and civil society. Public institutions increasingly found themselves drawn into partisan conflicts. Trust became scarce. Consensus became elusive. The state itself sometimes appeared caught in the struggle between competing political narratives.\n\nAwami League occupies a unique place in Bangladesh’s history; its roots stretch into the struggles that shaped modern political consciousness in the country. The party played a profound role in the Language Movement, the Six-Point Movement, the Mass Uprising of 1969 and, ultimately, in the Liberation War. For generations, it was not merely a political party, but also a historical symbol.\n\nOf course, history offers no permanent immunity. The same party that once embodied the aspirations of a people later became the subject of growing criticism. Years of uninterrupted power brought authoritarian tendencies, shrinking democratic space, weakening opposition politics, and an increasing concentration of authority. Whether one accepts or rejects these criticisms, they accumulated over time.\n\nLike many upheavals in history, the July 2024 uprising appeared sudden, but was built upon years of tension, frustration, and unresolved contradictions. The resulting transformation marked not simply the fall of a government, but the collapse of a political equilibrium that had endured for decades.\n\nAt first glance, the weakening of its principal rival might appear an enormous opportunity for BNP. History, however, suggests otherwise. For opposition parties, power often seems simpler from a distance. Democracy is easy to defend when one is excluded from authority. Institutional neutrality is easy to demand when one does not control the institutions. Transparency is easy to advocate when one is not responsible for governing. Now in power, BNP faces a challenge that transcends electoral politics. Can it avoid repeating the patterns that it once criticised? Can it strengthen institutions rather than merely occupy them? Can it demonstrate that political power can be exercised without reproducing the same cycles of domination and exclusion?\n\nPolitical parties can be weakened, banned, and/or marginalised. But they rarely disappear completely. Jamaat-e-Islami is a glaring example of the same.\n\nAwami League’s legacy is woven deeply into the political fabric of Bangladesh. For that reason, its absence from formal politics does not automatically erase its presence from public life. The future may therefore bring reinvention, fragmentation, or transformation under new leadership or in a different form.\n\nA younger generation has emerged whose concerns differ significantly from those of earlier decades. For many young citizens, old ideological battles hold less emotional power than they once did. Their priorities are more immediate: employment, education, merit-based opportunities, transparency, efficient governance, freedom of expression, economic mobility, and so forth. This generation did not live through the foundational conflicts of earlier eras. It inherited their consequences but not necessarily their loyalties. As a result, the politics of the future may not revolve exclusively around the historic Awami League-BNP divide. Instead, it may increasingly revolve around a set of questions: who governs effectively? Who combats corruption? Who delivers opportunities? Who protects freedom? Who builds institutions capable of outlasting individuals?\n\nNations mature when they learn from their own history, and Bangladesh’s recent decades can offer powerful lessons for our politicians. Unchecked political dominance creates distortions. But the complete absence of meaningful competition creates dangers of its own. Perhaps what Bangladesh now requires is not a new political arrangement, but a new covenant; a shared understanding that political rivals are not enemies. That elections should not determine who “owns” the state. That political defeat should not mean political extinction. That institutions must be stronger than personalities. Such transformations are never easy as they demand patience, wisdom, restraint, and virtues not traditionally found in our politics. But without them, the cycle of confrontation risks perpetuating itself indefinitely.\n\nThe old political order may not return. New actors have emerged. Fresh alignments are also taking shape. The entire structure of political competition may evolve into something unrecognisable to earlier generations. But one truth remains: the future of Bangladesh cannot be determined by any single party or leader. It will be determined by the resilience of institutions, the wisdom of citizens, and the nation’s ability to reconcile freedom with stability.\n\nMohiuddin Ahmad is a writer and researcher of Bangladesh’s political history.",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "history",
+     "sentence": "Much of Bangladesh’s political history since independence has been written around these two parties."
+    },
+    {
+     "w": "institutions",
+     "sentence": "But rivalry between the two parties gradually expanded beyond politics into institutions, bureaucracy, academia, and civil society."
+    },
+    {
+     "w": "parties",
+     "sentence": "Much of Bangladesh’s political history since independence has been written around these two parties."
+    },
+    {
+     "w": "politics",
+     "sentence": "The mass uprising of 2024, the dramatic political transformations that followed, and the subsequent exclusion of Awami League from active politics have thrust Bangladesh into one of the most consequential turning points in its post-independence history."
+    },
+    {
+     "w": "decades",
+     "sentence": "For decades, two political forces stood upon the opposing banks of this river."
+    },
+    {
+     "w": "elections",
+     "sentence": "Parliamentary debates, contested elections, street agitations, mass movements, and even the political arguments of ordinary households have often revolved around these rival poles."
+    },
+    {
+     "w": "appeared",
+     "sentence": "No party appeared invincible, no electoral victory seemed permanent."
+    },
+    {
+     "w": "citizens",
+     "sentence": "This arrangement brought a certain predictability as citizens knew that governments could change."
+    },
+    {
+     "w": "competition",
+     "sentence": "Over time, political competition evolved into ideological confrontation."
+    },
+    {
+     "w": "confrontation",
+     "sentence": "Over time, political competition evolved into ideological confrontation."
+    },
+    {
+     "w": "democracy",
+     "sentence": "The tragedy of Bangladesh’s democracy lies partly in this transformation of the two parties’ relationship."
+    },
+    {
+     "w": "earlier",
+     "sentence": "A younger generation has emerged whose concerns differ significantly from those of earlier decades."
+    }
+   ]
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Chattogram's expansion into flood-prone areas is a dangerous gamble",
+   "date": "2026-11-13",
+   "url": "https://www.thedailystar.net/opinion/views/news/chattograms-expansion-flood-prone-areas-dangerous-gamble-4322571",
+   "excerpt": "Bangladesh’s main seaport is in Chattogram, a sprawling metropolis endowed with the distinct natural features of hills, rivers and the sea.",
+   "fullText": "Findings from the Asian Development Bank’s (ADB) Asia-Pacific Climate Report 2026, reported by The Daily Star on October 22, serve as a fresh warning. According to the report, Chattogram’s built-up area spanned 66.1 square kilometres in 2016, expanding to 73.5 square kilometres by 2025. Over this period, settlements and infrastructure in flood-prone zones grew by 16.2 percent, compared to a 9.7 percent growth rate on safer land. What’s most alarming is that expansion has been fastest in the city’s most vulnerable areas. The report noted that nearly a quarter of Chattogram’s built-up area is at risk of inundation from severe coastal flooding. In other words, the city is not just expanding; a significant portion of this growth is occurring in areas where coastal floodwaters could reach hazardous levels in the future.\n\nWaterlogging has been a particularly troubling problem in recent years. A combination of heavy rainfall, runoff from the hills, tidal water, inadequate drainage systems, and encroachment on canals and drains makes life extremely difficult during the monsoon. However, seeing it as simply an issue of cleaning drains and canals would leave the root cause unaddressed. A city’s natural waterways, low-lying retention basins, ponds, wetlands, and open spaces temporarily hold rainwater. When these areas are filled up to build roads and structures, the soil’s capacity to absorb rainwater diminishes. At the same time, natural runoff is restricted, quickly overwhelming the drainage system with massive volumes of water within a short period.\n\nThe crisis is further aggravated by hill-cutting, silt accumulation in canals, canal encroachment, unplanned road elevation, and utility infrastructure obstructing water flow. During high tides, rising river and canal levels also prevent rainwater from draining out. When combined with heavy rainfall, these factors make waterlogging particularly devastating.\n\nIn various parts of Chattogram, residential and commercial structures have been built on natural water bodies and low-lying areas. Questions have been raised about changes in land use in several areas, including Anannya Residential Area, Kulgaon, Baluchhara, and Jalalabad. Reports have also highlighted encroachment and illegal structures around the Chaktai canal, Mirza canal, Manoharkhali canal, and the Kalirchhara canal. Similarly, development activities along the banks of the Karnaphuli River have again raised concerns about the natural waterways and environmental constraints.\n\nIt is important to realise that approval from a housing or infrastructure development authority does not automatically make a project environmentally safe. The soundness of a plan depends on whether it takes into account the nature of the land, drainage routes, the need to preserve water bodies, and future flood risks. These are precisely the criteria against which questions can be, and have been, raised about the filling up of water bodies and low-lying areas in the Chattogram Development Authority’s (CDA) own Anannya Residential Project. Therefore, the CDA’s projects must also be assessed against the same environmental standards.\n\nPlans exist, but where is the implementation?\n\nThe CDA’s 1995 Stormwater Drainage and Flood Control Master Plan identified various drainage and waterlogging challenges, offering recommendations on where water would accumulate, which routes it should drain through, and where retention ponds were needed. But identifying problems is one thing; resolving them on the ground is another. Multiple projects are currently underway to alleviate waterlogging in Chattogram, and substantial funds are being spent on re-excavating, widening and renovating canals, digging new ones, and constructing flood control infrastructure. While the necessity of these initiatives is undeniable, a closer review of their planning, design and execution reveals several fundamental shortcomings.\n\nFirst, out of the city’s 104 identified canals, ongoing projects cover only 36. As a result, a large part of the overall drainage network remains outside their scope, even though the effectiveness of any canal depends on its connected upstream channels, tributaries, and adjoining drains. Second, 12 proposed silt traps were dropped due to funding constraints and cost-cutting measures. Given the heavy runoff of sand and silt from the hills into the canals, silt traps are vital. Dropping them risks silting up the re-excavated canals within a short period.\n\nThird, the 1995 master plan recommended constructing retention ponds or temporary water reservoirs in the city’s low-lying areas. When heavy rainfall coincides with high tides, the drainage of water into rivers and canals is obstructed. In such situations, retention ponds are indispensable for temporarily holding excess runoff. But the ongoing projects have virtually ignored the construction and preservation of such reservoirs. This is a major planning flaw.\n\nFourth, the natural width of some canals has been reduced during the construction of regulators, potentially obstructing the normal flow of water. Similarly, questions have been raised about plans to install fewer pumps than necessary or pumps with insufficient capacity. It is urgent to reassess whether these pumps will be able to drain sufficient amounts of water during heavy rainfall combined with high tides.\n\nFifth, faulty designs and infrastructure at certain locations are obstructing water flow through canals. Examples include the construction of two-way box culverts over the Hijra canal in Panchlaish, opposite the medical college, and the Shital Jharna canal near the entrance to Chattogram Cantonment Public School and College. The partition wall in the middle of these culverts could trap waste and obstruct water flow. Such obstructions further reduce drainage capacity, particularly during heavy rainfall. In addition, there are persistent problems with disconnected canal networks, improperly graded bed levels and flow directions, and obstructions created by utility pipelines and other structures.\n\nAnother issue is the piecemeal tendency to raise road levels to combat waterlogging. In many cases, roads have been elevated without factoring in the height of adjoining drains and properties, leaving houses and shops lower than the street. As a result, even light rainfall causes overflow or seepage from drains to enter these properties.\n\nThere have also been instances of poor coordination during project implementation. Temporary embankments or barriers have reportedly been constructed at the mouths of the Hijra and Jamalkhan canals to facilitate construction work, obstructing water drainage. Meanwhile, the exchange of accusations between the city corporation and the CDA over canal cleaning, drainage connections, and obstructions caused by construction work highlights the lack of coordination in project implementation. Such disputes are unacceptable when it comes to an integrated task like resolving waterlogging.\n\nFinally, clear arrangements must be made to ensure that the completed canals, regulators, pumps, and silt traps can be effectively operated and maintained, with adequate institutional responsibility and capacity. Without dedicated manpower, equipment, funding, and a clear operations and maintenance manual, sustaining these structures over the long term will be impossible.\n\nNeed for an integrated, science-based approach\n\nTo protect Chattogram, it is not enough to just drain water after waterlogging occurs. Questions of where water will accumulate, which paths it will take, and which areas are safe for human settlement and infrastructure must be resolved at the very beginning of development planning.\n\nFirst, a comprehensive flood risk map must be prepared for Chattogram and its expanding peripheries, identifying potential flood depths, water flow routes, water bodies, low-lying areas, hill runoff, and tidal surges. Second, independent experts must review the ongoing projects and designs. Necessary steps must be taken to restore dropped canals and silt traps, build retention ponds, correct regulator and pump capacities, fix culvert flaws, and complete missing canal connections.\n\nThird, canals, ponds, wetlands, and low-lying retention basins must be surveyed, demarcated, and legally protected. Stringent action should be taken against illegal encroachment and land-filling. Fourth, the responsibilities of the CDA, Chittagong City Corporation, Bangladesh Water Development Board, port authority, and utility agencies must be clearly defined by law, with effective coordination mechanisms. A single capable agency should oversee drainage operations and maintenance.\n\nFifth, planned satellite towns should be developed in neighbouring upazilas to ease demographic and infrastructural pressure on the city. Expanding employment, education, healthcare and public transit in those areas would eliminate the need for people to settle in vulnerable low-lying urban areas.\n\nAs much of the country’s import and export trade passes through Chattogram port, the city’s climate resilience is vital not just to the national economy but also to its residents. Urban expansion may be inevitable, but unplanned growth across floodplains is not. The authorities concerned must ensure that today’s development does not become tomorrow’s disaster.\n\nMd Delwar Hossain Mazumdar is former chairman of the Institution of Engineers, Bangladesh (IEB), Chattogram Centre, and treasurer at Forum for Planned Chittagong.",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "drainage",
+     "sentence": "A combination of heavy rainfall, runoff from the hills, tidal water, inadequate drainage systems, and encroachment on canals and drains makes life extremely difficult during the monsoon."
+    },
+    {
+     "w": "chattogram",
+     "sentence": "According to the report, Chattogram’s built-up area spanned 66.1 square kilometres in 2016, expanding to 73.5 square kilometres by 2025."
+    },
+    {
+     "w": "waterlogging",
+     "sentence": "Waterlogging has been a particularly troubling problem in recent years."
+    },
+    {
+     "w": "infrastructure",
+     "sentence": "Over this period, settlements and infrastructure in flood-prone zones grew by 16.2 percent, compared to a 9.7 percent growth rate on safer land."
+    },
+    {
+     "w": "rainfall",
+     "sentence": "A combination of heavy rainfall, runoff from the hills, tidal water, inadequate drainage systems, and encroachment on canals and drains makes life extremely difficult during the monsoon."
+    },
+    {
+     "w": "retention",
+     "sentence": "A city’s natural waterways, low-lying retention basins, ponds, wetlands, and open spaces temporarily hold rainwater."
+    },
+    {
+     "w": "construction",
+     "sentence": "But the ongoing projects have virtually ignored the construction and preservation of such reservoirs."
+    },
+    {
+     "w": "natural",
+     "sentence": "A city’s natural waterways, low-lying retention basins, ponds, wetlands, and open spaces temporarily hold rainwater."
+    },
+    {
+     "w": "projects",
+     "sentence": "Therefore, the CDA’s projects must also be assessed against the same environmental standards."
+    },
+    {
+     "w": "structures",
+     "sentence": "When these areas are filled up to build roads and structures, the soil’s capacity to absorb rainwater diminishes."
+    },
+    {
+     "w": "capacity",
+     "sentence": "When these areas are filled up to build roads and structures, the soil’s capacity to absorb rainwater diminishes."
+    },
+    {
+     "w": "encroachment",
+     "sentence": "A combination of heavy rainfall, runoff from the hills, tidal water, inadequate drainage systems, and encroachment on canals and drains makes life extremely difficult during the monsoon."
+    }
+   ]
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "নিবর্তনমূলক ধারাগুলো বাদ দিতে হবে",
+   "date": "2026-11-13",
+   "url": "https://www.prothomalo.com/opinion/editorial/kuwjq1oimn",
+   "excerpt": "গুজবের সংজ্ঞা থেকে ‘অসমর্থিত তথ্য’ বাদ দিয়ে ইচ্ছাকৃত মিথ্যা বা বিকৃত তথ্য প্রচারের বিষয়টিকে গুরুত্ব দেওয়া হয়েছে।",
+   "fullText": "সাইবার সুরক্ষা আইন সংশোধনের নতুন খসড়ায় কয়েকটি অপরাধের শাস্তি কমানো এবং নিবন্ধিত সংবাদমাধ্যমের জন্য কিছু সুরক্ষার প্রস্তাব এসেছে। অংশীজনদের সঙ্গে আলোচনা করে খসড়া সংশোধন ও আবার জনমতের জন্য প্রকাশ করা ইতিবাচক উদ্যোগ। কিন্তু একটি আইনের গ্রহণযোগ্যতা শুধু শাস্তির মেয়াদ দিয়ে বিচার করা যায় না। কোন কাজকে অপরাধ হিসেবে গণ্য করা হচ্ছে, তার সংজ্ঞা কতটা সুনির্দিষ্ট এবং আইন প্রয়োগকারী সংস্থাকে কতটা ক্ষমতা দেওয়া হচ্ছে—এসবই মূল বিবেচ্য। সেই বিচারে নতুন খসড়াতেও উদ্বেগের যথেষ্ট কারণ রয়েছে। গুজব ও অপতথ্য প্রচারের সর্বোচ্চ কারাদণ্ড ১০ বছর থেকে ৫ বছর এবং মানহানির শাস্তি ৫ বছর থেকে ২ বছর করার প্রস্তাব রয়েছে। জরিমানাও কমানো হচ্ছে। কিন্তু সমালোচনা বা ব্যঙ্গের জন্য কাউকে ফৌজদারি মামলার মুখোমুখি করার সুযোগ থাকলে শাস্তি কমানো কোনো বড় পরিবর্তন আনবে না। মামলা, গ্রেপ্তার, জামিনের অনিশ্চয়তা ও দীর্ঘ বিচারপ্রক্রিয়াই একজন মানুষের জন্য শাস্তি হয়ে উঠতে পারে। ফলে আইনের নিবর্তনমূলক চরিত্র বদলাতে হলে অপরাধের তালিকা ও সংজ্ঞাতেই মৌলিক পরিবর্তন প্রয়োজন। গুজবের সংজ্ঞা থেকে ‘অসমর্থিত তথ্য’ বাদ দিয়ে ইচ্ছাকৃত মিথ্যা বা বিকৃত তথ্য প্রচারের বিষয়টিকে গুরুত্ব দেওয়া হয়েছে। এটি কিছুটা অগ্রগতি। তবে ‘উত্তেজনা’ কিংবা ‘সামাজিক অস্থিরতা’ সৃষ্টির মতো শব্দের প্রয়োগ কীভাবে হবে, সেই প্রশ্ন থাকছে। সরকারের ব্যর্থতা বা অনিয়মের খবরেও জনমনে ক্ষোভ তৈরি হতে পারে। সেই প্রতিক্রিয়াকে অপরাধের ভিত্তি বানানোর সুযোগ রাখা চলবে না। ইচ্ছাকৃত প্রতারণা বা সহিংসতায় সরাসরি উসকানির সঙ্গে সংবাদ, মতামত ও সমালোচনার পার্থক্য স্পষ্ট করতে হবে। মানহানির সংজ্ঞায় ‘গঠনমূলক সমালোচনার সীমা’ অতিক্রমের কথা আরও উদ্বেগজনক। কোন সমালোচনা গঠনমূলক, তা নির্ধারণ করবে কে? সমালোচনা গ্রহণের শর্ত কি সংশ্লিষ্ট ব্যক্তির সন্তুষ্টি হবে? মিম, ব্যঙ্গচিত্র বা ক্যারিকেচারকে উপহাসের যুক্তিতে অপরাধের আওতায় আনার সুযোগ থাকলে রাজনৈতিক ব্যঙ্গও ঝুঁকিতে পড়বে। চেহারা বা শারীরিক বৈশিষ্ট্য নিয়ে অবমাননা অবশ্যই নিন্দনীয়। কিন্তু তা প্রতিকারের বিধান যেন ক্ষমতাবানদের সমালোচনা থেকে রক্ষার ঢাল না হয়। মানহানির জন্য কারাদণ্ডের বিধান বাদ দিয়ে উপযুক্ত দেওয়ানি প্রতিকারের ব্যবস্থা করাই বাঞ্ছনীয়। নিবন্ধিত সংবাদমাধ্যমে প্রকাশিত কনটেন্টের কারণে গ্রেপ্তারের আগে ট্রাইব্যুনালের অনুমতি এবং মামলা শুরুর আগে আত্মপক্ষ সমর্থনের সুযোগ দেওয়ার প্রস্তাব স্বস্তিদায়ক। কিন্তু মতপ্রকাশের স্বাধীনতা কেবল নিবন্ধিত প্রতিষ্ঠানের অধিকার নয়; ফ্রিল্যান্স সাংবাদিক, স্বাধীন লেখক ও সাধারণ নাগরিকের জন্যও সমান সুরক্ষা প্রয়োজন। সংবাদমাধ্যমের নিবন্ধন নাগরিক অধিকারের মানদণ্ড হতে পারে না। পাশাপাশি সংবাদকক্ষে তল্লাশি ও সাংবাদিকদের যন্ত্রপাতি জব্দের ক্ষেত্রেও কার্যকর বিচারিক সুরক্ষা থাকতে হবে; নইলে সংবাদসূত্রের গোপনীয়তা বিপন্ন হবে। কনটেন্ট অপসারণের ক্ষেত্রে ‘দেশের মর্যাদা’ ও ‘জনশৃঙ্খলা’র মতো অস্পষ্ট শব্দ প্রশাসনকে ব্যাপক ক্ষমতা দিতে পারে। অপসারণের সিদ্ধান্তের সময়ই কারণ জানানো, দ্রুত আপিল এবং স্বাধীন বিচারিক পর্যালোচনার সুযোগ নিশ্চিত করা প্রয়োজন। একইভাবে গুরুত্বপূর্ণ তথ্য পরিকাঠামোয় হামলার ক্ষেত্রে প্রমাণ রক্ষার জরুরি প্রয়োজন থাকলেও বিনা পরোয়ানায় তল্লাশি, জব্দ ও গ্রেপ্তারের ক্ষমতা কঠোর শর্ত ও দ্রুত বিচারিক পর্যালোচনার অধীন রাখতে হবে। ডিজিটাল নিরাপত্তা আইন ভিন্নমত দমনের হাতিয়ার হওয়ার অভিজ্ঞতা আমাদের সামনে রয়েছে। নাম বদল বা শাস্তি হ্রাসের মাধ্যমে সেই ব্যবস্থার পুনরাবৃত্তি গ্রহণযোগ্য নয়। সরকারকে অংশীজনদের মৌলিক আপত্তিগুলো আমলে নিতে হবে। সাইবার অপরাধ প্রতিরোধের আইনে মানহানি, ব্যঙ্গ ও অস্পষ্টভাবে সংজ্ঞায়িত গুজবকে ফৌজদারি অপরাধ হিসেবে রাখার বিধান বাদ দিতে হবে। এ আইনের লক্ষ্য হোক সমালোচকদের মুখ বন্ধ করা নয়, মানুষের ডিজিটাল নিরাপত্তা নিশ্চিত করা।",
+   "hasFullText": true,
+   "words": []
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "প্রতিরোধে প্রশাসনিক উদ্যোগই যথেষ্ট নয়",
+   "date": "2026-11-13",
+   "url": "https://www.prothomalo.com/opinion/editorial/q0spaja977",
+   "excerpt": "বাংলাদেশ পরিসংখ্যান ব্যুরো (বিবিএস) ও ইউনিসেফের সর্বশেষ জরিপ বলছে, দেশে বাল্যবিবাহের হার কিছুটা কমার চিত্র পাওয়া গেছে।",
+   "fullText": "বাল্যবিবাহ প্রতিরোধে বাংলাদেশে আইন আছে, সরকারি-বেসরকারি নানা উদ্যোগও রয়েছে। সচেতনতা তৈরিতে প্রচার-প্রচারণা চলছে। কিন্তু বাস্তবতা হলো এসব উদ্যোগের পরও বাল্যবিবাহের প্রবণতা থামানো যাচ্ছে না। ৯ মাসে সাতক্ষীরায় ১৩২টি বাল্যবিবাহ বন্ধ করার তথ্য জানিয়েছে প্রশাসন। এক দশক আগে ঘটা করে কালীগঞ্জকে বাল্যবিবাহমুক্ত উপজেলা ঘোষণা করা হয়েছিল। অথচ সেই উপজেলাতেই গত ছয় মাসে ১১টি বাল্যবিবাহ প্রতিরোধ করতে হয়েছে। এর বাইরে কতটি বাল্যবিবাহ সংঘটিত হয়েছে, তার হিসাবও নেই। এ চিত্র শুধু একটি উপজেলার নয়, বাল্যবিবাহ প্রতিরোধে প্রশাসনের সামগ্রিক উদ্যোগের দুর্বলতাও তুলে ধরে। প্রথম আলো র খবর জানাচ্ছে, জানাজানি হলে প্রশাসন বাধা দিতে পারে, এমন আশঙ্কায় গোপনে বাল্যবিবাহের আয়োজন করে থাকেন অভিভাবকেরা। বিয়ের পর মেয়েকে শ্বশুরবাড়ি না পাঠিয়ে কিছুদিন পর পাঠানো হয়। বাংলাদেশ পরিসংখ্যান ব্যুরো (বিবিএস) ও ইউনিসেফের সর্বশেষ জরিপ বলছে, দেশে বাল্যবিবাহের হার কিছুটা কমার চিত্র পাওয়া গেছে। ২০১৯ সালে ২০-২৪ বছর বয়সী নারীদের মধ্যে ১৮ বছরের আগে বিয়ের হার ছিল ৫১ দশমিক ৪ শতাংশ, ২০২৫ সালে তা কমে ৪৭ দশমিক ২ শতাংশ হয়েছে। কিন্তু এই অগ্রগতিতে সন্তুষ্ট হওয়ার সুযোগ নেই। কেননা এখনো দেশের প্রায় অর্ধেক মেয়ের বিয়ে হচ্ছে ১৮ বছর পূর্ণ হওয়ার আগে। বাল্যবিবাহ একটি মেয়ের শৈশব, শিক্ষা ও সম্ভাবনাকে কেড়ে নেয়। অল্প বয়সে গর্ভধারণ মা ও শিশুর স্বাস্থ্যঝুঁকি বাড়ায়। প্রসবজনিত জটিলতা, মাতৃমৃত্যু ও অপুষ্টির ঝুঁকিও তৈরি হয়। অপ্রাপ্তবয়স্ক মেয়েরা সংসারের দায়িত্ব নিতে গিয়ে শিক্ষা থেকে ঝরে পড়ে। অর্থনৈতিকভাবে স্বাবলম্বী হওয়ার সুযোগ হারায়। অনেক ক্ষেত্রে নির্যাতন ও বৈষম্যের শিকার হয়। অর্থাৎ বাল্যবিবাহ শুধু একটি মেয়ের জীবনকেই ক্ষতিগ্রস্ত করে না, দারিদ্র্য ও অসমতার চক্রকেও দীর্ঘস্থায়ী করে। দেশের মানবসম্পদ উন্নয়ন ও নারীর সমান অধিকার প্রতিষ্ঠার স্বার্থেও বাল্যবিবাহ প্রতিরোধ জরুরি। প্রথম আলো র প্রতিবেদনে বাল্যবিবাহের পেছনে মেয়েদের নিরাপত্তা নিয়ে অভিভাবকদের উদ্বেগ, প্রেমের সম্পর্ক, আর্থিক অসচ্ছলতা ও সামাজিক চাপের কথা উঠে এসেছে। এসব কারণ উপেক্ষা করে শুধু অভিভাবকদের কাছ থেকে মুচলেকা নেওয়া কিংবা জরিমানা করে এই সমস্যার স্থায়ী সমাধান সম্ভব নয়। একই সঙ্গে বিয়ের আয়োজনের সঙ্গে যুক্ত মধ্যস্থতাকারী, ভুয়া নিকাহ রেজিস্ট্রার ও অসাধু কাজিদেরও আইনের আওতায় আনতে হবে। আমরা মনে করি, জন্মনিবন্ধন যাচাই ছাড়া বিয়ের নিবন্ধন বন্ধ করতে হবে। একই সঙ্গে বিদ্যালয় ও মাদ্রাসাভিত্তিক নজরদারি জোরদার করা জরুরি। কোনো ছাত্রী হঠাৎ অনুপস্থিত হলে তার কারণ অনুসন্ধান করতে হবে। বাল্যবিবাহপ্রবণ এলাকায় স্থানীয় জনপ্রতিনিধি, শিক্ষক, ধর্মীয় নেতা, নারী সংগঠন ও প্রশাসনের সমন্বয়ে বাল্যবিবাহ প্রতিরোধ কমিটি গড়ে তোলা জরুরি। একই সঙ্গে মেয়েদের শিক্ষা, বৃত্তি, কারিগরি প্রশিক্ষণ ও কর্মসংস্থানের সুযোগ বাড়াতে হবে। অভিভাবকদের অর্থনৈতিক দুশ্চিন্তা দূর করাও জরুরি। শুধু প্রশাসনিক উদ্যোগ নয়, বাল্যবিবাহ বন্ধে প্রয়োজন সমন্বিত পদক্ষেপ।",
+   "hasFullText": true,
+   "words": []
+  },
+  {
+   "paper": "দৈনিক ইত্তেফাক",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "ক্যানসারকে ইতিহাসে পাঠাইবে কৃত্রিম বুদ্ধিমত্তা!",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMixwRBVV95cUxQLU1QNnpvd3NpZkozY244X3k2YzVOTTY5SUpTeUxwMjRhc0pXcFFIWjdDVFVOVzRWbmJnaWhYQnh4MnRYeVZyUDdNWFZuNkgxZEIzX0kta1czUmQ0aXFZU2lSSXk0NGV5STBrUHJMNFNMWW5EY19VTU1WYmtmVXA5OEFJU3NaT2U2WkNhZE5wUUFmdWkwNzlXMHZzVmtOajR6QTlhdDJuSm5LdVlvVkFxVjJNS2d5UG85QTdmb05pRjRiQUlQcDBwcGdNdGZqUHBCRXNGT0lHcENwbVN4RmljYmt0eHlGb3pRYnU0LXg3WWlHVHFScVprSmZpUmxoUTZ0RU9Eemt6Q0pETzNOakhfeVhrNkRnalM1N21GckprSXdVczlUaEprc2RmS2FXa0tybURGcHJmRkl1M0lKVDVLVktuWDZDeVE4ZjA4b1BrM3BsS3hnMHB1bTFnLVpuSkx3M3JUZ1VoRUtValJzN0pWVE1wNGtHRHZISFQxby1LMXJoTW1ZOUxwX3RQWEg2U2RRMXZaUEFzSllmdWVuTEI5OWl3VmlqQjhlYl9FUmFfdmhUNERVNW9qdUR0dzRpMUdhb3hvVkVIUndtNndhbDY0VmpQWFFiLWo4cVg2dm9zZXRoaS13NWIzMWRNRDdlYjd3bHpfeVlyX0ppZEt4VGtaamVYY1FxeUZLcHBzTXFzX1EwR21LWmhtSUhNOG5ELVpqRXZJOVlrYzNBcnE5a2NfWXhqcWpFOFdnbU9WcXhGdkJvcVNXU0tz0gHMBEFVX3lxTE1PVVdDUVZ0Wkw0MHlNNlMyNW1nTTdNaFpCdEZpejdwWUhudE4tOG5vVXVzZnp1ZDNmUjMtc3NuWThET20zLWo2WHh0OHNBVnZWdlQxU01iTjh5QWcxRFhzN2h3TklpcHNzTE9IWUNvY0FBU1dPMFdPa2huU05UdzJGYkNKXzdFcmNGbGNNejdwZnlsMC05MXZYTHJZUy1XS29icXVMM0NBc2lIWURiazNkVDh2aXBqQ0FMaExSanJCZUxMZDlpMVJLWkRIc2pHRlhFMlRFek05R01VRFlqN2IxcWdpbGVIMzNScElvR0ZUOEN3SkVjNG9EQ0hFSEZVV2NFeFNxUmZTVmtQd1F6OW5qQ2FHeWx0eWdJMERwUWZqeVdJOWp3YWNudkVaT2tRQlZQdWJKdGk5Z21oVXlYYll6MEJvOUE3WmQ5bGNHVGMxWFV1MkFVZkV4UEw5bHRRTXdDSDMxRW85TUhta3hLVlRJTjAwZl9meWlVY1BxNGU0a3VWZ2d3T191M1huR2w5VnhvRjNDTVlMR3JENDN3Z0l4N2hKaW15Ui0wZlhHNVpFQm1sc09PM2lfOWpUTmRJUjRfUkhYSUJXVVJ4T29jT3NTY1ltMEhhNHFPTDJDMkNjeXp2VzZ5ellUMkxwUk1nY0RCdHlTcldQekVvOGNUVDNjc3ZRdzNUNEJhV1JydUIwUXY1MTBkOEs5bDlPTXVpYll3M3IwN3ozLXhzcTlnYU5HSFlxdXFSVXluWl9HYzhNdHRIQWdnOU5pMWpzYw?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "সমকাল",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "নাগরিক অধিকার ক্ষুণ্ন হওয়ার শঙ্কা",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxQN0ZOTXI0dm1oNkJ4ZkNTcXZ3MGtUYU40M1NfTm9idFJJbldKQ2JjZl9pRXJVWEhUMkN2R1V5cm8wWlRmWlhVSzN4NWI3WkZ6NnczMWJVM2o4X1lrUWJGTzZGdjM3N2NEVV9zU0NUekwxSzVoWFpKTkVxVE85UzBDX0t1Uy13NE91dnBHbHc1bnlBOG1lNlpjaWVra2JGR0xfMmtoTVRVNm9xY19mYkRySEtTZUtGNVc3eXVNRjFCVHFnNG4tQUU0dFd6ZGR3NTFFalQ3c3ctRjljenczWHBrMi1lVWhNYlBYekplbGRESkZmVmRJSHdrQWgzUGFUMl9EWlBabzlPQXhIOVNfU3Y0MUJrdVNESnlDZDR4Q2VSVTVVNUJIUmk2dng0OHp0Y3d0Q3NVR09DSV9DNFNMWnJfTWdZcVFMdXhxMDlReWV4Z29rbjNGMlNfVGdvWVRrZjdWTEh2ZG1qcDc3cjJfMkhyMldTTUlzR0JDSWc4OGdhYWhYMV9GZmdtc2tud21vYzdNZUdhMmIxSGhtUUU4RGRaSFFJMTk1Q3BJN1pEdWMtREZLV3VBeTYwSTgzaw?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "The Hindu — Opinion",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "The SIR exercise is also a technology failure",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZU5uSmtwTy1tblI4RXY5cHNfV3ZnVDhfZ3NmRTlwZ202MWR2UmxwV2ptd3hKRDRVMjB5Nm9qdVVhek5Fa1BGQkMyVngzRGlMZmJKbjJ0RFlveUExa3EzSjROeDJVNUpjLTFLaUk1RnNPTWY4UExuWkpEZGUzVF8yMXVhcFltMlJPdUxmS1U5S0VpUjBMLW5EaDJ2SGFZTWMzTFktU0lR0gGsAUFVX3lxTFBUeTR2LXFqclNKeENKOU1EX3RjUG1CRnlCQ212Zk9IbGZXb1c4cTQzM2xZejdhYVdXa2lzT0twNUdGU05uNVhxOFUzN3VlOF9kWDE5WVBkYm50MEpCel9jRzd6dVJZMk95aFV0Z01IRDA4ZXcwNVpQLVhCZExoNW5WVkhramZSVW5xOUhJY3gzVUhTQXYyNGxqSXlEOXlaM0dLSGYyRFNqS1BQOGE?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "AP News",
+   "lang": "en",
+   "kind": "news",
+   "title": "Trump bluntly tells JD Vance to shift focus from Iran to targeting 'corruption and crime' at home",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ3hucVhKWVM3X1M0clZMcFVrTFA0UU9ReE9RVW5LVWV2eUY1czdQcnJval9iU3ljNHVoZ0lvdV84Rm5adEFHby1EMnM1d0VfenNTOTBEM1FZczBwRVdVUG9raUF1Q2hqZnpHOFQ4SnZoMkdHZlBLUGtUME1aUmVHVFppZ0dxM2I2MEZCRGpNdzNrNm8?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "এখন টিভি",
+   "lang": "bn",
+   "kind": "news",
+   "title": "জলবায়ু ঝুঁকি মোকাবিলায় ৩০ মিলিয়ন ডলার পাচ্ছে বাংলাদেশ",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZV04ycnpNUmR4YWFJdTZZMU0xYWdwUU9BdXRIVENoREJRemZUa3Z4dVdFUFg3LXpfYjRFeGVHSHZWZUNmR1hJQjhjU2RwajFzOHUtQkdIc0JvM2Z4Zmx4YzM3ZFI0QQ?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "How can we make healthcare decentralisation work? Lessons from an upazila-level project",
+   "date": "2026-11-12",
+   "url": "https://www.thedailystar.net/opinion/views/news/how-can-we-make-healthcare-decentralisation-work-lessons-upazila-level-project-4322541",
+   "excerpt": "Bangladesh’s overall health workforce density remains below the recommendations of the World Health Organization (WHO), with pronounced rural-urban imbalances.",
+   "fullText": "The Upazila Governance and Development Project (UGDP), implemented by the Local Government Division (LGD) under the Ministry of Local Government, Rural Development and Cooperatives, represented a bold bet on decentralisation. Launched in FY2015-16 and completed on December 31, 2025, UGDP strengthened upazila parishads through performance-based financing, capacity development, and targeted infrastructure and service-delivery sub-projects. High-performing upazilas received additional funds, typically Tk 50 lakh per year on top of the upazila Annual Development Programme (ADP) block allocation from the government.\n\nUnder the project, more than 47,000 medical works, items, and supplies were delivered across 408 upazilas. Later, assessment of 158 upazilas showed that 91.88 percent of the 29,257 items distributed there are currently operational and actively serving patients—far better than many comparable public infrastructure initiatives. The upazilas invested over Tk 113 crore in obtaining diagnostic tools, upgrading facilities, and addressing local gaps through decentralised procurement that proved faster and more responsive than traditional centralised systems. This success validated the core idea: when local governments are empowered with funds and authority, they can tailor solutions to real community needs, fostering a stronger sense of ownership.\n\nHowever, the same assessment also exposed systemic “structural friction” that threatens long-term sustainability. In the 158 upazilas covered under the study, approximately 8.11 percent (2,375 out of 29,257 units) of equipment were non-functional or underutilised, not primarily due to manufacturing defects, but because of deep mismatches between hardware provision and the human, financial and logistical systems managed by the Ministry of Health and Family Welfare.\n\nMedia often reported on high-tech anaesthesia machines sitting idle in facilities lacking sanctioned junior anaesthesia consultants; X-ray and ultrasonography units gathering dust without radiologists; ambulances delivered without trained drivers or dedicated fuel budgets, etc. Minor faults escalate into full breakdowns because local managers have no quick-access “emergency repair fund” and must navigate lengthy central approvals. Diagnostic equipment often becomes inoperable once initial stocks of reagents, films, or consumables run out, with no flexible local budget to replenish them. These issues mirror broader, well-documented challenges in our rural health system: chronic workforce shortages (with over half of physician posts at many UHCs vacant in some divisions); high workloads on existing staff; and rigid financial rules that hinder timely maintenance.\n\nBesides, Bangladesh’s overall health workforce density remains below the recommendations of the World Health Organization (WHO), with pronounced rural-urban imbalances. Doctors and specialists gravitate towards cities, leaving remote upazilas struggling. Even when equipment arrives, the absence of matching specialists creates “deadweight loss.” Studies using Workload Indicators of Staffing Need (WISN) confirm that physicians and nurses at UHCs often operate under very high workload pressure, yet sanctioned posts frequently go unfilled, exacerbating inefficiencies.\n\nMaintenance and supply chain gaps compound the problem. Small repairs (under Tk 20,000) can sideline machines for months. Consumables exhaustion turns sophisticated diagnostics into expensive paperweights. Logistical oversights, such as generators without fuel allocations, further erode returns on investment. These frictions risk turning hundreds of crores of taka in public assets into depreciating liabilities, eroding public trust, and driving more referrals to already overburdened district and tertiary hospitals.\n\nTo transform the infrastructure victories achieved under the UGDP into a durable, self-sustaining ecosystem, Bangladesh must move beyond ad-hoc procurement and embrace a roadmap defined by inter-ministerial integration and local autonomy. At first, the “No Staff, No Stuff” mandate must be enforced. We must stop delivering sophisticated hardware to facilities that lack the specialists to use them. The procurement of specialised equipment must be strictly synchronised with human resource deployment. This requires a Joint Human Resource Mapping Protocol between the health and LGRD ministries to ensure that infrastructure sub-projects are only approved when the necessary specialists are either already on site or are part of a firm, imminent recruitment timeline. This must be paired with aggressive rural retention incentives, such as hardship allowances, improved housing, and faster career progression, so that our best medical minds are willing to serve in the heartlands where they are needed most.\n\nSimultaneously, we must address rigid financial rules that turn minor mechanical issues into long-term breakdowns. Currently, a small repair costing less than Tk 20,000 can sideline a vital machine for months while local managers navigate the labyrinth of central approvals. We must grant our local facilities the breathing room to act swiftly. By authorising upazila parishads to ring-fence a portion of income generated from diagnostic services using UGDP-provided equipment, they can be empowered to handle on-site fixes and utility needs without delay. This would also create a self-sustaining cycle of care and accountability.\n\nMoreover, future procurement contracts must be smarter and more comprehensive, mandating the bundling of a full year’s supply of consumables and long-term warranties that shift the maintenance burden upstream to the vendors. By integrating this equipment into the National Essential Drug and Supply List, their replenishment can be ensured through established, reliable channels rather than through desperate, ad-hoc local efforts.\n\nFinally, we must institutionalise operational readiness. No high-value asset, be it an ambulance or a generator, should be handed over without a formal verification that the facility is ready to use it. This means having a designated operator, a ring-fenced fuel budget, and a clear maintenance plan in place before the keys are turned over.\n\nThe stakes of this transition are incredibly high. If we fail to act, hundreds of crores of taka in public assets may gradually turn into depreciating liabilities. Public trust will erode as communities find that modern facilities and equipment, intended for their benefit, remain inaccessible. Such inaction will inevitably increase overcrowding at already burdened district and tertiary hospitals, slowing our progress towards universal health coverage.\n\nHowever, decisive action to bridge the gap between infrastructure provision and operational sustainability could transform the lessons of UGDP into a model of global excellence. With the second phase of UGDP (UGDP-2) pledged during the prime minister’s visit to Japan, this is the right time to review the project’s achievements and challenges and incorporate those lessons into UGDP-2’s design. While no single project can transform the healthcare system overnight, careful project design and implementation can build on past successes, address existing shortcomings, and deliver greater and more sustainable impact.\n\nDr Syed Abdul Hamid is professor at the Institute of Health Economics of the University of Dhaka.",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "equipment",
+     "sentence": "In the 158 upazilas covered under the study, approximately 8.11 percent (2,375 out of 29,257 units) of equipment were non-functional or underutilised, not primarily due to manufacturing defects, but because of deep mismatches between hardware provision and the human, financial and logistical systems"
+    },
+    {
+     "w": "upazilas",
+     "sentence": "High-performing upazilas received additional funds, typically Tk 50 lakh per year on top of the upazila Annual Development Programme (ADP) block allocation from the government."
+    },
+    {
+     "w": "facilities",
+     "sentence": "The upazilas invested over Tk 113 crore in obtaining diagnostic tools, upgrading facilities, and addressing local gaps through decentralised procurement that proved faster and more responsive than traditional centralised systems."
+    },
+    {
+     "w": "infrastructure",
+     "sentence": "Launched in FY2015-16 and completed on December 31, 2025, UGDP strengthened upazila parishads through performance-based financing, capacity development, and targeted infrastructure and service-delivery sub-projects."
+    },
+    {
+     "w": "project",
+     "sentence": "The Upazila Governance and Development Project (UGDP), implemented by the Local Government Division (LGD) under the Ministry of Local Government, Rural Development and Cooperatives, represented a bold bet on decentralisation."
+    },
+    {
+     "w": "without",
+     "sentence": "Media often reported on high-tech anaesthesia machines sitting idle in facilities lacking sanctioned junior anaesthesia consultants; X-ray and ultrasonography units gathering dust without radiologists; ambulances delivered without trained drivers or dedicated fuel budgets, etc."
+    },
+    {
+     "w": "maintenance",
+     "sentence": "These issues mirror broader, well-documented challenges in our rural health system: chronic workforce shortages (with over half of physician posts at many UHCs vacant in some divisions); high workloads on existing staff; and rigid financial rules that hinder timely maintenance."
+    },
+    {
+     "w": "procurement",
+     "sentence": "The upazilas invested over Tk 113 crore in obtaining diagnostic tools, upgrading facilities, and addressing local gaps through decentralised procurement that proved faster and more responsive than traditional centralised systems."
+    },
+    {
+     "w": "specialists",
+     "sentence": "Doctors and specialists gravitate towards cities, leaving remote upazilas struggling."
+    },
+    {
+     "w": "upazila",
+     "sentence": "The Upazila Governance and Development Project (UGDP), implemented by the Local Government Division (LGD) under the Ministry of Local Government, Rural Development and Cooperatives, represented a bold bet on decentralisation."
+    },
+    {
+     "w": "already",
+     "sentence": "These frictions risk turning hundreds of crores of taka in public assets into depreciating liabilities, eroding public trust, and driving more referrals to already overburdened district and tertiary hospitals."
+    },
+    {
+     "w": "consumables",
+     "sentence": "Diagnostic equipment often becomes inoperable once initial stocks of reagents, films, or consumables run out, with no flexible local budget to replenish them."
+    }
+   ]
+  },
+  {
+   "paper": "Dawn — Opinion",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Nepra notifies Rs25.30 per unit revised special industrial tariff despite concerns",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1DdjA5TVdGVUlJS0N0anZHYVRxZy1DM1k5akl6R2tjaU1mZUxCT0JaaFNueGFicE1lVWRWc2pmakIzMzFPaEplQg?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Brookings",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Trump, Xi, and Putin: What to expect from the APEC summit",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVTF3bzN2UHIzWkxmQjl6RTJzTUs4aFg0T0NVUnQ1SGtrLWxYRnlfLS13S19LaHZsNzZxeTBRcjRrNXpfb2Jta1MzUUFfSnZvd3Q4WUp3VmJ2WVlOYVJWUUZzSWFXTUVFOUV6VHpBdUlFYnFaVjF4RzNLUW9BSkVWLWJud3Y1MENITzFIZlhDOWxpU0Vt?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "CSIS",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Resilience and Reform: U.S.-China Relations and the Global Economic Order",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS05HdmxIUDhFaVFUdDBILWdFOUszLVZVRDV5REd3Uzd1bmNwbTlvUDhHck91XzBrMkVXeXFLSVZfalQ0ckNSclRhSElVekNvOVhENk13NGVuWjk5SXRwU282eVBJWkw4dU1Tb3h4WS1XbmtEYTJFY0ZvUWFuanI0MGx2bkxMNGZYT0dHejlDN0gwbVpCWXdMNEw3NFA?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "CSIS",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Foreign Policy in the American Heartland: Issues for the 120th Congress",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY0dqTWJtMXR2N3hCOWlNOUJQM3dyWmdBd3ZGZ1lOX3ktaUNrUTd0WXpFT3RvbkVkajkzYk9Ybjd5VGNoUmVFZkJYdnhyMlY1TTNxU1liOWdyWENnU2VRUU42UjI4UnpOVTdmcGlSWDJ4VThLRktGWmdOTDNTcWJBb01JQWpkQXllRTFuZER3?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Council on Foreign Relations",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "What the Abu Dhabi Talks Did—and Didn’t—Achieve",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTlNTSUl2Z3l6SFR1V0k2X0FNU053dHZFNnBzb3E2dWREUTJjdnZJTXFIdTBxU0lFLTlDVVIzSjBuVlNlNkRZZjVudE5JWEF3ZGVZSGJ4cHN6WjFjQkNsekg5NUxJZUpaaWpGTlVxRmdscjdESGNaQ0lReC0zcTVfcA?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Atlantic Council",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Putin’s chief negotiator vows to return ‘every inch of Russian land’ in Ukraine",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdjNHNDVlVzFaT3BSZVJoR2pOYjhoN2RoM3lvTTk3cll2b2NCUWR5Q0dpakRZb0pXb2dUSTBHN2NlTW1QczExSHJOMWh3WmpYbkhlQWpKNnZnRU9YWUR0YlpkLU5PZkVWQUE2eC1kYXZsQmRGUmd1VTFFUjRQRUE0bXNNVDRXZkt2UDA3MlFZUEtQNWczZjVERlVfbE1JaDRIdWFSQzh3WmZtb01wM2Z0MnNraXFWYkFuYjE3ZVlWcndjZlpFS2dn?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Atlantic Council",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Beyond the spy scandal: What the Nvidia-Megaspeed case reveals about export controls",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYUFmdzM4NlpxRlFuME5MNEZPRXFWallYUzZrMVFBWFFlZTlPTU13TFMwSUdha0I4cEFncmctaG9qQ0tMUnhyNTZGeWhvdXNaRmVOa1g5T0ZaSVV0MWxhWlJYY2w3eXpLdDhTTzFOa0h0NUNGQ0tNakZwcVh6Y3NPQlFqeHR4dlVuSzR4MlBUcDVKNkpJVHNZbEJSMFBUNEFkanhSR3BEVmxFeFl1RURoT0k2TU04Z3pnQ2RfSUlZVXNHSVNJUGc?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Lowy Institute",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Kuril Islands: Moscow and Beijing close ranks against Tokyo",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWVNicWNPX2EzQmt0SERCLVZKWWRBT3ZMN0I4SHVuNGdRdjdVdTB0Mm41clZmblNhem9tZ1ZKT0J0N1hwcEh6TVBPNXlhcjVQZUpWZmgxcmVKTEx2N0tkLTlPSWxqcXhXTDRWbXFjS0dOYXp1N2txZC1taEttbGY3YU9lQWVKOHJwZlhIZlJmaUltdkxLWEJ4SURmN0VUSU9MRUo5UkdRbw?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "news",
+   "title": "রুবিও অবরোধের পক্ষে, ভ্যান্স চান সমঝোতা: ইরান যুদ্ধ নিয়ে ট্রাম্পের সিদ্ধান্ত কী",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yMy1SSUhjMkJDVmFEYlUxYmFkYmZadUJ6NVo3RjExbG5GdTlId3ZQUEVHNGh0UGVKbzBLUUJzalc2ZVlEcE5yQVllY2xYLWprRC00UHBRV0VYWmJMZXNtOERlblI2d9IBc0FVX3lxTE9Rd3JnRWhhNUZ6OUVhY2NqZk1HQWJMRmZheGtVTHFzNGRza3l1VUhJRDloMFNPcFVseVpHOENwd0ZtQ2lDS25CV0ZaZ0phUFFrOVp1MXdzV3ZPM05wc01fQTdLZ0JKNGFybE9FTzNHQjFFa0k?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "একাত্তর",
+   "lang": "bn",
+   "kind": "news",
+   "title": "জলবায়ু ন্যায়বিচার ও টেকসই অর্থনীতির রূপরেখা",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMisARBVV95cUxOMDZaUnRJSGx0c0hsLU9TazZNTUxaTVRWdkJJNG0zQUJCcXA0TW1RMGFYRm92ZW1nV212cDlXYkRVLWxqdUwyaUR2bF9UdHBSWG1xT2hzekU1Y2E5SzZDLUVrMkhqYXZWRHh1dU5fUTNwd25Xb0ppTVJVdlFDWk5TVFNjMGItbUx4QndHcDdBZWN0WldFV3lrUXFkQ24tOXVsQWtTM3lJaGpGS0haODI0dThuRHkxZlY1c2gwZnhOZkZBcE5JV2lxMjUwQzFWaWZBbko1emE2M25wNmJMR1lldm04MW9CM0hRdUxnOUFDZ3FfM19fcndXaGVYTUkydTF4WklnaGdzYVZJUDhaTTE3YXpueVY3R1FnSHFqbUlDbTg0OXhIQUJ5Wm8wVURPdXZDTHZFbUc4ajliYzFVZHlEQzJNOHRlVDY1ckUzZE9UbFNtVlhpNkFtaF9ZM2h2MUU3NFZYVkVvNExMYmdadGc2MjM0bExQU200N01aOWN5b2d5b0pyUXB0QUZ3R1N3Tm9ReDdLb1dMekQ4LXQ5eDJPWUpIaE1CNm5uWDNibGYySERlMmRGNklBQlBsRTlKNnVmSXhsdHkzajdtaVVHMWYtRXdlQVBkRWh5UF9GLXJzWEJadEtRcnRrYzdFX092VnpIVDlteUhjSWlXSkUya0VTQlVvN05lbV82R0xFYWpnbG8xRWRNbjhzYnZSR21RbW03blc4a21zM3IxSGNtM25qZdIBtgRBVV95cUxONzF4MndabzUxN2JlMGx6c3Z3X3IxVkh4Q2JiY1ZiTHplYUJSQ2trdnJ3cWJiTjhtVTdkajZZdmFQUVpEY1F3bDRMQmxtcVlLc2M3N3BWeWJZckF0RGwxVzBCb1ZDMV9scUVhYk5uOXMtN3RteDFFTnlnb21JeXEtVGJFeU5MVmlEZGo2clJlSS13NDVIRkl1TGZUUTlOWkY2cnhyWWtlS0pwYWtSTEV2VEM1WWxRVW8xajE2Z3ZMcGNIR0RhdGRRMVFNa1NQR1plMzcxQzctQnhUaWgtTmhJeThGblVGV1lSOEtGR3B2TWQ1aUxtRjZRMzNLWFJKUkJoUWV3c05Id0JnR2xnYnhKaWNoSWtGMTBQRWVpeUE2aXdaQkliQ3J1dkdUUzZNMngwcW5RNE9PVEE2VVZBSmtfdzUtb2VVeS1hWkhCUDgwZXhLbXlZREUtanNLMXVRMUZiSUxUOEtEQWhjS1dYdUZjR0szQ2RNa1NfSVdKVVlyc1VTTU5Pbm1zVmQxZUtjWDNKcHR6aGpQb2ZxTDRJZGFWM2NJam42cmJIYzVRdU9DNGVNQnhJQVBGZzZ3Qlo5T2FsY1VXdWM1UXF1RFAyNm5pX25TMkM2cFlOWWR6ODI0MFFhM1YyZUFabkJfeF95d0JVQ01hQURxaXFob0dwd0hIc2hwX3lzUk9HcWVqVHBsZ2J4cDREeF9vVnFkV3g0TnhtQkI2bjcwcGp1ZmNpdU9qU0R5TUlqUQ?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Iran International",
+   "lang": "en",
+   "kind": "news",
+   "title": "Trump's Iran dilemma after America's 'everything' election",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBCcFo0SkdIVUtTRnBOSnJvRGQ5bmRGLTVzWHBRbmFNalFOWVpZTzBjMGNXQ2FkaTBkbWpDVFhJejJYTFhVZkNYMnBaM3BFRHQ5T0E?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "112.ua",
+   "lang": "en",
+   "kind": "news",
+   "title": "Kaja Kallas Urges Ceasefire Ahead of Peace Talks with Russia at Dublin Summit",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWGp2OWdlZlFubGNVcDBIZWNNV3FBSVp4YVFfM0NGcFBoOWhQa0xDWFA2Vjg2VjJYVkFEM2k1VUhfMFVIWnhZSDZITjU0NW1jYm4yQWY2X0NldXJPWEZpX3VUUUduQ1ZrbDFpVURMVnF5cDhGTmMwY19iVWQ1SGVHTFNORmdZV0RKX0RCMlhEUXRxclVkYzBtMEw0cDhtZnBObTh2TFZJZmJxbmdidnRfN0t1MGUxU2NBOTRxYWJR?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
   {
    "paper": "The Daily Star",
    "lang": "en",
@@ -358,18 +952,6 @@
    "title": "ঢাকা-টাঙ্গাইল মহাসড়ক অবরোধ করে পোশাকশ্রমিকদের বিক্ষোভ",
    "date": "2026-11-12",
    "url": "https://news.google.com/rss/articles/CBMipgVBVV95cUxPUHhQTGRQNUxCRnFEZmFIYzZueUQ2STUwVmIzNThwM2xqRlgxc3hzQ3p4cFFKc0Z2TWdsc2lRVk0zandaeUNHMFctZUJHQi0yN3lkV0s4bXZuX2dkZzUxVWVYSFJUOVdTX196RTJ5V2F0T2VGWWtKZ3JNQUR3eDc3amtwdi1TT0ZodzU5MEdfTzB6dVpqcVJBZjEwajMzUzRPVWE1N0dFNTcyQTYzU29KRnVGVmVuc2JJMjl1bDlnSUVDMENIY3Q3dzFOSmlMU1ozc2FFQWs2cC1nbF9xNDRMSG80akhGSi0xOXd3THpRS1lvZXJ6YXdjV0dIeFF3c3RqM09PVmZ0SWhYSERoQ3VTT2NRSUo2UjRKekw0SzFXVWZ0U3JsZEhyZjZDTEJwdjlvSHVQUVNFYmo0Z1R2VXZKMUk4WkdaeEVNUDlyQjVTdzh1YUd4RmcxUUh3RkJRcG1Kc3lGQmNLd2NwNnRvdXZCUjlqdmtHbTFzLU9NMHhnUHNaczJ4bVVQcG9qVTF5cXNUd05POVFUNjlSbFltbkRuYzdIM2NrVEtlQVpIRHRNOHpqZmQyeTJzRThfeXliSGtmb3JzLVE1U0F3OE1vN3o4aE9DbHR2RDlJb2s1TV96MXFqRmU5RTZTaVJBZnhwSWQ3dVNZdU5QdFY1UVk1MTRNNFdsTjRRVEZDSUtjZlZ3R3hBc19Ub0YtbHJ5Tjlvb2FmMlpGWHRROTBxUUJLSlJtS3ViaW5YUEE2VjdZa243cG5iWHB0LXlzaHU3bmJTNkRWSE5NNm1tbnF5a1pJZGVqTlZqdWo1S3A1RDBfbF9lWUlBYmRaNzc4bXB3WG12TlpOakFfdk1vQW10c0xIeUowaWtFbmF1cm1jODZmdEVOWEFTdm1RSnc?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "প্রথম আলো",
-   "lang": "bn",
-   "kind": "news",
-   "title": "রুবিও অবরোধের পক্ষে, ভ্যান্স চান সমঝোতা: ইরান যুদ্ধ নিয়ে ট্রাম্পের সিদ্ধান্ত কী",
-   "date": "2026-11-12",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yMy1SSUhjMkJDVmFEYlUxYmFkYmZadUJ6NVo3RjExbG5GdTlId3ZQUEVHNGh0UGVKbzBLUUJzalc2ZVlEcE5yQVllY2xYLWprRC00UHBRV0VYWmJMZXNtOERlblI2d9IBc0FVX3lxTE9Rd3JnRWhhNUZ6OUVhY2NqZk1HQWJMRmZheGtVTHFzNGRza3l1VUhJRDloMFNPcFVseVpHOENwd0ZtQ2lDS25CV0ZaZ0phUFFrOVp1MXdzV3ZPM05wc01fQTdLZ0JKNGFybE9FTzNHQjFFa0k?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -842,6 +1424,54 @@
    "title": "G7 Foreign Ministers coordinate action on Ukraine, Middle East and global security",
    "date": "2026-11-12",
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQ0tYSjJ5Z0k2R0VoUmUyeVIxQkRIaW9OYzMzXzZ6WnhMTUJvZWFoYlkzRnJ1azNIenpubjBuOHdLRWFab1VraF9ielBFbkRLTzZGaFgxdTRqVU9aTWNQa05neW1wdjF3QmJKdUFHLXZjMjJiR2k1eDQ2QzU1WDNOSnZxdFBHV01LTWRockowMVhuQjZXSFpWT2dVLWdWQkZVcTVzVGwzNDNjTmpCc05QM2RhOHVFTUxkOVlkLXdPTUJkcGUtOW00SUV5Xy13OUdrMEVJeUpuQ2lEVzdUdHFyOFl3?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "সমকাল",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "সরকার মশা মারতে পারেনি, শূন্য হলো মায়ের কোল",
+   "date": "2026-11-11",
+   "url": "https://news.google.com/rss/articles/CBMigwRBVV95cUxPMjdseU1zUkNXZ3dxZ2FUUW5mNDQwV3dIZkRaVVoyendMLVo2Z0FSVkcwZW9XenpsOHBoVEdZM0paWklPTUR4ZlZIR0tHeFRUN3lXRVpyWDU0Zmo4b3JsZ1hXa3BfTmQzbGptbXJaUnhNNE55UVNySmw5R09CWEdjUm9ZY3F3OXNJYjdzTGtncW11Tkl4WlpRMzdrem5SXzcyQ0tEbFhEaXUwN09vcDNaQ19GM3RKTjU0SmVOQUQxVHQzSGJlUG1HeWpEeUZhWWx6bGVPdHhuZVUzUFdGNk53c3hWdXBUYjNpbFBBTkRqNE5Mdy05d0x0a2ZkTG5KN041RzBCWnZzQ21MWDdmNm9yVE81ODRtYTJOYUhGR0xEcjFaMFJ1WkJ4WF9kUTVUckRueWdYaHZ5MGYwZVRVNkpMRDJkUllFTE5mNl9fcVlJR0RmdTlhYXJqdUR4WjMwcFhPdkhNXzRKeGZuZVFzSVE1eUhEMHFwVkstUi0xdkhza00zYmJpUE9oQnlHQ2RLaE12el9UNTJSTjVGbzItUEVKXzBzaXp3NWV2TmU2VGdlcG1UMXNwSlo4OENzUVV5OVA5T2ZhYlZBa2FqOGgtTEc1ck1Hd0R4MDR3YV9iMjU2STJDbXd3QVI2T1RDQUh3VFdBVDYyN0J3emw0ejUyYnN5dkFybw?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "The Guardian — Opinion",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Why did it take so long to unmask Brand and Walliams? Because noughties culture told girls like me abuse was normal",
+   "date": "2026-11-11",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTVdTS2JWVFI1NndnOVVBNi1FOHlRY2RuOHFJdWVPc3JHUFpQMS10a2hYTEpvLUhmLTFmZFlCUTVDdWZaT2IxSEp6YnZiMDJ0VC1VM1JGQ1k4ZE9Ob2Mtb0NJcDZjMnoxYkhCZ3VBVlRJeVB5bHdlNC1NLUdVV1ZpaG9NeGtxdDJ4dDFtblNNbmh2MnVaYlFoWThJNjFiSGx3bjFzWmhmQURrRnRwOEZuTXB3?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Project Syndicate",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Let’s Publish AI-Generated Articles! by Peter Singer",
+   "date": "2026-11-11",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQODZOTzZRRmVDUW91MFpxZlh5dnYxYm9BMnFvQlBtbmdzMm40dW56clZkS0lDcnNKYU5hSEwxX3dVN05ISWVzZllpVGR6c1JISG0tZXozYjhCR0c1SFd2bTZXck90SkVYX19tTWZZOXpicVNPN1Bhb2xYUWM2eXVXY3dLY05LaHJ5SVZpQ2Q2RnpoZ19Da0FWVjhFdFhLMWNvaG55MUZuWEVkVTNHcS14UVBMMA?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "ORF — Observer Research Foundation",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "China’s PLA in Fifth Plenum: Internal Chaos and Peripheral Aggression",
+   "date": "2026-11-11",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbGQ0VGFsZHA2S0MwQ1F6R19WMlBmdGxJY1B1NTV5UmhLU0dzZGh2NUo2WmQxLWtWZEtyZkg0bDhIWXlNb3NqZUNqUjZpNVc0dERqTW5yRTQ5a25xNFBUY1RkcXZYa2hfcmhsNXdROHFQa1BkRkRUSnl2RzNnX0lZc2VBSWtqOE1rSkFXQzNRcDY3dGo2TUZ3VjFJaU9lSTJFRkluam5leFgyeUk?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -1861,6 +2491,78 @@
    "words": []
   },
   {
+   "paper": "বাংলাদেশ প্রতিদিন",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "চার সচিবের দপ্তর রদবদল পদোন্নতি পেলেন একজন - bd-pratidin.com",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GQm96MkRFRjJYSDdqSTBKaWVQem5FSDQ2YllMbkhuUGZXSXVIMmV5SE5GZEIzNTVtQVF5a1dLaHlkOVUtekZZUWlCSnJWdWRnRXhLSDVJS3k1MzkwRHVNMg?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "বাংলাদেশ প্রতিদিন",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "তরুণদের মেধা কাজে লাগাতে পারলে বিদেশের ওপর নির্ভরতা থাকবে না: জ্বালানিমন্ত্রী - bd-pratidin.com",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JZUthQnoyTEhGTkFNaHRlWlhzY3V1WTh6Q09EWWtyQTdpLW43NU1tQWNSdFoxR19SVjFHUkJ1dThqNDdYVDNhVDBQVWFlcDF5bkFoOWRiZkNUaTE0R29FcmRBSTMtdTh1OTlZb00xZw?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "news",
+   "title": "Union Parishad Elections in Bangladesh | UP polls: EC sticks to old laws, key reforms left out",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc2doeHNxYjdLVlhuWGFYV0Fxd0NyUWZNWHg2NmxMdXd5MGp2OFRRR2t5c1lSbzNsRThvcFJDMWJSVWtRMnlTLVVnMU96Z3dqMktQemYzYXo0Qm5VMGRXc0lVTXRlLTVMb1g4R0hfMmNneHJYVGlCSjUyY0VaalZYb3dEa1N0ak4tbHNzdDF4Tk5qekxzV2xPS0ZHOE9ZVzhTM3ZZVW1B?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "UNRWA",
+   "lang": "en",
+   "kind": "news",
+   "title": "UNRWA Situation Report #232 on the Humanitarian Crisis in the Gaza Strip and the Occupied West Bank, including East Jerusalem",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMXFKd3ppMm1kem9jYm5sbTRNNDlOTGc3RlhKM3dUV3N2d3EwbGo0T25oVEpKd0NBQTV4QjB4Y01FOGxlSHdCdlhSUjRoc3dsQlFxS3I4ZW1lZE80ZG90YWNJZE1NcmE0b0lQdUppWVl6MmlaVmFFZy1MNmJHM3VsMmwwa3JIZTIzU2RDNW5GSjZmYXVnYWVoMGF1YlREMjhkcDQyVktPdjExLXdEMHdDTWd6MFdMS1hwYVE?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "news",
+   "title": "ওয়াশিংটনের নতুন ভারসাম্য, ঢাকার কূটনীতির পরীক্ষা",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Cb3FmX0xpTWdhc2xjQ1dEWFdkQkpXUGl1QmhWa0QxX3Z2cTlSalI4U3pMc2xsR0tORF8tcFpfRXF5NDBObVI1a2g4VWVyZ2hvYVo1Y0NDYk40c3lqRUV1bVNR0gFvQVVfeXFMT0hlZm5sd0VwNDdNOHdMX2tzUDhZcEctUUlBLXFCYmRRajd3WEM3OXdjZU9PZTFUQ3VRSWFOcEVHNHhMcUwySC1mcUdZOWNIdF9CNFk3LVplSzVDbHRVMFBGZjdBcFpzNk13eWF3dTFj?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Jagonews24",
+   "lang": "bn",
+   "kind": "news",
+   "title": "ইরান যুদ্ধে ব্যয়ের অর্থ ফেরত চান ট্রাম্প, দিতে হবে ইসরায়েলকেও",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yZTVxZ0kyakFueG11b1JpQ1Q1WFFEYk54QW9ZbjNZTkJrYnFVdE1CcGsySjg5Mm1aZjFRMmhmZmpudjhJWm8yeWo4NFRBVy0tSlhLc1J3SklnQ0JqRlZPQ2xHMA?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
    "paper": "The Financial Express",
    "lang": "en",
    "kind": "editorial",
@@ -1915,30 +2617,6 @@
    "title": "অগ্নিসন্ত্রাস, নাশকতার রাজনীতিকে না বলুন - bd-pratidin.com",
    "date": "2026-11-10",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGbnhiQk90UW44WC1DVlRFb3VaT1hWc0hjT01zdGhxbWtiODg5UXFWQ2pBdlJfb09PdGdkV29ILThVVDVfTG9CaWF3SERKNlBMZ0lMajZ6dVFKb1dZT3FZY0NUczVtWFl2?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "The Daily Star",
-   "lang": "en",
-   "kind": "news",
-   "title": "Union Parishad Elections in Bangladesh | UP polls: EC sticks to old laws, key reforms left out",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc2doeHNxYjdLVlhuWGFYV0Fxd0NyUWZNWHg2NmxMdXd5MGp2OFRRR2t5c1lSbzNsRThvcFJDMWJSVWtRMnlTLVVnMU96Z3dqMktQemYzYXo0Qm5VMGRXc0lVTXRlLTVMb1g4R0hfMmNneHJYVGlCSjUyY0VaalZYb3dEa1N0ak4tbHNzdDF4Tk5qekxzV2xPS0ZHOE9ZVzhTM3ZZVW1B?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "প্রথম আলো",
-   "lang": "bn",
-   "kind": "news",
-   "title": "ওয়াশিংটনের নতুন ভারসাম্য, ঢাকার কূটনীতির পরীক্ষা",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Cb3FmX0xpTWdhc2xjQ1dEWFdkQkpXUGl1QmhWa0QxX3Z2cTlSalI4U3pMc2xsR0tORF8tcFpfRXF5NDBObVI1a2g4VWVyZ2hvYVo1Y0NDYk40c3lqRUV1bVNR0gFvQVVfeXFMT0hlZm5sd0VwNDdNOHdMX2tzUDhZcEctUUlBLXFCYmRRajd3WEM3OXdjZU9PZTFUQ3VRSWFOcEVHNHhMcUwySC1mcUdZOWNIdF9CNFk3LVplSzVDbHRVMFBGZjdBcFpzNk13eWF3dTFj?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -3363,6 +4041,30 @@
    "title": "কঠোর সরকার, সতর্ক বিএনপি - bd-pratidin.com",
    "date": "2026-11-10",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93U0tpY0lpRHVnNWhKZXJBUThqVTFZekhlYXducU90WnpFTE1wenFlemRXSnhFeG1QcW13LWh1amhXM1ZqbFpKNW1FQWlJZmdRVnJGZFg2YmhYdmx5QmU2ZjdUUFNCNmdX?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Brookings",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "What comes next: The consequences of the 2026 midterm elections",
+   "date": "2026-11-09",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNai1yUXh4MmtTWTdDelZGSGdfVG9aU0RCTUE3cFBMRDJVY1EtQm5OSEIySElCdzZ4a3d4c2R1WDdHTC0taUlLR1hiNURxRHhzNTBRM0xlUVVXS1NVQVZJWS14b2xmaVZyc3hLY0dpSndSYlZKTElGZHBEb0F0QV9zVldCenlmVmNPX2QwUEMxSWZxNDNKZll0Z3Rlb0w?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "The Hawk",
+   "lang": "en",
+   "kind": "news",
+   "title": "Bangladesh's new Foreign Secretary dodges questions on Hasina passport issue",
+   "date": "2026-11-09",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdHdJNUo0aDFRN3NwMUthWVFGYkg3VFZ2enFZWENuMW9lLVp1Zk5vcmtnb2tELUxmQmlNRnB5cDZ2N1lhWlFMMUpUdjJSeHhMak5tZ3dLRWFoT29MZkZOTUtfODViMUx6Zmd4V2JaS2wwbjk5VDJMT2R2R3dXUk1BNzI2MzlXRWJIZmJuLVB5U3phcU92dWlCcXlpdktRdWxlTF9RTWxMRFdkSkE0Qmc?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -5429,12 +6131,12 @@
    "words": []
   },
   {
-   "paper": "The Daily Star",
-   "lang": "en",
-   "kind": "news",
-   "title": "Reasons Behind Bangladesh’s Economic Slowdown | What happened to Bangladesh’s growth story?",
+   "paper": "যুগান্তর",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "দাম্পত্যে বাড়ছে ‘স্লিপ ডিভোর্স’, কী এই নতুন প্রবণতা?",
    "date": "2026-11-07",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTGk5V3lmNVVBT0JSQm9FaXdHLWNiTFdDYm1leEJ1NXZNdW5HcXR5aHpEeEwyZ002MnpiMGExZVdQTmU0ZHZLUlN0ZnFzTS03aUZMNjNvdkticXdDRENKQmhWazNPVXo0SFNfb2IwSTVIeWxra0tuX2JZYlA0TnYzY3lSM213bUc2Y0p5M0xGSXZySjRVRWxicXdtUE4?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zWmZiVkFsVmREdlItNG5VSEtXQ3d6MGJDZmZWMU9mWTdXODRSVjhqV0tXSWpWREFGMHZFdkJWREZrbmQ1aU9OUFRIN2FXSVd6VFdPc2tMc1N4aFFpM3c?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -5991,6 +6693,18 @@
    "title": "বাংলাদেশের তিন অঞ্চল ‘পুনরুদ্ধারের’ দাবি বিজেপি নেতার",
    "date": "2026-11-07",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBRU1vZUI4Z3NUNUU0eTlqNm9LaU9QUmdrSE9RRWc4NmtLVTF1ZzBBYnBKOTY3TEVWVzAwak9FZWtVRVhOaUdhR21hTmVBYnFwVjU2QkVDRUpLUQ?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Chatham House",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "US midterms: The beginning of the end for Trumpism?",
+   "date": "2026-11-06",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOa1dKQ1M3Wi1Wd1ZTSWFLY295am1YbWRTdVE5RklnaHdaQ21OTl9uZTBqajFWZDE0ckFNUXROTXdBSmE3eVQwbmdXaE14a0hnSThhSmZxZFRnOWViQ0Y5dmZnMlVnNThPX3ViM1RaNE93REJMQWU0OVB4ZFo4WURkb2FwZkhaaWIyZElsVjBCQm1CamNHWGg0SktWYkRwYkxrT0E?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -7503,6 +8217,18 @@
    "title": "‘সরকারের ব্যর্থতা ও অব্যবস্থাপনা দেশের অর্থনৈতিক সংকটকে প্রকট করে তুলেছে’",
    "date": "2026-11-02",
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jNW9QZG51dDVWelpJUVdBOUxJRGt0WVZhVlZvYzNwUVpFYUd0SjZOanloSm1MUEJsRjloaFZOemVFSUl6UnFXNHdORjI2YTFRTW1Z?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Stimson Center",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Beyond the Populist Zeitgeist",
+   "date": "2026-10-30",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBYUGJqTENuOXpfYjY1SFdTaFR6YVVhMW9fY1p4UGMxYlZXcDUwa1hRNE41UkFYSFVUVzFxTnFiX2pjMjMtOE5CclVIdGFtazlBd2N4OVlycFU3VjBQRUhmZnI2bHJEdDJGOWk4?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
