@@ -1,6 +1,334 @@
 {
- "updated": "2026-11-14T01:27:50.967670+00:00",
+ "updated": "2026-11-14T06:53:07.573511+00:00",
  "articles": [
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Bangladesh cannot adapt its way out of the climate crisis",
+   "date": "2026-11-14",
+   "url": "https://www.thedailystar.net/opinion/views/news/bangladesh-cannot-adapt-its-way-out-the-climate-crisis-4323111",
+   "excerpt": "Bangladesh has done very little to cause climate change. The average Bangladeshi emits about 0.6 tonnes of carbon dioxide a year—a small fraction of the global average.",
+   "fullText": "For more than three decades, the world’s response to climate change has rested on two pillars: i) mitigation, which means cutting emissions; and ii) adaptation, which means protecting people from the damage. As delegates meet at COP31 in Antalya, most of the argument is again about money for both. But the data now shows that these two pillars cannot get us out of the crisis.\n\nCO2 in the atmosphere reached about 431 parts per million in June 2026, according to NOAA. Before the Industrial Revolution, it was 280. For 800,000 years, it never rose above 300. Earth is also trapping heat faster than expected: the rate roughly doubled between 2005 and 2019. August 2026 was the hottest month ever recorded. The UN Environment Programme now says overshooting the 1.5-degree-Celsius limit is inevitable.\n\nThink of a bathtub. The tap is still running: humanity is adding over 50 billion tonnes of greenhouse gases (GHGs) every year. The tub is already overflowing, with over a trillion tonnes of excess CO2 in the air. Net zero turns off the tap. Adaptation mops the floor. Neither drains the tub. Even if emissions stopped tomorrow, the carbon already up there would keep the planet hot for centuries.\n\nThe world needs a third job: restoration and repair. That means removing CO2 at the scale of billions of tonnes a year and stabilising Earth’s systems that are drifting towards tipping points.\n\nThis is the case made in Stabilising Earth’s Systems, a new report from the Climate Crisis Advisory Group. It asks governments to do two things. First, rebuild the satellites and models that tell us how much heat Earth is trapping and how close we are to the edge. Second, fund research into frontier options, including large-scale carbon removal. It calls for research under open, strict governance, not deployment. Research that rules out a dangerous idea is as valuable as research that finds a safe one.\n\nDisasters cause over $200 billion a year globally in direct losses, and more than $2.3 trillion once cascading costs are counted. On current policies, the world could lose around half of global GDP between 2070 and 2090. A research programme costing a few billion dollars would be less than one percent of what disasters cost the world in a single year.\n\nWhere should that research look? We believe the answer is the ocean. It covers 71 percent of the planet. It has already absorbed over a quarter of the CO2 we have emitted and more than 90 percent of the extra heat. Yet we have better maps of the Moon than of our own seafloor, and warming is weakening its ability to take up carbon. Ocean-based removal, from restoring mangroves and seagrass to cultivating seaweed and microalgae, is young and mostly unproven. That’s a reason to study it, not to ignore it. Look at solar power: too expensive to compete 20 years ago, widely adopted today.\n\nBangladesh has a stake in this. Following the settlement of its maritime boundaries with Myanmar in 2012 and India in 2014, it gained internationally recognised maritime rights over around 118,813 square kilometres of the Bay of Bengal. The country also shares the Sundarbans with India, the world’s largest mangrove forest and an important natural carbon store. The CCAG report argues that research should be designed and led by the most climate-exposed countries wherever possible. Bangladesh should not simply be a beneficiary of this research, but a partner and a testing ground for responsible innovation.\n\nCOP31 can help. Alongside finance, governments in Antalya should commit to three things: a coalition of willing countries to fund stabilisation research, on the model of the 57 nations that met in Santa Marta in April to plan a move away from fossil fuels; public research spending on the scale of Mission Innovation; and a seat at the table for vulnerable nations from day one. Bangladesh, a former chair of the Climate Vulnerable Forum, is well-placed to lead that call.\n\nBut leadership cannot stop with governments. Young people must help shape the research, technologies and institutions that will decide their future. The world has 1.2 billion people aged 15-24, and nearly 90 percent of them live in developing countries. Climate work offers them three jobs: cut emissions, protect people, and repair the atmosphere. The third is the least crowded and perhaps the most important. No one has yet removed carbon at the scale required. It is one of the biggest entrepreneurial opportunities of this century. The work must start now.\n\nEjaj Ahmad is the founder of the Bangladesh Youth Leadership Center (BYLC) and the Global Youth Leadership Center (GYLC). Sir David King is founder and chair of the Climate Crisis Advisory Group, founder of the Centre for Climate Repair at the University of Cambridge, and former chief scientific adviser of the UK government.",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "research",
+     "sentence": "Second, fund research into frontier options, including large-scale carbon removal."
+    },
+    {
+     "w": "climate",
+     "sentence": "For more than three decades, the world’s response to climate change has rested on two pillars: i) mitigation, which means cutting emissions; and ii) adaptation, which means protecting people from the damage."
+    },
+    {
+     "w": "billion",
+     "sentence": "The tap is still running: humanity is adding over 50 billion tonnes of greenhouse gases (GHGs) every year."
+    },
+    {
+     "w": "percent",
+     "sentence": "A research programme costing a few billion dollars would be less than one percent of what disasters cost the world in a single year."
+    },
+    {
+     "w": "already",
+     "sentence": "The tub is already overflowing, with over a trillion tonnes of excess CO2 in the air."
+    },
+    {
+     "w": "countries",
+     "sentence": "The CCAG report argues that research should be designed and led by the most climate-exposed countries wherever possible."
+    },
+    {
+     "w": "emissions",
+     "sentence": "For more than three decades, the world’s response to climate change has rested on two pillars: i) mitigation, which means cutting emissions; and ii) adaptation, which means protecting people from the damage."
+    },
+    {
+     "w": "founder",
+     "sentence": "Ejaj Ahmad is the founder of the Bangladesh Youth Leadership Center (BYLC) and the Global Youth Leadership Center (GYLC)."
+    },
+    {
+     "w": "governments",
+     "sentence": "It asks governments to do two things."
+    },
+    {
+     "w": "leadership",
+     "sentence": "But leadership cannot stop with governments."
+    },
+    {
+     "w": "adaptation",
+     "sentence": "For more than three decades, the world’s response to climate change has rested on two pillars: i) mitigation, which means cutting emissions; and ii) adaptation, which means protecting people from the damage."
+    },
+    {
+     "w": "advisory",
+     "sentence": "This is the case made in Stabilising Earth’s Systems, a new report from the Climate Crisis Advisory Group."
+    }
+   ]
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Trafficking networks must be dismantled",
+   "date": "2026-11-14",
+   "url": "https://www.thedailystar.net/opinion/editorial/news/trafficking-networks-must-be-dismantled-4323096",
+   "excerpt": "Address security failures, humanitarian vulnerabilities",
+   "fullText": "Per a survivor’s account, workers seeking an honest living were abducted, blindfolded, beaten and kept in remote hideouts, with demands of up to Tk 4 lakh for their freedom. Some of the armed guards were reportedly children, while police named a 15-year-old among the accused. This points to a troubling and deep criminal ecosystem. That such operations can continue in an area with a substantial presence of law enforcement and security forces raises serious questions.\n\nThe problem, however, extends far beyond conventional law enforcement. Cox’s Bazar is home to a vast Rohingya refugee population faced with uncertainty, restricted livelihoods, and declining assistance. Desperation means many are vulnerable to traffickers’ false promises of employment, marriage or family reunification abroad. According to UNHCR, more than 6,500 Rohingya attempted dangerous sea crossings in 2025, with nearly 900 reported dead or missing. Trafficking networks also exploit the poverty and unemployment of Bangladeshis. That only five of the 56 rescued victims were of Rohingya origin proves that this crisis does not concern the refugees alone.\n\nIt is a matter of concern that trafficking networks have developed sophisticated recruitment, transportation, detention and extortion arrangements despite repeated operations by the security forces. The authorities must identify and completely dismantle these networks while investigating possible protection from influential quarters. Greater coordination among the police, Border Guard Bangladesh, the army, the refugee camp authorities and maritime agencies is essential. Cross-border collaboration is equally important to disrupt trafficking routes towards Myanmar, Thailand and Malaysia.\n\nThe rescued victims must receive protection, medical support and justice without being criminalised for their circumstances. Stronger community awareness, safe livelihood options, and meaningful international efforts towards a sustainable solution to the Rohingya crisis are imperative. Unless both the criminal networks and the vulnerabilities they exploit are addressed, Teknaf’s hills and coastline will remain a fertile ground for human traffickers.",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "networks",
+     "sentence": "Trafficking networks also exploit the poverty and unemployment of Bangladeshis."
+    },
+    {
+     "w": "rohingya",
+     "sentence": "Cox’s Bazar is home to a vast Rohingya refugee population faced with uncertainty, restricted livelihoods, and declining assistance."
+    },
+    {
+     "w": "trafficking",
+     "sentence": "Trafficking networks also exploit the poverty and unemployment of Bangladeshis."
+    },
+    {
+     "w": "authorities",
+     "sentence": "The authorities must identify and completely dismantle these networks while investigating possible protection from influential quarters."
+    },
+    {
+     "w": "concern",
+     "sentence": "That only five of the 56 rescued victims were of Rohingya origin proves that this crisis does not concern the refugees alone."
+    },
+    {
+     "w": "criminal",
+     "sentence": "This points to a troubling and deep criminal ecosystem."
+    },
+    {
+     "w": "enforcement",
+     "sentence": "That such operations can continue in an area with a substantial presence of law enforcement and security forces raises serious questions."
+    },
+    {
+     "w": "exploit",
+     "sentence": "Trafficking networks also exploit the poverty and unemployment of Bangladeshis."
+    },
+    {
+     "w": "operations",
+     "sentence": "That such operations can continue in an area with a substantial presence of law enforcement and security forces raises serious questions."
+    },
+    {
+     "w": "protection",
+     "sentence": "The authorities must identify and completely dismantle these networks while investigating possible protection from influential quarters."
+    },
+    {
+     "w": "refugee",
+     "sentence": "Cox’s Bazar is home to a vast Rohingya refugee population faced with uncertainty, restricted livelihoods, and declining assistance."
+    },
+    {
+     "w": "rescued",
+     "sentence": "That only five of the 56 rescued victims were of Rohingya origin proves that this crisis does not concern the refugees alone."
+    }
+   ]
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Saving banks takes more than clearing bad loans",
+   "date": "2026-11-14",
+   "url": "https://www.thedailystar.net/opinion/views/news/saving-banks-takes-more-clearing-bad-loans-4323126",
+   "excerpt": "Financial strength makes a bank resilient, but public confidence keeps it alive. People deposit money in banks expecting to withdraw it when needed and receive the agreed interest or profit.",
+   "fullText": "The current situation in Bangladesh’s banking sector reflects this reality. At the end of June 2026, non-performing loans (NPLs) stood at Tk 606,555 crore, accounting for 32.78 percent of total outstanding loans, according to Bangladesh Bank data. In these circumstances, the challenge is not simply to reduce bad loans but to restore banks’ financial strength and rebuild depositors’ confidence.\n\nFollowing the Great Depression of 1929, around 9,000 US banks suspended operations between 1930 and 1933. In 1933, a bank holiday and emergency banking legislation were introduced. The subsequent establishment of the Federal Deposit Insurance Corporation (FDIC), with deposit insurance taking effect in 1934, created an institutional framework to protect depositors. The FDIC’s historical account of the Great Depression and the introduction of deposit insurance illustrates the importance of institutional safeguards in restoring public confidence. The lesson is clear: restoring a banking system requires more than financial assistance to struggling institutions. A credible mechanism to protect depositors’ money is equally essential.\n\nIn the early 1990s, Sweden’s banking sector suffered substantial losses following a housing market collapse. The government took control of the troubled Nordbanken and separated its performing assets from its distressed ones. Viable loans and businesses remained with the bank, while NPLs and risky assets were transferred to a state-owned asset management company called Securum. Securum managed and gradually sold these assets to maximise recovery. This arrangement gave Nordbanken room to restructure and resume its core operations. The intervention’s direct fiscal cost was approximately 4.2 percent of GDP, but subsequent asset recoveries and the sale of the government’s ownership stake helped reduce the net cost.\n\nFollowing the Asian Financial Crisis of 1997, South Korea established a 39.2-trillion-KRW fund through the Korea Asset Management Corporation (KAMCO), which acquired distressed loans worth 111.3 trillion KRW. KAMCO employed several recovery mechanisms, including international auctions, asset-backed securitisation, participation by foreign investors, and debt-to-equity swaps. Eventually, recoveries exceeded the fund’s initial investment by 4.3 trillion KRW. According to KAMCO’s account of its role in resolving the Asian Financial Crisis, this experience demonstrates how professional asset management and a well-planned recovery strategy can improve the effectiveness of public investment.\n\nJapan, meanwhile, experienced a prolonged banking crisis during the 1990s, partly because the true scale of NPLs was concealed and financially weak institutions were artificially kept afloat. Authorities eventually addressed the crisis through stricter asset assessments, disposal of bad loans, government capital support, and restructuring of weak banks. Japan’s lesson is clear: delaying recognition of losses deepens a crisis and makes recovery harder.\n\nGreece’s Hercules Asset Protection Scheme, introduced in 2019, took a different approach. NPLs were securitised into Senior, Mezzanine and Junior tranches. The Senior Tranche received a conditional government guarantee, while arrangements were made to sell the riskier portions to investors. NPLs in Greece’s banking sector declined from approximately 81 billion euros in 2019 to around six billion euros by the end of 2024. However, these loans did not disappear from the economy; recovery efforts continue.\n\nOne important question for Bangladesh is what happens when a bank writes off a loan? A write-off can reduce the burden of distressed assets on a bank’s balance sheet, but it does not automatically extinguish the borrower’s legal obligation to repay. A loan write-off, a loan sale and a loan waiver are three different things.\n\nBanks, therefore, must retain their legal right to recover outstanding amounts after a write-off. Legal action should be pursued against wilful defaulters, those involved in misappropriation of funds and borrowers who obtained loans through fraudulent means. This requires enforcing collateral and identifying the assets of actual beneficial owners. Entrepreneurs facing temporary business difficulties may be allowed to restructure their loans. But repeatedly granting concessions to borrowers who can repay but deliberately refuse to do so must end.\n\nRemoving NPLs from a bank’s balance sheet does not automatically generate cash. Banks must still repay depositors and provide the agreed interest or profit. Accounting changes alone cannot solve the problem; banks must restore their income-generating capacity and cash flows. This requires recovering cash from collectable loans, selling distressed assets at transparent market prices, and generating regular income through government securities and properly assessed productive investments. Banks must also restore a sustainable balance between deposit costs and income from lending and other investments.\n\nThe distinction between liquidity and capital is equally important. A central bank can provide conditional lending support for a liquidity shortage, but a capital shortfall requires genuine capital. Therefore, after recognising their losses, weak banks need shareholder participation, fresh private investment and, where necessary, government recapitalisation subject to strict conditions. International experience shows that no single measure is sufficient to resolve a banking crisis. Bangladesh needs a coordinated recovery strategy built around several steps.\n\nFirst, drawing on Sweden’s experience, an independent Asset Quality Review (AQR) should establish the true financial condition of every bank. Based on the findings, banks should be classified into three categories: viable, suitable for restructuring, and non-viable. Each category should have a separate resolution strategy. Second, distressed loans and asset recovery must be professionally managed. South Korea’s KAMCO and Malaysia’s Danaharta show that distressed loans can be managed more effectively through specialised institutions. Bangladesh could establish an independent National Asset Management Company to acquire selected distressed loans at transparent market prices and oversee collateral management, auctions and professional recovery. However, Malaysia’s reported recovery rate of 80.2 percent referred to assets restructured or sold by the end of 1999, not all loans acquired by the institution. This distinction matters when evaluating an asset management company’s performance. Alongside identifying the assets of wilful defaulters and pursuing legal recovery, loans to potentially viable businesses should be restructured where appropriate. Any capital support to weak banks must depend on meaningful changes in management, accountability and corporate governance.\n\nIreland’s National Asset Management Agency (NAMA) acquired loans worth 31.8 billion euros and repaid its entire funding by 2020. By the end of 2024, cumulative cash income had reached 48.3 billion euros. However, the market value of the acquired loans was 26.2 billion euros, while an additional 5.6 billion euros represented state support to banks. The Irish Comptroller and Auditor General’s review of NAMA’s performance details the agency’s loan acquisitions and repayment of its funding. In contrast, the Indonesian Bank Restructuring Agency (IBRA) recovered only around 23 percent of the original loan value through sales between 1999 and 2004. These experiences show why transparency is essential in government-backed banking interventions. Asset valuation, public support costs and loan recovery efficiency must be carefully monitored\n\nThird, timelines, transparency and accountability must be ensured. A three-year banking recovery programme should include quarterly, bank-by-bank disclosures of cash recoveries, newly classified NPLs, capital shortfalls, deposit costs, and operating income. Shareholders and directors must also be held accountable. Depositors must be protected, and non-viable banks resolved in an orderly manner.\n\nThe success of banking reforms should not be measured solely by a reduction in the NPL ratio. It should also depend on cash recovered, banks’ ability to meet deposit obligations through their own income, and their capacity to resume lending to productive sectors. Saving banks is not simply about removing NPLs from their balance sheets. Genuine recovery must begin with recognising losses, recovering money from those responsible, rebuilding income-generating capacity and capital, and protecting depositors. The savings of ordinary people must never become the price of granting financial relief to influential borrowers.",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "recovery",
+     "sentence": "Securum managed and gradually sold these assets to maximise recovery."
+    },
+    {
+     "w": "banking",
+     "sentence": "The current situation in Bangladesh’s banking sector reflects this reality."
+    },
+    {
+     "w": "management",
+     "sentence": "Viable loans and businesses remained with the bank, while NPLs and risky assets were transferred to a state-owned asset management company called Securum."
+    },
+    {
+     "w": "capital",
+     "sentence": "Authorities eventually addressed the crisis through stricter asset assessments, disposal of bad loans, government capital support, and restructuring of weak banks."
+    },
+    {
+     "w": "distressed",
+     "sentence": "The government took control of the troubled Nordbanken and separated its performing assets from its distressed ones."
+    },
+    {
+     "w": "billion",
+     "sentence": "NPLs in Greece’s banking sector declined from approximately 81 billion euros in 2019 to around six billion euros by the end of 2024."
+    },
+    {
+     "w": "deposit",
+     "sentence": "The subsequent establishment of the Federal Deposit Insurance Corporation (FDIC), with deposit insurance taking effect in 1934, created an institutional framework to protect depositors."
+    },
+    {
+     "w": "depositors",
+     "sentence": "In these circumstances, the challenge is not simply to reduce bad loans but to restore banks’ financial strength and rebuild depositors’ confidence."
+    },
+    {
+     "w": "financial",
+     "sentence": "In these circumstances, the challenge is not simply to reduce bad loans but to restore banks’ financial strength and rebuild depositors’ confidence."
+    },
+    {
+     "w": "support",
+     "sentence": "Authorities eventually addressed the crisis through stricter asset assessments, disposal of bad loans, government capital support, and restructuring of weak banks."
+    },
+    {
+     "w": "acquired",
+     "sentence": "Following the Asian Financial Crisis of 1997, South Korea established a 39.2-trillion-KRW fund through the Korea Asset Management Corporation (KAMCO), which acquired distressed loans worth 111.3 trillion KRW."
+    },
+    {
+     "w": "balance",
+     "sentence": "A write-off can reduce the burden of distressed assets on a bank’s balance sheet, but it does not automatically extinguish the borrower’s legal obligation to repay."
+    }
+   ]
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Our students deserve a better university admission system",
+   "date": "2026-11-14",
+   "url": "https://www.thedailystar.net/opinion/views/news/our-students-deserve-better-university-admission-system-4323101",
+   "excerpt": "Here we are, at the beginning of another admission season.",
+   "fullText": "This year, Dhaka University’s admission tests are scheduled for December 5-26. By the time these students have their freshers’ orientation, some of their contemporaries at private universities may already be approaching the completion of a semester. The exact difference depends on the institutions and intake dates. But it raises an uncomfortable question: how much time do we consider reasonable to spend entering higher education, and who takes responsibility for that time? Many students wait to hear from their preferred institutions before choosing between those and other options. Oftentimes, the reason is financial: public universities are heavily subsidised, and the older ones enjoy a solid market reputation. Only in recent times have some of the top private universities become more preferred as they ensure timely graduation and a professional and world-class learning environment. However, coordination between public and private intakes remains notably weak, and each institution is expected to manage its own affairs.\n\nBack in 2020, to spare students from the hassle of going to different corners of the country to take admission tests, the University Grants Commission (UGC) proposed a cluster admission system. The old public universities exercised their autonomy to disregard this prescription. The rift was once again apparent this year when some of these universities defied UGC’s proposal to shift the admission calendar by a month to accommodate the HSC students who have been given a second chance to improve their scores. DU and Bangladesh University of Engineering and Technology (Buet) retained their original schedules, while Rajshahi and Jagannath universities adopted different arrangements for supplementary candidates. The second chance initiative should have been accompanied by an agreed admission pathway. Private universities also need guidance on whether they can offer conditional admissions to the supplementary examinees.\n\nOne thing is certain: our tertiary admission system is in a state of disarray. Even within a single university, there are various assessment mechanisms. At DU, most units combine 60 marks of MCQs with 40 marks of written assessment. Fine Arts and the Institute of Business Administration (IBA) have different arrangements. After noticing poor performance among students who entered the system only through MCQ tests, DU decided to return to the time-consuming written components. While they can reveal a candidate’s reasoning, expression, and ability to construct an answer, they also pose the possibility of subjective grading. Examiners working under a strict deadline or without grading rubrics may not be able to do justice to the scripts. The inconsistency in marking can change a student’s future forever. The UGC can take up a project simply to decide on the assessment instruments for admission tests.\n\nMy experience tells me that many of my colleagues approach admission tests as a system to terminate as many applicants as possible. We rarely design the questions to judge students’ readiness to learn. The “weed out” policy relies on difficult questions that encourage repeated patterns and rote learning, allowing an admission cottage industry to thrive. Each university must have its teaching and learning centre that will conduct thorough research on their selection methods to decide whether admission scores correspond with first-year performance, persistence, or eventual completion. Does the written component identify capabilities missed by MCQs? Do the tests work comparably for students from different educational backgrounds? The admission test scripts can provide the universities with primary data on the recruitment process to select students for knowledge production.\n\nThe treatment of SSC and HSC results deserves similar scrutiny. While most universities consider previous public examination results, their numerical share in the final ranking is not that significant. The tertiary system begins with a mindset that to reach the university’s own assessment, students must have additional knowledge. If that is truly the case, the higher secondary and tertiary curricula must be aligned.\n\nIt is a no-brainer that shared examinations can reduce travelling, worries and costs caused by multiple applications. The engineering and medical systems have exhibited so by reducing repetition through cluster admissions. The chaos in public university admissions is enabled by the vested interest of stakeholders who find the admission season financially rewarding. We can argue that one examination does not, by itself, create an efficient admission process; applicants still need offers, choices, confirmation deadlines, and clear migration rules. When a preferred university completes admissions later, a student may leave their secured place in another institution. The vacancy then passes down the waiting list. Universities become connected through applicants’ decisions, whether their administrations coordinate or not.\n\nA common application service could help address this gap. In the UK, for instance, the Universities and Colleges Applications Services (UCAS) offers a useful example of a centralised application system where universities retain their entry requirements and admission decisions. In the US, the Scholastic Assessment Test (SAT) addresses a different question: whether institutions can use a common score alongside other evidence. Bangladesh could consider both ideas without requiring every programme to select students identically. Coordination must continue after enrolment, with an option of credit transfer and migration among the UGC-approved universities. The primary benefit of coordination is a centralised academic calendar. If private universities can operate under published calendars, public universities can, too.\n\nUnfortunately, most of the public universities are notorious for deviating from their plans. Different disciplines can require different teaching arrangements while still providing students with dependable completion dates. Consequently, many of these programmes fail to leverage study abroad programmes or internationalisation. Scholarship holders need results before deadlines. A partnership becomes difficult to implement when neither students nor their overseas hosts can confidently identify an available semester.\n\nAs teachers, we ask students to respect deadlines because we consider time management a part of their education. Our institutions owe them the same discipline. When a university loses a month, its students are delayed in joining the job market while their competitors get a head start. This uncertainty, expenses and postponed opportunities should be central to every debate about the university admission schedule.\n\nDr Shamsad Mortuza is vice-chancellor at the University of Liberal Arts Bangladesh (ULAB).",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "universities",
+     "sentence": "By the time these students have their freshers’ orientation, some of their contemporaries at private universities may already be approaching the completion of a semester."
+    },
+    {
+     "w": "admission",
+     "sentence": "This year, Dhaka University’s admission tests are scheduled for December 5-26."
+    },
+    {
+     "w": "students",
+     "sentence": "By the time these students have their freshers’ orientation, some of their contemporaries at private universities may already be approaching the completion of a semester."
+    },
+    {
+     "w": "university",
+     "sentence": "This year, Dhaka University’s admission tests are scheduled for December 5-26."
+    },
+    {
+     "w": "different",
+     "sentence": "Back in 2020, to spare students from the hassle of going to different corners of the country to take admission tests, the University Grants Commission (UGC) proposed a cluster admission system."
+    },
+    {
+     "w": "assessment",
+     "sentence": "Even within a single university, there are various assessment mechanisms."
+    },
+    {
+     "w": "private",
+     "sentence": "By the time these students have their freshers’ orientation, some of their contemporaries at private universities may already be approaching the completion of a semester."
+    },
+    {
+     "w": "admissions",
+     "sentence": "Private universities also need guidance on whether they can offer conditional admissions to the supplementary examinees."
+    },
+    {
+     "w": "consider",
+     "sentence": "But it raises an uncomfortable question: how much time do we consider reasonable to spend entering higher education, and who takes responsibility for that time?"
+    },
+    {
+     "w": "institutions",
+     "sentence": "The exact difference depends on the institutions and intake dates."
+    },
+    {
+     "w": "whether",
+     "sentence": "Private universities also need guidance on whether they can offer conditional admissions to the supplementary examinees."
+    },
+    {
+     "w": "applicants",
+     "sentence": "My experience tells me that many of my colleagues approach admission tests as a system to terminate as many applicants as possible."
+    }
+   ]
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "বিদেশি গোয়েন্দারা কেন, কীভাবে, কোন কৌশলে হানিট্র্যাপ করে?",
+   "date": "2026-11-14",
+   "url": "https://www.prothomalo.com/opinion/column/7sreexe0ca",
+   "excerpt": "‘হানিট্র্যাপ’ কথাটি শুনলে জেমস বন্ডের সিনেমার কোনো দৃশ্যের কথা মনে হতে পারে। সেখানে দেখা যায়, রহস্যময় ও আকর্ষণীয় এক নারী নিজের সৌন্দর্য ও মোহ দিয়ে কোনো ব্যক্তির ঘনিষ্ঠ হয়ে ওঠেন। ভালোবাসার অভিনয় করে তাঁর কাছ থেকে গুরুত্বপূর্ণ তথ্য বের করে নেন।",
+   "fullText": "‘হানিট্র্যাপ’ কথাটি শুনলে জেমস বন্ডের সিনেমার কোনো দৃশ্যের কথা মনে হতে পারে। সেখানে দেখা যায়, রহস্যময় ও আকর্ষণীয় এক নারী নিজের সৌন্দর্য ও মোহ দিয়ে কোনো ব্যক্তির ঘনিষ্ঠ হয়ে ওঠেন। ভালোবাসার অভিনয় করে তাঁর কাছ থেকে গুরুত্বপূর্ণ তথ্য বের করে নেন। তবে হানিট্র্যাপ কেবল গোয়েন্দা কাহিনি বা সিনেমার বিষয় নয়। গুপ্তচরবৃত্তির জগতে এর দীর্ঘ ইতিহাস রয়েছে। এখনো বিশ্বের বিভিন্ন দেশের গোয়েন্দারা এই কৌশল ব্যবহার করেন। এতে জড়িয়ে পড়া ব্যক্তি ও প্রতিষ্ঠানের জন্য এর পরিণতি ভয়াবহ হতে পারে। এনভিডিয়ার প্রধান নির্বাহী কর্মকর্তা জেনসেন হুয়াং হয়তো সম্প্রতি বিষয়টি কঠিনভাবে বুঝতে পেরেছেন। বিশ্বের সবচেয়ে বড় এআই চিপ নির্মাতা প্রতিষ্ঠানটিকে ঘিরে এক সপ্তাহ ধরে নানা অস্থিরতা চলার পর বৃহস্পতিবার তিনি পদত্যাগ করেন। এর সূত্রপাত হয়েছিল এমন কিছু প্রতিবেদন থেকে, যেখানে বলা হয়, এক নারীর সঙ্গে তাঁর বিবাহবহির্ভূত সম্পর্ক ছিল। যুক্তরাষ্ট্রের কর্মকর্তাদের ধারণা, ওই নারী চীনা সরকারের কাছে তথ্য সরবরাহ করতেন। চীনের ‘হানিট্র্যাপে’ এনভিডিয়ার প্রধান, এর পরিণতি কী হবে তবে এ ঘটনার অনেক বিষয় এখনো অস্পষ্ট। যেমন, অ্যালিস হুয়াং নামের ওই নারীকে চীনা গোয়েন্দারা কখন এবং কীভাবে নিয়োগ করেছিলেন, কিংবা তাঁর মাধ্যমে কোনো তথ্য ফাঁস হয়েছিল কি না। চীনের পক্ষ থেকে বলা হয়েছে, ওই নারীর চীনের হয়ে গুপ্তচরবৃত্তির অভিযোগ ‘ভিত্তিহীন জল্পনা’। তবে এই সম্পর্কের প্রভাব শুধু এনভিডিয়া বা জেনসেন হুয়াংয়ের মধ্যে সীমাবদ্ধ নয়। কৃত্রিম বুদ্ধিমত্তায় আধিপত্য বিস্তারের প্রতিযোগিতায় যুক্তরাষ্ট্র ও চীন বড় প্রতিদ্বন্দ্বী। ফলে এ ঘটনা দুই দেশের সম্পর্কেও গুরুতর প্রভাব ফেলতে পারে। ব্যবসায়িক গোয়েন্দা তথ্য নিয়ে কাজ করা প্রতিষ্ঠান স্ট্র্যাটেজি রিস্কসের প্রতিষ্ঠাতা আইজ্যাক স্টোন ফিশ বলেন, ‘বিশ্বের অন্যতম গুরুত্বপূর্ণ একটি প্রতিষ্ঠানের প্রধান নির্বাহী এমন একজনের সঙ্গে সম্পর্কে জড়িয়েছেন, যাঁকে কমিউনিস্ট পার্টির এজেন্ট বলে সন্দেহ করা হচ্ছে। বিষয়টি তাঁর বিচারবুদ্ধি নিয়ে বড় প্রশ্ন তৈরি করে।’ তিনি আরও বলেন, ‘হয়তো ওই নারীকে তিনি কখনোই কোনো গুরুত্বপূর্ণ তথ্য দেননি। কিন্তু তাঁদের মধ্যে এমন সম্পর্ক থাকার বিষয়টিই নিজে একটি সমস্যা।’ অতীতেও অনেক প্রভাবশালী ব্যক্তি এ ধরনের ‘হানিট্র্যাপ’ বা প্রেমের ফাঁদে পড়েছেন। স্টোন ফিশের ভাষায়, গুপ্তচরবৃত্তির সবচেয়ে পুরোনো কৌশলগুলোর একটি হলো হানিট্র্যাপ। বিশেষ করে চীন ও রাশিয়ার গোয়েন্দারা এখনো ব্যাপকভাবে এ কৌশল ব্যবহার করেন। বিশ্বের সবচেয়ে বড় এআই চিপ নির্মাতা প্রতিষ্ঠানটিকে ঘিরে এক সপ্তাহ ধরে নানা অস্থিরতা চলার পর বৃহস্পতিবার জেনসেন হুয়াং পদত্যাগ করেন। কীভাবে পাতা হয় প্রেমের ফাঁদ সাবেক সিআইএ কর্মকর্তা জন সাইফার বলেন, প্রতিটি দেশের গোয়েন্দা সংস্থাই এমন ব্যক্তিদের লক্ষ্যবস্তু করে, যাঁদের কাছে গুরুত্বপূর্ণ তথ্য পাওয়ার সুযোগ রয়েছে। তিনি এশিয়া ও ইউরোপে দায়িত্ব পালন করেছেন। বর্তমানে মাইকেল ভি হেইডেন সেন্টার ফর ইন্টেলিজেন্স, পলিসি অ্যান্ড ইন্টারন্যাশনাল সিকিউরিটির জ্যেষ্ঠ ফেলো হিসেবে কাজ করছেন। তবে কর্তৃত্ববাদী সরকারগুলো যৌনতা ও প্রেমের সম্পর্ককে কাজে লাগিয়ে গোয়েন্দা নিয়োগের কঠিন দায়িত্ব পালনে এজেন্টদের বেশি চাপ দিতে পারে। সাইফার বলেন, ‘চীন, রাশিয়া ও এ ধরনের অন্য দেশগুলো কাউকে গুপ্তচর হিসেবে নিয়োগ করতে অনেক বেশি কৌশল ও চাপ প্রয়োগ করতে পারে। তারা বলতে পারে, আমাদের সঙ্গে কাজ না করলে তোমাকে দেশে ফিরতে দেওয়া হবে না, কিংবা পরিবারের সঙ্গে দেখা করতে দেওয়া হবে না।’ হানিট্র্যাপ পাতার নানা পদ্ধতি রয়েছে। একটি পদ্ধতি হলো, লক্ষ্য ব্যক্তিকে এমন পরিস্থিতিতে ফেলা, যা প্রকাশ পেলে তিনি বিব্রত বা বিপদে পড়তে পারেন। এরপর তাঁকে ব্ল্যাকমেল বা ভয় দেখিয়ে তথ্য আদায় করা হয়। যেমন, কেউ যদি পতিতালয়ে যান বা যৌনকর্মীর সঙ্গে সম্পর্কে জড়ান, তাহলে গোয়েন্দা সংস্থা সেই তথ্য কাজে লাগাতে পারে। জামেস্টাউন ফাউন্ডেশনের প্রেসিডেন্ট পিটার ম্যাটিস বলেন, ওই ব্যক্তিকে তখন বলা হতে পারে, ‘আমরা চাইলে তোমাকে গ্রেপ্তার করতে পারি। অথবা আমাদের কাজে সাহায্য করতে পারো।’ জামেস্টাউন ফাউন্ডেশন যুক্তরাষ্ট্রের ওয়াশিংটনভিত্তিক একটি প্রতিরক্ষা নীতিবিষয়ক গবেষণাপ্রতিষ্ঠান। আরেকটি পদ্ধতি সিনেমা ও সংবাদমাধ্যমে বেশি দেখা গেলেও বাস্তবে তুলনামূলক কম ব্যবহৃত হয়। এ ক্ষেত্রে প্রশিক্ষিত কোনো বিদেশি এজেন্ট শুরু থেকেই লক্ষ্য ব্যক্তির সঙ্গে প্রেমের সম্পর্ক গড়ে তোলার চেষ্টা করেন। উদ্দেশ্য থাকে, তাঁকে প্রলুব্ধ করে নিজের স্বার্থে ব্যবহার করা। এর একটি উদাহরণ ইসরায়েলের গোয়েন্দা সংস্থা মোসাদের এক নারী এজেন্ট। ‘সিন্ডি’ নামের ওই এজেন্ট নিজেকে মার্কিন পর্যটক পরিচয় দিয়ে সাবেক ইসরায়েলি পারমাণবিক প্রযুক্তিবিদ মর্দেখাই ভানুনুর সঙ্গে সম্পর্ক গড়ে তোলেন। পরে তাঁকে অপহরণ করা হয়। ইসরায়েলের অঘোষিত পারমাণবিক কর্মসূচির গোপন তথ্য ব্রিটিশ সংবাদমাধ্যমে ফাঁস করেছিলেন ভানুনু। তবে বাস্তবে আরও বেশি যে ঘটনা ঘটে, তা হলো—কোনো নারী বা পুরুষ স্বাভাবিকভাবেই এমন একজনের সঙ্গে সম্পর্কে জড়ান, যিনি কোনো গোয়েন্দা সংস্থার আগ্রহের ব্যক্তি। পরে ওই সংস্থা সম্পর্কটির কথা জানতে পারে। এরপর নানা প্রলোভন বা চাপ প্রয়োগ করে ওই নারী বা পুরুষকে লক্ষ্য ব্যক্তির কাছ থেকে তথ্য সংগ্রহে নিয়োগ করে। সিআইএ গোপন প্রেম ও সাজানো সন্তান এই কৌশলের ইতিহাস অনেক পুরোনো। স্নায়ুযুদ্ধের সময় পূর্ব জার্মানি সুদর্শন ও আকর্ষণীয় পুরুষদের প্রশিক্ষণ দিয়ে ‘রোমিও স্পাই’ হিসেবে তৈরি করত। সাইফার বলেন, ওই সময় রুশ গোয়েন্দারাও নিয়মিত এ কৌশল ব্যবহার করতেন। পশ্চিমা কূটনীতিক ও সাংবাদিকদের হোটেলকক্ষে পুরুষ ও নারী—দুই ধরনের এজেন্টকেই পাঠানো হতো। ১৯৬০-এর দশক থেকে ১৯৮০-এর দশক পর্যন্ত চলা একটি ঘটনা বিশেষভাবে আলোচিত। বেইজিংয়ে কর্মরত ফরাসি কূটনীতিক বার্নার্ড বুরসিকোকে পিকিং অপেরার এক পুরুষ শিল্পী বোঝাতে সক্ষম হন যে তিনি নারী। এরপর তাঁদের মধ্যে গোপন প্রেমের সম্পর্ক গড়ে ওঠে। শিল্পী শি পেই পু প্রায় দুই দশক ধরে এই প্রতারণা চালিয়ে যান। এমনকি তিনি দাবি করেন, বুরসিকোর সন্তানের জন্ম দিয়েছেন। নিউইয়র্ক টাইমসের সংরক্ষিত প্রতিবেদন অনুযায়ী, ওই শিশুটি আসলে চীনের উইঘুর জনগোষ্ঠীর সদস্য ছিল। তার দরিদ্র মা তাকে বিক্রি করে দিয়েছিলেন। এআই সাম্রাজ্য: এক নতুন বিশ্বব্যবস্থার উত্থান ও পতন যুক্তরাষ্ট্র-চীনের এআই যুদ্ধ কতটা ভয়ংকর হতে যাচ্ছে একপর্যায়ে চীনা গোয়েন্দা সংস্থার কর্মকর্তারা বুরসিকোর সঙ্গে যোগাযোগ করেন। তাঁরা বলেন, ফরাসি দূতাবাসের তথ্য সরবরাহ না করলে তিনি আর শি পেই পুর সঙ্গে দেখা করতে পারবেন না। শির নিরাপত্তার কথা ভেবে বুরসিকো রাজি হন। কয়েক বছর ধরে তিনি তাঁদের কাছে বিভিন্ন নথি সরবরাহ করেন। পরে একসময় শি ও শিশুটিকে ফ্রান্সে নিয়ে যেতে সক্ষম হন। সেখানে তাঁদের গ্রেপ্তার করা হয় এবং কারাদণ্ড দেওয়া হয়। পরে অবশ্য তাঁদের ক্ষমা করে দেওয়া হয়। এ সময় প্রকাশ পায়, শি আসলে পুরুষ। বিষয়টি জানার পর বুরসিকো গভীরভাবে ভেঙে পড়েন। ২০০০-এর দশকের শুরুর দিকে আরেকটি আলোচিত ঘটনা ঘটে চীনা বংশোদ্ভূত মার্কিন নাগরিক ক্যাটরিনা লিউংকে ঘিরে। চীনের হয়ে গুপ্তচরবৃত্তি করার জন্য এফবিআই তাঁকে বিপুল অর্থ দিত। কিন্তু বাস্তবে তিনি ছিলেন ডাবল এজেন্ট। তিনি এফবিআইয়ের কাছ থেকে পাওয়া গোপন তথ্য বেইজিংকে সরবরাহ করতেন। একই সঙ্গে এফবিআইয়ের দুজন কর্মকর্তার সঙ্গে তাঁর প্রেমের সম্পর্ক ছিল। তাঁদের একজন দীর্ঘদিন ধরে তাঁর সঙ্গে যোগাযোগ রাখতেন এবং তাঁকে পরিচালনা করতেন। ২০০৩ সালে লিউং ও ওই এফবিআই কর্মকর্তাকে গ্রেপ্তার করা হয়। পরে সমঝোতার ভিত্তিতে লিউংকে সর্বোচ্চ তিন মাস কারাগারে থাকতে হয়েছিল। সাইফার বলেন, চীনা গুপ্তচরেরা ‘সবাইকে লক্ষ্যবস্তু করে’। তাঁর ভাষায়, ‘তারা অস্ট্রেলীয়দের লক্ষ্য করছে, ভিয়েতনামিদের লক্ষ্য করছে, সিঙ্গাপুরের নাগরিকদের লক্ষ্য করছে। কমিউনিস্ট পার্টি যে বিষয়কে গুরুত্বপূর্ণ মনে করে, সেটির কাছে পৌঁছানোর উপায় তারা বের করবেই।’ স্টোন ফিশও তাঁর সঙ্গে একমত। তিনি বলেন, জাপান, দক্ষিণ কোরিয়া ও ইউরোপের নাগরিকদের ক্ষেত্রেও একই ধরনের কৌশল ব্যবহার করা হয়ে থাকতে পারে। এমনকি করপোরেট গুপ্তচরবৃত্তির অংশ হিসেবে চীনা কোম্পানিগুলো নিজেদের দেশের প্রতিদ্বন্দ্বী প্রতিষ্ঠানের বিরুদ্ধেও হানিট্র্যাপ ব্যবহার করতে পারে। অন্যদিকে, চীনও নিজেদের নাগরিকদের এ ধরনের ফাঁদে না পড়ার বিষয়ে সতর্ক করেছে। ২০২৪ সালে দেশটির রাষ্ট্রীয় নিরাপত্তা মন্ত্রণালয় জানায়, অনলাইন প্রেম ও ডেটিংয়ের মাধ্যমে বিদেশি গুপ্তচরবৃত্তির ঘটনা তারা শনাক্ত করেছে। মন্ত্রণালয়ের সতর্কবার্তায় বলা হয়, ‘বিদেশি গুপ্তচরেরা নিজেদের পরিচয় সতর্কতার সঙ্গে গোপন করে। এরপর কাকতালীয় বা ভাগ্যনির্ধারিত বলে মনে হয়—এমন সাক্ষাতের ব্যবস্থা করে এবং আকর্ষণীয় ফাঁদ পাতে। এভাবে তারা চীনের ভেতরের ব্যক্তিদের নিজেদের পক্ষে টানতে ও নিয়োগ করতে চায়। তাদের উদ্দেশ্য রাষ্ট্রীয় গোপন তথ্য চুরি করা এবং চীনের জাতীয় নিরাপত্তা বিপন্ন করা।’ মোসাদ এনভিডিয়ার ঘটনায় কী ঝুঁকি তৈরি হয়েছে সাইফারের ধারণা, হানিট্র্যাপের মাধ্যমে সফল হওয়ার হার মাত্র ১০ শতাংশের মতো। তবে তাঁর মতে, ‘গুপ্তচরবৃত্তির জগতে গুরুত্বপূর্ণ জায়গায় থাকা দু-একজন ব্যক্তিকে নিজেদের পক্ষে আনতে পারলেই যথেষ্ট।’ এক হাজার চেষ্টার মধ্যে একটি সফল হলেও তা বড় অর্জন হতে পারে—যদি ওই ব্যক্তি গুরুত্বপূর্ণ গোপন তথ্যের নাগাল পান। বর্তমান ভূরাজনৈতিক ও প্রযুক্তিগত পরিস্থিতিতে চুরির মতো গোপন তথ্যের অভাব নেই। ম্যাটিস বলেন, ‘কৃত্রিম বুদ্ধিমত্তাকে এমন একটি গুরুত্বপূর্ণ প্রযুক্তি হিসেবে চিহ্নিত করা হয়েছে, যা অন্য সব ক্ষেত্রের জন্যও জরুরি। এটি উৎপাদন, বৈজ্ঞানিক আবিষ্কার, সামাজিক নিয়ন্ত্রণ এবং সামরিক লক্ষ্য নির্ধারণে ভূমিকা রাখে।’ তিনি আরও বলেন, ‘এই শিল্পের যেকোনো প্রতিষ্ঠানের শীর্ষ নেতৃত্ব, বিশেষ করে নির্বাহী পর্যায়ের কর্মকর্তারা, গোয়েন্দা সংস্থার লক্ষ্যবস্তু হতে পারেন।’ স্টোন ফিশ বলেন, যুক্তরাষ্ট্র ও চীনের মধ্যে টানাপোড়েনপূর্ণ সম্পর্ক এনভিডিয়াকে ঘিরে তৈরি হওয়া ঘটনাকে আরও ঝুঁকিপূর্ণ করে তুলেছে। এ ঘটনা দুই দেশের পারস্পরিক অবিশ্বাস বাড়াতে পারে। যুক্তরাষ্ট্রের দৃষ্টিতে, জেনসেন হুয়াংকে লক্ষ্যবস্তু করার অভিযোগ গুপ্তচরবৃত্তির একটি স্পষ্ট উদাহরণ। অন্যদিকে, চীন আশঙ্কা করতে পারে, কৃত্রিম বুদ্ধিমত্তার জগতে প্রভাবশালী প্রতিষ্ঠান এনভিডিয়া বেইজিংয়ের স্বার্থের বিরুদ্ধে কাজ করতে পারে। তবে স্টোন ফিশ ও ম্যাটিস দুজনই মনে করেন, শেষ পর্যন্ত সবাই মানুষ। আমাদের সবারই ব্যক্তিগত, বন্ধুত্বপূর্ণ, পেশাগত কিংবা অন্য কোনো ধরনের সম্পর্ক রয়েছে। এসব সম্পর্ককে কাজে লাগিয়ে কেউ আমাদের বিপদে ফেলতে পারে। লক্ষ্যবস্তু হওয়া থেকে পুরোপুরি নিরাপদ থাকার একমাত্র উপায় হলো সমাজ থেকে নিজেকে বিচ্ছিন্ন করে ফেলা। তবে বাস্তবে ব্যক্তি ও প্রতিষ্ঠানের জন্য সবচেয়ে ভালো উপায় হলো সতর্ক থাকা এবং আশপাশের পরিস্থিতি সম্পর্কে সচেতন থাকা। ম্যাটিসের কথায়, ‘আপনি লক্ষ্যবস্তু হতে পারেন। বোকামি করবেন না। আর কোনো বিষয়ে নিশ্চিত হওয়ার আগে প্রশ্ন করতে ভুলবেন না।’ জেসি ইয়ুং সিএনএন ইন্টারন্যাশনালের হংকং কার্যালয়ের সিনিয়র রিপোর্টার সিএনএন থেকে নেওয়া, ইংরেজি থেকে অনুবাদ",
+   "hasFullText": true,
+   "words": []
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "সড়কে শৃঙ্খলা ফেরাতে সদিচ্ছা জরুরি",
+   "date": "2026-11-14",
+   "url": "https://www.prothomalo.com/opinion/editorial/dwahexft0u",
+   "excerpt": "মোটরসাইকেল, অটোরিকশা, প্রাইভেট কার, মাইক্রোবাস, অ্যাম্বুলেন্স ও বাসের দুর্ঘটনায় একই পরিবারের একাধিক সদস্যের মৃত্যু হয়েছে।",
+   "fullText": "একজন মানুষের মৃত্যুর মধ্য দিয়ে কি একটি পরিবারেরও মৃত্যু হতে পারে? পারে। সড়ক দুর্ঘটনায় কখনো পরিবারের উপার্জনক্ষম ব্যক্তির মৃত্যু হয়, কখনো মা-বাবার সঙ্গে সন্তানদেরও প্রাণ যায়। আবার কখনো একটি দুর্ঘটনায় পরিবারের এতজন সদস্য মারা যান যে তাঁদের শেষকৃত্য সম্পন্ন করার জন্য নিকটাত্মীয় খুঁজে পাওয়া যায় না। শোক করার মানুষও অবশিষ্ট থাকে না। মৃত্যুর এমন নির্মমতা আমাদের মনে করিয়ে দেয়, সড়ক দুর্ঘটনা কেবল কিছু মানুষের প্রাণহানির ঘটনা নয়; কখনো তা একটি পরিবারের ইতিহাস, স্মৃতি ও ভবিষ্যতেরও সমাপ্তি। প্রথম আলো র খবর জানাচ্ছে, ২০২০ সালের ৪ ডিসেম্বর মানিকগঞ্জের দৌলতপুরে সড়ক দুর্ঘটনায় একই পরিবারের পাঁচজন নিহত হন। টাঙ্গাইলের নাগরপুরের চাষাভদ্রা গ্রামের হরেকৃষ্ণ বাদ্যকর, তাঁর ছেলে, পুত্রবধূ, নাতনি ও চাচাতো ভাই—সবাই মারা যান। তাঁদের সৎকারের জন্য নিকটাত্মীয় খুঁজে পাওয়াও কঠিন হয়ে পড়েছিল। স্থানীয় প্রশাসন ও এলাকাবাসীর উদ্যোগে শেষ পর্যন্ত শেষকৃত্য সম্পন্ন হয়। সম্প্রতি জামালপুরের মেলান্দহে এক শিক্ষক দম্পতি ও তাঁদের সাত মাস বয়সী শিশুকন্যার মৃত্যুও একই নির্মম বাস্তবতার সাক্ষ্য দেয়। রোড সেফটি ফাউন্ডেশনের এক প্রতিবেদনে বলা হয়েছে, ২০২০ সাল থেকে ২০২৬ সালের অক্টোবর পর্যন্ত প্রায় ৬ বছর ১০ মাসে সড়ক দুর্ঘটনায় প্রায় ৩০০ পরিবার পুরোপুরি নিশ্চিহ্ন হয়ে গেছে। বিভিন্ন গণমাধ্যমে প্রকাশিত দুর্ঘটনার তথ্য বিশ্লেষণ করে এ হিসাব তৈরি করা হয়েছে। সংস্থাটি প্রতিটি ঘটনা সরেজমিনে যাচাই করেনি। ফলে সংখ্যাটি চূড়ান্ত নয়; বাস্তবে এমন পরিবারের সংখ্যা আরও বেশি হতে পারে। মোটরসাইকেল, অটোরিকশা, প্রাইভেট কার, মাইক্রোবাস, অ্যাম্বুলেন্স ও বাসের দুর্ঘটনায় একই পরিবারের একাধিক সদস্যের মৃত্যু হয়েছে। শুধু অটোরিকশা দুর্ঘটনাতেই একই পরিবারের দুজন নিহত হওয়ার ঘটনা ঘটেছে ২১১টি। মাইক্রোবাসের ক্ষেত্রে ৪৮টি, প্রাইভেট কারে ৩৪টি। অ্যাম্বুলেন্স দুর্ঘটনায় ৪৫টি ঘটনায় প্রাণ গেছে ১৬২ জনের। বাস দুর্ঘটনায় এমন ৩২টি ঘটনায় নিহত হয়েছেন ৮৫ জন। একটি পরিবারের মৃত্যু শুধু কয়েকটি প্রাণের অবসান নয়। এর অর্থ উপার্জনের পথ বন্ধ হয়ে যাওয়া, শিশুদের ভবিষ্যৎ হারিয়ে যাওয়া, বৃদ্ধ মা-বাবার আশ্রয় বিলুপ্ত হওয়া। কখনো একটি দুর্ঘটনা একটি পরিবারকে সচ্ছল অবস্থা থেকে নিঃস্ব করে দেয়। আবার কখনো পরবর্তী প্রজন্মের জন্য রেখে যায় না কোনো উত্তরাধিকারী। যে শোকের কোনো সাক্ষী থাকে না, সেই শোকের গভীরতা পরিমাপ করবে কে? এই বিপর্যয়ের পেছনে রয়েছে সড়ক ব্যবস্থাপনার দীর্ঘদিনের ব্যর্থতা। মহাসড়কে অনুপযুক্ত অটোরিকশার চলাচল, ফিটনেসবিহীন যানবাহন, অদক্ষ চালক, অতিরিক্ত গতি, বিশ্রাম ছাড়া দীর্ঘ সময় গাড়ি চালানো এবং ট্রাফিক আইন অমান্য করার প্রবণতা দুর্ঘটনার ঝুঁকি বাড়াচ্ছে। মোটরসাইকেলে মানসম্মত হেলমেট ব্যবহার না করাও প্রাণহানির কারণ। এসব অনিয়মের দায় শুধু চালকদের ওপর চাপিয়ে দিলে চলবে না। যানবাহনের নিবন্ধন, ফিটনেস পরীক্ষা, চালকের দক্ষতা যাচাই ও সড়কে শৃঙ্খলা নিশ্চিত করার দায়িত্ব রাষ্ট্রীয় প্রতিষ্ঠানগুলোর। সব দুর্ঘটনার কারণ এক নয়, তাই প্রতিরোধের পদ্ধতিও এক হতে পারে না। প্রয়োজন গবেষণানির্ভর পরিকল্পনা, নিরাপদ সড়ক অবকাঠামো, যানবাহনের নিয়মিত তদারকি এবং আইনের কার্যকর প্রয়োগ। একটি সভ্য রাষ্ট্রের সাফল্য শুধু সড়কের দৈর্ঘ্য কিংবা যানবাহনের সংখ্যা দিয়ে মাপা যায় না। মাপতে হয় সেই সড়কে মানুষের জীবন কতটা নিরাপদ, তা দিয়ে। সড়কে মৃত্যুকে স্বাভাবিক ঘটনা হিসেবে মেনে নেওয়া মানে মানুষের জীবনের মূল্যকেই ছোট করে দেখা। প্রায় ৩০০ পরিবারের নিশ্চিহ্ন হয়ে যাওয়ার হিসাব তাই কেবল একটি পরিসংখ্যান নয়; এটি আমাদের রাষ্ট্রীয় সদিচ্ছা ও সক্ষমতার প্রশ্নটিকেও সামনে আনে।",
+   "hasFullText": true,
+   "words": []
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "দীর্ঘসূত্রতা দূর করে দ্রুত চালু করুন",
+   "date": "2026-11-14",
+   "url": "https://www.prothomalo.com/opinion/editorial/sx6659pnhl",
+   "excerpt": "প্রকাশিত সংবাদ অনুযায়ী, দুই দফা সময় বাড়ানোর পর এখন তৃতীয় দফায় আরও এক বছর মেয়াদ বৃদ্ধির প্রস্তাব করা হয়েছে।",
+   "fullText": "যেকোনো উন্নয়ন প্রকল্পের মেয়াদ ও ব্যয় বৃদ্ধি আমাদের দেশে এক অলিখিত নিয়মে পরিণত হয়েছে। কিন্তু মানুষের জীবন-মরণের সঙ্গে জড়িত স্বাস্থ্য খাতের প্রকল্পে এমন দীর্ঘসূত্রতা নাগরিকদের জন্য প্রাণঘাতীও হয়ে ওঠে। বরিশাল নগরের বান্দ রোডে নির্মাণাধীন বিভাগীয় ক্যানসার, কিডনি ও হৃদ্‌রোগ চিকিৎসাকেন্দ্রের দশা যেন এই প্রবণতারই পুনরাবৃত্তি। দেশের দক্ষিণাঞ্চলের কোটি মানুষের জটিল রোগের চিকিৎসাসেবা নিশ্চিত করার লক্ষ্যে ২০২০ সালে বরিশালে ৪৬০ শয্যার বিশেষায়িত ক্যানসার, কিডনি ও হৃদ্‌রোগ চিকিৎসাকেন্দ্র নির্মাণের উদ্যোগ নেওয়া হয়েছিল। কথা ছিল ২০২৩ সালের জুনের মধ্যে এ প্রকল্পের কাজ শেষ হবে। কিন্তু ছয় বছর পেরিয়ে গেলেও সেই হাসপাতাল আলোর মুখ তো দেখেইনি, উল্টো বারবার মেয়াদ বাড়ানো এবং প্রকল্প ব্যয় বৃদ্ধির চক্রে আটকে থেকে সাধারণ মানুষের দুর্ভোগ কেবল দীর্ঘায়িতই হচ্ছে। প্রকাশিত সংবাদ অনুযায়ী, দুই দফা সময় বাড়ানোর পর এখন তৃতীয় দফায় আরও এক বছর মেয়াদ বৃদ্ধির প্রস্তাব করা হয়েছে। পাশাপাশি চিকিৎসা সরঞ্জাম ও আসবাবপত্রের মূল্যবৃদ্ধির অজুহাতে নতুন করে ব্যয় বাড়ানোর প্রস্তাব একনেকের অনুমোদনের অপেক্ষায় রয়েছে। প্রকল্পের এই ধীরগতির জন্য ঠিকাদারি প্রতিষ্ঠান ও বাস্তবায়নকারী সংস্থা পরস্পরকে দায়ী করছে। ঠিকাদারি প্রতিষ্ঠান সময়মতো বরাদ্দ না পাওয়ার কথা বলছে, আর সংশ্লিষ্ট কর্মকর্তারা সময়ের সঙ্গে মূল্যবৃদ্ধিকে স্বাভাবিক প্রক্রিয়া হিসেবে দেখছেন। কিন্তু এই প্রশাসনিক ও ঠিকাদারি টানাপোড়েনের চরম মূল্য দিতে হচ্ছে বরিশাল বিভাগের অসহায় রোগীদের। এর প্রভাবও হচ্ছে সুদূরপ্রসারী। এমনিতেই বাংলাদেশে ক্যানসারের চিকিৎসা অত্যন্ত ব্যয়বহুল। একদিকে ঘণ্টায় প্রায় ১৬ জন মানুষ ক্যানসারে মৃত্যুর মুখে ঢলে পড়ছেন ( প্রথম আলো , ১২ নভেম্বর ২০২৬), অন্যদিকে এর ব্যয় মেটাতে গিয়ে বহু পরিবার দারিদ্র্যসীমার নিচে নেমে যাচ্ছে বলেও বিভিন্ন প্রতিবেদনে উঠে এসেছে ( প্রথম আলো , ১৯ মে ২০২৩)। সামগ্রিকভাবে যখন পরিস্থিতি এমন, তখন ক্যানসারের মতো জটিল রোগের একটি বিশেষায়িত চিকিৎসাকেন্দ্রের নির্মাণকাজ দিনের পর দিন ঝুলে থাকা এই অঞ্চলের বাসিন্দাদের স্বাস্থ্য ও অর্থনীতিকে চরম হুমকির মুখে ফেলছে। পাশাপাশি বরিশালের শের-ই-বাংলা মেডিকেল কলেজ হাসপাতালের বর্তমান চিত্রও অত্যন্ত করুণ। সেখানে প্রায় এক দশক ধরে রেডিওথেরাপিসহ গুরুত্বপূর্ণ যন্ত্রপাতি অচল ও পরিত্যক্ত অবস্থায় পড়ে আছে। সুষ্ঠু পরিকল্পনা ও যথাযথ তদারকির অভাব এবং প্রশাসনিক অবহেলাই এ ধরনের দীর্ঘসূত্রতার অন্যতম কারণ বলে আমরা মনে করি। আশা করি, সংশ্লিষ্ট মন্ত্রণালয় ও কর্তৃপক্ষ চিকিৎসাকেন্দ্রটির নির্মাণকাজ শেষ করে এর কার্যক্রম পুরোদমে শুরু করার বিষয়টিকে সর্বোচ্চ অগ্রাধিকার দেবে। নতুন করে প্রস্তাবিত সময় ও অর্থ অনুমোদনের ক্ষেত্রে কঠোর জবাবদিহি নিশ্চিত করতে হবে, যেন বর্ধিত সময়ের মধ্যেই হাসপাতালটি পূর্ণাঙ্গভাবে চালু করা যায়।",
+   "hasFullText": true,
+   "words": []
+  },
+  {
+   "paper": "দৈনিক ইত্তেফাক",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "নারী বদলাইতেছে, সমাজ কি বদলাইবে?",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxOUVYzRVlOYjd2bU01VVBfdVp4QWJaYUxNMGFFTUZmTVFlZjRhLWFOcTlob0FHSXh4OWttYVgzV2NlR3ByLUh4QWJKX0YxUnBDSjExM1dGc0xERU8xbGE0dF9fVHZvX2k0dGd5bzRUQ2hJM09hTWNibWhfQl83eGdxb2Q2Rkk2cy1GeERZUGNTSHhRSWR1dU9HN1doRnY1SXItNG1aNFVuUHJfNkdWMWkxODZRSlhjWl81LTBBWWZjUXE5M2FteTl2dDlJY0FzMDFRY1hmVnFuaGlxSmFwTG5hS0J4Wm9iZUVIWjlHWjJ5T25wWG9WTFZSR2VxWmszeEJLMWhJdEFZTDd1VC1LaktfOTdhcVZNUE1uOGUwNzNBbF9ucHRJcExweHM0dlRMOVMyVWhnM0lrbmRYMVU1QVZTaWREUjdSMXpDNWo4WGxVMTc5TlNRbk50SkZrOEhfd0NPU0JQOTl1N1dKVUxObHc3MG9UYmNId3g4X25vMXBsaF9VWWxlejdZ0gGMA0FVX3lxTE9qLWRoQ1VZcjRDMDBMRFVjUVpBeW9BQUtkUDZMRW1tdktKN2pOc0x0bjc3RmVCVGtweWVuR1FPNnJsU01LMi1hOFd3U3Y1S3k3azFhcUtSMTVHNjFYU1l4dWk4WVZ6YzRDeDRUaURPRVlYT2pYazBrV04wVXp3RXhGVEdmaUNqQVNQVnVibTJIQmNnakptdkM5NUo4b3dVR3IwYkJ2a1JhS21BM25yaTN1ZU9hZzNaRlRDSWZINGViTFRRaGNnMXVPTUhXVmtUSldvc3hZWnFjLXptWERpLThvYWhPbWxrTEFfU2VBYW1sR3o3VTdMUzhXNGpDT2ZRZjdJRTRfaHFnRkUwYnZSMldEQ0pQWFI5YkJUQ0FGNEtKOGg4SjZhdW5XcW8wbVZYYzBkUkg0d2xNM1U2Y1dsVXZNeHBVYWNkT1V6LW0tMGpERm1NNHMyc0xrNFk1UjV2Yk9ESGZzbUw0OFBxb3B6OE1jbmRJMklOUExjVC1GeUZNOGNCVkRjcF9paE0tQg?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "দৈনিক ইত্তেফাক",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "আসুন সবাই মিলে সুস্থ ও সুন্দর দেশ গড়ে তুলি: রাষ্ট্রপতি",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxQcFRVYVBwUWc0aEtjZkQ1blhZcmFlVVc4bVd2UHdneXhhSGItVEtnLXQwUkFZT1k0dkZycWtmU2dMbEdSSUhtd0RCWDB0YWt1RHh0YnQ3Z2wteXRybmtPUG0zV2tYeE1US3Jkc1hMam1uLTg1SFJ5eUZUczFYMENpZ3J2VWNER0t3MzhzTTg3YzNzeF9sRm5aOHg5eHNLWDRsZGRLRFpZS0dRc0E3WVc0dmQ5ZUNMNHFud3R4QjhYRC1WLXVwdlcwTmc1ZHVjQ0tFVTBSektjMG8ySWxxTnpOYUVseG9jRXl6WDhrMGtwb2pSaHZJNDh5RFlaTWZlRng2WUhYVkRjWGlQSGxDaW1ZcTRseEpValg5T3Jmb0ROVG1WSVBuZXN3bWg0QnM5M1ZuZ0lJemxVT1NHWWNRUmh5NEhoa00xZzBaT29fVlREOHNqamJ4UTJoZG14ZUJ3b0x0dWRVdjE0ek9iVF9HYjVJaV9wM0xiVllrS0NHcFA2MmFJVkdEcGNMdUlDVVQwNk5mSzBLQm5NWkdtc1RSLWUyckQ1SkRZT2t5R2Y5SFY4SGRlcG42TmRqN2l4UXpDME5UZkdJU1lCVkU1RjNKeVgxTTZGV0xsZjhEV3RNRzV1SDVhMGJRMkxfLXA1OHHSAfIDQVVfeXFMTU9INXE1dVNSMWVKVEtEMm1TSXVNQ1dzWGt4S2JRTjlyRVlNLVRtYWZCSFpubWczZTkzeG94MmwtcUhhZ3ZHdWNzYUlHb3lRTjlOYWpuSlJGV3Jsd3EtZEF3TTRaWmdsbm14Z2JSYXFTRFhZWUJpcnp5ZmRrVFg2cFhFYlA1OTNzTllRNUw4TUFkTUhvS3Q2TzE4LUQzSHYtYjFWSF80bWhxZnJITnhudl9IeTJtNS1rc1VPM2tWeURaUUdacmtlRnJzOU1qSnh1dGI2dlRXbWxFaXA4ZXU2NGU3LW9STHo3WF95UElURmVYN0Ewd1E1M2xZLWtlLXZZU0R3Rmx2bkVVNi10SU9TV3JabUdpTWJuenlZYkZ4WVVUQkpSU21LckRLc3ZNTTcyY2xGbkhQUndBVFVWRm5fU3ZTcEVkYWdWTWpVSjJSd0FOZjNLcmZTTXo1U3lVZl9hdFd0RnVBZTFhdFBsNVhyV2NndHNIQUZ4V2pNZzNJUjlMbHVtNXVPeFZaTFRONWZfZ2txQlhBZVRhZm9iMnI4cGdlNmcwdzh6czRreWtvV2VuMkVJak1fd0ZrRjRUbG1tRWllQkUyUnRJVEVqS0IwdEthX2ZLNzlJdE5GRVJEY293SThISFFnVlhFajhsTzhfRExB?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Bangladesh Sangbad Sangstha (BSS)",
+   "lang": "en",
+   "kind": "news",
+   "title": "Bangladesh eyes comprehensive transformation to become $1T economy by 2034",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lektqOHVOYl9rcVF2TWdrcV9wZmpBdlBNMnJxM05JMU5wNHFFZzJOUU92YVNiUUhtNUg2dG1xRUZpZzNlaXpnYm9DMnoyVzV0T2VB?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Amar Barta",
+   "lang": "bn",
+   "kind": "news",
+   "title": "জলবায়ু সহনশীলতা বৃদ্ধিতে তিন কোটি মার্কিন ডলার পাবে বাংলাদেশ",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBESExSbUJPY3RnNjR6STBHZm9xQ01uZF9QYkJnR01Ja1pFMTdXN2taU2ctb0stR29NYWFlTkJhakdjYTBhLU9YUTlUaHVqUWFx?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
   {
    "paper": "সমকাল",
    "lang": "bn",
@@ -20,6 +348,102 @@
    "title": "Bangladesh Economy at the Crossroads",
    "date": "2026-11-14",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN2dieWotQ195Y3ZyYmJyZ0NFNjJHY2cyNmxFT3ZuZ1Y0LTJjaEhaN0ZTRllJZDZFU2t1enVocFhxRzZqUW1JdHZEWnU3OU84MzRyNXJQczlFcXNfSThMS3VvZS1TelpqSlc5QlA4S0ZqdnRkV1JPaDF0LVhUMWtUM2p3?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "সমকাল",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "সমকাল- ১৪ নভেম্বর ২০২৬ | পাতা ৬ | নগর সংস্করণ",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5nSVp4c0ExMHprUmVIZTBLVkg0ZnhUOWV3OGxWcWxITm93Vl9DdENGb0ZFaW9yUVgwdEgzbVRVeEdpWVo3RlJxSC0yd2lOUEtKSFNZN2hGVnR1ZlZfLWhOSXNmdw?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "সমকাল",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "ভয়ের নগরীকে কে দিবে ভরসা?",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNMk1faDBWOHI5Sk9GMXN2aUFiU0pETVVTamVQRnBZdVMyeDROSF9tcU84azdCS1NpX2V1anM1akhFWGtWb0NKTXBPclFpRVNiRGpmQ1Z1Yl9BU3hoZTVLTzBlcktMTmZFaERSSXNOcEQ5ZU9VT29PSjg3S0lPbHhKZV9LRHJDeml4UzhEZzZCQlFOREg5YnpkVXltVVFydTVJZmEzLU1vcUd3TlVTVFR5OEl1bEVSYUVoaHJfdklzSWpZXy0yZnZXaThsX2RMVWNjVEFFN3lmVEZqYWY2Nk5fVWJLWS14bXktaWlJR3hPc1dfQTZTcEZ3cVY4V1FsaWozcmxKbkdjUnF6YUgwdU1Nclp6WlpmRlVuUWtVYWZNYWVVcHJ6WlU3LWR3a045WUVqTG9SU3Zxc0xMdFRLU0g3c2p3elhaREYxa3FNNA?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "The Guardian — Opinion",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "The datacenter industry is using propaganda to fight opposition | Samuel Woolley, Dean Jackson and Maia Woluchem",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaTh2NDFNT2VfUk5NZUYyMmVIalpxcHd3YVZNb285anlrRUxMcHJ4V2ljZTNicU5DQV9vX1RCbGNBOUplaFc4d1hBSU1zU1A5Q1BER3VSOHNGTGltTjFTaXh1X05YMGVoYU5hYlFOUzQ1WmhyODA3UFNqdy14ZTZQTk5MVkhBRThaYlBZUA?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Project Syndicate",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "The Rare-Earth Game by Daniel Gros",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaHFnQ05XM2lWTXlTaHRpMGRYVUQ0c3hKTnBJSVMzLXBnMlJfM0E3TUVjY25TT08zNnpZZ0pwM3JseGtCVk5QZC10VEdrSFNrQUFHdk55bU5OVnlPZ2w2Wm9pYVpNbnVscWhXWDY4V05NUXIxYVhuZ2QwVF9SVkhnRmhCa0xaaDQ5OEJlM1VhMzdZUmY1bzZZNHZncFJUT2RNakRvTTQ2emlLZ20tWVFKdHl0d05XcUFrSFdURlNweTI4TUZ6QUFRd3MxWUFNUXRzNFdfa3RTN3R5OVotWEwyZGNPS2hEYlJUTURXMA?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Council on Foreign Relations",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Europe Must Step Up to Settle the Russia-Ukraine War",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQklHM0IxVjFxSFA4Z1lIWUhqd09VSDhPeTM3ME4xTWs1NGNCMlBSN3hiUWNmWklGYkh2VzdsQk5Pbl80TUVDX3pJYy13Y3dCNlp3NUVzTzhCRkVqT2NTMUw3dXluaXZuNmF1WlhfU1pFQk5JNFRCT3h6VmxOWTdqYXNhQVRUaUtm?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Council on Foreign Relations",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Trump Is a Lame Duck. But He’s Still in Charge of U.S. Statecraft.",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcHJ0eFVtdHJkRXJkU2c3Q2VKTmFZd3pfczM1S3RzbVpMbW5yUzhyeVZtSWh3ZGNZZS0wZFMyZ2NEcXBKUVM3dXA3U2RwcHJXMWUzb2luN0ItNnNfNDI3bFVqb21iU1ZXNjIwcHdkdDEwVHhHSjBjUHVKZTVuZWR6ZWZIT2ZCV0RLU01wV3Z6dnBrM1JyMGc?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "The Business Standard",
+   "lang": "en",
+   "kind": "news",
+   "title": "India declines comment on Hasina's possible return to Bangladesh 'by military aircraft'",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdFFZU2NaOThrYVVpRUZwcUwyOVJxTTdLeDBXMW8xcEJtcGU4NXZzLXE0bUw2RTBJZDVJSFNYV1Bmb2xoeWhPemtBNkgzZ3Z6OUdhX01fSTJTNjhtNERZb2pyWGs5VFlXRVAwWmdwY2trRVBtdTRyVHE3NnpwZVVHRlR0c1Z6OEpBajBBRG9lVzRGY2U4WENyMHhFY1ZBaW1LMlVaeHVlOHFUaHdNRi1ackk4di1vVEk1dnhFV3N5WQ?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "News Bangla 24",
+   "lang": "bn",
+   "kind": "news",
+   "title": "জলবায়ু পরিবর্তনের বিরূপ প্রভাব মোকাবিলায় ৩ কোটি ডলার পাচ্ছে বাংলাদেশ",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMiqAZBVV95cUxOZ0o4TWpPYXhXT3h0WkpuM25CSGoxdzF3WHhTdzNNMWxxYmFJdjczbHRvekxqaDFtRlkxNkplTl9ackdjV1dEMnlId2hIWllyaXRDYm9ONVhaYXVadzVVNkpqYUJyTFZoNEt5dDNNbE02RDZkSjRiUVF3QWxHRFlhZFNxb244YjQzU3NndWRnck9fazEtOXRsa2NiNmU3XzF6bGRqenBNeVhQbDZOcGRqb19mM3dIa1hMUTQ5dlJlRjZFMjZWaFFDTVNCejlIUWNQcEo1VEZ5YzJpX0FzbEZpRjZseWxjTjFreWV5N3J1ZEpfdDNaamF1eGVkRWNZYnlQZmRjYm94WWhtajQybTVjQW9GZ0xtVTdaWTAzd0g0dWpWTHZxVHR3cExMMzBndHc4RDJ2MDhfaHlkdm9TUHJEaHdkMmJIWENvUThPYTFDMEVIaGl5VnV3V3YxQjM1RWRQR0w3QThLb2xmRlNMeGRBWDJWbTFIOW16MFF5SnpvUXRCcUlKSXpYZHpFUFktS2UwVE4wUndtc25vd2NDZ21jWmZsdFozdTVrd0JfZWNmdDE1ZTkxTlBBamo3QVBxUVp4aEZUalY4UTRIekthLXN3QWdrbXYxeHFOMEd4Z1JFVHNGR2J0RERKR1c2ajlidHFxME1rOWpXZGxERlU3RmZHM2lMNWdBZTVEblNyeUJMdTQ5dE5BRklrLXdPYXV1dUFsV1dQSkdWd1VzMHRfTy16Q1hWVi1BR2ZGRFZqNmNLZnNtOEIzeUlhaVVfeTlEeG9mUGE0ZnVCWVI5LUp6blJ1dzFZaVlXWk00VGt3a1ktRDVNS216SWx4V3lmbXNTb3lpNWJZYzkzMmZNN1poalM2WEZQcHVnWHVndjdjUW5RYkdNdkRocDNrZkdqdG1aS0hLWklJQUdRbmktQlNvNGNEOFVmeTR3WVFyRDU1cmFxMF9leGttRmlWR3VGOVZWbmRvVWZxR0prVDlMTXpTSHVmX3pWSDFxeDhPYTJWZDlYa1JCZDFwbEtDZldmT0Q1NndXNmQ0eHZUQjVzY09NTm8yamIyNDRMYnNo?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -710,6 +1134,42 @@
    "title": "জলবায়ু ঝুঁকি মোকাবিলায় ৩০ মিলিয়ন ডলার পাচ্ছে বাংলাদেশ",
    "date": "2026-11-13",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZV04ycnpNUmR4YWFJdTZZMU0xYWdwUU9BdXRIVENoREJRemZUa3Z4dVdFUFg3LXpfYjRFeGVHSHZWZUNmR1hJQjhjU2RwajFzOHUtQkdIc0JvM2Z4Zmx4YzM3ZFI0QQ?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Atlantic Council",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "What Jensen Huang’s Nvidia exit means for Washington, Wall Street, and Beijing",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRUMwRzdzOWd3MlU4RENndHA0dmVBUy1rTzNkdTlGY0tCNE5CeHBEcEhkM2lfX0ZFQTVJNFp3V3NUNUxhY3p6dnkzTVBMVnBJUTR4SzVqUUR5a29mRjIwdmQtaHp0emYxOWpQajBXbnpIZFpmN1ZwTC1vOTd3LU9vUzVGOHBaT0pJMVh2UTc1SWp6QlBrSk13Q2JuNXJsSjFMcHJaQTUxMU9aOE1YbU1GaE5IaHdycmhyQmFUYlc3dmg1WGFydmliQmstdWU0MnA3YkE?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Jagonews24",
+   "lang": "bn",
+   "kind": "news",
+   "title": "বিশ্ব অর্থনীতিতে মুডি’সের ৪ শঙ্কা: বাংলাদেশের সামনে কী চ্যালেঞ্জ?",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sQk1ZODJtN3hESUxFeldRaEpNMkxfaXBISXByS08zY091d2wya3BsTVJhUnhZeDJfRHlFb1hTdS1WbW93Ukw1UnpSVWJ4LUlSWXhGTG9idEc3enVRcTJN?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Daily Vorer Pata",
+   "lang": "bn",
+   "kind": "news",
+   "title": "এক ট্রিলিয়ন ডলারের জলবায়ু সহনশীল অর্থনীতি গড়তে প্রতিশ্রুতিবদ্ধ বাংলাদেশ: প্রধানমন্ত্রী",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GRXJ3U0FXMXJkamJkaXpXc0VHcENZS1p1bURvaFBHQlA1blN2TnZ5YlRNOVhZMmpSWlVMUkNFS19NaF9XMDNuaG8wU3NIVkJlTktOMA?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -1821,6 +2281,18 @@
    "title": "G7 Foreign Ministers coordinate action on Ukraine, Middle East and global security",
    "date": "2026-11-12",
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQ0tYSjJ5Z0k2R0VoUmUyeVIxQkRIaW9OYzMzXzZ6WnhMTUJvZWFoYlkzRnJ1azNIenpubjBuOHdLRWFab1VraF9ielBFbkRLTzZGaFgxdTRqVU9aTWNQa05neW1wdjF3QmJKdUFHLXZjMjJiR2k1eDQ2QzU1WDNOSnZxdFBHV01LTWRockowMVhuQjZXSFpWT2dVLWdWQkZVcTVzVGwzNDNjTmpCc05QM2RhOHVFTUxkOVlkLXdPTUJkcGUtOW00SUV5Xy13OUdrMEVJeUpuQ2lEVzdUdHFyOFl3?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "International Crisis Group",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "The Shell of the Scam: A Journey through Cambodia’s Empty Crime Compounds",
+   "date": "2026-11-11",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORGRyWGZOT09wVktKZVdVVTZpbVJVRnRmaDNrWEMwZnpYTnNZRmhNVzVSRDZsV1NtbjU1akswNHdFT3RvWlRCaEhNd0JlSElfdHJ5YU9aRE03dklRZ1R4Sm5GQ2hqMFcySHZQcHV4SUpOeDdSX2lPZVlCZkJvR3g4dkhoczR4Tmw5NDMtSDJkVU1GQkUzYVlaalJIS1ZzZVhNenB2Q29XZlpNelVCdGM2SkJR?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -2951,21 +3423,45 @@
    "paper": "বাংলাদেশ প্রতিদিন",
    "lang": "bn",
    "kind": "editorial",
-   "title": "স্যান্ডরের সঙ্গে চুক্তির মেয়াদ বাড়ল ছয় মাস - bd-pratidin.com",
+   "title": "হুমকির কাছে মাথানত নয় - bd-pratidin.com",
    "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NYW9UdG9mNHJLa0ZycnkyMDVCSHBQLU1kT0ZBR19qRi1wU3MteW1aOWN0MDdJMWhValhmUlFWWHpCWEQySzNUTzE1bmFsQU1MWV95ZDRlRXlFT3dVeDRZQQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Nb1lrYk5DRkZpcHY1LVFycmJ3S3huUzcxWGRNR3lWWUJxS3B5d1BIOEdYSENRUmw3YkpNSkFnRGVDZDhiaUQ2bWZMN0FJSzBkRjgyeFBsYnFHTG9SS0R6dTBObVRYXzJWbmhiNg?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
    "words": []
   },
   {
-   "paper": "The Business Standard",
-   "lang": "en",
-   "kind": "news",
-   "title": "COP31: Bangladesh urges united front of climate-vulnerable nations",
+   "paper": "বাংলাদেশ প্রতিদিন",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "টি স্পোর্টস - bd-pratidin.com",
    "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcDVJeHB6V2VQSXNFRWRsb2laUkNGV0NkUkdUb1ZtTUdDLWM2RGphLVpLUFJjT1E1ODBadkVUbEN2TXZqcVFkSGxXR1c0QVpkMVVYSGhUdUIwUWZYRGdSRDRKM2JDWDdncUdoQVI0ekRSZzN1dlh2SzVidzk0MVBFb1FuQjV2UW9uWGFCNENiajRXdUNLMWg1S0JwMUlMd2x4SnBOWlFrX3puRnAzcG9oaDNHbnlKcHd5cXc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yVG1CNEo1YlJPUVpDdmFGNDJ3ZmRTdER6QmgwSHdqX0s4SEpWSWlLbU9lTVQ0a01HRnhJRFRmdEwwcUZiN2U5Ui1UemR5RHNzT29pZHRlZEFKdzBGWC1qTlpIY3hrMHp5?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "The Hindu — Opinion",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Keralam at 70: holding a mirror to India",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS3ZDcDhSWlZkSDZlMm05ZzRWbUU3c2ZLdkJyYnNfUk1GNDdxLXU3aGlyMF9tS2RMclZPX1M0TjltTTR2X2NCUzlFdVNpcXpVWUxHT2l3eEY2MjNERm5kQ2t1ck12aUtrVGl0eGhqRVJLTHdBcHF6NFBCZVlBQ3k2YTl1VkpzNndjNGVGOU0tTFdKazVXTnM4MzE4NVBtbG_SAaYBQVVfeXFMUE40ejJ6Y05sejMwRWRqbjdJN09SdnBQeEE5c0t5Tld5WlNnWHgtV0l3bEdFX2JFd3BIRVFvNE9UQS1Sc3hfRG04Si0tbmU5cVc5T3duSU42T2hBNmthRDRwUzlOTlZlY2VuTVJxMlJIRmRzeUp6MXZ4WXRtbkpZNFNHT0ZfZ0FteUtqcDgxTmVZUUcwOUp6ZzU5aVdvZHNSWU1oTkpDQQ?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "ORF — Observer Research Foundation",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "The Defence Cable | Issue 6",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkYUYwMjRJNlFmcXBWOWlBYTFHUkpsR3lvTmFITWQyb0ZQeERjbDk5Z252ZEZscDZlNEFIdWNqMjdpV3JnQzRyM1M3bXJ5RGFZV1o4OWRRTjJoU0NZSFA5T1VpN0JYVlJIcXpadA?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -2990,6 +3486,30 @@
    "title": "ওয়াশিংটনের নতুন ভারসাম্য, ঢাকার কূটনীতির পরীক্ষা",
    "date": "2026-11-10",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Cb3FmX0xpTWdhc2xjQ1dEWFdkQkpXUGl1QmhWa0QxX3Z2cTlSalI4U3pMc2xsR0tORF8tcFpfRXF5NDBObVI1a2g4VWVyZ2hvYVo1Y0NDYk40c3lqRUV1bVNR0gFvQVVfeXFMT0hlZm5sd0VwNDdNOHdMX2tzUDhZcEctUUlBLXFCYmRRajd3WEM3OXdjZU9PZTFUQ3VRSWFOcEVHNHhMcUwySC1mcUdZOWNIdF9CNFk3LVplSzVDbHRVMFBGZjdBcFpzNk13eWF3dTFj?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "বাংলাদেশ প্রতিদিন",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "স্যান্ডরের সঙ্গে চুক্তির মেয়াদ বাড়ল ছয় মাস - bd-pratidin.com",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NYW9UdG9mNHJLa0ZycnkyMDVCSHBQLU1kT0ZBR19qRi1wU3MteW1aOWN0MDdJMWhValhmUlFWWHpCWEQySzNUTzE1bmFsQU1MWV95ZDRlRXlFT3dVeDRZQQ?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "The Business Standard",
+   "lang": "en",
+   "kind": "news",
+   "title": "COP31: Bangladesh urges united front of climate-vulnerable nations",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcDVJeHB6V2VQSXNFRWRsb2laUkNGV0NkUkdUb1ZtTUdDLWM2RGphLVpLUFJjT1E1ODBadkVUbEN2TXZqcVFkSGxXR1c0QVpkMVVYSGhUdUIwUWZYRGdSRDRKM2JDWDdncUdoQVI0ekRSZzN1dlh2SzVidzk0MVBFb1FuQjV2UW9uWGFCNENiajRXdUNLMWg1S0JwMUlMd2x4SnBOWlFrX3puRnAzcG9oaDNHbnlKcHd5cXc?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -6672,6 +7192,18 @@
    "words": []
   },
   {
+   "paper": "Daily Observer",
+   "lang": "en",
+   "kind": "news",
+   "title": "Dangerous weaponisation of Bangladesh's economic lifeline",
+   "date": "2026-11-07",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE56R24zWUdZTUJ1eDhlXy1BMEk0R3V1a2dTdXIxU0RTZ0lUcXJqeEhubXJqVndwR3liRVRRbXdIcmtXSzJRQUEtWmlB?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
    "paper": "The Financial Express",
    "lang": "bn",
    "kind": "news",
@@ -8722,342 +9254,6 @@
    "title": "Europe’s Deal Limiting Chinese Auto Imports",
    "date": "2026-11-02",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03TUdiZE8ydWpvRTRfLTh0Mm83anh5ZEpQQkthaUpiSkNUX3UyYVBfWVhOeTdnS2Z5UnppU1BvUVRjMnNzck1IQ1BwTlpaYXVUa1lKWWQ4THV3Y2tBeUdUc2xn?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "ORF — Observer Research Foundation",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "UPDIC’s Kanpur Node: From Investment to Industrial Capability",
-   "date": "2026-11-02",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMm5EbkxNeDZrc20xUjlLeVgta19MbHo5TGtxVS1waXFtQUY0MTI5YkhBVTJFaVhXV2NpNmktZDZZX1IzUExaUG9YNnVyNHlJaDlUUW1Oc3MwZjA4dGVaUEdrTWdFSGJSaG44R08yd3VwQU44VDdCSDVFTmpuMG1RNjVMM1BXYkJPWlFoaVU2c2N2MkQ1NFdpdWJDeElnSVF2?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Carnegie Endowment for International Peace",
-   "lang": "en",
-   "kind": "news",
-   "title": "Planetary Power: Geoengineering and the New Geopolitics of Climate Intervention",
-   "date": "2026-11-02",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVC12a2NRQmFiWHlPVUVzX0ppNzFkdDJPbkdWdnk5RUpLRVRSZjAteHV4VlA2ZGJyY0djVnpZUjFYYVhDdnMtY3dsYjNXcEZxdVk2LVBkZEhYZzhVdTV1QUNXaldRQS1KWVVtZ0ozMUIzYU5aV2xIakw4cHpYZWVlSmNjNnNVQi1RckFJcEp6ZE85NC1vRGNQYWFSN25lT29UbUlINlY4Q1lreE5GVjdyMGNJOXZuWTh6WlNmckliOXRBWGY5VUo0WWZIMVM?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Global Dispatches",
-   "lang": "en",
-   "kind": "news",
-   "title": "The Geopolitical Intrigue Behind the Latest Entry into the UN Secretary-General Race",
-   "date": "2026-11-02",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QcFlBTHB1RG9aWnhfRUdZanNZWXZlNWpqU2QzMk1ESzJ4M0pUdnA3MVFPNWxWMXlpTV9KVmNMdndHYVdNZzFSLUd1dkNqUjJBV3BDazBwVHM5N3gyV29RX1ZTemRQcm14a1N4SXNQckt4dWUzNHc?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "E-International Relations",
-   "lang": "en",
-   "kind": "news",
-   "title": "Regional Neorealism: Rethinking Geography and Geopolitical Competition - E-International Relations",
-   "date": "2026-11-02",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VaEFLanFnVGhTTmViZ3kwUmdjMlB3MzVTREEzTHZXc1pnVUZpS01XQmFBMGV4T1c5YVd1RWlzXzh0a2xBQ05qUzJhMk5ibE1PVS1uQm1fY013SUZWX3BKRDh0NGxwWENpSHpUTFlPZ0w?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "যুগান্তর",
-   "lang": "bn",
-   "kind": "editorial",
-   "title": "পোশাকশিল্পে অনাকাঙ্ক্ষিত অস্থিরতা",
-   "date": "2026-11-02",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sVXlwSFVZWld2NzUwU1pMa3g2Y2Q5MU1oRHZ0Z0NQZ3diTmRTNy1SdVRPWU1neG5vWHIzOUgwX2pqWS11MDZKY1FPaVA3ZFJZbUJ2VUlXYnk?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "যুগান্তর",
-   "lang": "bn",
-   "kind": "editorial",
-   "title": "‘সরকারের ব্যর্থতা ও অব্যবস্থাপনা দেশের অর্থনৈতিক সংকটকে প্রকট করে তুলেছে’",
-   "date": "2026-11-02",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jNW9QZG51dDVWelpJUVdBOUxJRGt0WVZhVlZvYzNwUVpFYUd0SjZOanloSm1MUEJsRjloaFZOemVFSUl6UnFXNHdORjI2YTFRTW1Z?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Stimson Center",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Forging a European Foreign Policy",
-   "date": "2026-10-30",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xNzJGaXlPeTBsbldqU0RtZy10TG11blNCbUd1SHJGYWhONUdTaUE3bFhjN25Ia0xjc2JTS3I3RmVpTTlXTlM4ZEd5d05yY0JNLVhxUXAwTWM1UUtpOGhXTFhOTlZfRWFwQXFvcGJqR3E?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Stimson Center",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Beyond the Populist Zeitgeist",
-   "date": "2026-10-30",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBYUGJqTENuOXpfYjY1SFdTaFR6YVVhMW9fY1p4UGMxYlZXcDUwa1hRNE41UkFYSFVUVzFxTnFiX2pjMjMtOE5CclVIdGFtazlBd2N4OVlycFU3VjBQRUhmZnI2bHJEdDJGOWk4?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Brookings",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Israel’s deadlocked election could force a new vote in 2027",
-   "date": "2026-10-30",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYTFUdTlUQWg5OF8wSGwzVVVmR0s0SkRBZlpIcDJ2RExfX1JQR2otMGVRWFlBUVBkclpwcHdVaFJVT04zZVBzZE9FVDVma2RMUE9BeHFWNnY4U0hNNmtobTJ3VGVVaW03dUVudXNmaHA4eTV6Znl0NmxkYWgyWjZ4TEc4XzZBaUR5MU81eVFCX0NiU1RNYl9yZ2lB?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Carnegie Endowment",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "The Twilight of Oil in an Age of Uncertainty: From a Vicious to a Virtuous Cycle",
-   "date": "2026-10-30",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMGJmN0dUdW15OXFGSnN0cDhHNmtySEppeW1JV081ZjBBR0hWVkdBZEVXZk1hUV9UOGt1cVhiM2lzOG4xellCWGo1NDIxb3N5Sko4ZHBRMkFRQlMwV01scVYyYkRaXzJ5ZVNBZUJveHpzS2V3UHlVTi10SkRYcGJuZUlDaEJwSkZhTWZuZ1FzeDNPV2VYM2hkTEpwV215N0RCby0xcW1VWDl3Unh1SE0tMHlZWk9pZFJPVVJVQ3ZJMnY5QVhCdUF0MGhVdm9fZlZoNFJjTw?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Stimson Center",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "A New Transatlantic Equilibrium",
-   "date": "2026-10-30",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjT01kbUxFMXlRSlctQjZ4Vzc3a2gxbFBQRHdiR0xwMFVYY2RwUG0wYlBRMHJlN3hyVndnS3JQRWtYOUhJM3RXNV9pOEtuQXpnaDNJbTVxYUg3Q3dVZ2pDX1VOb2xXcXpJUXNCZnJB?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "ORF — Observer Research Foundation",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Can India Adapt to the New Africa?",
-   "date": "2026-10-30",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9aZ05yTllKNU5vMUZTN0oxVENUNTg3T3o3UGY5UmxTXzZMdGpqYUw2SHhhYnV6TTdxZUZUUUxrei1PZlhkOHJnWVVQbURIbDVuVFFKdEc2clp0U1hnZnJmZkxMa2ZHY3JkeHlobTctVDJwYS1JTWZXZWtuank?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Carnegie Endowment",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Israel Has Held National Elections",
-   "date": "2026-10-29",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNUhBV1l5LWVnZWJaaWpuNkdZd25NWExfZE91NXVMN3N4ZzBXaXE1bEJrQTVqR2xqRG1SdjRmb3BfaG0wMGtLeWpfYnRDYlZrUEJZTlNpX09uX09namNITnBpdlBTeHZqVkVkZ3J0ZWFOX0xNVGtFUG5nd2RwNXhPUzNxaEZiOF9iUGtxWHhMQ0J3UzFPQ1ZyTkVGSQ?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Council on Foreign Relations",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "How War, Tariffs, and Other Foreign Policy Issues Could Affect the U.S. Midterms",
-   "date": "2026-10-29",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLVlPVkVnYnAxQlg3WXpENjk5YlhnM1M5eXYwYm9hektFZjNEeHU5ZkI0NVZCVzBZR25jdmJSdVFnVW1jOUZnUVV6Tm1aVFpMdG9MVGpMYjNPeGxDX19RSWxEdFRQc3BXenktMkpMVUhPNHZHNURzek1sdmgxemwtYmtLTmduSzdlZTA0UG12YTFhc3ZOT0pmRjkyTXBNRXJyWTgxeFg3MnN2VmNN?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "International Crisis Group",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "After Serbia’s Election, Foreign Policy Takes a Back Seat, and That’s OK",
-   "date": "2026-10-29",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMTY5bV9nbGtKR2FyZUdYZTFuS0NfTk9YYjExenEzaVh6dTlaekJjMnQ5UFg1MEM5Nk5qWGYzZEZXcmQ5NjRBemRIVVB4Q0JmUXJGUDFxLXBreVA2T0plcUd1UHZpRlNZcHJrRjB1NG9OSmdvTlNyWHpKVDBDWnJTVE9BYkxQb2FMS2s1UlBZVVZmUGVKVjc1dW9pb0o0NHlibGFmWmVfWGFqS1lMX2lGQ3J3?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "CSIS",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Fast Following: Military Emulation and Twenty-First-Century Transformation",
-   "date": "2026-10-29",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYWhBUU4zRURYNUxtMWNlSTc0RmNTVi1qVFpHOURhMS1jYkxmUVlLSXNrVXY3WnhqYmQzdlgxbWJ5VGRoVGFCdHg4N0l5WVBtdEhpM29IQURFb3ZvZ2R3TkxZYTlvYVlKcmJmbVgzUUZXTDdKbzMydFJXVk9oMGk3ZXRaeWlGNWxUYlRRSXptS3YzbVRjN0tYVEg4X19hQWJTSUdxYVJB?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Carnegie Endowment",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Israel’s Election Had No Clear Winner. What Comes Next for the Region?",
-   "date": "2026-10-28",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVldqX1lrUGVGdm9MNEZYV2dmOE5zVVFHRHJ1eE96ZjhYb2VZN0NJLXRPNkFIVGwtUEhXck5ieGNOM2R2VXZ1RWxjVjBLbFQ4NXB5ZV83eWxMMFp5eElsT3o2Q20wY0pIV212VF9xM3hlNW5QVlYxOFNqN2JjY2plTTBMV2xDV1k2cnJqQkU1YVVOX2toMk5mWk5B?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "International Crisis Group",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Middle East and North Africa",
-   "date": "2026-10-28",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMXZQYjdMR0JXdm9GWjVwWUF6RDFWQS15YjZfc3J6ZmNCSlVaMFBpajdSZ2xUbFJPMGczeGliODlocEZoUWlDMkFpVXdFMTVINFpEM29Lai1sMXpxbDJCbi1CcllzLW1TTFBqZW9pWHBBOXlPalNGcThRU0NGZlIyeFZ1R05Yei1LaHpGS2lmV3FYTVFvaEMxdG9KZ3RHNTJUM0MyOU5nWkVERTRRSVFOdkowRDdyWUFr?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Council on Foreign Relations",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Canada Shows the Limits of Trump’s Hardball Trade Tactics",
-   "date": "2026-10-28",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObURnSlgzZE9rQWxKSlVzT0Z0bjN2SjloSFBUbmZ3Z2pGa2xkbW1hcTlPOFI1VFBJZThNZnlCVDZycFk4NFB0MmVPclJlY0ZwOF9RbWlnaG5sYmhhdkh5dXhhNFdoSzNwMlVfYXVPSmJGTVFBRHRSTEJwdk1kSHJtY3pLUDlRQWVQUGZ1cjBB?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "The Guardian — Opinion",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Defund Elon Musk | Robert Reich",
-   "date": "2026-10-27",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSUlFHTFg1RzctYXcxZjV6X0NYX21ublBqYjd5U0RHeEgwbGF4MXJOQno2SWp6WC03Y200bVR2TlR4aDh1c0N4cWNQRkJNRm9nd3luSHpXV1U3QmZfUXBzb0xVU29wSWxXTEI1Vmh5azFIRndfcnFPLUpn?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "International Crisis Group",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "How the War in Iran Could Escalate",
-   "date": "2026-10-27",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVkRYcUhnWE4wYWNKLWhMZmd5Q0NER19kM2dyeFB5ZjdNb0szZ2gySkI3eTVtendqUGpkRGF2RzhnQjNEcnRONWdxei01dUh4emkzekJoNTBhd05vMVR1WGs2cU5mTHpncnJVX1NURkh3WmhPV1p4UHZpODBfcTM3UkoyWlVmaUZzR2d1WGd2VGhBd2s?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Carnegie Endowment",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Young and Restless in the Middle East",
-   "date": "2026-10-27",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTDJvSzJEQ012Yi11bkprOTNlbmxZNGdEVXVmSHBqVFp1bS0yRDk0WE1rMVp1VVUwckEteUlEcldITlVrNnluZk1URHNNUnFZM29fQlROdkN0SV9xcG9fdzU1REpIdlVTbXR4OVlCakY0QnlnajZqbnN5b2NLUTR2NUdMMXBscElVNWhiUEJOY2ZQd0dsUnRobA?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Stimson Center",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "What Is Going on in Cybersecurity?",
-   "date": "2026-10-27",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoTHZLTW9uWHM4c0NlZzlza0ZQZ3kyVDFjbk5RTVU4RC1JVmUxTUx5NXFRME5qa0JDcTJLV0pxVmNhRUdFTlQ2YzAxQVJBbDJ5cWE4S1dENXVGaWxWWVRtS3hEZi1yQWZWaDhNYUx5bXE?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Carnegie Endowment",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Egypt’s Abdel-Fattah al-Sisi Has Pledged to Leave Office in 2030",
-   "date": "2026-10-26",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW1XNU9YbWlURnNNZEJyRWtNVFVLU2xnaDVJM0dwMUZiTGZKLWctbzNzTUtwOXJxMGl1dUtIY1hDZ2hsV184d1NETVJtQ3NHR1o0d1VSWE1FVlFNY2pCcnAzMU9kYlk4QTB4OHFGb0ZnbWRiRTdUNzNWcHV0SGFSRldGT2tkTWFmUGE1dUNIRHNfVlJZaFhvWTlhTnZ6MGxmZWlVTlZoUlg1NlJTZTFCdDJkcjM3dWp6bmdV?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Council on Foreign Relations",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Escalate, Negotiate, or Wait: Trump’s Iran Options After the Midterms",
-   "date": "2026-10-23",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeEJnNld4cWpmTEp5UVdOQzAxSVR4MklFMWUyZ2M3TWU4c3dpQmN3dDMwbjNJdS12RHQ1cm8tczJVdVJIa2FHa2h6U3ZjQzlLSnBieXE2X2c5aENldFV5eDZRd2FvTTVTTXFSNkVhS25uMXhOa0Vlb0pjZDU0RC1pMEIxU0xzUWtkaGc?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Stimson Center",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Stimson Center Mourns the Passing of Mathew Burrows, Pioneering Voice in Strategic Foresight",
-   "date": "2026-10-23",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTnlQWkRXWFBLSU1pQU5XQkdvMUl2NDBMVUpWbUtiSHdQb0ZIWE82c1B1dmJUY3hhQldXdEhVbUUzSWpwM1JjUmUwZ3RWN0YyS29zWlRnbHhXNzR2QWY1a21Ja3NwZ0lPOFlWcU5jY2tleUVKdHhMX05XRmdMV0NBVGNDTTlzN25GSUE3VXUtYmh0RWYxbXIyRDZsSlp4bzNseTdWR2JHdG41VGhmOGNUZzR2X0FpbUdjMDRRUm1B?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Brookings",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "What’s at stake in the Israeli election?",
-   "date": "2026-10-22",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE40ZHhMTW9nOE56OHdYa01BMVUxcmN2RVVpU2J5NFE0T3pMczdXSUpNM00zY1I3aXJTSmtoZEI1Nzd6dDZNQkd5U0lOdkNRYUxmcEwxZ2V0LTJXbG5zbkF1dTNuYnd2aHdUM0tvUnBWeWtaTngwbkF6YzkxdnA?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Brookings",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "The midterm effect: What the 2026 election could mean for public policy",
-   "date": "2026-10-22",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbGxuc1JOXzBTaW84TG1MaU9GQ3FJTUtjU1c1WThHWFlERlZHWGJ1MzJtOFlLaWRaWk5DVTZQZjk2bEQ1bUxLUVJzZmVkYWNodldsQUVCdmoyc3kwRkpTNHB0RTVoT3NjVmI5azZ2cG1hWU45TTVaVlFHNjhLVkc2QVZseGVtaEk1TlZvYjhILTVpTHo3TDRFUERCOWNDcjhPNUNFaU1xc3Z6Zw?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
