@@ -489,9 +489,67 @@ def _hit(t, words):
     return any(w in t for w in words)
 
 
+# Single-incident blotter (user order 2026-11-15): a lone road accident /
+# crash / local incident report is NEVER BCS material, whatever kind it
+# is filed under — the cited headline "ঢাকা-চট্টগ্রাম মহাসড়কে বাসের
+# ধাক্কায় মোটরসাইকেল আরোহী নিহত" slipped through because it contains no
+# "দুর্ঘটনা" word and GN items filed as editorials bypass the news test.
+# Pattern: vehicle + crash/casualty marker, unless the headline carries
+# a policy/analysis marker (road-safety policy pieces stay).
+_BN_VEHICLES = ["বাসের", "বাসে", "বাস ", "ট্রাক", "পিকআপ", "মোটরসাইকেল",
+                "অটোরিকশা", "প্রাইভেটকার", "মাইক্রোবাস", "কাভার্ডভ্যান",
+                "লরি", "ট্রাক্টর", "গাড়ি", "গাড়ি", "সিএনজি", "ট্রেন"]
+_BN_CRASH = ["ধাক্কা", "উল্টে", "চাপা", "সংঘর্ষ", "নিয়ন্ত্রণ হারিয়ে",
+             "নিয়ন্ত্রণ হারিয়ে", "খাদে পড়ে", "খাদে পড়ে"]
+_BN_CASUALTY = ["নিহত", "আহত", "হতাহত"]
+_POLICY_MARKERS = ["রোধ", "প্রতিরোধ", "নিরাপত্তা", "নীতিমালা", "আইন",
+                   "সচেতনতা", "পরিসংখ্যান", "জরিপ", "গবেষণা", "বিশ্লেষণ",
+                   "সম্পাদকীয়", "মতামত", "করণীয়", "করণীয়"]
+_BN_INCIDENT_HARD = ["লাশ উদ্ধার", "মরদেহ উদ্ধার", "গণধোলাই",
+                     "পুলিশে সোপর্দ", "পুলিশে দিল", "ভাঙচুর-আগুন",
+                     "ভাঙচুর ও আগুন", "ককটেল বিস্ফোরণ", "গাড়িতে আগুন",
+                     "গাড়িতে আগুন"]
+_EN_VEHICLES = ["bus", "truck", "motorcycle", "motorbike", "pickup",
+                "auto-rickshaw", "car crash", "train"]
+_EN_CRASH = ["crash", "collision", "collide", "overturn", "run over",
+             "killed", "dies", "injured", "dead in"]
+
+
+def is_incident_blotter(title):
+    if _hit(title, _BN_INCIDENT_HARD):
+        return True
+    if _hit(title, _POLICY_MARKERS):
+        return False
+    if any("\u0980" <= ch <= "\u09ff" for ch in title):
+        vehicle = _hit(title, _BN_VEHICLES)
+        crash = _hit(title, _BN_CRASH)
+        casualty = _hit(title, _BN_CASUALTY)
+        # War/attack reports are IR news the user wants, not accidents:
+        # a casualty headline with an attack marker (and no pure-accident
+        # verb like ধাক্কা/উল্টে/চাপা) stays.
+        war = _hit(title, ["হামলা", "ক্ষেপণাস্ত্র", "বোমা", "যুদ্ধ",
+                           "গোলাবর্ষণ", "ড্রোন"])
+        pure_accident = _hit(title, ["ধাক্কা", "উল্টে", "চাপা",
+                                     "নিয়ন্ত্রণ হারিয়ে",
+                                     "নিয়ন্ত্রণ হারিয়ে"])
+        if war and not pure_accident:
+            return False
+        return bool(vehicle and (crash or casualty))
+    t = title.lower()
+    return bool(_hit(t, _EN_VEHICLES) and _hit(t, _EN_CRASH))
+
+
 def is_relevant(title, kind):
     t = title.lower()
-    if _hit(t, HARD_EN) or _hit(title, HARD_BN):
+    if is_incident_blotter(title):
+        return False
+    hard_bn = HARD_BN
+    if _hit(title, _POLICY_MARKERS):
+        # A policy/analysis headline may name the problem ("সড়ক দুর্ঘটনা
+        # রোধে…") without being an incident report — don't hard-drop it
+        # for those two words alone.
+        hard_bn = [w for w in HARD_BN if w not in ("দুর্ঘটনা", "অগ্নিকাণ্ড")]
+    if _hit(t, HARD_EN) or _hit(title, hard_bn):
         return False
     if kind != "news":
         return True
