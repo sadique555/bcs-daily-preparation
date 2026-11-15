@@ -1,6 +1,443 @@
 {
- "updated": "2026-11-15T01:27:10.256108+00:00",
+ "updated": "2026-11-15T06:57:04.726244+00:00",
  "articles": [
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "The information commission has a chance to win back public trust",
+   "date": "2026-11-15",
+   "url": "https://www.thedailystar.net/opinion/views/news/the-information-commission-has-chance-win-back-public-trust-4323921",
+   "excerpt": "On October 23, in an article published by The Daily Star, we welcomed the newly appointed information commissioners following over two years of uncertainty, and shared some thoughts on the tasks and responsibilities facing them.",
+   "fullText": "The setting itself was significant. Prof Nahreen Islam, the first woman to hold that post in the country, chose to begin her tenure among people who use the law in their everyday struggles, and their experience can reveal more about the state of RTI than any formal institutional account.\n\nSeveral of her comments and commitments merit attention: bringing the commission’s services closer to district and upazila residents, acknowledging submissions through mobile messages, increasing public awareness, consulting experienced practitioners, and establishing a research wing. These address difficulties long encountered by RTI users, while also providing a basis for sustained engagement between the commission and citizens.\n\nPerhaps the most valuable part of her address concerned the purpose of RTI. She spoke of enabling people to move from being mere subjects to becoming conscious citizens with a sense of ownership of the state. Those who have worked with grassroots applicants will recognise how important this transformation is. A person who learns to question a public authority begins to understand that public institutions must answer to the people. The commission has an important role to play in bringing about this change. Access to information about a local project, a school’s expenditure, or access to public services, for example, enables and encourages public participation in decisions affecting their lives. Each successful application can help establish a relationship of accountability where previously there was only dependence on official goodwill.\n\nThe CIC’s assurance of impartiality is equally welcome. Asked whether the commission would stand with citizens or the government, she replied that it would be neutral. This deserves careful consideration. Impartial adjudication requires a fair hearing for all parties and decisions free from political influence. It also requires recognition that applicants and public authorities seldom approach a dispute with equal resources or influence. The commission must, therefore, ensure that ordinary citizens can effectively challenge an official refusal. Helping applicants understand procedures, closely examining an authority’s justification, and addressing obstruction are essential to fair adjudication. Its fidelity must be to the law and the right it protects, regardless of who exercises governmental power.\n\nThe promise to bring services closer to citizens, if fulfilled, can also make a difference. For an RTI applicant, travelling to Dhaka may entail lost wages, additional transport costs, and considerable anxiety. Local hearings, remote participation where feasible, and practical assistance with complaints would reduce these burdens. Such arrangements should retain accessible options for people without smartphones, reliable internet access, or digital skills.\n\nAcknowledgements through mobile phones would also help. Applicants should know that their submissions have been received and how to follow their progress. A receipt, however, is only the beginning. A useful system would show what happens next and help citizens obtain a timely, reasoned response. Technology should make the institution easier to reach and its case handling easier to track.\n\nThe CIC also expressed hope that complaints would decline as authorities began routinely supplying information. This is indeed a desirable destination, but complaint numbers require careful interpretation. Fewer complaints may indicate responsive administration; they may also reflect ignorance, discouragement, or fear. If confidence returns under the new commission, an initial increase in complaints could be a welcome sign that citizens believe redress is possible. Success will eventually be assessed through actual access to information, compliance with decisions, and applicants’ experiences. The proposed research wing could help develop these indicators, identify recurring obstacles, and examine why certain authorities repeatedly fail to respond. Its findings should inform corrective action and be made available to the public.\n\nThat said, there are institutional limitations that need to be considered. According to the CIC, the commission had only 23 staff members, fewer than half its sanctioned strength. She also reported inheriting 917 complaints, with more than 100 added within days. These figures underline the need for adequate staffing and a practical plan for clearing the backlog. The government should, therefore, address genuine resource shortages promptly while respecting the commission’s independence. The latter, in turn, should publish a work plan setting out priorities, milestones, and targeted achievements. Citizens would then be able to distinguish constraints requiring government interventions from matters within the commission’s own control.\n\nInformation fairs, workshops, and consultations can support this effort. Their value will depend on whether participants subsequently use the law and obtain information. The commission should duly follow up after such awareness events, taking into account who applies, what response they receive, and where they need assistance. Listening regularly to unsuccessful applicants may be particularly instructive.\n\nThe CIC’s concern about privacy and the abuse of women also deserves attention. RTI must be administered with due regard for lawful protections of personal information. At the same time, concerns about misuse must not cast suspicion on legitimate applicants or provide a broad excuse for withholding public-interest information. Each request deserves to be examined on its merits.\n\nAs she drew her remarks to a close, Prof Nahreen Islam returned to an earlier speaker’s comparison of the information commission to the proverbial “porosh pathor”, or touchstone. She offered her own analogy. She said she wanted the commission to be like an ordinary stone that any citizen could reach for and use. That image held wisdom. Public confidence grows through everyday encounters in which citizens find an institution easy to approach and can count on it to respond.\n\nThe address, and indeed the long-overdue reconstitution of the commission, have opened a welcome opportunity for dialogue between the commission and RTI practitioners. Practitioners should bring to that dialogue a spirit of cooperation, practical experience, and candid scrutiny. The commission, in turn, should build trust through accessible services, fair and reasoned decisions, and effective follow-up. Can citizens who have kept the law alive through difficult years hope that their persistence will finally be matched by a dependable institutional partner? Only time will tell.",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "commission",
+     "sentence": "Several of her comments and commitments merit attention: bringing the commission’s services closer to district and upazila residents, acknowledging submissions through mobile messages, increasing public awareness, consulting experienced practitioners, and establishing a research wing."
+    },
+    {
+     "w": "citizens",
+     "sentence": "These address difficulties long encountered by RTI users, while also providing a basis for sustained engagement between the commission and citizens."
+    },
+    {
+     "w": "information",
+     "sentence": "Access to information about a local project, a school’s expenditure, or access to public services, for example, enables and encourages public participation in decisions affecting their lives."
+    },
+    {
+     "w": "applicants",
+     "sentence": "Those who have worked with grassroots applicants will recognise how important this transformation is."
+    },
+    {
+     "w": "complaints",
+     "sentence": "Local hearings, remote participation where feasible, and practical assistance with complaints would reduce these burdens."
+    },
+    {
+     "w": "address",
+     "sentence": "These address difficulties long encountered by RTI users, while also providing a basis for sustained engagement between the commission and citizens."
+    },
+    {
+     "w": "decisions",
+     "sentence": "Access to information about a local project, a school’s expenditure, or access to public services, for example, enables and encourages public participation in decisions affecting their lives."
+    },
+    {
+     "w": "services",
+     "sentence": "Several of her comments and commitments merit attention: bringing the commission’s services closer to district and upazila residents, acknowledging submissions through mobile messages, increasing public awareness, consulting experienced practitioners, and establishing a research wing."
+    },
+    {
+     "w": "authorities",
+     "sentence": "It also requires recognition that applicants and public authorities seldom approach a dispute with equal resources or influence."
+    },
+    {
+     "w": "deserves",
+     "sentence": "This deserves careful consideration."
+    },
+    {
+     "w": "institutional",
+     "sentence": "Prof Nahreen Islam, the first woman to hold that post in the country, chose to begin her tenure among people who use the law in their everyday struggles, and their experience can reveal more about the state of RTI than any formal institutional account."
+    },
+    {
+     "w": "practical",
+     "sentence": "Local hearings, remote participation where feasible, and practical assistance with complaints would reduce these burdens."
+    }
+   ]
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Tourism taking a toll on Chera Dwip",
+   "date": "2026-11-15",
+   "url": "https://www.thedailystar.net/opinion/editorial/news/tourism-taking-toll-chera-dwip-4323891",
+   "excerpt": "Weak enforcement is putting Saint Martin’s fragile biodiversity at risk",
+   "fullText": "This outcome, however, is hardly shocking. Last month, we asked in this column whether any evidence of ecological recovery or any credible assessment justified increasing the daily visitor limit by 75 percent and extending the tourism season. With the season now ongoing, it is clear that authorities are unprepared to protect the island’s biodiversity. Even with restrictions in place and Chera Dwip being cordoned off by rope barriers and red flags, tourists continue to visit the area every day. The DoE has very few volunteers to enforce restrictions, compared to the hordes of tourists being allowed to stay on the island. Many resort owners reportedly dump waste directly into the sea instead of disposing of it properly, while attempts to stop easy bikes from operating have faced resistance.\n\nAll this points to the government’s two-fold failure in conserving the island’s biodiverse species and in enforcing its own guidelines to that end. It is unacceptable that the profits of businesses, which are operating without necessary clearance, are being prioritised over the protection of an island designated by the government itself as an Ecologically Critical Area (ECA).\n\nWe urge the government to consider reducing the tourism window for Saint Martin’s Island as well as revising the number of tourists allowed in daily. Environmentalists have claimed that previous tourism bans had shown positive changes in the island’s environment. Hotel and resort owners must also be held to account for not abiding by waste disposal rules. No amount of tourism revenue can make up for losses in the island’s biodiversity.",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "tourism",
+     "sentence": "Last month, we asked in this column whether any evidence of ecological recovery or any credible assessment justified increasing the daily visitor limit by 75 percent and extending the tourism season."
+    },
+    {
+     "w": "tourists",
+     "sentence": "Even with restrictions in place and Chera Dwip being cordoned off by rope barriers and red flags, tourists continue to visit the area every day."
+    },
+    {
+     "w": "allowed",
+     "sentence": "The DoE has very few volunteers to enforce restrictions, compared to the hordes of tourists being allowed to stay on the island."
+    },
+    {
+     "w": "biodiversity",
+     "sentence": "With the season now ongoing, it is clear that authorities are unprepared to protect the island’s biodiversity."
+    },
+    {
+     "w": "operating",
+     "sentence": "Many resort owners reportedly dump waste directly into the sea instead of disposing of it properly, while attempts to stop easy bikes from operating have faced resistance."
+    },
+    {
+     "w": "restrictions",
+     "sentence": "Even with restrictions in place and Chera Dwip being cordoned off by rope barriers and red flags, tourists continue to visit the area every day."
+    },
+    {
+     "w": "abiding",
+     "sentence": "Hotel and resort owners must also be held to account for not abiding by waste disposal rules."
+    },
+    {
+     "w": "account",
+     "sentence": "Hotel and resort owners must also be held to account for not abiding by waste disposal rules."
+    },
+    {
+     "w": "assessment",
+     "sentence": "Last month, we asked in this column whether any evidence of ecological recovery or any credible assessment justified increasing the daily visitor limit by 75 percent and extending the tourism season."
+    },
+    {
+     "w": "attempts",
+     "sentence": "Many resort owners reportedly dump waste directly into the sea instead of disposing of it properly, while attempts to stop easy bikes from operating have faced resistance."
+    },
+    {
+     "w": "authorities",
+     "sentence": "With the season now ongoing, it is clear that authorities are unprepared to protect the island’s biodiversity."
+    },
+    {
+     "w": "barriers",
+     "sentence": "Even with restrictions in place and Chera Dwip being cordoned off by rope barriers and red flags, tourists continue to visit the area every day."
+    }
+   ]
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Water must move to the centre of climate action",
+   "date": "2026-11-15",
+   "url": "https://www.thedailystar.net/opinion/views/news/water-must-move-the-centre-climate-action-4323906",
+   "excerpt": "For three decades, the international response to climate change has focused on reducing greenhouse gas emissions.",
+   "fullText": "Water is how most people first experience climate change. Whether through prolonged drought, devastating floods, or increasingly unpredictable rainfall, its effects reach directly into people’s lives, threatening food production, livelihoods, public health, and economic security.\n\nSo, if energy has been the defining concern of climate mitigation, water must become the defining concern of adaptation. And for this to be effective, recognition must be matched by adequate resources and meaningful action. Water already features in the national climate plans of most countries, and is the sector most frequently identified in their adaptation measures. Yet inclusion in a national plan is not the same as meaningful action. Currently, investment remains insufficient, fragmented, and poorly coordinated.\n\nThe scale of the shortfall is considerable. A 2024 report by the World Bank estimates that developing countries need an additional $131.4 billion-$140.8 billion annually to achieve universal access to safe drinking water and sanitation by 2030. Behind this figure are communities without reliable drinking water, children exposed to preventable disease, and populations whose livelihoods and security are threatened by drought and flooding.\n\nLeaders, therefore, must close the gap between their commitments and the resources allocated to fulfil them. Water infrastructure, sanitation, and resilient water management cannot remain underfunded priorities in countries’ national adaptation strategies. They require sustained investment, clear accountability, and political leadership capable of translating plans into tangible improvements in people’s lives.\n\nThere are encouraging examples of the leadership required. The Madrid Compact, endorsed by 30 governments, offers a framework for stronger political commitment, integrated policies, sustainable financing, and accountability. The Heads of State Initiatives, supported by the Sanitation and Water for All (SWA) partnership, has demonstrated how national leadership can translate commitments on water and sanitation into action. These approaches deserve wider application.\n\nThe same determination is needed internationally. Water connects the three Rio Conventions, which address climate change, biodiversity loss, and land degradation. Yet their respective work does not always reflect the interconnected nature of these challenges, or the central role water plays across all three.\n\nCOP31, currently underway in Antalya, Türkiye, offers an opportunity to change this. I call on world leaders to give water a stronger and more systematic place across the Rio Conventions, ensuring that their policies, programmes, and investments are better aligned. This does not require new institutions or additional bureaucracy. It requires greater coordination through the structures we already have, with water recognised as a shared priority rather than an issue confined to individual policy discussions.\n\nThis commitment should then be carried forward to the UN Water Conference in Abu Dhabi in December, co-hosted by the United Arab Emirates (UAE) and Senegal. The conference provides an important opportunity to turn the political momentum generated at COP31 into a more coherent international approach, with water firmly embedded in the global response to interconnected environmental challenges.\n\nWe cannot afford to treat adaptation as secondary to mitigation, or water as secondary to adaptation. Leaders must recognise water as fundamental to the security, prosperity, and wellbeing of their people, match their commitments with the necessary investment, and work together across the Rio Conventions.\n\nThe decisions made at COP31 and carried forward to Abu Dhabi can help establish the political foundations for a more water-secure future. What is needed now is the determination to act.\n\nJigmi Y. Thinley is a former prime minister of Bhutan and member of the Global Leadership Council of Sanitation and Water for All (SWA).",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "adaptation",
+     "sentence": "So, if energy has been the defining concern of climate mitigation, water must become the defining concern of adaptation."
+    },
+    {
+     "w": "sanitation",
+     "sentence": "A 2024 report by the World Bank estimates that developing countries need an additional $131.4 billion-$140.8 billion annually to achieve universal access to safe drinking water and sanitation by 2030."
+    },
+    {
+     "w": "climate",
+     "sentence": "Water is how most people first experience climate change."
+    },
+    {
+     "w": "leadership",
+     "sentence": "They require sustained investment, clear accountability, and political leadership capable of translating plans into tangible improvements in people’s lives."
+    },
+    {
+     "w": "commitments",
+     "sentence": "Leaders, therefore, must close the gap between their commitments and the resources allocated to fulfil them."
+    },
+    {
+     "w": "conventions",
+     "sentence": "Water connects the three Rio Conventions, which address climate change, biodiversity loss, and land degradation."
+    },
+    {
+     "w": "countries",
+     "sentence": "Water already features in the national climate plans of most countries, and is the sector most frequently identified in their adaptation measures."
+    },
+    {
+     "w": "investment",
+     "sentence": "Currently, investment remains insufficient, fragmented, and poorly coordinated."
+    },
+    {
+     "w": "leaders",
+     "sentence": "Leaders, therefore, must close the gap between their commitments and the resources allocated to fulfil them."
+    },
+    {
+     "w": "security",
+     "sentence": "Whether through prolonged drought, devastating floods, or increasingly unpredictable rainfall, its effects reach directly into people’s lives, threatening food production, livelihoods, public health, and economic security."
+    },
+    {
+     "w": "accountability",
+     "sentence": "They require sustained investment, clear accountability, and political leadership capable of translating plans into tangible improvements in people’s lives."
+    },
+    {
+     "w": "additional",
+     "sentence": "A 2024 report by the World Bank estimates that developing countries need an additional $131.4 billion-$140.8 billion annually to achieve universal access to safe drinking water and sanitation by 2030."
+    }
+   ]
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Who guards the depositors? The other side of bad loans",
+   "date": "2026-11-15",
+   "url": "https://www.thedailystar.net/opinion/views/news/who-guards-the-depositors-the-other-side-bad-loans-4323896",
+   "excerpt": "Bangladesh’s debate over its banking crisis may finally be asking a question it has long neglected.",
+   "fullText": "M Niaz Asadullah M Niaz Asadullah FILE ILLUSTRATION: SOJIB ROY \"> FILE ILLUSTRATION: SOJIB ROY Bangladesh’s debate over its banking crisis may finally be asking a question it has long neglected. Speaking at a Bangladesh Institute of Bank Management (BIBM) conference in late October, Professor Wahiduddin Mahmud , former adviser for planning to the interim government, argued that laws and regulations alone cannot restore discipline to the financial sector. He reminded us that a minimum level of ethics is also required among those who participate in banking and business. An editorial published in The Daily Star on October 30, 2026, reflecting on the same discussion, rightly called for stronger safeguards against financial irregularities and renewed action against wilful defaulters.\n\nWith non-performing loans (NPLs) now exceeding Tk 6 lakh crore and accounting for roughly one-third of outstanding credit, Bangladesh needs stronger recovery, better regulation, and greater political resolve. And where politically connected borrowers deliberately avoid repayment despite having the capacity to pay, accountability is indispensable.\n\nBut the latest scrutiny is incomplete. Our banking crisis continues to be viewed overwhelmingly from the borrower’s side of the transaction. We ask who borrowed irresponsibly, who became a wilful defaulter, who benefited from political connections, and who moved money abroad. These are necessary questions. But they obscure another one: who approved the loans in the first place?\n\nEvery large loan passes through multiple layers of professional judgement before the money moves. Credit officers assess repayment capacity, risk managers examine exposures, committees scrutinise proposals, managing directors and chief executives exercise executive authority, and boards carry out oversight responsibilities. Political influence can create enormous pressure on this process. But a borrower, however powerful, cannot single-handedly create a bank loan.\n\nThis supply side of bad banking remains remarkably underdeveloped in our public conversation.\n\nUnlike most ordinary businesses, banks do not primarily lend out their own money. They allocate resources entrusted to them by lakhs of depositors—school teachers, factory workers, pensioners, family members of overseas migrant workers, small entrepreneurs, and households saving for their children’s futures. Banks’ responsibility therefore extends beyond profitability or satisfying shareholders. They are custodians of other people’s money, especially that of the working middle class.\n\nThe leadership obligation arising from this relationship can be described as fiduciary leadership. A fiduciary leader is not merely a successful corporate manager. He or she is a steward, someone expected to exercise independent judgement, protect institutional integrity, and safeguard the interests of those whose resources have been entrusted to the institution. For a bank’s chief executive, that responsibility includes something easily overlooked during periods of rapid credit expansion: the professional capacity to say “no”.\n\nNot every bad loan represents misconduct and banking inherently involves risk. A sound loan can become distressed because of an economic downturn, exchange rate shock, energy shortage, or unexpected collapse in demand. Bangladesh therefore needs to distinguish genuine commercial failure from wilful default.\n\nBut the same distinction must be applied to lenders.\n\nThere is a difference between an honestly mistaken credit judgement and lending that ignores obvious warning signs, excessive borrower concentration, inadequate collateral, unrealistic cash-flow assumptions, or repeated restructuring intended principally to postpone recognition of losses. The first is an unavoidable feature of banking. The second raises questions of professional and fiduciary responsibility.\n\nEthics cannot remain an appeal to individual morality. It must be translated into the institutional architecture of accountability. For years, the standard policy response to banking distress has centred on stronger laws, tighter regulations, loan recovery and, increasingly, political will. But regulation principally tells bankers what they may or may not do. Fiduciary leadership brings up the question of what a professional entrusted with other people’s money should refuse to do, even when political pressure is intense or regulatory rules leave room for discretion.\n\nBangladesh’s political economy makes that question especially difficult. In parts of the banking system, professional judgement has long operated alongside political influence. Board appointments, lending relationships, and regulatory forbearance have sometimes rewarded accommodation over independence. Refusing an influential borrower can carry professional costs; accommodating one may appear safer. Under such conditions, institutional incentives gradually crowd out professional norms.\n\nEconomists would recognise part of this as moral hazard. Decision-makers take greater risks when they expect others to bear the eventual costs. If bank executives believe that distressed loans will repeatedly be restructured, politically connected borrowers protected, or troubled institutions eventually recapitalised, the downside from poor lending decisions becomes separated from the original decision-maker. A loan approved today may generate interest income and apparent profits before becoming tomorrow’s NPL. By then, the executive who approved it may have moved elsewhere, while depositors, shareholders, successor management, or ultimately taxpayers inherit the consequences.\n\nEncouragingly, Bangladesh Bank’s reforms introduced in mid-September appear to recognise this problem. Its new performance framework for bank managing directors and chief executives gives relatively little weight to profitability alone, while placing much greater emphasis on asset quality, solvency, liquidity, governance, and internal controls. Performance is also intended to influence remuneration, incentives, and reappointment. That is an important shift as it implicitly recognises that a bank leader’s performance cannot be judged simply by how rapidly loans or profits grow.\n\nThe same principle should guide the next stage of reform. Boards must protect independent credit and risk functions; regulators should scrutinise not merely whether procedures were followed but whether senior executives repeatedly overrode prudent risk judgement; executive performance should be assessed over sufficiently long horizons to capture the consequences of lending decisions; and accountability must distinguish legitimate commercial mistakes from negligence, reckless accommodation, and intentional disregard of fiduciary obligations.\n\nProfessor Wahiduddin Mahmud is right to put ethics back into the banking conversation. But ethics becomes meaningful only when we identify whose duty is involved, to whom that duty is owed, and what happens when it is breached. Bangladesh must certainly pursue wilful defaulters. But every bad loan has two sides. Lasting banking reform requires scrutiny not only of those who took other people’s money, but also of those entrusted with deciding whether the money should be given away to less reliable borrowers. Banks do not create trust, they borrow it from society. Fiduciary leadership is the obligation to return that trust intact.",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "banking",
+     "sentence": "M Niaz Asadullah M Niaz Asadullah FILE ILLUSTRATION: SOJIB ROY \"> FILE ILLUSTRATION: SOJIB ROY Bangladesh’s debate over its banking crisis may finally be asking a question it has long neglected."
+    },
+    {
+     "w": "professional",
+     "sentence": "Every large loan passes through multiple layers of professional judgement before the money moves."
+    },
+    {
+     "w": "fiduciary",
+     "sentence": "The leadership obligation arising from this relationship can be described as fiduciary leadership."
+    },
+    {
+     "w": "judgement",
+     "sentence": "Every large loan passes through multiple layers of professional judgement before the money moves."
+    },
+    {
+     "w": "borrower",
+     "sentence": "Our banking crisis continues to be viewed overwhelmingly from the borrower’s side of the transaction."
+    },
+    {
+     "w": "entrusted",
+     "sentence": "They allocate resources entrusted to them by lakhs of depositors—school teachers, factory workers, pensioners, family members of overseas migrant workers, small entrepreneurs, and households saving for their children’s futures."
+    },
+    {
+     "w": "executive",
+     "sentence": "Credit officers assess repayment capacity, risk managers examine exposures, committees scrutinise proposals, managing directors and chief executives exercise executive authority, and boards carry out oversight responsibilities."
+    },
+    {
+     "w": "executives",
+     "sentence": "Credit officers assess repayment capacity, risk managers examine exposures, committees scrutinise proposals, managing directors and chief executives exercise executive authority, and boards carry out oversight responsibilities."
+    },
+    {
+     "w": "leadership",
+     "sentence": "The leadership obligation arising from this relationship can be described as fiduciary leadership."
+    },
+    {
+     "w": "lending",
+     "sentence": "There is a difference between an honestly mistaken credit judgement and lending that ignores obvious warning signs, excessive borrower concentration, inadequate collateral, unrealistic cash-flow assumptions, or repeated restructuring intended principally to postpone recognition of losses."
+    },
+    {
+     "w": "performance",
+     "sentence": "Its new performance framework for bank managing directors and chief executives gives relatively little weight to profitability alone, while placing much greater emphasis on asset quality, solvency, liquidity, governance, and internal controls."
+    },
+    {
+     "w": "accountability",
+     "sentence": "And where politically connected borrowers deliberately avoid repayment despite having the capacity to pay, accountability is indispensable."
+    }
+   ]
+  },
+  {
+   "paper": "The Daily Star",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Garment workers’ minimum wages should be based on data, not just bargaining",
+   "date": "2026-11-15",
+   "url": "https://www.thedailystar.net/opinion/views/news/garment-workers-minimum-wages-should-be-based-data-not-just-bargaining-4323911",
+   "excerpt": "Amid ongoing protests by garment workers demanding fair wages, factory shutdowns, road blockades and police action, one can recognise a pattern that crystallised in 2006, 2010, 2013, and again in 2023.",
+   "fullText": "The disagreement itself is not the problem: workers and employers will naturally protect their own respective interests. The problem is that the board has no decisive evidence against which to judge their claims, so the outcome depends on who can bring more workers onto the street or warn more convincingly of factory closures. That’s why an evidence-based approach to setting the minimum wage is required, built on independent research papers prepared by economists before the board decides.\n\nThe entry-level minimum wage in the garment sector was Tk 627 in 1986. It was raised to Tk 930 in 1994, Tk 1,662.50 in 2006, Tk 3,000 in 2010, Tk 5,300 in 2013, Tk 8,000 in 2018, and Tk 12,500 in December 2023. Gaps between revisions ranged from three to 12 years, and each revision raised the nominal wage by between 48 and 80 percent.\n\nThose headline increases look large. Measured in constant prices, though, they look very different. Between one revision and the next, the purchasing power of each wage structure fell by 22 to 46 percent. The 1994 minimum wage lost almost half its value over the 12 years it remained in force. The 2018 wage lost 28 percent of its value over five years.\n\nUsing the Bangladesh Bureau of Statistics’ 12-month average inflation rates since November 2023, a worker would need about Tk 16,326 today to buy what Tk 12,500 bought in December 2023. The real value of the entry-level minimum wage has fallen by roughly 23 percent. A worker who has stayed in the same job and received the annual increments on basic pay now earns roughly Tk 13,500 to Tk 13,760, still 16 to 18 percent below the inflation-adjusted level.\n\nThe 2026 amendment to the Labour Act shortened the interval between revisions under Section 139(6) from five years to three. That limits how real wage erosion can run, but it says nothing about how wages should move in between. Even the annual increment, raised from 5 to 9 percent in December 2024 after the July uprising and resultant unrest, remains disputed .\n\nIn setting the wages, Section 141 of the Bangladesh Labour Act, 2006 directs the board to take into account the cost of living, the standard of living, the cost of production, productivity, the price of products, inflation, the nature and risk of work, business capability, and the economic and social conditions of the country and the locality. The 2026 amendments did not change this section, which creates three gaps.\n\nThe first is method. The law lists about a dozen factors but gives no weights, no formula, and no specified data source.\n\nThe second is an imbalance in the evidence itself. The factors that favour workers are measured monthly by the state. The factors that favour employers are not measured by anyone independent. There are no regular credible sources on costs of production, profit margins, or buyers’ pressure.\n\nThe third gap is the most consequential: the buyers. The law binds only domestic employers. Yet the free-on-board (FOB) price that determines a factory’s revenue is negotiated with international brands, and a handful of large buyers face many competing suppliers, which has, over time, apparently reduced prices per kilogram of exports.\n\nThe board should be given a common, published evidence base before negotiations begin, so that both workers and factory owners argue from the same numbers. The National Pay Commission in 2024-2025 for revising the national salary structure for public sector employees also used research-based evidence for its exercise.\n\nConcretely, the board should commission an independent team of economists to prepare a background paper, with its data and methods made public. At a minimum, it should cover six things. First, cost of living by industrial area, covering food, rent, health, education and transport for worker households in Dhaka, Gazipur, Narayanganj, and Chattogram, with explicit assumptions on household size and number of earners, which drive most of the gap between existing living cost estimates.\n\nSecond, a price index weighted by workers’ spending. The national CPI does not reflect a garment worker’s consumption basket. With non-food inflation at a 41-month high of 9.89 percent in October, the difference matters. Third, a factory survey stratified by size and subcontracting status, measuring labour’s share of FOB, cost per minute, line efficiency, and net margins. Fourth, buyer prices and purchasing practices, which should include unit-price trends by product, and show whether labour is costed separately in price negotiations, and whether brands commit in writing to adjust prices in line with mandated wage increases.\n\nFifth, the employment effects of past revisions should be considered. What happened to employment, factory closures, and women’s participation after 2013, 2018, and 2023, using Labour Force Surveys and establishment data. And finally, the wage structure: the gaps between grades and the share of basic pay in the total, since overtime, festival bonuses, and end-of-service benefits are all calculated on basic pay.\n\nThe research paper should also propose a rule for the years between full reviews. A simple version would raise the minimum wage each year by the previous year’s inflation, measured by the worker-weighted index, plus an agreed share of the sector’s productivity growth. The share would be fixed on a tripartite basis for three years, after which the board would conduct a full review. The present annual increment does not achieve this, as it applies only to basic pay.\n\nSince the present board must make its decision within weeks, a full background paper cannot be completed in that time. Because of that constraint, the new entry-level wage should not be set below Tk 16,300. That figure is not a real increase; it only restores the purchasing power workers had in December 2023. However, how far the wage should rise above that floor, whether to Tk 20,000 or beyond, cannot responsibly be decided without the evidence described earlier.\n\nAs for buyers, their role cannot be ensured by Bangladeshi law. But an independent, published estimate of what a wage increase costs per garment, set against falling unit prices, would give the government, employers, and unions a shared basis on which to ask brands to pay their share. Bangladesh has spent four decades setting garment wages through protest and last-minute bargaining. The three-year cycle created by the 2026 amendment offers an opportunity to establish a wage-setting practice in which all parties agree in advance on the principles, criteria, and evidence that will inform wage revisions.\n\nKazi Iqbal is research director at Bangladesh Institute of Development Studies (BIDS).",
+   "hasFullText": true,
+   "words": [
+    {
+     "w": "evidence",
+     "sentence": "The problem is that the board has no decisive evidence against which to judge their claims, so the outcome depends on who can bring more workers onto the street or warn more convincingly of factory closures."
+    },
+    {
+     "w": "percent",
+     "sentence": "Gaps between revisions ranged from three to 12 years, and each revision raised the nominal wage by between 48 and 80 percent."
+    },
+    {
+     "w": "minimum",
+     "sentence": "That’s why an evidence-based approach to setting the minimum wage is required, built on independent research papers prepared by economists before the board decides."
+    },
+    {
+     "w": "workers",
+     "sentence": "The disagreement itself is not the problem: workers and employers will naturally protect their own respective interests."
+    },
+    {
+     "w": "factory",
+     "sentence": "The problem is that the board has no decisive evidence against which to judge their claims, so the outcome depends on who can bring more workers onto the street or warn more convincingly of factory closures."
+    },
+    {
+     "w": "inflation",
+     "sentence": "Using the Bangladesh Bureau of Statistics’ 12-month average inflation rates since November 2023, a worker would need about Tk 16,326 today to buy what Tk 12,500 bought in December 2023."
+    },
+    {
+     "w": "december",
+     "sentence": "It was raised to Tk 930 in 1994, Tk 1,662.50 in 2006, Tk 3,000 in 2010, Tk 5,300 in 2013, Tk 8,000 in 2018, and Tk 12,500 in December 2023."
+    },
+    {
+     "w": "employers",
+     "sentence": "The disagreement itself is not the problem: workers and employers will naturally protect their own respective interests."
+    },
+    {
+     "w": "garment",
+     "sentence": "The entry-level minimum wage in the garment sector was Tk 627 in 1986."
+    },
+    {
+     "w": "independent",
+     "sentence": "That’s why an evidence-based approach to setting the minimum wage is required, built on independent research papers prepared by economists before the board decides."
+    },
+    {
+     "w": "measured",
+     "sentence": "Measured in constant prices, though, they look very different."
+    },
+    {
+     "w": "research",
+     "sentence": "That’s why an evidence-based approach to setting the minimum wage is required, built on independent research papers prepared by economists before the board decides."
+    }
+   ]
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "‘প্রধান ফটক খোলা ছিল, কক্ষের সামনে প্রহরী ছিল না’",
+   "date": "2026-11-15",
+   "url": "https://www.prothomalo.com/opinion/column/wwxsd6b3tk",
+   "excerpt": "কমিশন রাষ্ট্রপতির নিরাপত্তার দায়িত্ব পালনে পুলিশ, পিজিআর এবং সংশ্লিষ্ট গোয়েন্দা সংস্থাগুলোর বিভিন্ন মাত্রার ব্যর্থতা চিহ্নিত করেছে।",
+   "fullText": "সাবেক রাষ্ট্রপতি জিয়াউর রহমান হত্যাকাণ্ডের শিকার হওয়ার পর ১৯৮১ সালের ৬ জুন একটি তদন্ত কমিশন গঠন করা হয়েছিল। তিন সদস্যের সেই ‘রাষ্ট্রপতি জিয়াউর রহমান হত্যাকাণ্ডের তদন্ত কমিশন’ তৎকালীন ভারপ্রাপ্ত রাষ্ট্রপতি বিচারপতি আবদুস সাত্তারের কাছে প্রতিবেদন দাখিল করলেও এত দিন তা আনুষ্ঠানিকভাবে প্রকাশ করা হয়নি। সম্প্রতি আন্তর্জাতিক অপরাধ ট্রাইব্যুনালের প্রসিকিউশন (রাষ্ট্রপক্ষ) তদন্ত কমিশনের দেওয়া সেই প্রতিবেদন উদ্ধার করেছে। সেই প্রতিবেদন ধরে দুই পর্বে লিখেছেন প্রদীপ সরকার । আজ প্রকাশিত হলো প্রথম পর্ব আন্তর্জাতিক অপরাধ ট্রাইব্যুনালের প্রসিকিউটর তানভীর হাসান জোহা প্রথম আলো কে বলেছেন, সাবেক সেনা কর্মকর্তা মাসুদ উদ্দিন চৌধুরী এবং মোজাফফর হোসেনের বিরুদ্ধে মানবতাবিরোধী অপরাধের মামলার তদন্ত করতে গিয়ে চট্টগ্রাম থেকে সাবেক রাষ্ট্রপতি জিয়াউর রহমান হত্যাকাণ্ডে গঠিত তদন্ত কমিশনের দেওয়া একটি প্রতিবেদন সম্প্রতি উদ্ধার করা হয়েছে। কমিশনের প্রাথমিক দায়িত্ব ছিল জিয়াউর রহমান হত্যাকাণ্ডের পেছনে ষড়যন্ত্র ছিল কি না, থাকলে কারা সেই ষড়যন্ত্র করেছিলেন, তাঁদের উদ্দেশ্য কী ছিল এবং কারা সহযোগিতা করেছিলেন—এসব বিষয় অনুসন্ধান করা। কিন্তু কমিশন গঠনের পরপরই ১৯৮১ সালের ১৩ জুন স্বরাষ্ট্র মন্ত্রণালয় প্রজ্ঞাপনের মাধ্যমে কমিশনের কার্যপরিধি থেকে ষড়যন্ত্র অনুসন্ধানের পুরো অংশটি বাদ দেওয়া হয়েছিল। ফলে হত্যাকাণ্ডের পেছনের ষড়যন্ত্র এবং ষড়যন্ত্রকারীদের শনাক্ত করার পূর্ণাঙ্গ অনুসন্ধান কমিশনের আনুষ্ঠানিক দায়িত্বের মধ্যে আর থাকেনি। তানভীর হাসান জোহা বলেন, এ ঘটনার একজন সাক্ষী (মোজাফফর হোসেন) এখনো জীবিত আছেন। আইন অনুযায়ী, বেসামরিক আদালতে এখনো জিয়াউর রহমানকে হত্যার মামলাটি চালু করা সম্ভব। এটা করা গেলে তথ্যপ্রমাণের ভিত্তিতে জিয়াউর রহমানকে হত্যার পরিকল্পনাকারী ও ষড়যন্ত্রকারী কারা, হত্যার উদ্দেশ্য কী ছিল ইত্যাদি অমীমাংসিত বিষয়ের মীমাংসা হতে পারে। সংকটকালের নেতৃত্ব ও একজন জিয়াউর রহমান ‘জিয়াউর রহমানের নিরাপত্তা পর্যাপ্ত ছিল না’ জিয়াউর রহমান ১৯৮১ সালের ৩০ মে চট্টগ্রাম সার্কিট হাউসে হত্যাকাণ্ডের শিকার হয়েছিলেন। তাঁর হত্যায় গঠিত তদন্ত কমিশন একই বছরের ২৫ জুন সাক্ষ্য গ্রহণ শুরু করে। সে বছরের সেপ্টেম্বরে প্রতিবেদন তৈরি করে। তদন্ত কমিশন কী পেয়েছে, তা তাদের প্রতিবেদনে উঠে এসেছে। প্রতিবেদনে বলা হয়েছে, রাষ্ট্রপতি জিয়াউর রহমানের ১৯৮১ সালের ২৯ মে রাজশাহী সফরের কথা ছিল। কিন্তু ২৫ মে তিনি তাঁর সামরিক সচিবকে রাজশাহীর কর্মসূচি বাতিল করে চট্টগ্রাম সফরের আয়োজন করতে বলেন। সে অনুযায়ী ২৯ মে তিনি চট্টগ্রামে যান। তদন্ত কমিশনের প্রতিবেদন অনুযায়ী, রাষ্ট্রপতির চট্টগ্রাম সফরের কর্মসূচি তাঁর সামরিক সচিব তৈরি করেছিলেন। ২৬ মে সেই কর্মসূচি পুলিশের বিশেষ শাখা (এসবি) পায়। এরপর চট্টগ্রাম মহানগর পুলিশ কমিশনারসহ সংশ্লিষ্ট কর্মকর্তাদের টেলিফোনে নিরাপত্তার ব্যবস্থা নেওয়ার নির্দেশ দেয় এসবি। প্রতিবেদনে উল্লেখ করা হয়েছে, তদন্ত কমিশনকে চট্টগ্রাম মহানগর পুলিশ কমিশনার জানিয়েছিলেন, রাষ্ট্রপতির নিরাপত্তার প্রধান দায়িত্ব তাঁর ওপরই ছিল। তবে বাস্তবে নিরাপত্তার আয়োজন করেছিলেন পুলিশের নগর বিশেষ শাখার (এসবি) উপপুলিশ কমিশনার আলী মোহাম্মদ ইকবাল। পুলিশ কমিশনারের বক্তব্য অনুযায়ী, ওই আয়োজন বিধি অনুসারে করা হয়েছিল এবং তিনি তা অনুমোদন করেছিলেন। মোজাফফর আটক, জিয়া হত্যাকাণ্ডের রাজনীতি ও কমিশন গঠনের প্রস্তাব কিন্তু পুলিশের জমা দেওয়া নিরাপত্তাসংক্রান্ত দুটি নথি নিয়ে গুরুতর প্রশ্ন তোলে তদন্ত কমিশন। চট্টগ্রাম নগর বিশেষ শাখার ২৮ মে তারিখের ২৫৪৪ ও ২৫৪৫ নম্বর স্মারক দুটি উপপুলিশ কমিশনার ২৭ মে স্বাক্ষর করেছিলেন বলে দাবি করা হয়। কমিশনের পর্যবেক্ষণ অনুযায়ী, ১৯৮১ সালের ৩০ মে হত্যাকাণ্ডের পর শুধু দাপ্তরিক নথি হিসেবে সংরক্ষণের জন্য এগুলো তৈরি করা হয়েছিল। কারণ, রাষ্ট্রপতির চন্দনপুরা মসজিদে জুমার নামাজ পড়ার বিষয়টি আগে থেকে তাঁর সফরসূচিতে ছিল না, তা তাৎক্ষণিকভাবে নির্ধারিত হয়েছিল। ফলে ২৭ মে ওই কর্মসূচির জন্য নিরাপত্তাব্যবস্থা নেওয়া সম্ভব ছিল না। নথি তৈরির ক্ষেত্রে এই অসাধুতার বিষয়টি পুলিশের মহাপরিদর্শক খতিয়ে দেখতে পারেন বলেও প্রতিবেদনে উল্লেখ করা হয়েছে। কমিশন চট্টগ্রাম সার্কিট হাউসের নিরাপত্তাব্যবস্থা পর্যালোচনা করে দেখতে পায়, সংশ্লিষ্ট কর্তৃপক্ষের নেওয়া ব্যবস্থা মোটামুটি বিধি অনুসারে হলেও রাষ্ট্রপতিকে কাছ থেকে সুরক্ষা দেওয়ার (ক্লোজ প্রটেকশন) নীতি যথাযথভাবে অনুসরণ করা হয়নি। পুলিশের বিশেষ শাখার জমা দেওয়া নিরাপত্তাসংক্রান্ত স্মারকগুলোয়ও রাষ্ট্রপতির অবস্থানস্থলকে বিচ্ছিন্ন নিরাপত্তাবেষ্টনীতে রাখার (আইসোলেশন কর্ডন) কোনো উল্লেখ পাওয়া যায়নি। রাষ্ট্রপতির নিরাপত্তার দায়িত্ব পালনে দ্বৈত কর্তৃত্বের সমস্যাও চিহ্নিত করে তদন্ত কমিশন। প্রতিবেদনে বলা হয়েছে, পুলিশের মহাপরিদর্শক এবং রাষ্ট্রপতির সামরিক সচিব একই উদ্দেশ্যে পৃথকভাবে দায়িত্ব পালন করছিলেন। অথচ পুলিশ ও প্রেসিডেন্টস গার্ড রেজিমেন্টের (পিজিআর) মধ্যে সমন্বয়ের কোনো ব্যবস্থা ছিল না, যা অত্যন্ত অসন্তোষজনক। নিরাপত্তাব্যবস্থার সামগ্রিক মূল্যায়নে কমিশন বলেছে, রাষ্ট্রপতির নিরাপত্তার জন্য নেওয়া ব্যবস্থা পুরোপুরি পর্যাপ্ত ছিল না। তা নিরাপত্তাবিধি ও পরিস্থিতির প্রয়োজনের সঙ্গেও সম্পূর্ণ সামঞ্জস্যপূর্ণ ছিল না। বিশেষ করে বিধির ১০১ (এ) ও (সি) ধারায় নির্ধারিত ‘ক্লোজ প্রটেকশন’ বা নিবিড় নিরাপত্তার নীতি পুলিশের ব্যবস্থাপনায় যথাযথভাবে অনুসরণ করা হয়নি। এটি ছিল বিধির সুস্পষ্ট লঙ্ঘন। এ ছাড়া ঘটনার সময় সার্কিট হাউসে দায়িত্ব পালনকারী নিরাপত্তা বাহিনীর সদস্যদের নজরদারিতে গুরুতর শিথিলতা ছিল বলে কমিশন উল্লেখ করেছে। ‘প্রধান ফটক খোলা ছিল, কক্ষের সামনে প্রহরী ছিল না’ তদন্ত কমিশনের প্রতিবেদনে উল্লেখ করা হয়েছে, রাষ্ট্রপতি জিয়াউর রহমানকে হত্যার সময় চট্টগ্রাম সার্কিট হাউসে পুলিশের পাশাপাশি প্রেসিডেন্টস গার্ড রেজিমেন্টের (পিজিআর) সশস্ত্র সদস্যরা দায়িত্বে ছিলেন। তদন্ত কমিশনের প্রতিবেদনের ৭৬ নম্বর অনুচ্ছেদ অনুযায়ী, সার্কিট হাউসে হাউস গার্ডদের মধ্যে ছিলেন ২৬ জন কনস্টেবল, ৬ জন হাবিলদার, একজন সুবেদার ও দুজন বিউগলার। এর বাইরে ক্যাপ্টেন আশরাফুল হাফিজ খানের নেতৃত্বে পিজিআরের ১৪ সদস্যের একটি দল রাষ্ট্রপতির নিরাপত্তায় নিয়োজিত ছিল। মৌখিক সাক্ষ্য ও নথিপত্র পর্যালোচনা করে কমিশন দেখতে পায়, দায়িত্বে থাকা পুলিশ কনস্টেবলদের কাছে সাধারণত পয়েন্ট ৩০৩ রাইফেল এবং হেড কনস্টেবলদের কাছে সাবমেশিনগান বা রিভলবার ছিল। বাইরের নিরাপত্তাবেষ্টনীতে দায়িত্ব পালনকারী প্রহরীদের জন্য কয়েকটি এসএলআরও সরবরাহ করা হয়েছিল। সার্কিট হাউসে দায়িত্বে থাকা পুলিশ সদস্যদের পর্যাপ্ত গোলাবারুদ দেওয়া হয়েছিল বলেও কমিশন উল্লেখ করেছে। অন্যদিকে রাষ্ট্রপতির সামরিক সচিব কমিশনকে জানান, ওই সময় প্রেসিডেন্টস গার্ড রেজিমেন্টের (পিজিআর) দলটি লাইট মেশিনগান ও সাবমেশিনগানে সজ্জিত ছিল। তাদের কাছেও পর্যাপ্ত গোলাবারুদ ছিল। সার্কিট হাউসের প্রধান লোহার ফটক রাতে খোলা রাখাকে গুরুতর ভুল হিসেবে চিহ্নিত করে তদন্ত কমিশন। প্রতিবেদনে বলা হয়েছে, ফটক বন্ধ থাকলে হামলাকারীদের গাড়িগুলো এত সহজে ভেতরে ঢুকতে পারত না। এতে অন্তত কিছুটা সময় পাওয়া যেত এবং সেই সুযোগে নিরাপত্তাকর্মীদের পক্ষে ভবনের ভেতরে প্রতিরক্ষামূলক অবস্থান নেওয়া সম্ভব হতে পারত। হামলার আগে মধ্যরাতের পর অন্তত একটি ব্যক্তিগত গাড়ি কোনো তল্লাশি ছাড়াই সার্কিট হাউসের প্রধান ফটক দিয়ে প্রবেশ করে। ওই রাতে প্রচণ্ড ঝড়বৃষ্টি হচ্ছিল। কমিশনের অনুসন্ধানে দেখা যায়, মধ্যরাতের পর পুলিশ সদস্য ও প্রহরীদের কয়েকজন বৃষ্টি থেকে বাঁচতে এবং বিশ্রামের জন্য সার্কিট হাউসের নিচতলার বারান্দা, সম্মেলনকক্ষ ও লাউঞ্জে একত্র হয়েছিলেন। কমিশন মনে করেছে, দায়িত্বে থাকা পুলিশ সদস্যদের সতর্কতায় গুরুতর শিথিলতা ছিল। ফলে আকস্মিক হামলার সময় তাঁরা প্রায় অপ্রস্তুত অবস্থায় পড়ে যান। হামলাকারীরা প্রধান ফটক দিয়ে প্রবেশের পর কার্যত কোনো বাধা ছাড়াই মূল সিঁড়ি বেয়ে দোতলায় উঠে যান। কমিশনের অনুসন্ধানে আরও দেখা যায়, হামলাকারীরা দোতলায় পৌঁছানোর সময় রাষ্ট্রপতির কক্ষের সামনে বা আশপাশে কোনো নিরাপত্তারক্ষী ছিলেন না। এমনকি দোতলায় বা সিঁড়িতেও পুলিশের কোনো প্রহরী মোতায়েন ছিলেন না। রাষ্ট্রপতির ব্যক্তিগত সচিব মাহফুজুর রহমানের আরও কিছু আচরণ নিয়ে সন্দেহ প্রকাশ করেছে তদন্ত কমিশন। কমিশনের অনুসন্ধানে উঠে আসে, হত্যাকাণ্ডের দিন সকালে তিনি সার্কিট হাউসের কোন কক্ষে কে অবস্থান করছেন, তাঁর টাইপ করা তালিকা সংগ্রহ করেছিলেন। আগের সফরগুলোয় রাষ্ট্রপতি সার্কিট হাউসে অবস্থানকালে মাহফুজুর রহমান কখনো এ ধরনের তালিকা চাননি বলে কমিশনকে জানানো হয়। তবে নিরাপত্তার দায়িত্বে থাকা সবাই যে প্রতিরোধের চেষ্টা করেননি, তা নয়। কমিশন পুলিশ কনস্টেবল দুলাল মিয়ার বিশেষ গুরুত্বের সঙ্গে উল্লেখ করেছে। তিনি নিচতলার বারান্দায় নির্ধারিত অবস্থানে থেকে দায়িত্ব পালন করতে গিয়ে গুলিবিদ্ধ হয়ে নিহত হন। একইভাবে রাষ্ট্রপতির নিরাপত্তা কর্মকর্তা লেফটেন্যান্ট কর্নেল মইনুল আহসান, পিজিআরের ক্যাপ্টেন আশরাফুল হাফিজ খান এবং রাষ্ট্রপতির ব্যক্তিগত নিরাপত্তারক্ষী নায়েক রফিকউদ্দিনের সাহসিকতার প্রশংসা করেছে কমিশন। মইনুল আহসান ও আশরাফুল হাফিজ খান গুলিবিদ্ধ হয়ে নিহত হন। নায়েক রফিকউদ্দিন ঊরুতে গুলিবিদ্ধ হন। কমিশনের মূল্যায়নে, কয়েকজন প্রশিক্ষিত ও দৃঢ়প্রতিজ্ঞ নিরাপত্তাকর্মী সিঁড়ির সুবিধাজনক অবস্থানে থেকে প্রতিরোধ গড়ে তুললে হামলাকারীদের দোতলায় পৌঁছানো ঠেকানো সম্ভব হতে পারত। কমিশন রাষ্ট্রপতির নিরাপত্তার দায়িত্ব পালনে পুলিশ, পিজিআর এবং সংশ্লিষ্ট গোয়েন্দা সংস্থাগুলোর বিভিন্ন মাত্রার ব্যর্থতা চিহ্নিত করেছে। রাষ্ট্রপতির কক্ষের সামনে থেকে প্রহরী সরানোর নির্দেশ তদন্ত কমিশনের প্রতিবেদনে রাষ্ট্রপতি জিয়াউর রহমানের কক্ষের সামনে থেকে দুই পুলিশ প্রহরী সরিয়ে নেওয়ার ঘটনাকে গুরুত্ব দেওয়া হয়েছে। কমিশনের কাছে দেওয়া পুলিশ পরিদর্শক বজলুর রশিদের সাক্ষ্য অনুযায়ী, ১৯৮১ সালের ২৯ মে রাত ১০টায় রাষ্ট্রপতির ব্যক্তিগত সচিব লেফটেন্যান্ট কর্নেল মাহফুজুর রহমান তাঁকে রাষ্ট্রপতির কক্ষের সামনে থেকে দুই প্রহরী সরিয়ে নিতে বলেন। কারণ হিসেবে বলা হয়েছিল, প্রহরীরা রাষ্ট্রপতির অসুবিধার কারণ হতে পারেন। বজলুর রশিদের পর রাত দুইটায় দায়িত্ব নেওয়া আবদুস সোবহানও রাষ্ট্রপতির কক্ষের সামনে কোনো প্রহরী মোতায়েন করেননি। তিনি কমিশনকে জানান, বজলুর রশিদ তাঁকে বলেছিলেন, লেফটেন্যান্ট কর্নেল মাহফুজুর রহমান দোতলায় কোনো প্রহরী রাখতে নিষেধ করেছেন। কমিশনের অনুসন্ধানে দেখা যায়, হামলাকারীরা দোতলায় পৌঁছানোর সময় রাষ্ট্রপতির কক্ষের সামনে কিংবা আশপাশে কোনো নিরাপত্তারক্ষী ছিলেন না। কমিশন মনে করেছে, রাষ্ট্রপতির কক্ষের সামনে প্রহরী মোতায়েন না করার কোনো যুক্তিসংগত কারণ পুলিশের ছিল না। রাষ্ট্রপতির ব্যক্তিগত সচিব মাহফুজুর রহমানের আরও কিছু আচরণ নিয়ে সন্দেহ প্রকাশ করেছে তদন্ত কমিশন। কমিশনের অনুসন্ধানে উঠে আসে, হত্যাকাণ্ডের দিন সকালে তিনি সার্কিট হাউসের কোন কক্ষে কে অবস্থান করছেন, তাঁর টাইপ করা তালিকা সংগ্রহ করেছিলেন। আগের সফরগুলোয় রাষ্ট্রপতি সার্কিট হাউসে অবস্থানকালে মাহফুজুর রহমান কখনো এ ধরনের তালিকা চাননি বলে কমিশনকে জানানো হয়। হামলার সময় মাহফুজুর রহমানের আচরণ নিয়েও প্রশ্ন তুলেছে কমিশন। প্রতিবেদনে বলা হয়েছে, হামলার সময় লেফটেন্যান্ট কর্নেল মইনুল আহসান ও ক্যাপ্টেন আশরাফুল হাফিজ খানের মতো মাহফুজুর রহমানও নিজের কক্ষের দরজা খুলেছিলেন বলে অভিযোগ রয়েছে। হামলাকারীদের একজন তাঁকে লক্ষ্য করে গুলি করেছিলেন বলেও অভিযোগ রয়েছে। কিন্তু অন্য দুই কর্মকর্তা নিহত হলেও মাহফুজুর রহমান অক্ষত থাকেন। বিষয়টিকে রহস্যজনক বলে উল্লেখ করেছে কমিশন। মাহফুজুর রহমানের কক্ষের দেয়ালে পাওয়া গুলির চিহ্নও পরীক্ষা করে কমিশন। পুলিশের বিশেষজ্ঞদের মতামতের ভিত্তিতে কমিশন বলেছে, কক্ষের দরজার বাইরে থেকে ছোড়া গুলিতে ওই চিহ্নগুলো তৈরি হওয়ার সম্ভাবনা খুব কম। চিহ্নগুলোর অবস্থান ও ধরন বিবেচনায় পরে কৃত্রিমভাবে সেগুলো তৈরি করা হয়ে থাকতে পারে—এমন সম্ভাবনাও উড়িয়ে দেওয়া যায়নি। রাষ্ট্রপতির ব্যক্তিগত কর্মকর্তাদের ভূমিকা নিয়ে এসব পর্যবেক্ষণ দিতে গিয়ে কমিশন বলেছে, তাদের উদ্দেশ্য কোনো ব্যক্তির বিরুদ্ধে চূড়ান্ত রায় দেওয়া নয়। তবে তদন্তে এমন কিছু তথ্য পাওয়া গেছে, যা রাষ্ট্রপতির নিরাপত্তাব্যবস্থায় ভেতর থেকে অন্তর্ঘাতের আশঙ্কা তৈরি করেছে। কমিশন তার মূল্যায়নে আরও বলেছে, সার্কিট হাউসে অবস্থানকালে রাষ্ট্রপতির ব্যক্তিগত কর্মকর্তাদের এক বা একাধিক ব্যক্তির কারণে তাঁর নিরাপত্তা বিঘ্নিত হয়েছিল বলে বিশ্বাস করার কারণ রয়েছে। প্রদীপ সরকার প্রথম আলোর নিজস্ব প্রতিবেদক মতামত লেখকের নিজস্ব",
+   "hasFullText": true,
+   "words": []
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "ভারত যে ৫ কৌশলে দারিদ্র্য কমাতে অসামান্য সাফল্য পেয়েছে",
+   "date": "2026-11-15",
+   "url": "https://www.prothomalo.com/opinion/column/xtd2nrln6y",
+   "excerpt": "ভারতে গত এক দশকে দারিদ্র্য হ্রাসের উল্লেখযোগ্য সাফল্যের পেছনে কর্মসংস্থান বৃদ্ধি, বিশেষ করে নারীদের কর্মসংস্থান, গুরুত্বপূর্ণ ভূমিকা পালন করেছে।",
+   "fullText": "বিশ্বব্যাংক ২০২৬ সালের অক্টোবর মাসে প্রকাশিত তাদের দারিদ্র্য ও সমতাবিষয়ক সংক্ষিপ্ত প্রতিবেদনে জানিয়েছে, ২০১১ থেকে ২০২৩ সাল পর্যন্ত এক দশকের কিছু বেশি সময়ে ভারতে চরম দারিদ্র্যের মধ্যে বসবাসকারী মানুষের হার উল্লেখযোগ্যভাবে কমে ২৭ দশমিক ১ শতাংশ থেকে ২ দশমিক ৬ শতাংশে নেমে এসেছে। দারিদ্র্য হ্রাসের এই অসাধারণ সাফল্যকে বিশ্বে দ্রুততম দারিদ্র্য হ্রাসের ঘটনা হিসেবে অভিহিত করা হয়েছে। এর ফলে ভারত আনুমানিক ৪৯ কোটি ৬০ লাখ মানুষকে, যা যুক্তরাষ্ট্র ও রাশিয়ার সম্মিলিত জনসংখ্যার চেয়ে বেশি মানুষকে দারিদ্র্য ফাঁদ থেকে বের করে আনতে সক্ষম হয়েছে। বিশ্বব্যাংকের ওই প্রতিবেদন আরও জানিয়েছে, নিম্নমধ্যম আয়ের দেশগুলোর জন্য নির্ধারিত দৈনিক ৪ দশমিক ২০ ডলারের দারিদ্র্যসীমা বিবেচনায় নিলেও ভারতে দারিদ্র্যের হার এই সময়ে ৫৭ দশমিক ৭ শতাংশ থেকে কমে ১৬ দশমিক ১ শতাংশে দাঁড়িয়েছে। তবে প্রতিবেদনে এটা সতর্ক করে দেওয়া হয়েছে যে দারিদ্র্য হ্রাসের সাম্প্রতিক এই সাফল্যের কিছু অংশ প্রকৃত জীবনমানের উন্নতির পাশাপাশি পরিমাপপদ্ধতির উন্নতির ফলও হতে পারে। ভ্যাট–কর বৃদ্ধি: দরিদ্র ও মধ্যবিত্ত শ্রেণিকে কঠিন পরিস্থিতিতে ফেলবে প্রকৃতপক্ষে, ২০১১ থেকে ২০২৩ সালের মধ্যে ভারতে আর্থিক ও অর্থবহির্ভূত—উভয় ধরনের দারিদ্র্য সূচকেরই উন্নতি ঘটেছে। তবে এই উন্নতি দেশের সব অঞ্চলে সমানভাবে হয়নি; বরং ভারতের মোট দরিদ্র জনগোষ্ঠীর ৫৭ শতাংশ উত্তর প্রদেশ থেকে পশ্চিমবঙ্গ পর্যন্ত বিস্তৃত একটি সংলগ্ন ভৌগোলিক অঞ্চলে কেন্দ্রীভূত। ভবিষ্যতে ভারতে দারিদ্র্য আরও কমবে বলে বিশ্বব্যাংক ধারণা করছে, যদিও সেই হ্রাসের গতি তুলনামূলকভাবে ধীর হবে বলে অনুমিত হয়। বিশ্বব্যাংকের পূর্বাভাস অনুযায়ী, ভারতে দৈনিক ৪ দশমিক ২০ ডলারের দারিদ্র্যসীমার ভিত্তিতে দারিদ্র্যের হার ২০২৬ সালের ১৪ দশমিক ২ শতাংশ থেকে ২০২৮ সালের মধ্যে ১২ দশমিক ১ শতাংশে নেমে আসতে পারে। তবে এসব পরিসংখ্যান ও প্রবণতার বাইরে দুটি মৌলিক প্রশ্ন রয়েছে। প্রথমত, ভারতের দারিদ্র্য হ্রাসের এই উল্লেখযোগ্য সাফল্যের পেছনে কোন কোন বিষয় ভূমিকা রেখেছে? দ্বিতীয়ত, এ অভিজ্ঞতা থেকে কী কী শিক্ষা নেওয়া যেতে পারে? ভারতের দারিদ্র্যের হার দ্রুত কমে আসার পেছনে প্রধানত চারটি গুরুত্বপূর্ণ কারণ কাজ করেছে বলে ধারণা করা যায়। ভারত প্রশ্নে বাংলাদেশের কৌশল কী হতে পারে প্রথম কারণটি হলো দীর্ঘ সময় ধরে উচ্চ অর্থনৈতিক প্রবৃদ্ধি বজায় রাখা। ২০১০ থেকে ২০২৫ সাল পর্যন্ত ভারত অব্যাহতভাবে উচ্চ ও স্থিতিশীল অর্থনৈতিক প্রবৃদ্ধি অর্জন করেছে, যার ফলে দেশটি বিশ্বের দ্রুততম প্রবৃদ্ধি অর্জনকারী প্রধান অর্থনীতিগুলোর একটিতে পরিণত হয়েছে। ২০১০ সালে ভারতের অর্থনৈতিক প্রবৃদ্ধি শুরু হয়েছিল ৮ দশমিক ৫ শতাংশ দিয়ে। পরবর্তী চার বছরে বৈশ্বিক ও অভ্যন্তরীণ আর্থিক সংকোচনের কারণে প্রবৃদ্ধি কিছুটা কমে গেলেও অল্প সময়ের মধ্যেই তা আবার ঘুরে দাঁড়ায়। ২০১৫-২০১৬ সালে দেশটির প্রকৃত জিডিপি প্রবৃদ্ধি ৮ দশমিক ৩ শতাংশের কাছাকাছি ছিল। কোভিড-১৯ অতিমারির সময় এই প্রবৃদ্ধি সংকুচিত হলেও পরবর্তী সময়ে ২০২১ সালে ভারত প্রায় ১০ শতাংশের ঐতিহাসিক প্রবৃদ্ধি অর্জন করে। ২০২২ থেকে ২০২৫ সাল পর্যন্ত ভারত গড়ে ৭ শতাংশের বেশি অর্থনৈতিক প্রবৃদ্ধি অর্জন করেছে। দীর্ঘ সময় ধরে এ ধরনের উচ্চ প্রবৃদ্ধি ভারতের দারিদ্র্য পরিস্থিতির ওপর উল্লেখযোগ্য ইতিবাচক প্রভাব ফেলেছে। ভারতের দারিদ্র্য হ্রাসের সাফল্যের দ্বিতীয় কারণ হলো ভোগ ব্যয়ের শক্তিশালী প্রবৃদ্ধি। ২০১৫ থেকে ২০২৫ সালের মধ্যে ভারতে ব্যক্তিগত ভোগ ব্যয়ের ক্ষেত্রে গভীর ও ধারাবাহিক কাঠামোগত পরিবর্তন ঘটেছে। এ সময়ে দেশটির মোট পারিবারিক ভোগ ব্যয় প্রায় দ্বিগুণ হয়ে ২০১৫ সালের ১ দশমিক ২৪ ট্রিলিয়ন ডলার থেকে ২০২৫ সালে ২ দশমিক ২৪ ট্রিলিয়ন ডলারে উন্নীত হয়েছে। ভারতের মোট জিডিপির প্রায় ৬০ থেকে ৭০ শতাংশ আসে ব্যক্তিগত ভোগ ব্যয় থেকে। ফলে এক দশক ধরে চলা এই ভোগ ব্যয়ের উল্লম্ফন দেশটির উচ্চ অর্থনৈতিক প্রবৃদ্ধি ও দারিদ্র্য হ্রাসের অন্যতম প্রধান চালিকা শক্তি হিসেবে কাজ করেছে। ভারতের ক্ষেত্রে উন্নত মানের পণ্যের প্রতি ভোক্তাদের ঝোঁকও স্পষ্ট হয়ে উঠেছে। অর্থাৎ ক্রেতারা তুলনামূলক কম দামের পণ্যের পরিবর্তে উন্নত মানের পণ্য কিনতে আগ্রহী হয়েছেন। এর ফলে ভারতীয় পরিবারের গড় বাজেটে নিত্যপ্রয়োজনীয় নয়, এমন পণ্য ও সেবায় বা ঐচ্ছিক খাতে ব্যয়ের অংশ ঐতিহাসিকভাবে ১৫ শতাংশ থেকে বেড়ে ২০২৫ সালে ৩৬ শতাংশে পৌঁছেছে। একই সময়ে ভারতীয় পরিবারগুলো বস্তুগত পণ্যের চেয়ে সেবা ও জীবনযাপনের আনন্দের ওপর বেশি গুরুত্ব দিতে শুরু করেছে। যেমন বিভিন্ন সাংস্কৃতিক অনুষ্ঠান, খেলা দেখা, সংগীত কনসার্ট, বাইরে খেতে যাওয়া এবং অবকাশযাপনমূলক ভ্রমণ। ২০২০ থেকে ২০২৫ সালের মধ্যে ভারতীয়দের বিদেশ ভ্রমণে ব্যয় ২ দশমিক ৭ কোটি রুপি থেকে বেড়ে ৪ কোটি রুপিতে দাঁড়িয়েছে। দীর্ঘমেয়াদি অর্থনৈতিক প্রবৃদ্ধির ক্ষেত্রে ভারতের অভিজ্ঞতা সংস্কারের গুরুত্ব তুলে ধরে। বিশেষ করে রাজস্ব ও নিয়ন্ত্রক কাঠামোর সংস্কার; অর্থনীতিতে কাঠামোগত পরিবর্তন এনে জিডিপি ও কর্মসংস্থানে উৎপাদন খাতের অংশ বৃদ্ধি; অবকাঠামো উন্নয়নে ব্যাপক বিনিয়োগ—যার মধ্যে শুধু সড়ক, মহাসড়ক ও রেলপথ নয়, তথ্যপ্রযুক্তির সংযোগও অন্তর্ভুক্ত; তথ্যপ্রযুক্তি, ব্যবসায়িক সেবা ও বৈশ্বিক সক্ষমতা কেন্দ্রের মতো সেবাভিত্তিক খাতের সম্প্রসারণ এবং সামগ্রিক অর্থনীতির তথ্যপ্রযুক্তিগত রূপান্তর অত্যন্ত গুরুত্বপূর্ণ। ভারতে গত এক দশকে দারিদ্র্য হ্রাসের উল্লেখযোগ্য সাফল্যের পেছনে কর্মসংস্থান বৃদ্ধি, বিশেষ করে নারীদের কর্মসংস্থান, গুরুত্বপূর্ণ ভূমিকা পালন করেছে। ২০১৪ থেকে ২০২৪ সালের মধ্যে ভারতে ১৭ কোটির বেশি কর্মসংস্থানের সুযোগ সৃষ্টি হয়েছে, অর্থাৎ বছরে গড়ে ১ দশমিক ৭ কোটি নতুন কর্মসংস্থান। দেশটিতে বেকারত্বের হার ২০১৫ সালের ৭ দশমিক ৬ শতাংশ থেকে কমে ২০২৫ সালে ৪ দশমিক ২ শতাংশে দাঁড়িয়েছে। কর্মসংস্থানের কাঠামোতেও খাতভিত্তিক পরিবর্তন ঘটেছে। যদিও ভারতে এখনো মোট শ্রমশক্তির ৪১ শতাংশ কৃষিতে নিয়োজিত, তবে কর্মসংস্থানে কৃষির আপেক্ষিক প্রাধান্য ধীরে ধীরে কমছে। বর্তমানে ভারতের মোট শ্রমশক্তির প্রায় ২৬ শতাংশ নিয়োজিত রয়েছে শিল্প উৎপাদন ও নির্মাণ খাতে এবং বাকি ৩৩ শতাংশ সেবা খাতে। নারীদের শ্রমশক্তিতে অংশগ্রহণের ক্ষেত্রেও উল্লেখযোগ্য কাঠামোগত পরিবর্তন ঘটেছে। ২০১০-এর দশকের মাঝামাঝি সময়ে নারীদের কর্মসংস্থান-সম্পর্কিত অনুপাত প্রায় ২২ শতাংশ থাকলেও ২০২৫ সালে তা বেড়ে ৪০ শতাংশের বেশি হয়েছে। গ্রামীণ ও শহরাঞ্চলে মজুরিভিত্তিক এবং স্বকর্মসংস্থানের সুযোগ বৃদ্ধিই এ ক্ষেত্রে প্রধান ভূমিকা রেখেছে। ভারতে উল্লেখযোগ্য দারিদ্র্য হ্রাসের চতুর্থ কারণটি হলো দেশটির সামাজিক সুরক্ষাব্যবস্থায় অভূতপূর্ব ও নীরব বিপ্লব। ২০১৫ থেকে ২০২৫ সালের মধ্যে ভারত তার সামাজিক নিরাপত্তা কর্মসূচির আওতা দেশের মোট জনসংখ্যার ১৯ শতাংশ থেকে বাড়িয়ে ৬৪ শতাংশে উন্নীত করেছে। এই সম্প্রসারণের ফলে ৯৪ কোটির বেশি নাগরিক অন্তত একটি সামাজিক সুরক্ষাসুবিধার আওতায় এসেছে। বিশ্ব ইতিহাসে সামাজিক নিরাপত্তাবেষ্টনী সম্প্রসারণের সবচেয়ে বড় উদ্যোগগুলোর মধ্যে এটি অন্যতম। ২০১৯ সালে ভারতের মাত্র চারটি রাজ্যে নিয়মিত মাসিক নগদ অর্থসহায়তা কর্মসূচি চালু ছিল। কিন্তু ২০২৫ সালের মধ্যে ২৮টি রাজ্যের মধ্যে ১৭টি রাজ্য এবং দিল্লিতে মাসিক নগদ অর্থসহায়তা কর্মসূচি কার্যকর করা হয়। এসব উদ্যোগ ২০২৩ সালের মধ্যে চরম দারিদ্র্যের হার ২ দশমিক ৬ শতাংশে নামিয়ে আনতে উল্লেখযোগ্য অবদান রেখেছে। পাশাপাশি নিম্ন আয়ের পরিবারগুলোকে প্রতি মাসে ১,০০০ থেকে ২,৫০০ রুপি পর্যন্ত আর্থিক সহায়তা দিয়ে তাঁদের জীবনধারণের ক্ষেত্রে গুরুত্বপূর্ণ অবলম্বন জুগিয়েছে। এর ফলে পরিবারের সঞ্চয় বৃদ্ধি, পারিবারিক ব্যয় নিয়ন্ত্রণে নারীদের ভূমিকা এবং সমাজে তাঁদের অবস্থানেরও উন্নতি ঘটেছে। এখন আসা যাক, সাম্প্রতিক সময়ে ঐতিহাসিকভাবে দারিদ্র্য হ্রাসের ক্ষেত্রে ভারতের অভিজ্ঞতা থেকে কী শিক্ষা নেওয়া যেতে পারে, সেই প্রশ্নে। প্রথমত, দীর্ঘমেয়াদি অর্থনৈতিক প্রবৃদ্ধির ক্ষেত্রে ভারতের অভিজ্ঞতা সংস্কারের গুরুত্ব তুলে ধরে। বিশেষ করে রাজস্ব ও নিয়ন্ত্রক কাঠামোর সংস্কার; অর্থনীতিতে কাঠামোগত পরিবর্তন এনে জিডিপি ও কর্মসংস্থানে উৎপাদন খাতের অংশ বৃদ্ধি; অবকাঠামো উন্নয়নে ব্যাপক বিনিয়োগ—যার মধ্যে শুধু সড়ক, মহাসড়ক ও রেলপথ নয়, তথ্যপ্রযুক্তির সংযোগও অন্তর্ভুক্ত; তথ্যপ্রযুক্তি, ব্যবসায়িক সেবা ও বৈশ্বিক সক্ষমতা কেন্দ্রের মতো সেবাভিত্তিক খাতের সম্প্রসারণ এবং সামগ্রিক অর্থনীতির তথ্যপ্রযুক্তিগত রূপান্তর অত্যন্ত গুরুত্বপূর্ণ। দ্বিতীয়ত, ভারতের প্রবৃদ্ধি কৌশলের লক্ষ্য শুধু দীর্ঘমেয়াদি অর্থনৈতিক প্রবৃদ্ধি অর্জন করা ছিল না; বরং উৎপাদনশীল কর্মসংস্থানের সুযোগ বাড়িয়ে সেই প্রবৃদ্ধিকে দরিদ্রবান্ধব করে তোলাও ছিল এর অন্যতম উদ্দেশ্য। এ অভিজ্ঞতার আলোকে উন্নয়নশীল দেশগুলোর জন্য প্রবৃদ্ধিনির্ভর কর্মসংস্থানের পরিবর্তে কর্মসংস্থাননির্ভর প্রবৃদ্ধির কৌশল গ্রহণ অধিক কার্যকর হতে পারে। কারণ, অতীতে অনেক দেশই কর্মসংস্থানহীন প্রবৃদ্ধির অভিজ্ঞতার মধ্য দিয়ে গেছে। ভারত দেখিয়েছে যে উচ্চ অর্থনৈতিক প্রবৃদ্ধি এবং উচ্চ কর্মসংস্থানের লক্ষ্য একই সঙ্গে অর্জন করা সম্ভব। তৃতীয়ত, ভোগ ব্যয় বৃদ্ধির ক্ষেত্রে ভারতের অভিজ্ঞতা ইঙ্গিত দেয় যে শহরাঞ্চলের পরিবর্তে গ্রামীণ অর্থনীতিতে ভোগ ব্যয়ের প্রবৃদ্ধি বাড়ানোর দিকে বিশেষ গুরুত্ব দেওয়া সামগ্রিক অর্থনীতির ভোগ ব্যয় বাড়াতে পারে। বিশেষ করে যেসব দেশে অধিকাংশ মানুষ গ্রামে বসবাস করে, তাদের জন্য বিষয়টি অত্যন্ত প্রাসঙ্গিক। ভারতে কৃষিবহির্ভূত কর্মসংস্থানের দিকে বড় ধরনের পরিবর্তনের ফলে (যা বর্তমানে গ্রামীণ আয়ের ৫০ শতাংশের উৎস) প্রকৃত গ্রামীণ আয় শহরাঞ্চলের মজুরি বৃদ্ধির হারকেও ছাড়িয়ে গেছে। আর এটিই ভারতে দ্রুত ভোগ ব্যয় বৃদ্ধির অন্যতম প্রধান চালিকা শক্তি হিসেবে কাজ করেছে। এ অভিজ্ঞতার মূল শিক্ষা হলো গ্রামীণ অর্থনীতির ওপর গুরুত্ব দিতে হবে এবং এর দ্রুত বিকাশে সহায়তা করতে হবে। এর ফলে অর্থনীতিতে ভোগ ব্যয় বৃদ্ধি পাবে। অর্থনৈতিক প্রবৃদ্ধি যত বাড়বে, ভোক্তারা তাঁদের মোট ব্যয়ের মধ্যে মৌলিক খাদ্যপণ্যের জন্য বরাদ্দকৃত অংশ তত কমিয়ে আনবেন এবং সেই অর্থ ইলেকট্রনিক পণ্য, মোবাইল ফোন, মোটরগাড়ি ও বিলাসবহুল ব্যক্তিগত পরিচর্যার সামগ্রীর মতো পণ্য ও সেবায় ব্যয় করবেন। বিশ্বের অন্যান্য দেশ ভারতের বৃহত্তম সামাজিক সুরক্ষা কর্মসূচিগুলো থেকে শিক্ষা নিতে পারে। বিশেষ করে উপকারভোগী যাচাই, লক্ষ্যভিত্তিক সুবিধা প্রদান, কর্মসূচি বাস্তবায়ন, মূল্যায়ন এবং প্রয়োজন অনুযায়ী কর্মসূচির সংশোধনের ক্ষেত্রে ভারতের অভিজ্ঞতা গুরুত্বপূর্ণ দৃষ্টান্ত হতে পারে। চতুর্থত, উৎপাদনশীল কর্মসংস্থান সৃষ্টির জন্য ভারতের অভিজ্ঞতা থেকে বোঝা যায় যে মানবিক সক্ষমতা বৃদ্ধি, সম্পদের ন্যায্য বণ্টন, মৌলিক সামাজিক সেবায় প্রবেশাধিকার এবং আয় বণ্টনের ন্যায্যতা অত্যন্ত জরুরি। একইভাবে, পারিবারিক পর্যায়ে সম্পদের মালিকানাও ভবিষ্যৎ অর্থনৈতিক সাফল্যের ওপর সুস্পষ্ট প্রভাব ফেলে। কন্যাশিশু ও নারীদের জন্য অধিক সুযোগ সৃষ্টি এবং তাঁদের অর্থনৈতিক, আইনি ও রাজনৈতিক ক্ষমতায়ন নিশ্চিত করার বিনিয়োগ কর্মসংস্থান বৃদ্ধির জন্য অত্যন্ত গুরুত্বপূর্ণ। সাংবিধানিক ও আইনি সংস্কার নারীদের অর্থনৈতিক কর্মকাণ্ডে অংশগ্রহণ সরাসরি বাড়াতে পারে। বিকল্প জ্বালানি, পানি ও বিদ্যুতের মতো অবকাঠামোগত সুবিধা পরিবারগুলোর কাছে পৌঁছে দেওয়া হলে নারীরা স্বকর্মসংস্থানে যুক্ত হতে পারেন কিংবা শ্রমবাজারে অংশগ্রহণের সুযোগ পান। অর্থনৈতিক ক্ষমতায়নের জন্য নারীদের জমি ও ঋণের মতো উৎপাদনশীল সম্পদে প্রবেশাধিকার নিশ্চিত করাও অপরিহার্য। পঞ্চমত, সামাজিক সুরক্ষার ক্ষেত্রে ভারতের অভিজ্ঞতা থেকে বোঝা যায় যে এ ধরনের কর্মসূচির জন্য পর্যাপ্ত রাজস্ব বরাদ্দ বৃদ্ধি এবং দেশের বিভিন্ন ভৌগোলিক অঞ্চলে এর বিস্তার নিশ্চিত করা প্রয়োজন। ভারতের সামাজিক সহায়তা কর্মসূচিগুলো আরও দেখিয়েছে যে প্রযুক্তিগত অবকাঠামো বা ‘টেক স্ট্যাক’—যেমন তথ্যপ্রযুক্তি সংযোগব্যবস্থা ব্যবহার করে কর্মসূচির পরিসর ও কার্যকারিতা কীভাবে বাড়ানো যায়। এ ক্ষেত্রে নারীকেন্দ্রিক কল্যাণ কর্মসূচি, কৃষি ও গ্রামীণ খাতে সহায়তা এবং সামাজিক সহায়তার আওতা সম্প্রসারণ বিশেষভাবে গুরুত্বপূর্ণ। বিশ্বের অন্যান্য দেশ ভারতের বৃহত্তম সামাজিক সুরক্ষা কর্মসূচিগুলো থেকে শিক্ষা নিতে পারে। বিশেষ করে উপকারভোগী যাচাই, লক্ষ্যভিত্তিক সুবিধা প্রদান, কর্মসূচি বাস্তবায়ন, মূল্যায়ন এবং প্রয়োজন অনুযায়ী কর্মসূচির সংশোধনের ক্ষেত্রে ভারতের অভিজ্ঞতা গুরুত্বপূর্ণ দৃষ্টান্ত হতে পারে। ভারতের দারিদ্র্য হ্রাসের উল্লেখযোগ্য সাফল্যকে শুধু তার অর্জন হিসেবে উদ্‌যাপন করাই যথেষ্ট নয়। বরং আরও গুরুত্বপূর্ণ হলো এই অভিজ্ঞতা থেকে শিক্ষা গ্রহণ করা এবং অন্যান্য উন্নয়নশীল দেশের দারিদ্র্য হ্রাসের উদ্যোগে সেসব শিক্ষা কীভাবে তাদের নিজস্ব বাস্তবতা ও প্রয়োজন অনুযায়ী প্রয়োগ করা যায়, তা খুঁজে বের করা। সেলিম জাহান জাতিসংঘ উন্নয়ন কর্মসূচির (ইউএনডিপি) মানব উন্নয়ন প্রতিবেদন কার্যালয়ের সাবেক পরিচালক। * মতামত লেখকের নিজস্ব",
+   "hasFullText": true,
+   "words": []
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "সরকারি পর্যায়ে চিকিৎসার সুযোগ বাড়াতে হবে",
+   "date": "2026-11-15",
+   "url": "https://www.prothomalo.com/opinion/editorial/md7c51wyzt",
+   "excerpt": "দেশে ক্যানসার আক্রান্তের সংখ্যা বাড়ছে কিন্তু সেই তুলনায় চিকিৎসা অবকাঠামো গড়ে ওঠেনি।",
+   "fullText": "দেশে প্রতি ঘণ্টায় ২১ জন নতুন ক্যানসার রোগী শনাক্তের বিপরীতে ১৬ জনের মৃত্যুর পরিসংখ্যানই বলে দেয়, ক্যানসার আক্রান্তদের জীবনের কাছে কতটা অসহায় আত্মসমর্পণ করতে হয়। সম্প্রতি প্রথম আলো য় প্রকাশিত ‘মধ্যরাত থেকে ক্যানসার রোগীদের লাইন, নিশ্চয়তা নেই চিকিৎসার’ শীর্ষক প্রতিবেদনে দেশে ক্যানসার চিকিৎসার অসংগঠিত ও ত্রুটিপূর্ণ চিত্র বিস্তারিতভাবে উঠে এসেছে। ক্যানসার শনাক্ত থেকে চিকিৎসা প্রাপ্তির সুযোগের ঘাটতি এবং উচ্চ ব্যয়—সব মিলিয়ে এই রোগে আক্রান্ত পরিবারগুলো সীমাহীন দুর্ভোগের মধ্যে পড়ছে। দেশে প্রতিবছর কতজন নতুন করে ক্যানসারে আক্রান্ত হচ্ছেন, এর সঠিক কোনো পরিসংখ্যান নেই। তবে ক্যানসারবিষয়ক বিশ্ব স্বাস্থ্য সংস্থার অধিভুক্ত সংস্থা গ্লোবোক্যানের ২০২৪ সালের প্রতিবেদন বলছে, বাংলাদেশে প্রতিবছর ১ লাখ ৮৭ হাজার মানুষ ক্যানসারে আক্রান্ত হন, মারা যান ১ লাখ ৩৮ হাজার জন। ক্যানসারে আক্রান্তদের মৃত্যুহার এত বেশি হওয়ার মূল কারণই হলো দেশে ক্যানসার যাচাই এবং দ্রুত রোগ শনাক্তের ব্যবস্থার স্বল্পতা। প্রশিক্ষিত জনবলের যেমন ঘাটতি আছে, আবার প্রয়োজনের তুলনায় ক্যানসার চিকিৎসাকেন্দ্রও অনেক কম। অথচ প্রাথমিক পর্যায়ে ক্যানসার শনাক্ত হলে যেমন রোগীদের সুস্থ হওয়ার সম্ভাবনা অনেক বেশি, আবার চিকিৎসা ব্যয়ও অনেকটাই কমে যায়। দেশে ক্যানসার আক্রান্তের সংখ্যা বাড়ছে কিন্তু সেই তুলনায় চিকিৎসা অবকাঠামো গড়ে ওঠেনি। এর মূল ভুক্তভোগী হতে হচ্ছে গরিব ও প্রান্তিক জনগোষ্ঠীকে। দেশে যেখানে ২০০-২৫০টি রেডিওথেরাপি যন্ত্র দরকার, সেখানে আছে মাত্র ৩১টি। বাংলাদেশ ইনস্টিটিউট অব ডেভেলপমেন্ট স্টাডিজের গবেষক আবদুর রাজ্জাক ও তাঁর সহকর্মীদের এক গবেষণা থেকে জানা যাচ্ছে, ক্যানসার চিকিৎসা করাতে গিয়ে ৯০ শতাংশ পরিবার আর্থিক বিপর্যয়ে পড়ে। এই বাস্তবতায় ক্যানসার চিকিৎসায় ধনীদের জন্য বিদেশ, মধ্যবিত্তদের জন্য দেশের বেসরকারি হাসপাতাল ও গরিবদের জন্য জাতীয় ক্যানসার গবেষণা ইনস্টিটিউট ও হাসপাতাল—এ রকম ব্যবস্থা যেন অলিখিত নিয়ম হয়ে দাঁড়িয়েছে। দেশে গত দেড় দশকে স্বাস্থ্য অবকাঠামো নির্মাণ ও কেনাকাটায় বিপুল ব্যয় হয়েছে। বিভিন্ন সময়ে প্রথম আলো সহ সংবাদমাধ্যমের খবরে উঠে এসেছে, এর অনেক প্রকল্পই ছিল অপ্রয়োজনীয়। অথচ ক্যানসারের মতো ব্যয়বহুল চিকিৎসায় সরকারি পর্যায়ে গুরুত্ব দেওয়া হয়নি বললেই চলে। দেশে ক্যানসার চিকিৎসার সবচেয়ে বড় ও দরিদ্র রোগীদের শেষ ভরসার জায়গা জাতীয় ক্যানসার গবেষণা ইনস্টিটিউট ও হাসপাতালের দিকে তাকালে সেটা স্পষ্টভাবে চোখে পড়ে। ক্যানসারের চিকিৎসা পাওয়ার অধিকার সবার থাকলেও এই হাসপাতাল কর্তৃপক্ষকে রোগী বাছাইয়ের ক্ষেত্রে সিদ্ধান্ত নিতে হয়, কার বাঁচার সম্ভাবনা বেশি আছে। এমনটাও দেখা যাচ্ছে, যে রোগীর রেডিওথেরাপি লাগবে সাত থেকে পনেরো দিনের মধ্যে, তাঁর সময় দেওয়া হচ্ছে এক-দুই বছর পর। এর অর্থ হচ্ছে ক্যানসারে আক্রান্ত অনেক রোগীই আংশিক চিকিৎসা পাচ্ছেন এবং ধুঁকে ধুঁকে মারা যাচ্ছেন। বাস্তবতা হলো বিশেষায়িত এই হাসপাতালের বেশ কিছু যন্ত্র মেয়াদোত্তীর্ণ ও অকেজো হয়ে গেছে। হাসপাতালটিকে ৭০০ শয্যায় উত্তীর্ণ করা হলেও ৩০০ শয্যার হাসপাতাল পরিচালনার মতো লোকবল রয়েছে। সারা দেশে ক্যানসার চিকিৎসার অবকাঠামো ও সুযোগ প্রায় না থাকায় সব রোগী ঢাকামুখী হচ্ছেন। আমরা মনে করি, দেশে যে অসংগঠিত ও ত্রুটিপূর্ণ ব্যবস্থায় ক্যানসার চিকিৎসা চলছে, তাতে করে এই রোগে আক্রান্তদের একটি বড় অংশই চিকিৎসার সুযোগ থেকে বঞ্চিত হচ্ছেন। ফলে পুরো ব্যবস্থাপনায় খোলনলচে পাল্টে ফেলার সময় এসেছে। ঢাকাকেন্দ্রিকতা থেকে বের হয়ে এসে দীর্ঘ মেয়াদে সরকারি বিনিয়োগে প্রতিটি বিভাগীয় পর্যায়ে পূর্ণাঙ্গ ক্যানসার চিকিৎসাকেন্দ্র গড়ে তোলা প্রয়োজন। প্রয়োজনীয় যন্ত্রপাতি ও জনবল নিয়োগ দিয়ে দ্রুত জাতীয় ক্যানসার গবেষণা ইনস্টিটিউট ও হাসপাতালকে সত্যিকার অর্থে ৭০০ শয্যার হাসপাতালে উত্তীর্ণ করা দরকার। একই সঙ্গে দেশের গুরুত্বপূর্ণ হাসপাতালগুলোতে পর্যাপ্তসংখ্যক রেডিওথেরাপি যন্ত্র স্থাপন করতে হবে।",
+   "hasFullText": true,
+   "words": []
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "কালাইকেশর খালে দ্রুত সেতু বানান",
+   "date": "2026-11-15",
+   "url": "https://www.prothomalo.com/opinion/editorial/2ur1l17fj5",
+   "excerpt": "সবচেয়ে উদ্বেগজনক পরিস্থিতি শিক্ষার্থীদের। কালাইকেশর খালের ওপর বাঁশের সাঁকোটি পার হয়েই দুটি বিদ্যালয়ের শিক্ষার্থীদের যাতায়াত করতে হয়।",
+   "fullText": "একটি সেতুর অভাবে একটি জনপদ কতটা বিচ্ছিন্ন হয়ে পড়তে পারে, পটুয়াখালীর গলাচিপা উপজেলার আমখোলা ইউনিয়নের তাফালবাড়িয়া গ্রাম তার দৃষ্টান্ত। কালাইকেশর খালের ওপর নির্মিত লোহার সেতুটি ভেঙে পড়েছে পাঁচ বছর আগে। এর পর থেকে স্থানীয় মানুষের উদ্যোগে তৈরি একটি বাঁশের সাঁকোই প্রায় সাত হাজার মানুষের চলাচলের একমাত্র ভরসা। সেই সাঁকো দিয়ে প্রতিদিন বিদ্যালয়ে যাতায়াত করতে হয় দেড় শতাধিক শিক্ষার্থীকে। অথচ সাঁকোটি দিয়ে কোনো যানবাহন চলাচলের সুযোগ নেই। এটি কেবল একটি অবকাঠামোগত সমস্যার বিবরণ নয়; বরং নাগরিক সুবিধা নিশ্চিত করার ক্ষেত্রে স্থানীয় সরকারের দায়িত্ব ও উন্নয়ন পরিকল্পনার অগ্রাধিকার নিয়ে গুরুতর প্রশ্ন। একটি গ্রামের সাত হাজার মানুষ পাঁচ বছর ধরে একটি সেতুর জন্য অপেক্ষা করছেন। তাঁদের মধ্যে রয়েছে শিশু, নারী, প্রবীণ, অসুস্থ মানুষ, কৃষক ও ক্ষুদ্র ব্যবসায়ী। একটি পাকা সেতুর অভাবে তাঁদের প্রতিদিনের জীবনযাত্রা কতটা দুর্বিষহ হয়ে উঠেছে, তা সহজেই অনুমেয়। সবচেয়ে উদ্বেগজনক পরিস্থিতি শিক্ষার্থীদের। কালাইকেশর খালের ওপর বাঁশের সাঁকোটি পার হয়েই দুটি বিদ্যালয়ের শিক্ষার্থীদের যাতায়াত করতে হয়। একটি সরকারি প্রাথমিক বিদ্যালয়ের ১২০ জন শিক্ষার্থীর মধ্যে ৬০ জন এই সাঁকো ব্যবহার করে। অন্যদিকে পশ্চিম তাফালবাড়িয়া মাধ্যমিক বিদ্যালয়ের ৩৫০ শিক্ষার্থীর প্রায় অর্ধেকের বিদ্যালয়ে যাওয়ার পথও এটি। বর্ষা মৌসুমে সাঁকো ভিজে পিচ্ছিল হয়ে যায়। তখন শিশুদের খালে পড়ে যাওয়ার আশঙ্কা থাকে। সাঁকো পার হওয়ার সময় বই-খাতা পানিতে পড়ে যাওয়ার ঘটনাও ঘটে। এমন ঝুঁকিপূর্ণ পথে প্রতিদিন বিদ্যালয়ে যাতায়াত করতে হলে শিশুদের শিক্ষার প্রতি আগ্রহ ও উপস্থিতি কমে যাওয়াই স্বাভাবিক। সাঁকোর কারণে বিদ্যালয়ে শিক্ষার্থীর সংখ্যা দিন দিন কমছে। সমস্যাটি শুধু শিক্ষার্থীদের মধ্যে সীমাবদ্ধ নয়। গ্রামের অসুস্থ মানুষকে হাসপাতালে নিতে ভোগান্তি পোহাতে হয়। কৃষকদের উৎপাদিত পণ্য মাথায় করে সাঁকো পার হয়ে অন্য পাশে নিয়ে যেতে হয়। এরপর ভ্যান বা রিকশায় করে আমখোলা বাজারে পৌঁছাতে হয়। সাঁকো দিয়ে যানবাহন চলাচল করতে না পারায় কৃষিপণ্য পরিবহন ব্যয়বহুল ও সময়সাপেক্ষ হয়ে পড়েছে। একই কারণে স্থানীয় ব্যবসা-বাণিজ্যও ক্ষতিগ্রস্ত হচ্ছে। কাছের সেরুখার বাজারে আগে ৩০ থেকে ৪০টি দোকানে কেনাবেচা হতো। কিন্তু সেতু ভেঙে যাওয়ার পর ব্যবসায় মন্দা দেখা দিয়েছে। অনেক ব্যবসায়ী দোকান সরিয়ে অন্য বাজারে চলে গেছেন। অর্থাৎ একটি সেতুর অভাবে শিক্ষা, স্বাস্থ্য, কৃষি ও স্থানীয় অর্থনীতি—সব ক্ষেত্রেই নেতিবাচক প্রভাব পড়ছে। এসব দিক বিবেচনায় নিয়ে কালাইকেশর খালের ওপর একটি পাকা সেতু নির্মাণ জরুরি। কারণ, এটি কেবল উন্নয়নকাজ নয়, এটি মানুষের নিরাপত্তা, শিক্ষা ও জীবনযাত্রার অধিকার নিশ্চিত করার বিষয়।",
+   "hasFullText": true,
+   "words": []
+  },
+  {
+   "paper": "বাংলাদেশ প্রতিদিন",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "বিচারকদের ক্ষমতা খর্ব করতে সুপ্রিম কোর্টে ট্রাম্প প্রশাসন - bd-pratidin.com",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLUFkxUzRMbnliaFEtUnFCSUdZZUZqNzNQLXNTMFdiNWVxUi04ZS01Y2Y2U0xxSEwxMjQ2V2czbDlneEh2Z2U0a1ZjZkxRU3lvR0RBMTNHanI0akRDXzBBWWZhM1VaSzh6Ty1HV3lCbm5LY28?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Britannica",
+   "lang": "en",
+   "kind": "news",
+   "title": "Why do Brazil, Germany, India, and Japan seek permanent seats on the United Nations Security Council?",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWFNwUTNMMWd4TlA0SmhFZkpDYjZRTndhNUc0OTdKSnFPc1AzME5UTDZpMEN2OGU2TzF0YXBoT01PZDgtX1pTQUtsQ25oOFdJcnFvODRSbXZ6RlBaekVDZDlFcm1WeWxKMDRUTGtIdnBRZDNUakZ3UVVHbWxVNWJiQUlOVEt1VFhwbmJDZXN1U0hoM0EzcW4wdTMxS29qY3czamg1bXpLLVZlWGtFNHkxVWswRXZrVzdsMi0tX2ZaNjA4TUd4QkdtVHNn?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Bangla Tribune",
+   "lang": "bn",
+   "kind": "news",
+   "title": "ভূখণ্ডের বিনিময়ে ইউক্রেনকে ন্যাটো সদস্যপদের প্রস্তাব যুক্তরাষ্ট্রের: জেলেনস্কি",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMisgRBVV95cUxNM21nMkVPbTI4N1JGZlhZbFQtaXFvRU9NZ2ExTEJpd285LUZ6YURleGZESWxfS2ZKNU5FZzR4blpMQk5MRDBjeDNVdndPUWUzdmJ4SkRqZ2FmQWFSR1NxNnZqMmpIZk9ra2k1cmdnYzhUZGpNR3VQdm9TUGZ2RkhaczZSRGZ6OHV4SUZPeUtRUk1DelE0SXlIcHpqanJrdEZ4aHEzaGJ1RVhYazUxQVVGMXlVVDJvR0pRcDA4ZC1jNm44YnRvM0hxaTR6T2dONDRlRWlaY080MU10OEprYkFVUVczajBBR3FQX1JhWlRwMzFDaEs3OWkwdV9OOGpEaWdBblFhS3VGS1FTLUxSRnpZTGNhYlA0Rm1HcjF3ekhNS0wyeGgzbFY3cDRLdEFVSjdlVEdyTTJNU25DY3FuUHRndl9wNkNDNGFIMHpvWVJnNUlQOVhEcGp1T1huaWZhLXFQb0JuSXJYOC1wbUhhUTJXUUtrRXBxOHpnYkdlcUw5UUFmdjVhblFvbzV1WlYwRnN4SmNRMk9JN2RET0o0eURNcVZOTnFLenZZSEpwd0NzSzJEaGg1TXVKTXNTM0lXQXNYaEpFX0hjaWZPaVJaX1Y0eFc0eEpfRTJ0MTIyY0lRWVltU0ZKUkhXN0t6VWcyVkU5UmpDZkx6Tnc1ZVdYWTBhcnJpUThZNm9GNjhFT0xRN0NFblRZQTRENlY5ZTRLT1J3a194QjNUc0xDYmFoQ0duZlpB0gG3BEFVX3lxTE9IX2pKZDc1dVF5N3NnYUp3WnVWT2I4ZlIzSlFSN01RVThQM0pRMmpLTUpWdG05czhHM0UzMDVBb0RFVmo2M3Jja3FVTGRuQ0NXVkd0cE56eHBlaTJQMEdHUmotMUZDLWJZOHRvVlRneVNQWDEwUHhfRmhYQ0Q5MWN1RHpsS2tjUXFDcmFwVFU4bXprZTlGVExxTUo2TkVmMVdaM2ZoN0QtTmRTZFFiUDVFeVNzYm9kVG1wUHNaQmYybG5RYXg0WUF2bE42NFVSRUFQZW51SjJkTVlYMU8zOHplZTJQVGk5bzNyQmNXYWtQWlMxX3RKaGtLUnpDZWc4QS04VVFqeWlTZ1VPSFpxMGNyT3NvUEw1LTdXRjJKNDF6OWVzeTRiVTd0ZWVoX0lNRWNfM1JHSkctdmlJNnFUQzMwenUyYWFPVVhPeDhXcWM2YlBxdmM3T1Rrczl2RTJ5cDdfdGRpcndRNnpKRkxWWDJsWVRIX3l4MDBsTWdGVnNjLU9ycmxhR0Z1empILUVJSkhNVXBKWGxLcEpwTE9FaTUwZlp6YXBkZGd6RWplYTVkLXlvWjZtUzlYNEd3bU5MallxRGQ1aXVuMzFkdXQ0ZDN4azEtcXJweHlUdkVHRUozaGxPeGIxM2x0YlNZazk0LVFQTkZnT3Y2Zm8xUUc5NXFUVjZYZUxyakRpNGxIbjBZMUZnYUhDN3NiQVNUeUlzbjhKQWhXeEsxNEYwR25hbU5IV2dYNm9Ldw?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Gramer Kagoj News",
+   "lang": "bn",
+   "kind": "news",
+   "title": "২০৩৪ সালের মধ্যে বাংলাদেশের অর্থনীতি হবে ১ ট্রিলিয়ন ডলার",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE12a3RZLVRPQXhmc2hvbnVLakZvVGVLNXl1YXNrWDhTN1pqR09kekM5S1k3M1loa3JUWXlLbnF4akNLU0lyUlhkU1lsUEl4WFFfeTZOWA?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Daily Vorer Pata",
+   "lang": "bn",
+   "kind": "news",
+   "title": "উচ্চ সুদহার ও জ্বালানি সংকটে চাপে শিল্প খাত, নীতির ধারাবাহিকতা চান ব্যবসায়ীরা",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xM2dCdlZMN1BMM0hqT0xyNmg3OE95dS1wUnpKQkVnZzZFdUxocVZ6UjBfQUs0cC1OWnI3MFR4ZkctNmRTakZLRWZIdVhYMjA2dVpVUw?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Sarabangla",
+   "lang": "bn",
+   "kind": "news",
+   "title": "পরিবেশ ও জলবায়ু খাতে বাংলাদেশ-জাপান সহযোগিতা বাড়ানোর তাগিদ",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4SUNmdUJEQlR2Y1J2Nzdtb3k0LWhvd0NqS0ZSRVNaRW1DMXpPOFNEZ05qal9fT09HZjNQZ2NTT3BTLTZjNzVsYzM0VXAwd3NuLWRaTEVvbXhfNi1rZ0RF?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Amar Barta",
+   "lang": "bn",
+   "kind": "news",
+   "title": "জলবায়ু মোকাবিলায় ইইউর সহযোগিতা বাড়ানোর আহ্বান পরিবেশ প্রতিমন্ত্রীর",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBFeUhETWRFVnZZd0gtQ1RxdFJSS2hRUTFDajEwWlJBZ182czRGMFUzZGlrbFNCT0JqLXk4Wm9iTmlOSHFfQ3dDQ2Z6TzEzRVBH?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
   {
    "paper": "সমকাল",
    "lang": "bn",
@@ -8,6 +445,66 @@
    "title": "ভোক্তাস্বার্থের সুরক্ষা সরকারের দায়িত্ব",
    "date": "2026-11-15",
    "url": "https://news.google.com/rss/articles/CBMiigRBVV95cUxPeUZCZS13TzlWSkdnZEVGNW1FbGxpWklqYUJsbVZTdGJSRy1OaGZ0WkhLT3d4czdvc25RTEZjb1lGU3loNF9YcHBRMHYxRThGb290WDZJbzVXVU83bXpMeEY2VnF4MFNIWk5EQ21BUExXaE5zalFNWWJnRmxRTGozWVNVcUlxZnVSR2tMdFZPS2VTRjZqdUsyU2d3QVUwR3AzSkZPTjE0ZzNhd25RNzFsQzljR2s3M2dYMzN0RjJ3cjNWODBWcGY3am5TUF9reHFfVTR3cVRwQ3AzdWFGTzBMVmtsang5LVFBekRuMXZOSlNYQXVNUk52aE5rWHVvUy1XVEZSb3R3Rmk1QkhTdnRpTWllQ0ZwNXZmclJwTlBaUG1FNlBZZUl4Q2FkeHVsVkZMMTNFY0diOU9ma200MWVKZE1WVW5TWGZaeENWTmNkSkdPeUpjSWFtX3AyWXlsZ0piTE9hSU1sRnpncUhpRVJwVkxVZlpmQjIteXJsUFlOS3BNT01XYVBKNEI2ME14bVJkVVRZckJlTGVUUElvNWZBUE1TblpRaHJxS0Q5al9NcEIyeXoySm43QjQxT25hdU0tY29mVEo0UXQzNjYyUlptOWkwUDFoZTRSNmVBNzdnbi03OVZ5U1RzR0tNeDdyaEJ6N1Y2bGdPOWdzWDUtQTYzdlYxLVo3VV9OSlE?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "দৈনিক ইত্তেফাক",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "বিশ্বের প্রভাবশালী ৫০০ মুসলিমের তালিকায় প্রধানমন্ত্রী তারেক রহমানের নাম",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxQNG11ZnhraHlmRFR3djYyU2hnbl9EZGdoVEJleVY5clNJN1R5dnNXaHFUQWozR3dicmhwaHRXOWF2TEVVMmxRcWtKamhYREVlRVJ4S0k5TG9kYW9Qd0ZjbUQybFRyMm1IVURDX2N2VHV2Y01nT08xUTJncUdWdWhCZk9jX3ZZWl9UekRBaGdsZWIzNTEtUWFfZFVfNEVUN3JQY2pxZDVFOXpGMS15T0M1YjRjU0dfakFxbU8tWDhNak9aWDdzbE1ZSzBIQ3ljeDFCbXNpSEdDaW5PLWI5OWZQbkRZcm52d2s4WHRwaWMwUXdQbk01TllVdnMxVU1OTUxiSmg0ZUV0UU5NQVhDZzg0bFVZeDU1TDhOTWEyNUlNZWZMdU5pODRjSlFfd2syM0tKWFBJQmE4SUI5UFhFdVZrRFNub1I5NTVsZDhoR3JsVjFpUE5lMUlrbW52ckR3VkVNNlhiVHYzSUwtLURXbU02RGpFaDZ4M3NvckZ0QWJhN1BpTzVWa0VNSmwyT2FfZkU1UXJqV09adnplY1Jkd0c4djVBX2F3eXUtMXdDRjNyMUdOQUVxdklMWVE3Z0J1bmxBZVluSDltRjZvZjlDUlhHTWRpTjI5amtBYl94QlVhQTlibTZhQ0s0QnQ0cjBIUXJxTFVF?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Dawn — Opinion",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "'Check, one two': Technical glitch hits US presser on air travel chaos",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE83M3B4RVhLeGhNZWJVaTdXMXNybHNjcW9aVllzeFFHN3hpT0ZwTGREV1prUXhSMDBDakJuT1Q1M25pU1JIanlZZA?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Daily Bonik Barta",
+   "lang": "en",
+   "kind": "news",
+   "title": "5th Bangladesh Economic Summit begins in Dhaka",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jTXVidnlmMk9NSmpsTHhIWU5VZjFWUWIyTUNZTmlFNnB5d3FraTh1NDM4cUQzMnZhNmJPNHJqX2NsMHhDLTNDN2RnUU9xY2FlUE94Nk9EeVRSa3hDSGN5VmY1NA?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Daily Sun",
+   "lang": "en",
+   "kind": "news",
+   "title": "Bangladesh seeks climate finance to boost renewable energy investment",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRkFLUmNpVHN5LXVqLWhwcUlfQnNrU0Zaa2M5OE5VT2ZsN1FzZk02SlZjd1NYb20wVjNRVk8xUno2WVdGV2hmWk4zQ3lid1FHS0NHcmlFdnc3dG13YmVZeHJ3VGhxVkVSaWtyUUFJeFpvZjIzSGFuRDc1dFNYenZseFFfREh2OFVlN3JETWltellMSU9NODJwMHdBVlItYUVHdkIxcm9fTEFQcFBvV0h0c1RB?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Centre for Policy Dialogue (CPD)",
+   "lang": "bn",
+   "kind": "news",
+   "title": "স্থবিরতা কাটাতে মূল্যস্ফীতি নিয়ন্ত্রণের পাশাপাশি বিনিয়োগ ও উৎপাদন বাড়াতে হবে - ড. ফাহমিদা খাতুন",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNWXViNW51a0t2RUtKaVo4eVBsSWhhdFdWZjFlNUJZc09IWFdheTZFekgxOXozc01TTGdTUWE1ZUctcmRlOGJSWW9rcTBCMkZSc1FhbmJCaVItMDdZb3BhMUhsQmQ4a29laEtXQzdrTGZEY2h6bUNTaFFWR1JhblRBMnJOX1FlWkJuU2RaTERuSnBpbFQtNUN6Y2REdElydnJ3NFh4MmJCQ3Y0cXAxZlFPeTljUVdkMEdEY1VNaTZoYV9BaEVLOHpzcGp6UWZjVkkxUS1RTkx1VVp5STk2UkNmemM2Zmt6V2h3REk3ZUsxR2J2YU5LSnR4Uk9qV2FZanFMNUJHZWJ4SDVXRXI2bGg0YTZ1SzFqX2t4TVFrTnRra3hfd1B5M0J6b0c5Z2owNWVwZnNnNnhvSQ?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -722,6 +1219,42 @@
    "title": "Bangladesh Economy at the Crossroads",
    "date": "2026-11-14",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN2dieWotQ195Y3ZyYmJyZ0NFNjJHY2cyNmxFT3ZuZ1Y0LTJjaEhaN0ZTRllJZDZFU2t1enVocFhxRzZqUW1JdHZEWnU3OU84MzRyNXJQczlFcXNfSThMS3VvZS1TelpqSlc5QlA4S0ZqdnRkV1JPaDF0LVhUMWtUM2p3?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "সমকাল",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "ইসরায়েলের ভবিষ্যৎ কী?",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNcGY4a0t0a1UwVEdoVV9Ca3JmZUpoYWdiY2h2N3ZiNWM2Rlc5blV0dW0xd3NxWm1ZaFFGOE1mbWlvbk4xOW1UcDhPWG5YQWVpZnlVd05ERXI3ZG82UFZSOEpzX1VSTTZwWFJZOWo0OG9PNjBpakR5ODBaZnkySFdVY05tQzhuS1l2VE5HQnpsSWlWMldGZVhwVDVOYnBPcFJiMDNMbnhkQ3NHUUp2RnQ3RThPZm9yU0pXSWZYU3UtSnBjNlFjV3F5SzZqSGFUZ3lSLVBOdjFDZjhjZG1nLXR0cHFnemg0WG54WWpQeTI3blExR29HbkNiUFZacEM4dE9jZDFrWm5mR25RX1d0X2hldUZwTEVWRmRMMDBnd1hjZUx2cEItU0tuSkJRUU5pTVNkYVE?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "CSIS",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "The Largest Crypto Heist in History Could Have Been Avoided",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd2xldkNud2ZCVTFXNmpEN2owY1kzV09nY1lySUxJUDVtT2VDNy1vTnV4UnNfT2RzX3NBWkxDTkt6V3dkdFBDZTlxRFMtT1Eyd2djTm1oZXpYTXgxV3pqdDF2Um9NOTJBMUlDX0ItOEk2SldSQkEtcE82ckZtcEptT1Q5bmNVR3Z4eEE?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Carnegie Endowment",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "What’s Behind South Korea’s Rift With Ukraine and Turn Toward Russia?",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYmI3V2VGTnZJZk50NzZvT2RjYVQ5Tnlvc0JONEpxdk9tTEpSdWxObEwtdFNRVXZVYkhxQ3llWktURmlGclNfQ1NqTVd0M241VVpHSTRWTEVRN3N3NmZCYlZaRFdPdXRpakl3MTZKOVBUUy02dExGU3Z6WXNYWHBwbGJ5ekRWMDRrcTFPRVVKOGpURTdpczFfaE0wZjc?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -1616,6 +2149,18 @@
    "title": "জলবায়ু ঝুঁকি মোকাবিলায় ৩০ মিলিয়ন ডলার পাচ্ছে বাংলাদেশ",
    "date": "2026-11-13",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZV04ycnpNUmR4YWFJdTZZMU0xYWdwUU9BdXRIVENoREJRemZUa3Z4dVdFUFg3LXpfYjRFeGVHSHZWZUNmR1hJQjhjU2RwajFzOHUtQkdIc0JvM2Z4Zmx4YzM3ZFI0QQ?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "Atlantic Council",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "What Jensen Huang’s Nvidia exit means for Washington, Wall Street, and Beijing",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRUMwRzdzOWd3MlU4RENndHA0dmVBUy1rTzNkdTlGY0tCNE5CeHBEcEhkM2lfX0ZFQTVJNFp3V3NUNUxhY3p6dnkzTVBMVnBJUTR4SzVqUUR5a29mRjIwdmQtaHp0emYxOWpQajBXbnpIZFpmN1ZwTC1vOTd3LU9vUzVGOHBaT0pJMVh2UTc1SWp6QlBrSk13Q2JuNXJsSjFMcHJaQTUxMU9aOE1YbU1GaE5IaHdycmhyQmFUYlc3dmg1WGFydmliQmstdWU0MnA3YkE?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -2793,6 +3338,18 @@
    "words": []
   },
   {
+   "paper": "বাংলাদেশ প্রতিদিন",
+   "lang": "bn",
+   "kind": "editorial",
+   "title": "হেগসেথের অভিশংসন আটকে দিলেন রিপাবলিকান আইনপ্রণেতারা - bd-pratidin.com",
+   "date": "2026-11-11",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ibGpQdS0yMTk2NGZXemtrajhJX0JaMnFLNnFiSGpuOGEwblZhVWNzZldEQUEtNXB2VjBhcGRLV3FiRXBLdjJZM2poWndRZEkySUdicy1kRi1VdzkxOEZYR1c5X0hlR2I2TG0tazZTbVRGREE?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
    "paper": "Project Syndicate",
    "lang": "en",
    "kind": "editorial",
@@ -3938,6 +4495,42 @@
    "words": []
   },
   {
+   "paper": "The Financial Express",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "The Financial Express",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RSXhhemtNT3lyM01kSHpXR0xPakNDUU5PS09zcTh3UlE4M2FvMHJtUnFFODVLeEpsSlRURnhEbUh1SHg2ckFpR3BSaGJOTmVUQ1M5ZFdFYkcxNUZlcE5VOEYwS01fYUVfQ3NzRFVBUVdvNWNhaUYyUTRaWQ?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "International Crisis Group",
+   "lang": "en",
+   "kind": "editorial",
+   "title": "Briefing to UN Security Council: Update on the Situation in South Sudan",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaHpyNl9Jc3U5VTdWbXVkWUMyREpHTXNHUzB2MWZNVUpOWGozNVpKT3Nzb2pHWUdfYlFUckNneG5tUlNRYVBBbHlUY0dMZFN0a1J2S0hBT0w5LWhFOXVvWmFhSXdtTWZYMEdzVHNQSGlaVHBIQzljRlhQdE8xZ2pmN3VsWVZNbXhVSDhaclM2YWd4bTdNWGhEVjg0Sk1jaUNKQ3R3eHBiWXZaRVln?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
+   "paper": "প্রথম আলো",
+   "lang": "bn",
+   "kind": "news",
+   "title": "ওয়াশিংটনের নতুন ভারসাম্য, ঢাকার কূটনীতির পরীক্ষা",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Cb3FmX0xpTWdhc2xjQ1dEWFdkQkpXUGl1QmhWa0QxX3Z2cTlSalI4U3pMc2xsR0tORF8tcFpfRXF5NDBObVI1a2g4VWVyZ2hvYVo1Y0NDYk40c3lqRUV1bVNR0gFvQVVfeXFMT0hlZm5sd0VwNDdNOHdMX2tzUDhZcEctUUlBLXFCYmRRajd3WEM3OXdjZU9PZTFUQ3VRSWFOcEVHNHhMcUwySC1mcUdZOWNIdF9CNFk3LVplSzVDbHRVMFBGZjdBcFpzNk13eWF3dTFj?oc=5",
+   "excerpt": "",
+   "fullText": null,
+   "hasFullText": false,
+   "words": []
+  },
+  {
    "paper": "যুগান্তর",
    "lang": "bn",
    "kind": "editorial",
@@ -3992,18 +4585,6 @@
    "title": "Keralam at 70: holding a mirror to India",
    "date": "2026-11-10",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS3ZDcDhSWlZkSDZlMm05ZzRWbUU3c2ZLdkJyYnNfUk1GNDdxLXU3aGlyMF9tS2RMclZPX1M0TjltTTR2X2NCUzlFdVNpcXpVWUxHT2l3eEY2MjNERm5kQ2t1ck12aUtrVGl0eGhqRVJLTHdBcHF6NFBCZVlBQ3k2YTl1VkpzNndjNGVGOU0tTFdKazVXTnM4MzE4NVBtbG_SAaYBQVVfeXFMUE40ejJ6Y05sejMwRWRqbjdJN09SdnBQeEE5c0t5Tld5WlNnWHgtV0l3bEdFX2JFd3BIRVFvNE9UQS1Sc3hfRG04Si0tbmU5cVc5T3duSU42T2hBNmthRDRwUzlOTlZlY2VuTVJxMlJIRmRzeUp6MXZ4WXRtbkpZNFNHT0ZfZ0FteUtqcDgxTmVZUUcwOUp6ZzU5aVdvZHNSWU1oTkpDQQ?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "প্রথম আলো",
-   "lang": "bn",
-   "kind": "news",
-   "title": "ওয়াশিংটনের নতুন ভারসাম্য, ঢাকার কূটনীতির পরীক্ষা",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Cb3FmX0xpTWdhc2xjQ1dEWFdkQkpXUGl1QmhWa0QxX3Z2cTlSalI4U3pMc2xsR0tORF8tcFpfRXF5NDBObVI1a2g4VWVyZ2hvYVo1Y0NDYk40c3lqRUV1bVNR0gFvQVVfeXFMT0hlZm5sd0VwNDdNOHdMX2tzUDhZcEctUUlBLXFCYmRRajd3WEM3OXdjZU9PZTFUQ3VRSWFOcEVHNHhMcUwySC1mcUdZOWNIdF9CNFk3LVplSzVDbHRVMFBGZjdBcFpzNk13eWF3dTFj?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
@@ -9016,342 +9597,6 @@
    "title": "COP31 explained: What’s at stake at this year’s UN climate summit?",
    "date": "2026-11-05",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5tM2h2bVlrYjRmZHd1RnZyUVFhTmxTM2cwOFVxNGh5TnhVNHU3R3I0aU4waDZyb19RZnRRWDVPRl9rd0hLXzNUeEt1RmpYNHdBZEgtWjVaZw?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "কালবেলা",
-   "lang": "bn",
-   "kind": "news",
-   "title": "বাংলাদেশের অর্থনৈতিক পুনর্জাগরণ: কর্তৃত্ববাদের উত্তরাধিকার, শ্রমিক অসন্তোষ ও রাষ্ট্র পুনর্গঠনের ঐতিহাসিক পরীক্ষা",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zNXNXZUVNSF8wSEFvWXdhZERBRUVTV1prMGxETHd1Q20zay02aGl2QUtubkV4NjFxbWVxTmthOENxR0ozYVZRLUpzNzhvX3JmV0YyX2lKeWRELUN0REoyWVdn?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Protidiner Sangbad",
-   "lang": "bn",
-   "kind": "news",
-   "title": "কপ-৩১ সম্মেলনে জলবায়ু অর্থায়ন ও ক্ষয়ক্ষতি মোকাবিলায় কার্যকর সহায়তা চাইবে বাংলাদেশ: পরিবেশমন্ত্রী",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93WGF5Ym4tXzdFSUNrUTI0Vm9LVl9jb1FmaGtVTkJjUUtmS0pMeXZ5M21Yak0xNUtfcldLc1ZVa3dXTk84ZlU3aU0zRlhqOC1XTEZ6Tnd1YUhXVzZmY2c?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Dhaka Prokash",
-   "lang": "bn",
-   "kind": "news",
-   "title": "কপ৩১ সম্মেলনে ঋণ নয়, অনুদানভিত্তিক জলবায়ু সহায়তা চাইবে বাংলাদেশ",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1UVXJRUUdKcnRvNGVlRFVzRU5GSWhKZmc4VDNzVFYxY3V1VHA5ZDNxVmxzNmM2UlZpOTJfZENrbUFpSHhiVHA5SnpVV19CMzJyYkdsbTI1OHlpalVrdEVB?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "itvbd",
-   "lang": "bn",
-   "kind": "news",
-   "title": "কপ ৩১ সম্মেলনে বাংলাদেশের অগ্রাধিকার ৯ বিষয়ে: পরিবেশমন্ত্রী",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMinwRBVV95cUxNUWJXY2F0RDk3R0lIbFVVQkxQMEZkWGxSWXZ3M0NuelRkdFdOUW5fUzRYT2JZRERwMXdPTldwekxBUnYwekZpSnd6R1d1TkRpNXp3UDdEbEVRNzQ2VF9vVnhFd2RFTlRPc1RzMnBWa1ZTZ29NUDRWRTNXQVpKM1hEdWtsWUpTTUplN0UtVUZuM21MN3YxZGVOS2V5QVUwQ0dPRVgwU3pvZkZMcmZBVm95U3p1M2xQV1FIb0NyZkUtc1FZZjIxcEs3d0RXLXg3ZHZfbG1nVzQxdmtDV2hPU1JVSXRoMldNUXFsWTVuMjhUV2xjdDBvXzh6aFI5MzRwTDJUUkFxbTRmN1FocUtLYVpxcUJYaU13M2JFNzNKeUlmVVltc3Y3Ny1aYWR1WjJEU2xGbjdFZ0lXRU13Zjd4QVl3S0d0a3ZyTlRWQmtPZUMxZkhXSlFReGozc1FFLThjWU8xRGZlM09hR1FjV2ZSUzMtYlRZbzg3c2dpakV1U212dzdQR0ZsRldDM3ZoZWRhNzBHOUFPcldDYUFxeVo4d3A3ZTN3VnRsYXJBYThINmREN09pQ2NNZTVfOU1vdU1xc1dZTTNkcWdZSmJtMktYOVdUbFFoMEFEN2NuWXVpUkNBSkNUb3FIME1jbGI3UDZvdUlhVU9ZRzlmdUdncW1IbWRZNVFweVh5MlFMR0xoMXRrSEhLeVF3bEVMTm5GanJkQ1HSAaQEQVVfeXFMTTZEWXAxNGRuTm1La2dacVBKenRJN1NObEFmc3FYLXhZVzBaeXVKajVYTGVEY3BUdzZpa2VfZndkVUN1aVF5UEVJYUhrSWQxM3Azd0ZLZmNQMFFqUjJQSVNESW9hZVdDTkFqeUNyN1RqZE51cENLSlNCUjFhcE42Xy1PaHVoamMzS09YOFVhV1BQOGJxSDdWNWxYSTM1czVab2FKQzFvRExTQUY2dmtEbVh6M1RNVDl2azZEN1E0Mzc2cVRVSkhsYTlKd1U2SGdwdWxQYXA1N1o5d2FkdjNycXg2aXcxZkZDcDlkWldiVE54MTdWNkJIdHhIUmxEd2VBUnJFRnRaeGlzZHdsbmJkOEVPNHZMdnlvZEhkby1rSGVfbENxNXZER1JwTG9GbURoZXpDLVpGNEQxVzNpcDBsRlVOQ1hxMXBZNk42YnppMGtyTWJOdG5aQTZNOGpfdTkxRmNYcHM1dVp1MTZIN1haYWg3aUExV2pTQzBFU3hjbm8yeENWUGczLVBIVUROOE95Ylc2aGphaV9PNkl1VUxtRi1QY3pJSlJZdEpMeEh1aUo1RnRQS1F5YUtEVHcwVlphMTUxSDk3Y05mM0sxOGdGQ3NKbDlhMDBRdFdSRDlSVU1ZckNyTjNCQXZNZjl3WnBCV0Y1eUpxTjBBV29NZ1gyUU04QkY2WUxKc1ZjSHVMb1B3Ty05MmItMEZlbXpVS1h4QWRlUGk?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Dhaka Mail",
-   "lang": "bn",
-   "kind": "news",
-   "title": "সবুজ উদ্যোক্তাদের এগিয়ে নিতে দরকার কার্যকর পরিবেশগত সুশাসন",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE12TGpRT1JaMGl0NXU1YWlua2FXejJZYnpDeUxjbzRzU25xMURraTJWVUk1alJzc1QxZG9naXNPa3Vjd05GT3ViS3ZTZ1LSAVJBVV95cUxQN0FGbXZDNmYzYXZtTkVURE9QeExPT0ZGY0NJMUlHWEJ3ZmV3eTEteGhQWGVyeG5mNWQ4QXpaejJ0NDVtai0taV92cXRQWkN5VlJ3?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "New Age BD",
-   "lang": "en",
-   "kind": "news",
-   "title": "Bangladesh to seek $15.2bn in annual climate loss compensation at COP31",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWUlzcVNQNk1ZdTZLWmJDUUdQR0JHTklkXzNKSmt3bFllZk1qaWxEMF9PeTRvbkdqX1MzMXRPUE4wamdUOE8yLXdBbUZKVGNpX1hhaTgzWndLRmRzTXpZUnZnNVE5R1VicHpwMDZFUFpZeldTTmgtWTJTSXdJTDUyd0VaeV9KTGwxallfVzdRWXNLVzZpaG9ER2JBNXNaY3prbTU2LVRoVE05WWFlZlNKSTJYZnFMY3Z3RzluelMtY1FrcDU4cmdtMGx4Ym9IZw?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Australian Institute of International Affairs",
-   "lang": "en",
-   "kind": "news",
-   "title": "How Legacy Loses Legitimacy: Governance in Bangladesh After the July 2024 Revolution",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZzdnazJiT1F1b0YxWUFEa1hkcHBRYVZpd0lIRElkU2hqaWFiUzV0SjBXeHB2cmxVWlJYV0JwenAzT2xRZTZST0UtNzc3NkVrOWE4c2x1LUJiMVY4VTlEOVJIcTc5ZjJHVjdyQVJmZEdnOFdTS0FwREptVTZfQzVXUGpIQTF0S3hhX2xyRnRjREEyV3pyOGdoZlBDcVhYd0R0aFdZUU43YTZmMnJGZGVSRklmUTIwMEtQTTBndmg1Z2ZKYnV3azhoTFNWaVd0MFFvY1loUU9iVkdydw?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Bangladesh Sangbad Sangstha (BSS)",
-   "lang": "bn",
-   "kind": "news",
-   "title": "কপ৩১ সম্মেলনে অনুদানভিত্তিক কার্যকর সহায়তা চাইবে বাংলাদেশ : পরিবেশমন্ত্রী | জাতীয় | বাংলাদেশ সংবাদ সংস্থা (বাসস)",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMRHRCclA5cVNGWVUzZWNLVFRjVGhNSmNrb0kwM01tOF8zSWMxUE5Zb1RoODVoQ0hlNXBZZE0zRC1ERjI5TkduNWZEY1RFcUN4bjZ3Ulg5M1NVZw?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "কালবেলা",
-   "lang": "bn",
-   "kind": "news",
-   "title": "জলবায়ু ক্ষতির ১৫.২ বিলিয়ন ডলার নিয়ে কপ-৩১-এ দাবি তুলবে বাংলাদেশ",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NbEhsSW5UOWctYTNOOGtJR3dmeTk5bzluOEFCWEVFOE9UUEtmOUJ2eWdGWmdKQ1dkWGg0OTBFOEJSTE9id0FzSVh5M1dSX2tRenlUekpSeDRQZnNDLXFj?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Bangla Tribune",
-   "lang": "bn",
-   "kind": "news",
-   "title": "কপ-৩১ সম্মেলনে জলবায়ু অর্থায়ন চাইবে বাংলাদেশ: পরিবেশমন্ত্রী",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiqgRBVV95cUxPbG5RNjNkU1BrenJQd2lLTmREQ2pKUTNSeDFER3QtcUZlZndra3dvLTRmbmtDSDUwS2RabXFBRnZJcm4zLXlvYzk4X3ZuZkNtdVBPWHBJcGRPT3FQUEJUY183ZFVtZTVLUFU5V21HLVIwdVJKN2VZT0pMTHQ3ME9JQzFoMkxuVFgyQ1RfV045ZlZtVm5VNVJwblk5M0ZSN19zSE8xS3JSQXZJNUZuVy1qZHBSZThuZVZqc0dOS2N6bW13N1hzUFM1TG1yWXU0WnFmMUFoMk9XZTVobko1TjE1TlNyelJWenVvcFUxa2dNM0tkLVZCdXU0S2RWeFByVWxZQnRSQVoxZXJBc3VnMU5GbHZVTncxa1hUUDZvRExRWFBITjlPY0c5M3N0S0VOYV9GVUd5SjBZLU5wTnVnSlBSNzdfYXpHTGJHZDRtTGxwSV9lcEQ3QnR4UlBiWlRNS2w2NGRjakt4VmJiRWJTMUt3V2NLaXppbDA5aUZFS1J3UGF5Yy0zMDZiS1l4WXZ1RDhIN0VsZjRMZi1Hbi1iZEUwVWF0MFJwdXNFbDN0MFo2T1NQd2lQX3c2T1c2UlNJLXV2WGs5MTgwc3BpMWpvM1lsQkZoOUk0eVFXVmdyc2lUem1fWDY2dzNjdzFiOHBKQ2dSUDFONlR6UEp6QlhfdDNnbFJzUGowYl9fUmJqSzc0dW5RNS15UmpUeVMzRW01dnlEWDR3OERZck1yZ9IBrwRBVV95cUxNZ21rRy1veVNyTjMtYl9SVWhEQ3dIcDAyNzRWcllwdkU5enZ5Tk9wcUlMd09sU2JGSDh0YThpa1VmcXV0SllFR2owM0lNTDdMRUJuM0stWnNqYlFObnlMTHNUUFNGbzNJS2lRdm9JaW4wUXJuSGdFQ1VTd1NCR1drYVc0UzcydFhaOXlLWFQ1d2RuaUpoTTdmOWNSenVYekZHNkxUeVpyOTRVbkNwRVkyTTlQTVdkSWtDVVdJcWw3VjJmRWpweTB1WTlZeE5ac09qT0RwNE1sbFBzbVRQVHRiM3VreGdydDduZmRkTEplallUMGQyM0RyTzZrby1HQVUzUWRVNzZrZFl2WjRxTERfVlBnX1FLbUVobk5DS2djSmRST0lYQkRZUzN1V1Myay02NjdZRWN4bTNlLUo3NkdQcHRKWWUwbmw4U3RUWE5oa25sWDJzZWE0Vm43QmdxVDNpenVTUWNmaEZJS2l6aHlIejl2NE9rM0ZEVkhsUjNkazc0REx6RngwMkwwQ3NDYXlzNlVyU3h1LWR6NExqYlJacVl1bVBJb2ZuN2R3dGEwUTQwRnZHTHVmLTZ0T05qQWJOOFBhdk1DY3ZXZkdycmRoVTh3N1ZraW1UanJsXzFhX0FiQk9Gc2xJcHZYTFhWS3YwRHVRM1g1cExWUlRrR0h1cG9CUFRoRDcwT0xtWHlvaXNCTVljTEFhM1JHWU9nRWFXeUZiVHk2VVdVZE94ODRz?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Daily Bonik Barta",
-   "lang": "bn",
-   "kind": "news",
-   "title": "অনুদানভিত্তিক জলবায়ু অর্থায়ন ও ক্ষয়ক্ষতি মোকাবেলায় কার্যকর সহায়তা চাইবে বাংলাদেশ: পরিবেশমন্ত্রী",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NYWM0aWNyRW04aVQyUTEwaDFCOUxSYi0xNllyQ0hGUjRwNkhGdmgtUTV3blhJai03U3NYamo0Z201bU9Zb19EYVk3SHlpYzZkcWl1aTQwa1dLYUttZnJn?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "The Business Standard",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "NBR to scrutinise 125 cos over RMG unrest, asks banks to freeze accounts of over 100 people",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUjhwN2VDSG15NVlBdDM4WHNDUWJoZFZHd3E1Y1VyTTlMM2Y1N05TOS12eDlya0dTc0F0Wnk2cXpvUTg4bVc0WGFZbkpLMVR0dzF6VzBDMnNNSHNPem5xajBjNENiZ28xTmNNajJiSGhVTmVLd0xKTmZoQk5wSVZTdl90TC1OSzZ5TVFUcVlWcGk0YkdWaTBSTVJvTnVxNDFPUndYa251X2ZzbVZtMEhkc19fZmNfd0p2WHdv?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "The Business Standard",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "NCP 'considers' woman claiming to be Rony's wife for leadership role; ex-MP denies marriage",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNODU3TG00OTNrNV9xZlhYajVXRm41T1ptTWp2dUdOUVoySVVndDJjODBOcWVBZGZCanc2VEg4TEdrNGFLblo2MXZMVHJHNEpnazZXMm9vNTNIR2pIWjd4RjBWS0RLT1g4R1J1amUydEtwQlRrR3ZhZ1piOExXQWxsT2t3VmRqV0Z4VlNiM2xzcngxYm1XYUdPMDNvSTAyYWlfWDF6clAxRmdLcjlFbjZsX2Y4X0FqakhLNDIzU2VQWXd5UQ?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "কালের কণ্ঠ",
-   "lang": "bn",
-   "kind": "editorial",
-   "title": "পত্রিকা 2026-11-05",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UYmUteFozS19MYWJIaVBSdUJDMElqNHlOZnY3QkxweTZyMERaODBKc090YktWOXhhMFBGX2w5RUdYS1pSZW96MUZBQkJYMnNoMjdod080b2ZQcVU?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "যুগান্তর",
-   "lang": "bn",
-   "kind": "editorial",
-   "title": "দুদকের জালে সার্ভেয়ার, রুই-কাতলা ধরা পড়বে এরপর?",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5aT0JHZXRCZU90WUxidmZhR1RPQWV5cDZRWkhVa0JOQWlwXzRCZzNoMjZ1US05MXVPSVFBaldTMU14aHNXUkpiQ1NOUmdLRUJXZzJtZDJuOGo?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "ORF — Observer Research Foundation",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "US Midterms: Buyer’s Remorse in Trump Country",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYm9ReFFoUnB6ajBNcVZEdk51ZFZFTnVISmljS3ZnN0VvbzZyVXpnZ2llR2RaY29neUhENk1JNk5SSWYyVWRMZ0h2M04waF91U0pXUGd6WVlWamN1NFpZZjc0UXc4c1pYdEllOFpranZhblZXckk1Z0dlX1hyX3B5bnEtdDR4UQ?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "CSIS",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "What’s in Canada’s New National Security Plan?",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrWVdIQ0hMZFl4clhuaVc5bll5eUZEY1AyQkVwSnY4X0ZNS2h6ODF1d20weG91bVFkQ2I3SmU4UTREV0lZNHVtRlhrZkkxMGdhNGdXQnVHVWpmSUlOc2E3SEMtdTZwbFhEQ3FmalNhcXVzd21JclRqRkJB?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Atlantic Council",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Why this US midterm was unusually important for the Middle East",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOT2YybVZJX0g3MFdjaFNIWVYwQ1I3SzNDXzhJN2NwZmNGcDhQLWpHS24zektIbkpVVDVTTEMtdUt0b09YcndHOXVLM3U4RDBpanIxd3huMmFxWWZUQ3Jza1NQQkFJbkxCUWVjMFFIdlB0X1ZLQ0xneHZaSFVxX3ZlTTNRU1l0cmRsWWkyczlISHZ0S2t2NkFnUWJzanBtczQtaXkxNkFmdVRrMjA?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Carnegie Endowment",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Three Ways the New Democratic Congress Could Constrain Trump on Foreign Policy",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbEVwdWVrN3Y4OGpGbXhBYS1yZ2tMYXQyUlFUNzZkckdIcGQtaUlZV0R0dXZ4SkhmOGdnckZXYV9ubTdIUG11bjVlMnZVZ3p6VGQ2TDFzS1o5SGlFRlBPNFFJa0FTT0xRNmdUM1BkUTRmbS02UDBfSWxKQm5BNU8yQk5mNTc5TnVaMFFJQmdsZnFwdExNWHZocHlMTXY?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Council on Foreign Relations",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "How Democrats’ Midterm Win Could Affect U.S. Foreign Policy",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdzZKMkhBVFVPeU5mVkdPZ2JkYTIyajkzVVFMNnZ1Y0prUEpibWpMeEpiVVhBWnNqSkhRUVhsNGFVbmRvZHQ0akduR3V6ZlViaEtPZzdMMjg5emdwWW9SVnAxLTRsMFlERXFNbFhXM0paZnlDZ3N4aC1BY1dzYVBYa0hxUWE3d0lhaHJSMWNDOUpHOThvNWQ2ZGY2aS1SUFRGTDZsNGNVNC1XZkp4MGc?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Demócrata",
-   "lang": "en",
-   "kind": "news",
-   "title": "What Trump’s defeat means in geopolitical terms: this is what changes for China, Russia, Iran, and Israel",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWkZQWG0xVjZrcTRFYzk0cjN5S0FWNVdGRVgtWnFZMndMYTVHQUF0UWxKVFVUQWM0N05iMGhHVTVWbF9QWmItWlhVdFJyeFA2aTd6cXJnVlBHS1lEa0ljemdTU3J5ZVRjQlpvWVFTTnllV1pPanR4WmIwN25Nal9IVzdDTGpzTkVsY280WXBTMXEtWThsc01QX0U4QUxYTVh1WHppS3BCdEowZTlFLTA3TWZkY1lmT3prb25oOElyYjRnRUFPaVplVW9KS3BxN1h5TkNMSnoxek1jSkh20gHiAUFVX3lxTE5kamo1bHU1bzlnZWZqUXhEdjFHenh2SDB0Unp4Sk14R0dnMlNIaFpWa0hpSW1SLWFoV0pNLXNkSktBQkpNcWdDN2NwSUw4ZDcxOWN4MElnakg5RFhkZi1vR1BsZ3BvSlNFUTJCTW94NWtFX2U2TFgySm5mMy1NcWtDN0V0MjNVRDF6ZFdidGotVmt4V3BjTEF0bDUwLWV3Z3R3UFc0V1NiNEVSUGtlaWdlYUZSUzAxbWF6UGxPcWlnNXRkWG9fSnBpTmhsSHZUbmxwLWhicWZxTXVzQ1ZMWmY1V0E?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Project Syndicate",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "A Fatal Challenge to Mainstream Economics by James K. Galbraith",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNakpqTGVDdVJKZFVJaE81MzlQaUtGc1hpZk04SkdqZzBfSXlmVU5CSzllOTN3UFRSWF9lTXVOZlkxVHpyQ3NXTlJ3Z1VrREk3QXNvSi1GcVIzbnpPbTJ2RThhdVZFVmhGRUVPR2RVMWpzLXZhN0hGRUVZWWdjRlFmemd3dHgzRV90ZWF5SFNHZmJOMWNLLUdlN3FITnhmN1BBMlloYU9iVVlJZHBpa0M2Vm1CNjJpUnI5S2g1WXlNdGpMSTEzaFQ5ZGJYX1h3UQ?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Project Syndicate",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Dot-Com Lessons for the AI Bubble by Chi Onwurah",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaXNfbEZMWjJTSWtGUDlydWZOLVU3RnQ0UnJacWtjbXZZdDQ0R3RkTzBxYVBlcEFUQUJtaVhMeXhiNWp3UmtGOVA2UEprUTI1Q2ltamtqMnA2TmZtYXR4cHRPVEE0bVI4MXdvQTVNRFFwcW1UQ19SdEt6RTdScEVIeXZHYmFNaFVaR2FIVmt5emk3V3NzY0pMWm1CazA5ZE14andB?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Foreign Policy",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "U.S. Midterm Results: Where Democrats Can Thwart Trump's Foreign Policy",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcjBxRV9iYnl5ZlJ4ZGxYZjNEX2xtTzFYcVYta183MG9XNkJsUHprOFpKVjhOOXd0TUN3Mkkyam5Nb3p6cHh4QXVHX3h4ZHh3czRCQ3VKZ01fS241UlYwdU9qRkVjbk1kTTQ0ZmduRFJPcUZEMmRKWHZsb1JIdHlqRUgxdVhxUGZvbmI0MGRaSUsyb0RfY2ZvX184Vm9wNGk5c2FFa2hZdUFBUQ?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Chatham House",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Trump is set to redefine the lame duck presidency",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNmdVZ1cwc1NGLXdQRlB0SDFNRnlaeE9MOEJaekhEbmd2N2Q0MUNXdU1WLVBjdXRsWmxKMDdEV0k1QVVaYU0wYU5FbUVuQTFVYXh6SVAzOU9OUlU0b3QyWEItcnFRY09NRXR3cmJuQ09CSHM3aFJtb1hOcXB5bUd4Ul9R?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Brookings",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "How the 2026 midterms could reshape data center policy",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVzJDUFNUU1dJNTI2WGRBSVljODhmZGMxYmF5VDg2NEVGZ0xiQVdMOUVvblplUXdQNDVXVzhERDJMOWVlbER6YUxrM0tLVktDN1dja0RXeUs2UGV6MWVWSWtTYnZYSFEybEoyN19BMHhvM0VwY0N5eTJtSnFnNWd1REF2eVozTTNiY0pseWY5aG5nbGlm?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Atlantic Council",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "What the midterms will (and won’t) change for US foreign policy",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOS2NpWl9hdEpMcW9HTGJRdkp6QllkNFJTd21VY0JIVXBPNEplT2tHbkNsQy1kcXlBTXFvaUZyWFNjekhrYzFTQi1rRndxN2RxOHRHbHROR2RMNGZndC1pc3NZNXZmWWpkd0RET1lwYmFZd2FUcGphbXhiZTFNLWVKR0Q5VmwxT3NNM293a0ZsTHVTU2FzVzVPUlVibnB4Sm0wRUo1WG92Z2IzWDhpU1gxU2lwVzczNy1NNFZyVS1n?oc=5",
-   "excerpt": "",
-   "fullText": null,
-   "hasFullText": false,
-   "words": []
-  },
-  {
-   "paper": "Atlantic Council",
-   "lang": "en",
-   "kind": "editorial",
-   "title": "Experts react: Democrats just swept the US midterms. Here’s what it means for the world.",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeE15WFg4U1VydFliejA2dzJLR1pkT0tlNE1hWHpORHVUelN1ZXRoeUNwNTNUSTNwa0JabXhEYjZpcUQ4YU5RaUk2d3JtMWZNa0tobHpPNGxBdWI0eHlDLXFTM0dKaC1mSUVINEdEU1lRam1DOHhZQlFGWWJYenVhTGhDcnJqdkdRQmNRV1VWUnAxMjVRQlY4YU5Lay1jSk5JUkx1bVdHM3A3U0J0MVNKLWFuZENtaHhvbTRlVDY3RE9nV01Ndi1v?oc=5",
    "excerpt": "",
    "fullText": null,
    "hasFullText": false,
